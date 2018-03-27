@@ -1,0 +1,15 @@
+\begin{wrapfigure}[6]{l}[0cm]{0.56\textwidth}
+    \centering
+    \vspace{-12px}
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=19]
+@Before
+public void init() throws Exception
+{
+  logger = new RemoteLogger('Z', "localhost", 
+                        7733, _DummyFacade::new);
+  ...
+}\end{javacode}
+	\end{spacing}
+	\caption{Initialisierung des Remote-Logger-Servers}
+\end{wrapfigure}

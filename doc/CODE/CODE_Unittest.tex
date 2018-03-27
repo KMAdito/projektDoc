@@ -1,0 +1,196 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Testet den RemoteLogger auf Funktionsfähigkeit
+ *
+ * @author W.Glanzer, 04.12.2015
+ */
+public class Test_RemoteLogger
+{
+  private RemoteLogger logger;
+  private final AtomicReference<IRemoteLoggerCheckPoint> lastCheckPointGER = 
+    new AtomicReference<>();
+  private final AtomicReference<IRemoteLoggerCheckPoint> lastCheckPointENG = 
+    new AtomicReference<>();
+
+  /**
+   * Initialisiert den Test.
+   * Baut den RemoteLogger (localhost, 7733) und den CheckPointHandler auf, damit
+   * diese verwendet werden können.
+   */
+  @Before
+  public void init() throws Exception
+  {
+    logger = new RemoteLogger('Z', "localhost", 7733, _DummyFacade::new);
+    CheckPointHandler cph = CPH.init('Z', logger);
+    Assert.assertNotNull(cph);
+  }
+
+  /**
+   * Testet, ob der Remote-Logger einwandfrei funktioniert.
+   * Dafür werden zwei Remote-Logger-Clients erzeugt. Diesen werden zwei getrennte Listener
+   * eingehangen, die ihre Werte in die jeweils übergebene Referenz speichern.
+   * Auf diese Werte wird in dieser Methode gewartet und anschließend verglichen,
+   * ob die Werte in deutscher und in englischer Sprache vorhanden und korrekt sind.
+   */
+  @Test
+  public void test_communication() throws Exception
+  {
+    IRemoteLoggerClientConnectionManager manager = _startClient(Locale.GERMAN);
+    IRemoteLoggerClientConnectionManager manager2 = _startClient(Locale.ENGLISH);
+    Assert.assertNotNull(manager);
+    Assert.assertNotNull(manager2);
+
+    manager.addListener(new _RemoteListener(lastCheckPointGER));
+    manager2.addListener(new _RemoteListener(lastCheckPointENG));
+
+    CPH.checkPoint(99, 9999);
+    Assert.assertEquals(_getNextCheckPoint(lastCheckPointGER).getID(), 9999);
+    Assert.assertEquals(_getNextCheckPoint(lastCheckPointENG).getID(), 9999);\end{javacode}
+      \end{spacing}
+    \begin{spacing}{0.75}
+    	\begin{javacode}[firstnumber=48]
+    CPH.checkPoint(0, 1);
+    IRemoteLoggerCheckPoint cp = _getNextCheckPoint(lastCheckPointGER);
+    Assert.assertEquals(cp.getModule(), 0);
+    Assert.assertEquals(cp.getID(), 1);
+    Assert.assertEquals(cp.getMessage(), "Interner Fehler. Bitte kontaktieren Sie 
+                         Ihren Administrator.");
+    Assert.assertEquals(cp.getProgram(), 'Z');
+    Assert.assertEquals(cp.getKind(), 'B');
+    Assert.assertEquals(cp.getPriority(), 'D');
+    Assert.assertTrue(cp.getTime() > 0);
+    Assert.assertTrue(cp.getTime() <= System.currentTimeMillis());
+
+    cp = _getNextCheckPoint(lastCheckPointENG);
+    Assert.assertEquals(cp.getModule(), 0);
+    Assert.assertEquals(cp.getID(), 1);
+    Assert.assertEquals(cp.getMessage(), "Internal error. Please contact administrator.");
+    Assert.assertEquals(cp.getProgram(), 'Z');
+    Assert.assertEquals(cp.getKind(), 'B');
+    Assert.assertEquals(cp.getPriority(), 'D');
+    Assert.assertTrue(cp.getTime() > 0);
+    Assert.assertTrue(cp.getTime() <= System.currentTimeMillis());
+  }
+
+  /**
+   * Beendet den Test und fährt den Logger herunter.
+   * Dieser gibt dann seinen Socket wieder frei
+   */
+  @After
+  public void shutdown() throws Exception
+  {
+    logger.destroy();
+    Assert.assertTrue(true);
+  }
+  
+  /**
+   * Blockiert so lange, bis ein neuer CheckPoint eingetroffen ist
+   *
+   * @param pRefToWaitOn Referenz, in der ein neuer CheckPoint gespeichert wird
+   * @return Der empfangene CheckPoint
+   */
+  @NotNull
+  private IRemoteLoggerCheckPoint _getNextCheckPoint(final 
+    AtomicReference<IRemoteLoggerCheckPoint> pRefToWaitOn)
+  {
+    if(pRefToWaitOn.get() == null)
+    {
+      synchronized (pRefToWaitOn)
+      {
+        try
+        {
+          pRefToWaitOn.wait();
+        }
+        catch (InterruptedException ignored)
+        {
+        }
+      }
+    }
+
+    IRemoteLoggerCheckPoint cp = pRefToWaitOn.getAndSet(null);
+    Assert.assertNotNull(cp);
+    return cp;
+  }
+
+  /**
+   * Startet einen neuen ConnectionManager, verbindet sich
+   * mit dem Server mit einer angegebenen Lokale und gibt diesen
+   * Manager dann zurück
+   *
+   * @return Manager-Instanz der Verbindung
+   */
+  @Nullable
+  private static IRemoteLoggerClientConnectionManager _startClient(Locale pLocale) 
+    throws AditoIOException
+  {
+    _ConnectionManager manager = new _ConnectionManager();
+    manager.connect(pLocale);
+    return manager;
+  }\end{javacode}
+        \end{spacing}
+      \begin{spacing}{0.75}
+      	\begin{javacode}[firstnumber=126]
+  /**
+   * Implementierung einer LoginFacade, die die
+   * LoginInformationen "USER"-"PASS" erwartet.
+   * Dadurch lässt sich die Login-Funktionalität prüfen!
+   */
+  private static class _DummyFacade implements IRemoteLoggerLoginFacade
+  {
+    @Override
+    public boolean checkLogin(String[] pLoginInformation)
+    {
+      return pLoginInformation.length == 2 &&
+          pLoginInformation[0].equals("USER") &&
+          pLoginInformation[1].equals("PASS");
+    }
+  }
+
+  /**
+   * Implementiert einen ConnectionManager, der sich auf
+   * den Remote-Logger dieses Testes verbindet
+   */
+  private static class _ConnectionManager 
+    extends AbstractRemoteLoggerClientConnectionManager
+  {
+    @Nullable
+    @Override
+    protected IRemoteLoggerClientConnection createConnection() throws AditoException
+    {
+      String[] login = new String[]{"USER", "PASS"};
+      return new RemoteLoggerClientConnection("localhost", 7733, login);
+    }
+  }
+
+  /**
+   * Hört darauf, wann CheckPoints empfangen werden.
+   * Diese werden in der übergebenen Referenz gespeichert.
+   * Alle Threads, die auf diese Referenz warten werden benachrichtigt
+   */
+  private static class _RemoteListener implements IRemoteLoggerListener
+  {
+    private final AtomicReference<IRemoteLoggerCheckPoint> refToSet;
+
+    public _RemoteListener(AtomicReference<IRemoteLoggerCheckPoint> pRefToSet)
+    {
+      refToSet = pRefToSet;
+    }
+
+    @Override
+    public void checkPointReceived(@NotNull IRemoteLoggerCheckPoint pCheckPoint)
+    {
+      synchronized (refToSet)
+      {
+        refToSet.set(pCheckPoint);
+        refToSet.notifyAll();
+      }
+    }
+
+    @Override
+    public void connectionStatusChanged(boolean pIsConnectedNow)
+    {
+    }
+  }
+}\end{javacode}
+\end{spacing}

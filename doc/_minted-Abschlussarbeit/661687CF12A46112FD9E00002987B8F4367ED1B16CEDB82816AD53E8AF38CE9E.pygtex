@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Anzeige der CheckPoints in einer TreeTable}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 23.11.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{class} \PYG{n+nc}{RemoteLoggerTreeTable} \PYG{k+kd}{extends} \PYG{n}{JPanel}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{SplitsTreeTable} \PYG{n}{treeTable}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{RemoteLoggerTableModel} \PYG{n}{model} \PYG{o}{=} \PYG{k}{new} \PYG{n}{RemoteLoggerTableModel}\PYG{o}{();}
+
+  \PYG{k+kd}{public} \PYG{n+nf}{RemoteLoggerTreeTable}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{setLayout}\PYG{o}{(}\PYG{k}{new} \PYG{n}{BorderLayout}\PYG{o}{());}
+    \PYG{n}{treeTable} \PYG{o}{=} \PYG{k}{new} \PYG{n}{SplitsTreeTable}\PYG{o}{(}\PYG{n}{DefaultOutlineModel}\PYG{o}{.}\PYG{n+na}{createOutlineModel}\PYG{o}{(}\PYG{n}{model}\PYG{o}{,} \PYG{n}{model}\PYG{o}{,} \PYG{k+kc}{true}\PYG{o}{,} \PYG{n}{Translator}\PYG{o}{.}\PYG{n+na}{getString}\PYG{o}{(}\PYG{l+m+mi}{16}\PYG{o}{,} \PYG{n}{IStaticResources}\PYG{o}{.}\PYG{n+na}{TEXT\PYGZus{}TIMESTAMP}\PYG{o}{,} \PYG{n}{Locale}\PYG{o}{.}\PYG{n+na}{getDefault}\PYG{o}{())));}
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{setRootVisible}\PYG{o}{(}\PYG{k+kc}{false}\PYG{o}{);}
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{setRenderDataProvider}\PYG{o}{(}\PYG{k}{new} \PYG{n}{RemoteLoggerTreeDataProvider}\PYG{o}{());}
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{setSelectionMode}\PYG{o}{(}\PYG{n}{ListSelectionModel}\PYG{o}{.}\PYG{n+na}{SINGLE\PYGZus{}SELECTION}\PYG{o}{);}
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{setDefaultRenderer}\PYG{o}{(}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{.}\PYG{n+na}{class}\PYG{o}{,} \PYG{k}{new} \PYG{n}{RemoteLoggerTreeTableCheckPointRenderer}\PYG{o}{());}
+\end{Verbatim}

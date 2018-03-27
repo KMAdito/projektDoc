@@ -1,0 +1,115 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Kapselt den übergebenen InputStream in einen ObjectInputStream.
+ * Dieser liest so lange Daten in einem extra Thread aus,
+ * bis ein shutdown angefragt wurde, oder ein Fehler aufgetreten ist
+ * und der exceptionHandler einen Retry verweigert hat
+ *
+ * @author W.Glanzer, 20.11.2015
+ */
+public class ObjectInputStreamConsumer<Type> implements Runnable
+{
+
+  private final InputStream inputStream;
+  private final String threadName;
+  private final Consumer<Type> objectConsumer;
+  private final Function<Exception, Boolean> exceptionHandler;
+  private AtomicBoolean shutdownRequested = new AtomicBoolean();
+
+  private ObjectInputStreamConsumer(@NotNull InputStream pInputStream, 
+    @Nullable String pThreadName, @NotNull Consumer<Type> pObjectConsumer, 
+    @Nullable Function<Exception, Boolean> pExceptionHandler)
+  {
+    inputStream = pInputStream;
+    threadName = pThreadName;
+    objectConsumer = pObjectConsumer;
+    exceptionHandler = pExceptionHandler;
+  }
+\end{javacode}
+\end{spacing}
+\begin{spacing}{0.75}
+\begin{javacode}[firstnumber=27]
+  /**
+   * Erstellt einen ObjectInputStreamConsumer.
+   * Dieser liest so lange Daten aus, bis ein shutdown angefragt wurde, oder ein
+   * Fehler aufgetreten und der exceptionHandler einen Retry verweigert hat
+   *
+   * @param pIStream           InputStream, der ausgelesen werden soll. 
+   * @param pTName             Name des Threads, in dem der ObjectInputStreamConsumer läuft
+   * @param pObjectConsumer    Erhält alle empfangenen Objekte des Consumers
+   * @param pExceptionHandler  Erhält alle aufgetretenen Exceptions.
+   *                           Wird in dieser Funktion <tt>true</tt> zurückgegeben, dann 
+   *                           wird versucht, erneut vom Stream zu lesen.
+   *                           Bei <tt>false</tt> wird versucht, die Verbindung zu trennen. 
+   * @return Den zugehörigen ObjectInputStreamConsumer
+   */   
+  public static <T> ObjectInputStreamConsumer<T> consume(@NotNull InputStream pIStream, 
+    @Nullable String pTName, @NotNull Consumer<T> pObjectConsumer, 
+    @Nullable Function<Exception, Boolean> pExceptionHandler)
+  {
+    ObjectInputStreamConsumer<T> consumer = 
+      new ObjectInputStreamConsumer<>(pIStream, pTName, pObjectConsumer, pExceptionHandler);
+    ThreadPool.getInstance().execute(consumer);
+    return consumer;
+  }
+  @Override
+  public void run()
+  {
+    if(threadName != null)
+      Thread.currentThread().setName(threadName);
+
+    while(!shutdownRequested.get())
+    {
+      Object read;
+      try
+      {
+        while ((read = new ObjectInputStream(inputStream).readObject()) != null)
+          && !shutdownRequested.get())
+        {
+          objectConsumer.accept((Type) read);
+        }
+      }
+      catch (Exception e)
+      {
+        if(exceptionHandler != null && !shutdownRequested.get())
+        {
+          if(!exceptionHandler.apply(e)) //Kein Retry gewünscht
+          {	
+            try
+            {
+              requestShutdown();
+            }
+            catch (Exception ex)
+            {
+              exceptionHandler.apply(ex);
+            }
+          }
+
+          break;
+        }
+      }
+    }
+  }
+
+  /**
+   * Frägt an, dass sich der StreamConsumer bitte beenden würde.
+   * Der anfängliche InputStream wird geschlossen!
+   *
+   * @throws AditoIOException IOException wenn ein Fehler aufgetreten ist
+   */
+  public void requestShutdown() throws AditoIOException
+  {
+    try
+    {
+      shutdownRequested.set(true);
+      inputStream.close();
+    }
+    catch(Exception e)
+    {
+      // Stream konnte nicht geschlossen werden
+      throw new AditoIOException(e, 10, 403);
+    }
+  }
+}\end{javacode}
+\end{spacing}

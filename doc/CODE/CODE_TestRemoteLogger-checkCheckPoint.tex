@@ -1,0 +1,33 @@
+\begin{figure}[htp] 
+    \centering
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=48]
+CPH.checkPoint(0, 1);
+IRemoteLoggerCheckPoint cp = _getNextCheckPoint(lastCheckPointGER);
+Assert.assertEquals(cp.getModule(), 0);
+Assert.assertEquals(cp.getID(), 1);
+Assert.assertEquals(cp.getMessage(), 
+  "Interner Fehler. Bitte kontaktieren Sie Ihren Administrator.");
+Assert.assertEquals(cp.getProgram(), 'Z');
+Assert.assertEquals(cp.getKind(), 'B');
+Assert.assertEquals(cp.getPriority(), 'D');
+Assert.assertTrue(cp.getTime() > 0);
+Assert.assertTrue(cp.getTime() <= System.currentTimeMillis());\end{javacode}
+	\end{spacing}
+\end{figure}
+\begin{figure}[htp] 
+    \centering
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=59]
+IRemoteLoggerCheckPoint cp = _getNextCheckPoint(lastCheckPointENG);
+Assert.assertEquals(cp.getModule(), 0);
+Assert.assertEquals(cp.getID(), 1);
+Assert.assertEquals(cp.getMessage(), "Internal error. Please contact administrator.");
+Assert.assertEquals(cp.getProgram(), 'Z');
+Assert.assertEquals(cp.getKind(), 'B');
+Assert.assertEquals(cp.getPriority(), 'D');
+Assert.assertTrue(cp.getTime() > 0);
+Assert.assertTrue(cp.getTime() <= System.currentTimeMillis());\end{javacode}
+	\end{spacing}
+	\caption{Überprüfen der CheckPoint-Inhalte}
+\end{figure}

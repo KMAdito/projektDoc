@@ -1,0 +1,119 @@
+\begin{spacing}{0.75}
+  \begin{javacode}
+/**
+ * Eine Instanz des Loggers, gekoppelt mit einem ObjectOutputStream
+ * Jede Verbindung hat eine eigene Instanz
+ *
+ * @author W.Glanzer, 18.11.2015
+ */
+class DefaultRemoteLoggerServerConnection implements IRemoteLoggerServerConnection
+{
+  private SocketChannel channel;
+  private Locale clientLocale;
+  private IRemoteLoggerCommandHandlerRegistry registry;
+  private boolean authorized;
+
+  /**
+   * Erzeugt eine neue Instanz
+   *
+   * @param pChannel der Netzwerkchannel der Instanz
+   */
+  public DefaultRemoteLoggerServerConnection(SocketChannel pChannel)
+  {
+    channel = pChannel;
+    clientLocale = Locale.getDefault(); //Anfangswert
+    ObjectInputStreamConsumer.consume(Channels.newInputStream(pChannel), null, 
+      this::_handleCommand, this::_handleException);
+  }
+
+  /**
+   * Loggt einen für den RemoteLogger gekapselten Checkpoint
+   *
+   * @param pCheckpoint Checkpoint, der aufgetreten ist
+   * @return <tt>true</tt> wenn erfolgreich
+   */
+  @Override
+  public boolean writeCheckPoint(IRemoteLoggerCheckPoint pCheckpoint)
+  {
+    try
+    {
+      if (channel.isConnected() && pCheckpoint != null)
+      {
+        // Wenn nötig ab hier übersetzen, da nur die Connection weiß, 
+        // welche Sprache die verbundene GUI hat
+        if(pCheckpoint instanceof ITranslateableRemoteLoggerCheckPoint)
+          ((ITranslateableRemoteLoggerCheckPoint) pCheckpoint).retranslate(clientLocale);
+
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(baos);
+        oos.writeObject(pCheckpoint);
+        oos.flush();
+
+        channel.write(ByteBuffer.wrap(baos.toByteArray()));
+
+        return true;
+      }
+      else
+        return false;
+    }
+    catch (Exception ex)
+    {
+      // Wird geworfen, wenn die Verbindung wieder getrennt ist
+      close();
+      return false;
+    }
+  }
+
+  /**
+   * Setzt die CommandRegistry zur Verarbeitung von Kommandos
+   *
+   * @param pRegistry  Registry, die gesetzt werden soll, oder
+   *                   <tt>null</tt> wenn alle Commands ignoriert werden sollen
+   */
+  @Override
+  public void setCommandRegistry(@Nullable IRemoteLoggerCommandHandlerRegistry pRegistry)
+  {
+    registry = pRegistry;
+  }
+  \end{javacode}
+\end{spacing} 
+\begin{spacing}{0.75}
+  \begin{javacode}[firstnumber=77]		
+  /**
+   * Setzt die Locale dieser Verbindung.
+   * Jede Connection kann ihre eigene Locale besitzen!
+   *
+   * @param pLocale  Locale, die gesetzt werden soll und
+   *                 die Sprache des Clients angibt
+   */
+  @Override
+  public void setLocale(@NotNull Locale pLocale)
+  {
+    clientLocale = pLocale;
+  }
+  		
+  @Override
+  public void setAuthorized(boolean pAuthorized)
+  {
+    authorized = pAuthorized;
+  }
+
+  /**
+   * Beendet die Instanz
+   */
+  @Override
+  public void close()
+  {
+    try
+    {
+      if (channel.isConnected())
+        channel.close();
+    }
+    catch (Exception ex)
+    {
+      System.err.println("DefaultRemoteLoggerServerConnection error[1]:");
+      ex.printStackTrace();
+    }
+  }
+} \end{javacode}
+\end{spacing}

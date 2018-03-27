@@ -1,0 +1,66 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Sobald sich ein neuer RemoteLogger verbinden will springt dieser}
+\PYG{c+cm}{ * Listener an, und erstellt eine neue DefaultRemoteLoggerServerConnection.}
+\PYG{c+cm}{ * Diese speichert er im instances-Set ab, für spätere Benutzung}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}RemoteLoggerConnectionListener} \PYG{k+kd}{implements} \PYG{n}{Runnable}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Wird aufgerufen, wenn sich ein neuer Logger anmeldet}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{run}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{Thread}\PYG{o}{.}\PYG{n+na}{currentThread}\PYG{o}{().}\PYG{n+na}{setName}\PYG{o}{(}\PYG{n}{IAditoThreads}\PYG{o}{.}\PYG{n+na}{REMOTELOGGERCONNECTIONLISTENER}\PYG{o}{);}
+    \PYG{k}{while} \PYG{o}{(!(}\PYG{n}{failed} \PYG{o}{||} \PYG{n}{shutdown}\PYG{o}{))}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{try}
+      \PYG{o}{\PYGZob{}}
+        \PYG{c+c1}{// Warten, bis sich ein Channel-Client verbinden will}
+        \PYG{n}{selector}\PYG{o}{.}\PYG{n+na}{select}\PYG{o}{();} \PYG{c+c1}{// Blockiert hier}
+        \PYG{n}{Iterator} \PYG{n}{selectedKeys} \PYG{o}{=} \PYG{n}{selector}\PYG{o}{.}\PYG{n+na}{selectedKeys}\PYG{o}{().}\PYG{n+na}{iterator}\PYG{o}{();}
+        \PYG{k}{while} \PYG{o}{(}\PYG{n}{selectedKeys}\PYG{o}{.}\PYG{n+na}{hasNext}\PYG{o}{())}
+        \PYG{o}{\PYGZob{}}
+          \PYG{n}{SelectionKey} \PYG{n}{key} \PYG{o}{=} \PYG{o}{(}\PYG{n}{SelectionKey}\PYG{o}{)} \PYG{n}{selectedKeys}\PYG{o}{.}\PYG{n+na}{next}\PYG{o}{();}
+          \PYG{n}{selectedKeys}\PYG{o}{.}\PYG{n+na}{remove}\PYG{o}{();}
+
+          \PYG{k}{if} \PYG{o}{(!}\PYG{n}{key}\PYG{o}{.}\PYG{n+na}{isValid}\PYG{o}{())}
+            \PYG{k}{continue}\PYG{o}{;}
+
+          \PYG{k}{if} \PYG{o}{(}\PYG{n}{key}\PYG{o}{.}\PYG{n+na}{isAcceptable}\PYG{o}{())}
+          \PYG{o}{\PYGZob{}}
+            \PYG{n}{ServerSocket} \PYG{n}{serverSocket} \PYG{o}{=} \PYG{o}{((}\PYG{n}{ServerSocketChannel}\PYG{o}{)} \PYG{n}{key}\PYG{o}{.}\PYG{n+na}{channel}\PYG{o}{()).}\PYG{n+na}{socket}\PYG{o}{();}
+            \PYG{n}{Socket} \PYG{n}{clientSocket} \PYG{o}{=} \PYG{n}{serverSocket}\PYG{o}{.}\PYG{n+na}{accept}\PYG{o}{();}
+            \PYG{n}{SocketDefaults}\PYG{o}{.}\PYG{n+na}{setSocketDefaults}\PYG{o}{(}\PYG{n}{clientSocket}\PYG{o}{);}
+            \PYG{n}{SocketChannel} \PYG{n}{chnl} \PYG{o}{=} \PYG{n}{clientSocket}\PYG{o}{.}\PYG{n+na}{getChannel}\PYG{o}{();}
+            \PYG{n}{\PYGZus{}connectionCreated}\PYG{o}{(}\PYG{k}{new} \PYG{n}{DefaultRemoteLoggerServerConnection}\PYG{o}{(}\PYG{n}{chnl}\PYG{o}{));}
+          \PYG{o}{\PYGZcb{}}
+        \PYG{o}{\PYGZcb{}}
+      \PYG{o}{\PYGZcb{}}
+      \PYG{k}{catch} \PYG{o}{(}\PYG{n}{Exception} \PYG{n}{ex}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{k}{if} \PYG{o}{(!}\PYG{n}{shutdown}\PYG{o}{)}
+          \PYG{n}{failed} \PYG{o}{=} \PYG{k+kc}{true}\PYG{o}{;}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Wird aufgerufen, wenn eine neue Connection aufgebaut wurde}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pNewConnection  Connection, die neu aufgebaut wurde}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}connectionCreated}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerServerConnection} \PYG{n}{pNewConnection}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{pNewConnection}\PYG{o}{.}\PYG{n+na}{setCommandRegistry}\PYG{o}{(}\PYG{n}{commandRegistry}\PYG{o}{);}
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{currPoint} \PYG{o}{:} \PYG{n}{points}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{pNewConnection}\PYG{o}{.}\PYG{n+na}{writeCheckPoint}\PYG{o}{(}\PYG{n}{currPoint}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{instances}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{instances}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{pNewConnection}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

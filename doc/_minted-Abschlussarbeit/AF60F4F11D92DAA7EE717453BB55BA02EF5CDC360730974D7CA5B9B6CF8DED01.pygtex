@@ -1,0 +1,64 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Implementierung einer LoginFacade, die die}
+\PYG{c+cm}{   * LoginInformationen "USER"-"PASS" erwartet.}
+\PYG{c+cm}{   * Dadurch lässt sich die Login-Funktionalität prüfen!}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}DummyFacade} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerLoginFacade}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{public} \PYG{k+kt}{boolean} \PYG{n+nf}{checkLogin}\PYG{o}{(}\PYG{n}{String}\PYG{o}{[]} \PYG{n}{pLoginInformation}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{return} \PYG{n}{pLoginInformation}\PYG{o}{.}\PYG{n+na}{length} \PYG{o}{==} \PYG{l+m+mi}{2} \PYG{o}{\PYGZam{}\PYGZam{}}
+          \PYG{n}{pLoginInformation}\PYG{o}{[}\PYG{l+m+mi}{0}\PYG{o}{].}\PYG{n+na}{equals}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}USER\PYGZdq{}}\PYG{o}{)} \PYG{o}{\PYGZam{}\PYGZam{}}
+          \PYG{n}{pLoginInformation}\PYG{o}{[}\PYG{l+m+mi}{1}\PYG{o}{].}\PYG{n+na}{equals}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}PASS\PYGZdq{}}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Implementiert einen ConnectionManager, der sich auf}
+\PYG{c+cm}{   * den Remote-Logger dieses Testes verbindet}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ConnectionManager}
+    \PYG{k+kd}{extends} \PYG{n}{AbstractRemoteLoggerClientConnectionManager}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n+nd}{@Nullable}
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{protected} \PYG{n}{IRemoteLoggerClientConnection} \PYG{n+nf}{createConnection}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{AditoException}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{String}\PYG{o}{[]} \PYG{n}{login} \PYG{o}{=} \PYG{k}{new} \PYG{n}{String}\PYG{o}{[]\PYGZob{}}\PYG{l+s}{\PYGZdq{}USER\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}PASS\PYGZdq{}}\PYG{o}{\PYGZcb{};}
+      \PYG{k}{return} \PYG{k}{new} \PYG{n}{RemoteLoggerClientConnection}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}localhost\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{7733}\PYG{o}{,} \PYG{n}{login}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Hört darauf, wann CheckPoints empfangen werden.}
+\PYG{c+cm}{   * Diese werden in der übergebenen Referenz gespeichert.}
+\PYG{c+cm}{   * Alle Threads, die auf diese Referenz warten werden benachrichtigt}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}RemoteListener} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerListener}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{refToSet}\PYG{o}{;}
+
+    \PYG{k+kd}{public} \PYG{n+nf}{\PYGZus{}RemoteListener}\PYG{o}{(}\PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{pRefToSet}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{refToSet} \PYG{o}{=} \PYG{n}{pRefToSet}\PYG{o}{;}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{checkPointReceived}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{refToSet}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{n}{refToSet}\PYG{o}{.}\PYG{n+na}{set}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{);}
+        \PYG{n}{refToSet}\PYG{o}{.}\PYG{n+na}{notifyAll}\PYG{o}{();}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{connectionStatusChanged}\PYG{o}{(}\PYG{k+kt}{boolean} \PYG{n}{pIsConnectedNow}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

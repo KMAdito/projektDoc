@@ -1,0 +1,37 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Implementierung einer CommandHandlerRegistry, bei der sich}
+\PYG{c+cm}{ * verschiedene CommandHandler einhängen lassen.}
+\PYG{c+cm}{ * Die Handler werden in einer Map gespeichert, und beim Aufruf}
+\PYG{c+cm}{ * von "shutdown" wieder gelöscht!}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 20.11.2015}
+\PYG{c+cm}{ * @see IRemoteLoggerCommandHandlerRegistry}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{class} \PYG{n+nc}{MapRemoteLoggerCommandHandlerRegistry} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerCommandHandlerRegistry}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{Map}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCommand}\PYG{o}{.}\PYG{n+na}{Type}\PYG{o}{,}
+   \PYG{n}{IRemoteLoggerCommandHandler}\PYG{o}{\PYGZlt{}?} \PYG{k+kd}{extends} \PYG{n}{IRemoteLoggerCommand}\PYG{o}{\PYGZgt{}\PYGZgt{}} \PYG{n}{handlers} \PYG{o}{=} \PYG{k}{new} \PYG{n}{HashMap}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addHandler}\PYG{o}{(}\PYG{n}{IRemoteLoggerCommand}\PYG{o}{.}\PYG{n+na}{Type} \PYG{n}{pType}\PYG{o}{,}
+   \PYG{n}{IRemoteLoggerCommandHandler}\PYG{o}{\PYGZlt{}?} \PYG{k+kd}{extends} \PYG{n}{IRemoteLoggerCommand}\PYG{o}{\PYGZgt{}} \PYG{n}{pCommandHandler}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{handlers}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{handlers}\PYG{o}{.}\PYG{n+na}{put}\PYG{o}{(}\PYG{n}{pType}\PYG{o}{,} \PYG{n}{pCommandHandler}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Nullable}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{IRemoteLoggerCommandHandler} \PYG{n+nf}{getHandler}\PYG{o}{(}\PYG{n}{IRemoteLoggerCommand}\PYG{o}{.}\PYG{n+na}{Type} \PYG{n}{pCommand}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{handlers}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{return} \PYG{n}{handlers}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{(}\PYG{n}{pCommand}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}    
+\end{Verbatim}

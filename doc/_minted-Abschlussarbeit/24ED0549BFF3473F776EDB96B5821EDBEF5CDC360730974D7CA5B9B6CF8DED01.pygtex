@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{protected} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n+nf}{initCause}\PYG{o}{(}\PYG{n}{CheckPoint}\PYG{o}{[]} \PYG{n}{pTrace}\PYG{o}{,} \PYG{k+kt}{long} \PYG{n}{pTime}\PYG{o}{)}
+\PYG{o}{\PYGZob{}}
+  \PYG{n}{CheckPoint}\PYG{o}{[]} \PYG{n}{newTrace} \PYG{o}{=} \PYG{n}{Arrays}\PYG{o}{.}\PYG{n+na}{copyOfRange}\PYG{o}{(}\PYG{n}{pTrace}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{,} \PYG{n}{pTrace}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{);}
+  \PYG{k}{return} \PYG{n}{pTrace}\PYG{o}{.}\PYG{n+na}{length} \PYG{o}{==} \PYG{l+m+mi}{1} \PYG{o}{?} \PYG{k+kc}{null} \PYG{o}{:} \PYG{k}{new} \PYG{n}{DefaultRemoteLoggerCheckPoint}\PYG{o}{(}\PYG{n}{newTrace}\PYG{o}{,} \PYG{n}{pTime}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}		
+\end{Verbatim}

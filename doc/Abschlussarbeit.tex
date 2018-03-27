@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper,twoside]{article}
+
+% ---------------- IMPORTE -----------------------------
+\usepackage[german]{babel}
+\usepackage{blindtext}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[left=25mm, right=25mm, top=25mm, bottom=33mm]{geometry} % Seitenränder
+\usepackage{parskip}
+\usepackage{tabularx,colortbl}
+\usepackage{wrapfig}
+\usepackage{epstopdf}
+\usepackage{minted}
+%\usepackage[font={small,it}]{caption}
+%\usepackage{colortbl}
+%\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{tcolorbox}
+\usepackage{subfig}
+\usepackage{prettyref}
+\usepackage{enumitem}
+\usepackage{bold-extra}
+\usepackage{hyperref}
+
+% --------------- Klickbare Links --------------------------
+\hypersetup{
+    colorlinks=true,
+    linktoc=all,
+    linkcolor=black,
+}
+
+% --------------- Querverweis --------------------------
+\newrefformat{fig}{Abbildung \ref{#1}}
+\newrefformat{sec}{\ref{#1}}
+
+% --------------- Common-Settings ----------------------
+\epstopdfsetup{outdir=./}
+\setlength{\abovecaptionskip}{5px}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\extrarowheight}{4pt}
+\setlength{\cftfigindent}{0px}
+\captionsetup{justification=centering}
+
+% --------------- CODE-Beispiele -----------------------
+\definecolor{bg}{rgb}{0.85,0.85,0.85}
+\tcbuselibrary{minted,skins}
+\newtcblisting{javacode}[1][]{
+  listing engine=minted,
+  colback=bg,
+  colframe=black!70,
+  listing only,
+  minted style=friendly,
+  minted language=java,
+  minted options={linenos=true,fontsize=\footnotesize,numbersep=2mm,texcl=true,#1},
+  left=5mm,enhanced,
+  top=0mm, bottom=0mm,
+  overlay={\begin{tcbclipinterior}\fill[black!25] (frame.south west)
+            rectangle ([xshift=5mm]frame.north west);\end{tcbclipinterior}}
+}
+
+% --------------- ADITO-spezifische Farben -------------
+\definecolor{ADITO_RED}{rgb}{0.93,0.09,0.32}
+
+% --------------- Neuer Spaltentyp ---------------------
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}} %zentriert eine Spalte mit fester Breite
+
+% ---------------- Seitenzahlen rechts + Logo ----------
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{\textbf{\textsc{Shortcut-Editor}} \\ Implementierung eines Editors zur Bearbeitung von Tastaturkürzeln}
+\fancyhead[R]{\vspace{-5mm}\includegraphics[height=0.045\textheight]{../img/ADITO_Logo}}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{\copyright\ Korbinian Mifka}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+% ------------------------------------------------------
+% ------------------------------------------------------
+\begin{document}
+\input{titlepage}
+\input{tableofcontents}
+\newpage
+
+\input{vorwort}
+\input{projektanalyse}
+\input{konzept}
+\input{implementierung}
+\input{test_junit}
+\input{fazit}
+\newpage
+
+\input{glossar}
+\newpage
+
+\input{listoffigures}
+\input{literaturverzeichnis}
+\newpage
+
+\input{anhang}
+
+\end{document}

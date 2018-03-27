@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ConnectionManager}
+  \PYG{k+kd}{extends} \PYG{n}{AbstractRemoteLoggerClientConnectionManager}
+\PYG{o}{\PYGZob{}}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{protected} \PYG{n}{IRemoteLoggerClientConnection} \PYG{n+nf}{createConnection}\PYG{o}{()}
+    \PYG{k+kd}{throws} \PYG{n}{AditoException}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{k}{new} \PYG{n}{RemoteLoggerClientConnection}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}localhost\PYGZdq{}}\PYG{o}{,}
+                          \PYG{l+m+mi}{7733}\PYG{o}{,} \PYG{k}{new} \PYG{n}{String}\PYG{o}{[]\PYGZob{}}\PYG{l+s}{\PYGZdq{}USER\PYGZdq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}PASS\PYGZdq{}}\PYG{o}{\PYGZcb{});}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

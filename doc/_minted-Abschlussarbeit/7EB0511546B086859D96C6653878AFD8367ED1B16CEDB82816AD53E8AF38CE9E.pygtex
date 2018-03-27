@@ -1,0 +1,45 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{private} \PYG{n}{String} \PYG{n}{translatedMessage}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Wandelt einen CheckPoint in einen RemoteLoggerCheckPoint um}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pCheckPoint CheckPoint, der umgewandelt werden soll}
+\PYG{c+cm}{   * @param pTime       Zeit, wann der übergebene CheckPoint aufgetreten ist}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{n+nf}{TranslateableRemoteLoggerCheckPoint}\PYG{o}{(}\PYG{n}{CheckPoint}\PYG{o}{[]} \PYG{n}{pCheckPoint}\PYG{o}{,} \PYG{k+kt}{long} \PYG{n}{pTime}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{super}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{,} \PYG{n}{pTime}\PYG{o}{);}
+    \PYG{n}{translatedMessage} \PYG{o}{=} \PYG{k+kd}{super}\PYG{o}{.}\PYG{n+na}{getMessage}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Übersetzt den Meldungstext neu, in eine andere Sprache}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pNewLocale gewünschte Lokale, oder <tt>null</tt> für den Systemstandard}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{retranslate}\PYG{o}{(}\PYG{n}{Locale} \PYG{n}{pNewLocale}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{String} \PYG{n}{rc} \PYG{o}{=} \PYG{n}{getResourceCode}\PYG{o}{();}
+    \PYG{n}{String}\PYG{o}{[]} \PYG{n}{details} \PYG{o}{=} \PYG{n}{getDetails}\PYG{o}{();}
+    \PYG{n}{translatedMessage} \PYG{o}{=} \PYG{n}{Translator}\PYG{o}{.}\PYG{n+na}{translateCheckpoint}\PYG{o}{(}\PYG{n}{rc}\PYG{o}{,} \PYG{n}{details}\PYG{o}{,} \PYG{n}{pNewLocale}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{String} \PYG{n+nf}{getMessage}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{translatedMessage}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{protected} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n+nf}{initCause}\PYG{o}{(}\PYG{n}{CheckPoint}\PYG{o}{[]} \PYG{n}{pMyCheckpoint}\PYG{o}{,} \PYG{k+kt}{long} \PYG{n}{pTime}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{CheckPoint}\PYG{o}{[]} \PYG{n}{newTrace} \PYG{o}{=} \PYG{n}{Arrays}\PYG{o}{.}\PYG{n+na}{copyOfRange}\PYG{o}{(}\PYG{n}{pMyCheckpoint}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{,} \PYG{n}{pMyCheckpoint}\PYG{o}{.}\PYG{n+na}{length}\PYG{o}{);}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{pMyCheckpoint}\PYG{o}{.}\PYG{n+na}{length} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{o}{)}
+      \PYG{k}{return} \PYG{k+kc}{null}\PYG{o}{;}
+
+    \PYG{k}{return} \PYG{k}{new} \PYG{n}{TranslateableRemoteLoggerCheckPoint}\PYG{o}{(}\PYG{n}{newTrace}\PYG{o}{,} \PYG{n}{pTime}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}		
+\end{Verbatim}

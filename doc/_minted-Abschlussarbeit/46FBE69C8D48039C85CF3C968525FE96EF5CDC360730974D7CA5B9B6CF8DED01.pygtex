@@ -1,0 +1,19 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Hört darauf, wann CheckPoints empfangen werden.}
+\PYG{c+cm}{ * Diese werden in der übergebenen Referenz gespeichert.}
+\PYG{c+cm}{ * Alle Threads, die auf diese Referenz warten werden benachrichtigt}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}RemoteListener} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerListener}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{refToSet}\PYG{o}{;}
+
+  \PYG{k+kd}{public} \PYG{n+nf}{\PYGZus{}RemoteListener}\PYG{o}{(}\PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{pRefToSet}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{refToSet} \PYG{o}{=} \PYG{n}{pRefToSet}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{checkPointReceived}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+\end{Verbatim}

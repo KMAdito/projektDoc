@@ -1,0 +1,32 @@
+\begin{wrapfigure}[17]{r}[0cm]{0.59\textwidth}
+    \centering
+    \vspace{-12px}
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=89]
+ private IRemoteLoggerCheckPoint _getNextCheckPoint(
+   final AtomicReference<IRemoteLoggerCheckPoint> 
+   pRefToWaitOn)
+ {
+  if(pRefToWaitOn.get() == null)
+  {
+    synchronized (pRefToWaitOn)
+    {
+      try
+      {
+        pRefToWaitOn.wait();
+      }
+      catch (InterruptedException ignored)
+      {
+      }
+    }
+  }
+
+  IRemoteLoggerCheckPoint cp = 
+    pRefToWaitOn.getAndSet(null);
+  Assert.assertNotNull(cp);
+  return cp;
+}\end{javacode}
+	\end{spacing}
+	\caption{Warten auf neue CheckPoints; \\ Auslesen von CheckPoints}
+	\label{fig:CODE_TestRemoteLogger-getNextCheckPoint}
+\end{wrapfigure}

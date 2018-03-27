@@ -1,0 +1,49 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Testet den RemoteLogger auf Funktionsfähigkeit}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 04.12.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{Test\PYGZus{}RemoteLogger}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{n}{RemoteLogger} \PYG{n}{logger}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{lastCheckPointGER} \PYG{o}{=}
+    \PYG{k}{new} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{lastCheckPointENG} \PYG{o}{=}
+    \PYG{k}{new} \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Initialisiert den Test.}
+\PYG{c+cm}{   * Baut den RemoteLogger (localhost, 7733) und den CheckPointHandler auf, damit}
+\PYG{c+cm}{   * diese verwendet werden können.}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Before}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{init}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{Exception}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{logger} \PYG{o}{=} \PYG{k}{new} \PYG{n}{RemoteLogger}\PYG{o}{(}\PYG{l+s+sc}{\PYGZsq{}Z\PYGZsq{}}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}localhost\PYGZdq{}}\PYG{o}{,} \PYG{l+m+mi}{7733}\PYG{o}{,} \PYG{n}{\PYGZus{}DummyFacade}\PYG{o}{::}\PYG{k}{new}\PYG{o}{);}
+    \PYG{n}{CheckPointHandler} \PYG{n}{cph} \PYG{o}{=} \PYG{n}{CPH}\PYG{o}{.}\PYG{n+na}{init}\PYG{o}{(}\PYG{l+s+sc}{\PYGZsq{}Z\PYGZsq{}}\PYG{o}{,} \PYG{n}{logger}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertNotNull}\PYG{o}{(}\PYG{n}{cph}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Testet, ob der Remote-Logger einwandfrei funktioniert.}
+\PYG{c+cm}{   * Dafür werden zwei Remote-Logger-Clients erzeugt. Diesen werden zwei getrennte Listener}
+\PYG{c+cm}{   * eingehangen, die ihre Werte in die jeweils übergebene Referenz speichern.}
+\PYG{c+cm}{   * Auf diese Werte wird in dieser Methode gewartet und anschließend verglichen,}
+\PYG{c+cm}{   * ob die Werte in deutscher und in englischer Sprache vorhanden und korrekt sind.}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Test}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{test\PYGZus{}communication}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{Exception}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{IRemoteLoggerClientConnectionManager} \PYG{n}{manager} \PYG{o}{=} \PYG{n}{\PYGZus{}startClient}\PYG{o}{(}\PYG{n}{Locale}\PYG{o}{.}\PYG{n+na}{GERMAN}\PYG{o}{);}
+    \PYG{n}{IRemoteLoggerClientConnectionManager} \PYG{n}{manager2} \PYG{o}{=} \PYG{n}{\PYGZus{}startClient}\PYG{o}{(}\PYG{n}{Locale}\PYG{o}{.}\PYG{n+na}{ENGLISH}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertNotNull}\PYG{o}{(}\PYG{n}{manager}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertNotNull}\PYG{o}{(}\PYG{n}{manager2}\PYG{o}{);}
+
+    \PYG{n}{manager}\PYG{o}{.}\PYG{n+na}{addListener}\PYG{o}{(}\PYG{k}{new} \PYG{n}{\PYGZus{}RemoteListener}\PYG{o}{(}\PYG{n}{lastCheckPointGER}\PYG{o}{));}
+    \PYG{n}{manager2}\PYG{o}{.}\PYG{n+na}{addListener}\PYG{o}{(}\PYG{k}{new} \PYG{n}{\PYGZus{}RemoteListener}\PYG{o}{(}\PYG{n}{lastCheckPointENG}\PYG{o}{));}
+
+    \PYG{n}{CPH}\PYG{o}{.}\PYG{n+na}{checkPoint}\PYG{o}{(}\PYG{l+m+mi}{99}\PYG{o}{,} \PYG{l+m+mi}{9999}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{\PYGZus{}getNextCheckPoint}\PYG{o}{(}\PYG{n}{lastCheckPointGER}\PYG{o}{).}\PYG{n+na}{getID}\PYG{o}{(),} \PYG{l+m+mi}{9999}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{\PYGZus{}getNextCheckPoint}\PYG{o}{(}\PYG{n}{lastCheckPointENG}\PYG{o}{).}\PYG{n+na}{getID}\PYG{o}{(),} \PYG{l+m+mi}{9999}\PYG{o}{);}
+\end{Verbatim}

@@ -1,0 +1,65 @@
+[2015-11-02T12:26:16] [H-01-R-0049-S] [<!--Version: 4.4//-->] [<!--Server: 4.4.9//-->] [<!--Build: dev-1511021226invalid//-->]
+[2015-11-02T12:26:17] [H-05-W-0317-S] [<!--Host: 127.0.0.1//-->] [<!--Port: 1527//-->] [<!--Home: ../project/xRM2015/data/default/database//-->]
+[2015-11-02T12:26:19] [H-01-N-0191-S]
+[2015-11-02T12:26:20] [H-01-N-0192-S]
+[2015-11-02T12:26:20] [H-00-N-0012-S] [<!--ConsoleLogger [Z]//-->]
+[2015-09-23T12:10:41] [Z-00-N-0011-S] [<!--SQLState: 23000//-->] [<!--ErrorCode: 2627//-->] [<!--Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Verletzung der PRIMARY KEY-Einschränkung 'BESTANDSDATEN_BESTANDSDATENID'. Ein doppelter Schlüssel kann in das 'dbo.BESTANDSDATEN'-Objekt nicht eingefügt werden.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:314)
+	... 14 more//-->]
+[C][D-48-R-0058-S] [<!--Item: SyncItem {ACTION_INSERT,AO_DATEN,BESTANDSDATEN,000101-0000085174-0000009082,adito.server,Ravensburger Spieleverlag GmbH / 659a774a-e2d7-4c78-82c7-7b6b0be9073c,BESTANDSDATENID-VKORG-ZZVWEG-KUNNR-FILIALE-JAHR-KW-DATUM-EAN-MATNR-MENGE-ANLAGE_STAMP-DATE_NEW,000101-0000085174-0000009082-000101-201060-0000085174-3125-2015-38-1442613600000-4005556090822-0000009082-1-1442865835000-1442889625610}//-->] [<!--Caused by: de.adito.aditoweb.server.ali: [D-48-R-0058-S] [<!--Item: SyncItem {ACTION_INSERT,AO_DATEN,BESTANDSDATEN,000101-0000085174-0000009082,adito.server,Ravensburger Spieleverlag GmbH / 659a774a-e2d7-4c78-82c7-7b6b0be9073c,BESTANDSDATENID-VKORG-ZZVWEG-KUNNR-FILIALE-JAHR-KW-DATUM-EAN-MATNR-MENGE-ANLAGE_STAMP-DATE_NEW,000101-0000085174-0000009082-000101-201060-0000085174-3125-2015-38-1442613600000-4005556090822-0000009082-1-1442865835000-1442889625610}//-->]
+	... 14 more//-->]
+[C][H-48-Z-0082-S] [<!--de.adito.aditoweb.core.checkpoint.exception.mechanics.AditoException: [H-48-Z-0082-S]
+	at de.adito.aditoweb.core.checkpoint.CheckPointHandler.checkPoint(Unknown Source)
+	at de.adito.aditoweb.server.css.a(Unknown Source)
+	at de.adito.aditoweb.server.css.a(Unknown Source)
+	at de.adito.aditoweb.server.cvd.c(Unknown Source)
+	at de.adito.aditoweb.server.cvd.b(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbo.b(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbq.a(Unknown Source)
+	at de.adito.aditoweb.server.aey.a(Unknown Source)
+	at de.adito.aditoweb.server.aer.run(Unknown Source)
+	at de.adito.aditoweb.server.agt.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)//-->]
+[2015-09-23T12:10:41] [Z-00-N-0011-S] [<!--SQLState: 23000//-->] [<!--ErrorCode: 2627//-->] [<!--Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Verletzung der PRIMARY KEY-Einschränkung 'BESTANDSDATEN_BESTANDSDATENID'. Ein doppelter Schlüssel kann in das 'dbo.BESTANDSDATEN'-Objekt nicht eingefügt werden.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:314)
+	... 14 more//-->]
+[C][D-48-R-0058-S] [<!--Item: SyncItem {ACTION_INSERT,AO_DATEN,BESTANDSDATEN,000101-0000085174-0000009082,adito.server,Ravensburger Spieleverlag GmbH / 659a774a-e2d7-4c78-82c7-7b6b0be9073c,BESTANDSDATENID-VKORG-ZZVWEG-KUNNR-FILIALE-JAHR-KW-DATUM-EAN-MATNR-MENGE-ANLAGE_STAMP-DATE_NEW,000101-0000085174-0000009082-000101-201060-0000085174-3125-2015-38-1442613600000-4005556090822-0000009082-1-1442865835000-1442889625610}//-->] [<!--Caused by: de.adito.aditoweb.server.ali: [D-48-R-0058-S] [<!--Item: SyncItem {ACTION_INSERT,AO_DATEN,BESTANDSDATEN,000101-0000085174-0000009082,adito.server,Ravensburger Spieleverlag GmbH / 659a774a-e2d7-4c78-82c7-7b6b0be9073c,BESTANDSDATENID-VKORG-ZZVWEG-KUNNR-FILIALE-JAHR-KW-DATUM-EAN-MATNR-MENGE-ANLAGE_STAMP-DATE_NEW,000101-0000085174-0000009082-000101-201060-0000085174-3125-2015-38-1442613600000-4005556090822-0000009082-1-1442865835000-1442889625610}//-->]
+	... 14 more//-->]
+[C][H-48-Z-0082-S] [<!--de.adito.aditoweb.core.checkpoint.exception.mechanics.AditoException: [H-48-Z-0082-S]
+	at de.adito.aditoweb.core.checkpoint.CheckPointHandler.checkPoint(Unknown Source)
+	at de.adito.aditoweb.server.css.a(Unknown Source)
+	at de.adito.aditoweb.server.css.a(Unknown Source)
+	at de.adito.aditoweb.server.cvd.c(Unknown Source)
+	at de.adito.aditoweb.server.cvd.b(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbo.b(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbo.a(Unknown Source)
+	at de.adito.aditoweb.server.cbq.a(Unknown Source)
+	at de.adito.aditoweb.server.aey.a(Unknown Source)
+	at de.adito.aditoweb.server.aer.run(Unknown Source)
+	at de.adito.aditoweb.server.agt.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)//-->]

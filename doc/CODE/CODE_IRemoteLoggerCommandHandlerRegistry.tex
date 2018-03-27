@@ -1,0 +1,38 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Implementierung einer CommandHandlerRegistry, bei der sich
+ * verschiedene CommandHandler einhängen lassen.
+ * Die Handler werden in einer Map gespeichert, und beim Aufruf
+ * von "shutdown" wieder gelöscht!
+ *
+ * @author W.Glanzer, 20.11.2015
+ * @see IRemoteLoggerCommandHandlerRegistry
+ */
+class MapRemoteLoggerCommandHandlerRegistry implements IRemoteLoggerCommandHandlerRegistry
+{
+
+  private final Map<IRemoteLoggerCommand.Type, 
+   IRemoteLoggerCommandHandler<? extends IRemoteLoggerCommand>> handlers = new HashMap<>();
+
+  @Override
+  public void addHandler(IRemoteLoggerCommand.Type pType, 
+   IRemoteLoggerCommandHandler<? extends IRemoteLoggerCommand> pCommandHandler)
+  {
+    synchronized (handlers)
+    {
+      handlers.put(pType, pCommandHandler);
+    }
+  }
+
+  @Nullable
+  @Override
+  public IRemoteLoggerCommandHandler getHandler(IRemoteLoggerCommand.Type pCommand)
+  {
+    synchronized (handlers)
+    {
+      return handlers.get(pCommand);
+    }
+  }
+}    \end{javacode}
+\end{spacing}

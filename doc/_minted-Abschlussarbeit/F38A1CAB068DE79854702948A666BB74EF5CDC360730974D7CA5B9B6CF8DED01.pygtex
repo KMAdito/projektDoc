@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{ByteArrayOutputStream} \PYG{n}{baos} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ByteArrayOutputStream}\PYG{o}{();}
+\PYG{n}{ObjectOutputStream} \PYG{n}{oos} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ObjectOutputStream}\PYG{o}{(}\PYG{n}{baos}\PYG{o}{);}
+\PYG{n}{oos}\PYG{o}{.}\PYG{n+na}{writeObject}\PYG{o}{(}\PYG{n}{pCheckpoint}\PYG{o}{);}
+\PYG{n}{oos}\PYG{o}{.}\PYG{n+na}{flush}\PYG{o}{();}
+
+\PYG{n}{channel}\PYG{o}{.}\PYG{n+na}{write}\PYG{o}{(}\PYG{n}{ByteBuffer}\PYG{o}{.}\PYG{n+na}{wrap}\PYG{o}{(}\PYG{n}{baos}\PYG{o}{.}\PYG{n+na}{toByteArray}\PYG{o}{()));}
+\end{Verbatim}

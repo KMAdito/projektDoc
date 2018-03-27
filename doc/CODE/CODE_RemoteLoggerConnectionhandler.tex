@@ -1,0 +1,67 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Sobald sich ein neuer RemoteLogger verbinden will springt dieser
+ * Listener an, und erstellt eine neue DefaultRemoteLoggerServerConnection.
+ * Diese speichert er im instances-Set ab, für spätere Benutzung
+ */
+private class _RemoteLoggerConnectionListener implements Runnable
+{
+
+  /**
+   * Wird aufgerufen, wenn sich ein neuer Logger anmeldet
+   */
+  public void run()
+  {
+    Thread.currentThread().setName(IAditoThreads.REMOTELOGGERCONNECTIONLISTENER);
+    while (!(failed || shutdown))
+    {
+      try
+      {
+        // Warten, bis sich ein Channel-Client verbinden will
+        selector.select(); // Blockiert hier
+        Iterator selectedKeys = selector.selectedKeys().iterator();
+        while (selectedKeys.hasNext())
+        {
+          SelectionKey key = (SelectionKey) selectedKeys.next();
+          selectedKeys.remove();
+          
+          if (!key.isValid())
+            continue;
+            
+          if (key.isAcceptable())
+          {
+            ServerSocket serverSocket = ((ServerSocketChannel) key.channel()).socket();
+            Socket clientSocket = serverSocket.accept();
+            SocketDefaults.setSocketDefaults(clientSocket);
+            SocketChannel chnl = clientSocket.getChannel();
+            _connectionCreated(new DefaultRemoteLoggerServerConnection(chnl));
+          }
+        }
+      }
+      catch (Exception ex)
+      {
+        if (!shutdown)
+          failed = true;
+      }
+    }
+  }
+  /**
+   * Wird aufgerufen, wenn eine neue Connection aufgebaut wurde
+   *
+   * @param pNewConnection  Connection, die neu aufgebaut wurde
+   */
+  private void _connectionCreated(@NotNull IRemoteLoggerServerConnection pNewConnection)
+  {
+    pNewConnection.setCommandRegistry(commandRegistry);
+    for (IRemoteLoggerCheckPoint currPoint : points)
+    {
+      pNewConnection.writeCheckPoint(currPoint);
+    }
+    synchronized (instances)
+    {
+      instances.add(pNewConnection);
+    }
+  }
+}\end{javacode}
+\end{spacing}

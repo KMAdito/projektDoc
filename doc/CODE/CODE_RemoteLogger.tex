@@ -1,0 +1,116 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Logger, der Checkpoints zu verbunden RemoteLogger-Instanzen senden kann
+ *
+ * @author W.Glanzer, 18.11.2015
+ */
+public class RemoteLogger extends AbstractLogger
+{
+  private IRemoteLoggerConnectionHandler connectionHandler;
+
+  private boolean failed = false;
+  private Exception failedEx = null;
+
+  /**
+   * Erzeugt einen neuen RemoteLogger
+   *
+   * @param pPriority                die Priorität des Loggers
+   * @param pAddress                 die Addresse des Listeners
+   * @param pPort                    der Port des Listeners
+   * @param pRemoteLoggerLoginFacade Facade zum einloggen von RemoteLogger-Clients 
+   *                                 am RemoteLogger-Server, oder <tt>null</tt> wenn 
+   *                                 generell alle Clients erlaubt sind
+   */
+  public RemoteLogger(char pPriority, String pAddress, int pPort, 
+    @Nullable Supplier<IRemoteLoggerLoginFacade> pRemoteLoggerLoginFacade)
+  {
+    try
+    {
+      IRemoteLoggerCommandHandlerRegistry commandRegistry = 
+        new MapRemoteLoggerCommandHandlerRegistry();
+      commandRegistry.addHandler(IRemoteLoggerCommand.Type.AUTHORIZE, 
+        new AuthorizationCommandHandler(pRemoteLoggerLoginFacade));
+      commandRegistry.addHandler(IRemoteLoggerCommand.Type.LANGUAGE, 
+        new LanguageCommandHandler());
+        
+      RemoteLoggerInstanceManager im = RemoteLoggerInstanceManager.getInstance();
+      connectionHandler = im.getConnectionHandler(pAddress, pPort);
+      connectionHandler.setCommandRegistry(commandRegistry);
+      setPriority(pPriority);
+    }
+    catch (Exception ex)
+    {
+      System.err.println("RemoteLogger failed:");
+      ex.printStackTrace();
+
+      failed = true;
+      failedEx = ex;
+    }
+  }
+
+  /**
+   * Hier kann der Logger einen Selbsttest machen. Schlägt dieser fehl 
+   * kann er eine neuen Fehler erzeugen damit andere Logger dies melden können.
+   *
+   * @return <tt>true</tt> wenn der Logger funktioniert, andernfalls <tt>false</tt>
+   */
+  public boolean checkFunction()
+  {
+    // Neuen Wert berechnen
+    failed = failed || connectionHandler.hasFailed();
+
+    if (failed)
+    {
+      AditoException ex = new AditoException(failedEx, 0, 32);
+      CPH.checkPoint(ex);
+    }
+
+    return !failed;
+  }
+
+  /**
+   * Loggt einen Checkpoint
+   *
+   * @param pError der Checkpoint
+   * @param pTime  die Zeit, wann er aufgetreten ist
+   */
+  public void logError(CheckPoint[] pError, long pTime)
+  {\end{javacode}
+        \end{spacing}
+        \begin{spacing}{0.75}
+        	\begin{javacode}[firstnumber=78]
+    if (earlyBreak(pError))
+      return;
+    if (failed)
+      return;
+      
+    IRemoteLoggerCheckPoint cp = new TranslateableRemoteLoggerCheckPoint(pError, pTime);
+    connectionHandler.writeCheckPoint(cp);
+  }
+
+  /**
+   * Zerstört diesen Logger
+   *
+   * @throws AditoException Wird geworfen, wenn dieser Logger
+   *                        nicht ordnungsgemäß beendet werden konnte
+   */
+  public synchronized void destroy() throws AditoException
+  {
+    super.destroy();
+    failed = true;
+    RemoteLoggerInstanceManager.getInstance().shutdownRemoteLoggerHandler(connectionHandler);
+  }
+
+  /**
+   * Erstellt eine String-Repräsentanz des RemoteLoggers
+   *
+   * @return Lesbarer String
+   */
+  public String toString()
+  {
+    return "RemoteLogger [" + priority + "]: " + 
+      (connectionHandler == null ? "null" : connectionHandler.getSocketAddress());
+  }
+}\end{javacode}
+\end{spacing}

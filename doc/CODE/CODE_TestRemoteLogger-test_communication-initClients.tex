@@ -1,0 +1,23 @@
+\begin{figure}[h]
+    \centering
+   	\begin{spacing}{0.75}
+   		\begin{javacode}[firstnumber=1]
+final AtomicReference<IRemoteLoggerCheckPoint> lastCheckPointGER = new AtomicReference<>();
+final AtomicReference<IRemoteLoggerCheckPoint> lastCheckPointENG = new AtomicReference<>();
+
+@Test
+public void test_communication() throws Exception
+{		
+  IRemoteLoggerClientConnectionManager manager = _startClient(Locale.GERMAN);
+  IRemoteLoggerClientConnectionManager manager2 = _startClient(Locale.ENGLISH);
+  Assert.assertNotNull(manager);
+  Assert.assertNotNull(manager2);
+  manager.addListener(new _Listener(lastCheckPointGER));
+  manager2.addListener(new _Listener(lastCheckPointENG));
+  
+  (...)
+  
+}\end{javacode}
+   	\end{spacing}
+   	\caption{Überprüfen des Logins}
+\end{figure}

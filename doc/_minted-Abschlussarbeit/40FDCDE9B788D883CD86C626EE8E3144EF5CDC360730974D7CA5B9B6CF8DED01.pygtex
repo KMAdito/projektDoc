@@ -1,0 +1,37 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Login-Facade, damit sich der RemoteLogger-Client nur dann wirklich}
+\PYG{c+cm}{ * einloggen kann, wenn die Login-Daten stimmen!}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 26.11.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{RemoteLoggerLoginFacadeImpl} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerLoginFacade}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{SecurityPrefs} \PYG{n}{securityPrefs}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{LoginPrefs} \PYG{n}{loginPrefs}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{Locale} \PYG{n}{locale}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{IUserDirectoryExt} \PYG{n}{userDirectory}\PYG{o}{;}
+
+  \PYG{k+kd}{public} \PYG{n+nf}{RemoteLoggerLoginFacadeImpl}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{SecurityPrefs} \PYG{n}{pSecurityPrefs}\PYG{o}{,}
+                                     \PYG{n+nd}{@NotNull} \PYG{n}{LoginPrefs} \PYG{n}{pLoginPrefs}\PYG{o}{,}
+                                     \PYG{n+nd}{@Nullable} \PYG{n}{Locale} \PYG{n}{pLocale}\PYG{o}{,}
+                                     \PYG{n}{IUserDirectoryExt} \PYG{n}{pUserDirectory}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{securityPrefs} \PYG{o}{=} \PYG{n}{pSecurityPrefs}\PYG{o}{;}
+    \PYG{n}{loginPrefs} \PYG{o}{=} \PYG{n}{pLoginPrefs}\PYG{o}{;}
+    \PYG{n}{locale} \PYG{o}{=} \PYG{n}{pLocale}\PYG{o}{;}
+    \PYG{n}{userDirectory} \PYG{o}{=} \PYG{n}{pUserDirectory}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{boolean} \PYG{n+nf}{checkLogin}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{String}\PYG{o}{[]} \PYG{n}{pLoginInformation}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{ManagerLoginUtil}\PYG{o}{.}\PYG{n+na}{LoginResult} \PYG{n}{result} \PYG{o}{=} \PYG{n}{ManagerLoginUtil}\PYG{o}{.}\PYG{n+na}{checkLogin}\PYG{o}{(}\PYG{n}{pLoginInformation}\PYG{o}{,}
+                                          \PYG{n}{securityPrefs}\PYG{o}{,} \PYG{n}{loginPrefs}\PYG{o}{,} \PYG{n}{locale}\PYG{o}{,} \PYG{n}{userDirectory}\PYG{o}{);}
+
+    \PYG{c+c1}{// Überprüft gleichzeitig, ob der hinter den Login-Informationen liegende Benutzer}
+    \PYG{c+c1}{// die passende Rolle besitzt.}
+    \PYG{k}{return} \PYG{n}{result}\PYG{o}{.}\PYG{n+na}{wasOK}\PYG{o}{()} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{n}{UserUtility}\PYG{o}{.}\PYG{n+na}{hasRole}\PYG{o}{(}\PYG{n}{result}\PYG{o}{.}\PYG{n+na}{getUser}\PYG{o}{(),} \PYG{n}{InternalRoles}\PYG{o}{.}\PYG{n+na}{ADMIN}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}  
+\end{Verbatim}

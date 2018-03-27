@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nd}{@Override}
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{checkPointReceived}\PYG{o}{(}
+  \PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{refToSet}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{refToSet}\PYG{o}{.}\PYG{n+na}{set}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{);}
+    \PYG{n}{refToSet}\PYG{o}{.}\PYG{n+na}{notifyAll}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

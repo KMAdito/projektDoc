@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Erweitert den RemoteLoggerCheckPoint um eine}
+\PYG{c+cm}{ * Funktion, diesen zu übersetzen}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 19.11.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{class} \PYG{n+nc}{TranslateableRemoteLoggerCheckPoint}
+  \PYG{k+kd}{extends} \PYG{n}{DefaultRemoteLoggerCheckPoint}
+  \PYG{k+kd}{implements} \PYG{n}{ITranslateableRemoteLoggerCheckPoint}
+\PYG{o}{\PYGZob{}}
+\end{Verbatim}

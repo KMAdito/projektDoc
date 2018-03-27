@@ -1,0 +1,51 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}Vorwort}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}ADITO Software GmbH}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Intention}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Projektanalyse}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Ist-Analyse}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Soll-Analyse}{2}{subsection.2.2}
+\contentsline {section}{\numberline {3}Grobkonzept des Projektablaufes}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Zeitliche Gliederung}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Entw\IeC {\"u}rfe}{3}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Ablauf am Remote-Logger-Server}{3}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Login des Remote-Logger-Clients am Remote-Logger-Server}{4}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Implementierung}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Allgemein}{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}IRemoteLoggerCheckPoint}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}IRemoteLoggerCommand}{7}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}ObjectInputStreamConsumer}{7}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Serverseitig}{8}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}RemoteLogger}{8}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}IRemoteLoggerLoginFacade}{8}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}IRemoteLoggerConnectionHandler}{9}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}IRemoteLoggerServerConnection}{9}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}IRemoteLoggerCommandHandlerRegistry}{10}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}IRemoteLoggerCommandHandler}{10}{subsubsection.4.2.6}
+\contentsline {subsection}{\numberline {4.3}Client- / Managerseitig}{12}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}IRemoteLoggerClientConnection}{12}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}IRemoteLoggerListener}{12}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}IRemoteLoggerClientConnectionManager}{12}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Graphical User Interface}{13}{subsubsection.4.3.4}
+\contentsline {section}{\numberline {5}Anwendungstests}{14}{section.5}
+\contentsline {section}{\numberline {6}Fazit}{16}{section.6}
+\contentsline {section}{\numberline {7}Glossar}{17}{section.7}
+\contentsline {section}{\numberline {8}Abbildungsverzeichnis}{18}{section.8}
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{18}{section.9}
+\contentsline {section}{\numberline {10}Anhang}{19}{section.10}
+\setcounter {tocdepth}{-1}
+\contentsline {subsection}{\numberline {10.1}Quellcode}{19}{subsection.10.1}
+\contentsline {subsubsection}{\numberline {10.1.1}TranslateableRemoteLoggerCheckPoint}{19}{subsubsection.10.1.1}
+\contentsline {subsubsection}{\numberline {10.1.2}Implementierungen des Interfaces \glqq IRemoteLoggerCommand\grqq }{20}{subsubsection.10.1.2}
+\contentsline {subsubsection}{\numberline {10.1.3}ObjectInputStreamConsumer}{20}{subsubsection.10.1.3}
+\contentsline {subsubsection}{\numberline {10.1.4}Remote-Logger}{22}{subsubsection.10.1.4}
+\contentsline {subsubsection}{\numberline {10.1.5}Implementierung des Interfaces \glqq IRemoteLoggerLoginFacade\grqq }{23}{subsubsection.10.1.5}
+\contentsline {subsubsection}{\numberline {10.1.6}Implementierung des Interfaces \glqq IRemoteLoggerConnectionHandler\grqq }{24}{subsubsection.10.1.6}
+\contentsline {subsubsection}{\numberline {10.1.7}Implementierung des Interfaces \glqq IRemoteLoggerServerConnection\grqq }{25}{subsubsection.10.1.7}
+\contentsline {subsubsection}{\numberline {10.1.8}Implementierung des Interfaces \\\glqq IRemoteLoggerCommandHandlerRegistry\grqq }{26}{subsubsection.10.1.8}
+\contentsline {subsubsection}{\numberline {10.1.9}Implementierungen des Interfaces \glqq IRemoteLoggerCommandHandler\grqq }{27}{subsubsection.10.1.9}
+\contentsline {subsubsection}{\numberline {10.1.10}Implementierung des Interfaces \glqq IRemoteLoggerClientConnection\grqq }{28}{subsubsection.10.1.10}
+\contentsline {subsubsection}{\numberline {10.1.11}Implementierungen des Interfaces \glqq IRemoteLoggerListener\grqq }{30}{subsubsection.10.1.11}
+\contentsline {subsubsection}{\numberline {10.1.12}Implementierung des Interfaces \\\glqq IRemoteLoggerClientConnectionManager\grqq }{31}{subsubsection.10.1.12}
+\contentsline {subsubsection}{\numberline {10.1.13}GUI-Implementierung}{33}{subsubsection.10.1.13}
+\contentsline {subsubsection}{\numberline {10.1.14}Test mit JUnit}{40}{subsubsection.10.1.14}

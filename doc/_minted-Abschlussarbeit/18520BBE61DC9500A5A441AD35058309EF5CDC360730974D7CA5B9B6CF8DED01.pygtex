@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Listener der Nachrichten von der Connection}
+\PYG{c+cm}{ * an alle eingehängten RemoteLogger verteilt}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ControllingListener} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerListener}
+\PYG{o}{\PYGZob{}}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{connectionStatusChanged}\PYG{o}{(}\PYG{k+kt}{boolean} \PYG{n}{pIsConnectedNow}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{listenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{listenerList}\PYG{o}{.}\PYG{n+na}{forEach}\PYG{o}{(}\PYG{n}{pLoggerListener} \PYG{o}{\PYGZhy{}\PYGZgt{}}
+        \PYG{n}{pLoggerListener}\PYG{o}{.}\PYG{n+na}{connectionStatusChanged}\PYG{o}{(}\PYG{n}{pIsConnectedNow}\PYG{o}{));}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{checkPointReceived}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{listenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{listenerList}\PYG{o}{.}\PYG{n+na}{forEach}\PYG{o}{(}\PYG{n}{pLoggerListener} \PYG{o}{\PYGZhy{}\PYGZgt{}}
+        \PYG{n}{pLoggerListener}\PYG{o}{.}\PYG{n+na}{checkPointReceived}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{));}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

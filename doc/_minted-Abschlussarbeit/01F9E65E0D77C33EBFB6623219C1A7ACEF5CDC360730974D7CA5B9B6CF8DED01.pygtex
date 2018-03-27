@@ -1,0 +1,40 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+		
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Setzt die Locale dieser Verbindung.}
+\PYG{c+cm}{   * Jede Connection kann ihre eigene Locale besitzen!}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pLocale  Locale, die gesetzt werden soll und}
+\PYG{c+cm}{   *                 die Sprache des Clients angibt}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setLocale}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{Locale} \PYG{n}{pLocale}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{clientLocale} \PYG{o}{=} \PYG{n}{pLocale}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+  		
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setAuthorized}\PYG{o}{(}\PYG{k+kt}{boolean} \PYG{n}{pAuthorized}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{authorized} \PYG{o}{=} \PYG{n}{pAuthorized}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Beendet die Instanz}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{close}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{try}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{if} \PYG{o}{(}\PYG{n}{channel}\PYG{o}{.}\PYG{n+na}{isConnected}\PYG{o}{())}
+        \PYG{n}{channel}\PYG{o}{.}\PYG{n+na}{close}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{catch} \PYG{o}{(}\PYG{n}{Exception} \PYG{n}{ex}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{System}\PYG{o}{.}\PYG{n+na}{err}\PYG{o}{.}\PYG{n+na}{println}\PYG{o}{(}\PYG{l+s}{\PYGZdq{}DefaultRemoteLoggerServerConnection error[1]:\PYGZdq{}}\PYG{o}{);}
+      \PYG{n}{ex}\PYG{o}{.}\PYG{n+na}{printStackTrace}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}} 
+\end{Verbatim}

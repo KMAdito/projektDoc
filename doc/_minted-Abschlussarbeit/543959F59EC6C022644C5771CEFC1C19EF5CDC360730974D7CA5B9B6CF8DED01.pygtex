@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Listener um auf Ausgaben und Meldungen im RemoteLogger zu hören.}
+\PYG{c+cm}{ * Fügt diesen dann in die TreeTable des ADTIO4-Managers ein}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}RemoteLoggerListener} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerListener}
+\PYG{o}{\PYGZob{}}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{checkPointReceived}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{addCheckPoint}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{connectionStatusChanged}\PYG{o}{(}\PYG{k+kt}{boolean} \PYG{n}{pIsConnectedNow}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{SwingUtilities}\PYG{o}{.}\PYG{n+na}{invokeLater}\PYG{o}{(()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{connectionButton}\PYG{o}{.}\PYG{n+na}{setSelected}\PYG{o}{(}\PYG{n}{pIsConnectedNow}\PYG{o}{));}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}	
+\end{Verbatim}

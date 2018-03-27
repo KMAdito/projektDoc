@@ -1,0 +1,16 @@
+\begin{wrapfigure}[7]{r}[0cm]{0.64\textwidth}
+    \centering
+    \vspace{-10px}
+   	\begin{spacing}{0.75}
+   	\begin{javacode}[firstnumber=1]
+@Nullable
+private IRemoteLoggerClientConnectionManager _startClient
+  (Locale pLocale) throws AditoIOException
+{
+  _ConnectionManager manager = new _ConnectionManager();
+  manager.connect(pLocale);
+  return manager;
+}\end{javacode}
+   	\end{spacing}
+   	\caption{Überprüfen des Logins}
+\end{wrapfigure}

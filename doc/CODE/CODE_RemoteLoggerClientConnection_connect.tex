@@ -1,0 +1,10 @@
+\begin{figure}[h] 
+    \centering
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=32]
+clientSocket = new Socket(host, port);
+streamConsumer = ObjectInputStreamConsumer.consume(clientSocket.getInputStream(), null, 
+                                   this::_fireCheckPointReceived, this::_handleException);\end{javacode}
+	\end{spacing}
+	\caption{Initiieren der Verbindung zum Remote-Logger-Server am Remote-Logger-Client}
+\end{figure}

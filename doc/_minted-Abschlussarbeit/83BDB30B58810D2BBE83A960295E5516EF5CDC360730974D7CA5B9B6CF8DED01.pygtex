@@ -1,0 +1,44 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Rendert einen CheckPoint in der TreeTable (rechten Tabelle)}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 24.11.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{class} \PYG{n+nc}{RemoteLoggerTreeTableCheckPointRenderer} \PYG{k+kd}{extends} \PYG{n}{DefaultOutlineCellRenderer}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{Component} \PYG{n+nf}{getTableCellRendererComponent}\PYG{o}{(}\PYG{n}{JTable} \PYG{n}{pTable}\PYG{o}{,} \PYG{n}{Object} \PYG{n}{pValue}\PYG{o}{,}
+    \PYG{k+kt}{boolean} \PYG{n}{pIsSelected}\PYG{o}{,} \PYG{k+kt}{boolean} \PYG{n}{pHasFocus}\PYG{o}{,} \PYG{k+kt}{int} \PYG{n}{pRow}\PYG{o}{,} \PYG{k+kt}{int} \PYG{n}{pColumn}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{super}\PYG{o}{.}\PYG{n+na}{getTableCellRendererComponent}\PYG{o}{(}\PYG{n}{pTable}\PYG{o}{,} \PYG{n}{pValue}\PYG{o}{,} \PYG{n}{pIsSelected}\PYG{o}{,} \PYG{k+kc}{false}\PYG{o}{,} \PYG{n}{pRow}\PYG{o}{,} \PYG{n}{pColumn}\PYG{o}{);}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{pValue} \PYG{k}{instanceof} \PYG{n}{DefaultMutableTreeNode} \PYG{o}{\PYGZam{}\PYGZam{}}
+      \PYG{o}{((}\PYG{n}{DefaultMutableTreeNode}\PYG{o}{)} \PYG{n}{pValue}\PYG{o}{).}\PYG{n+na}{getUserObject}\PYG{o}{()} \PYG{k}{instanceof} \PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{DefaultMutableTreeNode} \PYG{n}{dmtn} \PYG{o}{=} \PYG{o}{(}\PYG{n}{DefaultMutableTreeNode}\PYG{o}{)} \PYG{n}{pValue}
+      \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{checkPoint} \PYG{o}{=} \PYG{o}{(}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{)} \PYG{n}{dmtn}\PYG{o}{.}\PYG{n+na}{getUserObject}\PYG{o}{();}
+
+      \PYG{c+c1}{// Sonst würde die weiße Vordergrundfarbe überschrieben}
+      \PYG{c+c1}{// --> Schlecht leesbar, wenn selektiert}
+      \PYG{k}{if}\PYG{o}{(!}\PYG{n}{pIsSelected}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{n}{IGuiColors} \PYG{n}{colors} \PYG{o}{=} \PYG{n}{LfUtil}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{().}\PYG{n+na}{getGuiColors}\PYG{o}{();}
+        \PYG{n}{setForeground}\PYG{o}{(}\PYG{n}{CheckPointUtility}\PYG{o}{.}\PYG{n+na}{getColor}\PYG{o}{(}\PYG{n}{checkPoint}\PYG{o}{.}\PYG{n+na}{getPriority}\PYG{o}{(),}
+          \PYG{n}{colors}\PYG{o}{.}\PYG{n+na}{getErrorColor}\PYG{o}{(),} \PYG{n}{colors}\PYG{o}{.}\PYG{n+na}{getWarningColor}\PYG{o}{(),} \PYG{n}{colors}\PYG{o}{.}\PYG{n+na}{getInfoColor}\PYG{o}{()));}
+      \PYG{o}{\PYGZcb{}}
+
+      \PYG{k}{switch} \PYG{o}{(}\PYG{n}{pColumn}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{k}{case} \PYG{l+m+mi}{1}\PYG{o}{:}
+          \PYG{n}{setText}\PYG{o}{(}\PYG{n}{\PYGZus{}getID}\PYG{o}{(}\PYG{n}{checkPoint}\PYG{o}{));}
+          \PYG{k}{break}\PYG{o}{;}
+
+        \PYG{k}{case} \PYG{l+m+mi}{2}\PYG{o}{:}
+          \PYG{n}{setText}\PYG{o}{(}\PYG{n}{\PYGZus{}getMessage}\PYG{o}{(}\PYG{n}{checkPoint}\PYG{o}{));}
+          \PYG{k}{break}\PYG{o}{;}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{k}{return} \PYG{k}{this}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}} 
+\end{Verbatim}

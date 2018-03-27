@@ -1,0 +1,71 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+        \PYG{n}{clientSocket}\PYG{o}{.}\PYG{n+na}{getOutputStream}\PYG{o}{().}\PYG{n+na}{write}\PYG{o}{(}\PYG{n}{bytes}\PYG{o}{);}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{catch} \PYG{o}{(}\PYG{n}{IOException} \PYG{n}{pE}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{throw} \PYG{k}{new} \PYG{n}{AditoIOException}\PYG{o}{(}\PYG{n}{pE}\PYG{o}{,} \PYG{l+m+mi}{16}\PYG{o}{,} \PYG{l+m+mi}{208}\PYG{o}{,} \PYG{l+s}{\PYGZdq{}type: \PYGZdq{}} \PYG{o}{+} \PYG{n}{pCommand}\PYG{o}{.}\PYG{n+na}{getType}\PYG{o}{());}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{boolean} \PYG{n+nf}{addListener}\PYG{o}{(}\PYG{n}{IRemoteLoggerListener} \PYG{n}{pListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{loggerListenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{return} \PYG{n}{loggerListenerList}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{pListener}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{boolean} \PYG{n+nf}{removeListener}\PYG{o}{(}\PYG{n+nd}{@Nullable} \PYG{n}{IRemoteLoggerListener} \PYG{n}{pListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{loggerListenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{return} \PYG{n}{loggerListenerList}\PYG{o}{.}\PYG{n+na}{remove}\PYG{o}{(}\PYG{n}{pListener}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Feuert, dass der RemoteLogger einen neuen CheckPoint gebracht hat}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pCheckPoint CheckPoint, den der RemoteLogger gebracht hat, nicht <tt>null</tt>!}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}fireCheckPointReceived}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{loggerListenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{IRemoteLoggerListener} \PYG{n}{currListener} \PYG{o}{:} \PYG{n}{loggerListenerList}\PYG{o}{)}
+        \PYG{n}{currListener}\PYG{o}{.}\PYG{n+na}{checkPointReceived}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Feuert, dass der RemoteLogger seinen Verbindungsstatus geänder hat}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pConnectedNow <tt>true</tt>, wenn der Logger jetzt mit dem am Server verbunden}
+\PYG{c+cm}{   *                      ist, bei <tt>false</tt> hat sich dieser getrennt}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}fireConnectionStatusChanged}\PYG{o}{(}\PYG{k+kt}{boolean} \PYG{n}{pConnectedNow}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{loggerListenerList}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{IRemoteLoggerListener} \PYG{n}{currListener} \PYG{o}{:} \PYG{n}{loggerListenerList}\PYG{o}{)}
+        \PYG{n}{currListener}\PYG{o}{.}\PYG{n+na}{connectionStatusChanged}\PYG{o}{(}\PYG{n}{pConnectedNow}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Wird aufgerufen, wenn im ObjectStreamConsumer eine Fehlermeldung aufgetreten ist}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pException  Exception, die aufgetreten ist}
+\PYG{c+cm}{   * @return <tt>true</tt>, wenn aus dem Stream erneut ausgelesen werden soll}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{k+kt}{boolean} \PYG{n+nf}{\PYGZus{}handleException}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{Exception} \PYG{n}{pException}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{CPH}\PYG{o}{.}\PYG{n+na}{checkPoint}\PYG{o}{(}\PYG{n}{pException}\PYG{o}{,} \PYG{l+m+mi}{16}\PYG{o}{,} \PYG{l+m+mi}{210}\PYG{o}{,} \PYG{n}{CPH}\PYG{o}{.}\PYG{n+na}{OK\PYGZus{}DIALOG}\PYG{o}{);}
+    \PYG{n}{\PYGZus{}fireConnectionStatusChanged}\PYG{o}{(}\PYG{k+kc}{false}\PYG{o}{);}
+    \PYG{k}{return} \PYG{k+kc}{false}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

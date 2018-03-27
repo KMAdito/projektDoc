@@ -1,0 +1,80 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Verbindung RemoteLogger}
+\PYG{c+cm}{ * Manager->Server}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 19.11.2015}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{RemoteLoggerClientConnection} \PYG{k+kd}{implements} \PYG{n}{IRemoteLoggerClientConnection}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerListener}\PYG{o}{\PYGZgt{}} \PYG{n}{loggerListenerList} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{String} \PYG{n}{host}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{k+kt}{int} \PYG{n}{port}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{String}\PYG{o}{[]} \PYG{n}{loginInformation}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kt}{boolean} \PYG{n}{closed} \PYG{o}{=} \PYG{k+kc}{false}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{Socket} \PYG{n}{clientSocket}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{ObjectInputStreamConsumer}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{streamConsumer}\PYG{o}{;}
+
+  \PYG{k+kd}{public} \PYG{n+nf}{RemoteLoggerClientConnection}\PYG{o}{(}\PYG{n}{String} \PYG{n}{pHost}\PYG{o}{,} \PYG{k+kt}{int} \PYG{n}{pPort}\PYG{o}{,} \PYG{n}{String}\PYG{o}{[]} \PYG{n}{pLoginInformation}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{host} \PYG{o}{=} \PYG{n}{pHost}\PYG{o}{;}
+    \PYG{n}{port} \PYG{o}{=} \PYG{n}{pPort}\PYG{o}{;}
+    \PYG{n}{loginInformation} \PYG{o}{=} \PYG{n}{pLoginInformation}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{connect}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{AditoIOException}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{if} \PYG{o}{((}\PYG{n}{clientSocket} \PYG{o}{!=} \PYG{k+kc}{null} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{o}{!}\PYG{n}{clientSocket}\PYG{o}{.}\PYG{n+na}{isClosed}\PYG{o}{())} \PYG{o}{||} \PYG{n}{closed}\PYG{o}{)}
+      \PYG{k}{return}\PYG{o}{;}
+
+    \PYG{k}{try}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{clientSocket} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Socket}\PYG{o}{(}\PYG{n}{host}\PYG{o}{,} \PYG{n}{port}\PYG{o}{);}
+      \PYG{n}{streamConsumer} \PYG{o}{=} \PYG{n}{ObjectInputStreamConsumer}\PYG{o}{.}\PYG{n+na}{consume}\PYG{o}{(}\PYG{n}{clientSocket}\PYG{o}{.}\PYG{n+na}{getInputStream}\PYG{o}{(),}
+        \PYG{k+kc}{null}\PYG{o}{,} \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}fireCheckPointReceived}\PYG{o}{,} \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}handleException}\PYG{o}{);}
+
+      \PYG{c+c1}{// Einloggen}
+      \PYG{n}{sendCommand}\PYG{o}{(}\PYG{k}{new} \PYG{n}{AuthorizationCommand}\PYG{o}{(}\PYG{n}{loginInformation}\PYG{o}{));}
+
+      \PYG{n}{\PYGZus{}fireConnectionStatusChanged}\PYG{o}{(}\PYG{k+kc}{true}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{catch} \PYG{o}{(}\PYG{n}{Exception} \PYG{n}{e}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{throw} \PYG{k}{new} \PYG{n}{AditoIOException}\PYG{o}{(}\PYG{n}{e}\PYG{o}{,} \PYG{l+m+mi}{16}\PYG{o}{,} \PYG{l+m+mi}{206}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{close}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{AditoIOException}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{try}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{if} \PYG{o}{(!}\PYG{n}{closed}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{n}{streamConsumer}\PYG{o}{.}\PYG{n+na}{requestShutdown}\PYG{o}{();} \PYG{c+c1}{//schließt den inputStream schon}
+        \PYG{n}{closed} \PYG{o}{=} \PYG{k+kc}{true}\PYG{o}{;}
+        \PYG{n}{clientSocket} \PYG{o}{=} \PYG{k+kc}{null}\PYG{o}{;}
+        \PYG{n}{\PYGZus{}fireConnectionStatusChanged}\PYG{o}{(}\PYG{k+kc}{false}\PYG{o}{);}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{catch} \PYG{o}{(}\PYG{n}{Exception} \PYG{n}{e}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{throw} \PYG{k}{new} \PYG{n}{AditoIOException}\PYG{o}{(}\PYG{n}{e}\PYG{o}{,} \PYG{l+m+mi}{16}\PYG{o}{,} \PYG{l+m+mi}{207}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{sendCommand}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCommand} \PYG{n}{pCommand}\PYG{o}{)} \PYG{k+kd}{throws} \PYG{n}{AditoIOException}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{try}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{if} \PYG{o}{(!}\PYG{n}{closed}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{n}{ByteArrayOutputStream} \PYG{n}{outputstream} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ByteArrayOutputStream}\PYG{o}{();}
+        \PYG{n}{ObjectOutputStream} \PYG{n}{oos} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ObjectOutputStream}\PYG{o}{(}\PYG{n}{outputstream}\PYG{o}{);}
+        \PYG{n}{oos}\PYG{o}{.}\PYG{n+na}{writeObject}\PYG{o}{(}\PYG{n}{pCommand}\PYG{o}{);}
+        \PYG{n}{oos}\PYG{o}{.}\PYG{n+na}{flush}\PYG{o}{();}
+        \PYG{k+kt}{byte}\PYG{o}{[]} \PYG{n}{bytes} \PYG{o}{=} \PYG{n}{outputstream}\PYG{o}{.}\PYG{n+na}{toByteArray}\PYG{o}{();}
+        \PYG{n}{oos}\PYG{o}{.}\PYG{n+na}{close}\PYG{o}{();}
+\end{Verbatim}

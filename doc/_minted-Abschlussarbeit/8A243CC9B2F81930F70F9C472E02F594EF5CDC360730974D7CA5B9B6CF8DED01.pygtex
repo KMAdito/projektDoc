@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n}{clientSocket} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Socket}\PYG{o}{(}\PYG{n}{host}\PYG{o}{,} \PYG{n}{port}\PYG{o}{);}
+\PYG{n}{streamConsumer} \PYG{o}{=} \PYG{n}{ObjectInputStreamConsumer}\PYG{o}{.}\PYG{n+na}{consume}\PYG{o}{(}\PYG{n}{clientSocket}\PYG{o}{.}\PYG{n+na}{getInputStream}\PYG{o}{(),} \PYG{k+kc}{null}\PYG{o}{,}
+                                   \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}fireCheckPointReceived}\PYG{o}{,} \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}handleException}\PYG{o}{);}
+\end{Verbatim}

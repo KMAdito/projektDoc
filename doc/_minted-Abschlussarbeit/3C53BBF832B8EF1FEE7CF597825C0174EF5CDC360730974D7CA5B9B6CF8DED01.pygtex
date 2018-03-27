@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+  \PYG{n}{ObjectInputStreamConsumer}\PYG{o}{.}\PYG{n+na}{consume}\PYG{o}{(}\PYG{n}{Channels}\PYG{o}{.}\PYG{n+na}{newInputStream}\PYG{o}{(}\PYG{n}{pChannel}\PYG{o}{),} \PYG{k+kc}{null}\PYG{o}{,}
+                                      \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}handleCommand}\PYG{o}{,} \PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}handleException}\PYG{o}{);}
+\end{Verbatim}

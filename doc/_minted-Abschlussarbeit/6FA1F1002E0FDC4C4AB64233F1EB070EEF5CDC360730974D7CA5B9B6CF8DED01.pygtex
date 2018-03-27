@@ -1,0 +1,45 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{ * Handlet das Kommando zur Autorisierung des RemoteLogger-Clients am RemoteLogger-Server.}
+\PYG{c+cm}{ * Wenn die Autorisierung erfolgreich ist, dann wird dies der Verbindung gesetzt.}
+\PYG{c+cm}{ * Andernfalls wird die Verbindung SOFORT geschlossen!}
+\PYG{c+cm}{ *}
+\PYG{c+cm}{ * @author W.Glanzer, 23.11.2015}
+\PYG{c+cm}{ * @see AuthorizationCommand}
+\PYG{c+cm}{ */}
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{AuthorizationCommandHandler} \PYG{k+kd}{implements}
+  \PYG{n}{IRemoteLoggerCommandHandler}\PYG{o}{\PYGZlt{}}\PYG{n}{AuthorizationCommand}\PYG{o}{\PYGZgt{}}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{k+kd}{private} \PYG{n}{Supplier}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerLoginFacade}\PYG{o}{\PYGZgt{}} \PYG{n}{loginFacadeSupplier}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Erstellt einen CommandHandler zur Autorisierung vom RemoteLogger-Clients am Server}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pRemoteLoggerLoginFacade Facade zum einloggen von RemoteLogger-Clients am}
+\PYG{c+cm}{   *                                 RemoteLogger-Server, oder <tt>null</tt> wenn}
+\PYG{c+cm}{   *                                 generell alle Clients erlaubt sind}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{n+nf}{AuthorizationCommandHandler}\PYG{o}{(}
+    \PYG{n+nd}{@Nullable} \PYG{n}{Supplier}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerLoginFacade}\PYG{o}{\PYGZgt{}} \PYG{n}{pRemoteLoggerLoginFacade}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{loginFacadeSupplier} \PYG{o}{=} \PYG{n}{pRemoteLoggerLoginFacade}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{handle}\PYG{o}{(}\PYG{n}{IRemoteLoggerServerConnection} \PYG{n}{pConnection}\PYG{o}{,} \PYG{n}{AuthorizationCommand} \PYG{n}{pCmd}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{IRemoteLoggerLoginFacade} \PYG{n}{loginFacade} \PYG{o}{=} \PYG{k+kc}{null}\PYG{o}{;}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{loginFacadeSupplier} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)}
+      \PYG{n}{loginFacade} \PYG{o}{=} \PYG{n}{loginFacadeSupplier}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{()}
+
+    \PYG{k+kt}{boolean} \PYG{n}{loginOK} \PYG{o}{=} \PYG{n}{loginFacade} \PYG{o}{==} \PYG{k+kc}{null} \PYG{o}{||}
+                        \PYG{n}{loginFacade}\PYG{o}{.}\PYG{n+na}{checkLogin}\PYG{o}{(}\PYG{n}{pCmd}\PYG{o}{.}\PYG{n+na}{getLoginInformation}\PYG{o}{());}
+    \PYG{k}{if} \PYG{o}{(}\PYG{n}{loginOK}\PYG{o}{)}
+      \PYG{n}{pConnection}\PYG{o}{.}\PYG{n+na}{setAuthorized}\PYG{o}{(}\PYG{k+kc}{true}\PYG{o}{);}
+    \PYG{k}{else}
+      \PYG{n}{pConnection}\PYG{o}{.}\PYG{n+na}{close}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

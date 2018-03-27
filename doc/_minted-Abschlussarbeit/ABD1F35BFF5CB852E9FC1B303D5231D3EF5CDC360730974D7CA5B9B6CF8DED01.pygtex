@@ -1,0 +1,84 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{TableColumn} \PYG{n}{currColumn} \PYG{o}{:} \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{getColumns}\PYG{o}{())}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k+kt}{int} \PYG{n}{currIndex} \PYG{o}{=} \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{getColumnModel}\PYG{o}{().}\PYG{n+na}{getColumnIndex}\PYG{o}{(}\PYG{n}{currColumn}\PYG{o}{.}\PYG{n+na}{getIdentifier}\PYG{o}{());}
+      \PYG{k}{if}\PYG{o}{(}\PYG{n}{currIndex} \PYG{o}{==} \PYG{l+m+mi}{0}\PYG{o}{)}
+        \PYG{n}{currColumn}\PYG{o}{.}\PYG{n+na}{setPreferredWidth}\PYG{o}{(}\PYG{l+m+mi}{150}\PYG{o}{);}
+      \PYG{k}{else} \PYG{k}{if}\PYG{o}{(}\PYG{n}{currIndex} \PYG{o}{==} \PYG{l+m+mi}{1}\PYG{o}{)}
+        \PYG{n}{currColumn}\PYG{o}{.}\PYG{n+na}{setPreferredWidth}\PYG{o}{(}\PYG{l+m+mi}{90}\PYG{o}{);}
+      \PYG{k}{else}
+        \PYG{n}{currColumn}\PYG{o}{.}\PYG{n+na}{setPreferredWidth}\PYG{o}{(}\PYG{l+m+mi}{300}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{addFocusListener}\PYG{o}{(}\PYG{k}{new} \PYG{n}{FocusAdapter}\PYG{o}{()}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n+nd}{@Override}
+      \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{focusLost}\PYG{o}{(}\PYG{n}{FocusEvent} \PYG{n}{e}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{c+c1}{// Beim wechsel des Fokus ist ein behalten der Selektion verwirrend}
+        \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{clearSelection}\PYG{o}{();}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{});}
+
+    \PYG{n}{SwingUtilities}\PYG{o}{.}\PYG{n+na}{invokeLater}\PYG{o}{(()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{o}{\PYGZob{}}
+      \PYG{n}{add}\PYG{o}{(}\PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{getTableHeader}\PYG{o}{(),} \PYG{n}{BorderLayout}\PYG{o}{.}\PYG{n+na}{NORTH}\PYG{o}{);}
+      \PYG{n}{add}\PYG{o}{(}\PYG{k}{new} \PYG{n}{AutoScrollDownScrollPane}\PYG{o}{(}\PYG{n}{treeTable}\PYG{o}{,} \PYG{k+kc}{true}\PYG{o}{),} \PYG{n}{BorderLayout}\PYG{o}{.}\PYG{n+na}{CENTER}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{});}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Fügt dem Model einen CheckPoint hinzu}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pCheckPoint CheckPoint, der hinzugefügt werden soll, nicht}
+\PYG{c+cm}{   *                    <tt>null</tt>, da das keinen Sinn machen würde!}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addCheckPoint}\PYG{o}{(}\PYG{n+nd}{@NotNull} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{pCheckPoint}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{c+c1}{// Alle derzeit expandierten Pfade merken}
+    \PYG{n}{TreePathSupport} \PYG{n}{tpSupport} \PYG{o}{=} \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{getOutlineModel}\PYG{o}{().}\PYG{n+na}{getTreePathSupport}\PYG{o}{();}
+    \PYG{n}{TreePath}\PYG{o}{[]} \PYG{n}{allExpandeds} \PYG{o}{=} \PYG{n}{tpSupport}\PYG{o}{.}\PYG{n+na}{getExpandedDescendants}\PYG{o}{(}\PYG{k}{new} \PYG{n}{TreePath}\PYG{o}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n+na}{getRoot}\PYG{o}{()));}
+
+    \PYG{c+c1}{// derzeit selektierte Zeile speichern}
+    \PYG{k+kt}{int} \PYG{n}{selectedRow} \PYG{o}{=} \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{getSelectedRow}\PYG{o}{();}
+
+    \PYG{c+c1}{// Dem Model einen neuen CheckPoint hinzufügen}
+    \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{addCheckPoint}\PYG{o}{(}\PYG{n}{pCheckPoint}\PYG{o}{);}
+
+    \PYG{c+c1}{// expandierte Pfade wieder expandieren}
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{TreePath} \PYG{n}{currPath} \PYG{o}{:} \PYG{n}{allExpandeds}\PYG{o}{)}
+      \PYG{n}{tpSupport}\PYG{o}{.}\PYG{n+na}{expandPath}\PYG{o}{(}\PYG{n}{currPath}\PYG{o}{);}
+
+    \PYG{c+c1}{// selektiert die davor gespeicherte Zeile wieder}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{selectedRow} \PYG{o}{\PYGZgt{}} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{o}{)}
+      \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{setRowSelectionInterval}\PYG{o}{(}\PYG{n}{selectedRow}\PYG{o}{,} \PYG{n}{selectedRow}\PYG{o}{);}
+
+    \PYG{n}{SwingUtilities}\PYG{o}{.}\PYG{n+na}{invokeLater}\PYG{o}{(()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{o}{\PYGZob{}}
+      \PYG{n}{revalidate}\PYG{o}{();}
+      \PYG{n}{repaint}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{});}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Leert das Ausgabefenster}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{clear}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{clear}\PYG{o}{();}
+
+    \PYG{n}{SwingUtilities}\PYG{o}{.}\PYG{n+na}{invokeLater}\PYG{o}{(()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{o}{\PYGZob{}}
+      \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{revalidate}\PYG{o}{();}
+      \PYG{n}{treeTable}\PYG{o}{.}\PYG{n+na}{repaint}\PYG{o}{();}
+      \PYG{n}{revalidate}\PYG{o}{();}
+      \PYG{n}{repaint}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{});}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * @return Die konkrete Instanz der dahinterliegenden TreeTable}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{public} \PYG{n}{SplitsTreeTable} \PYG{n+nf}{getTreeTable}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{treeTable}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

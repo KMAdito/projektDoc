@@ -1,0 +1,55 @@
+\begin{spacing}{0.75}
+	\begin{javacode}
+/**
+ * Erweitert den RemoteLoggerCheckPoint um eine
+ * Funktion, diesen zu übersetzen
+ *
+ * @author W.Glanzer, 19.11.2015
+ */
+class TranslateableRemoteLoggerCheckPoint extends DefaultRemoteLoggerCheckPoint 
+  implements ITranslateableRemoteLoggerCheckPoint
+{
+  private String translatedMessage;
+
+  /**
+   * Wandelt einen CheckPoint in einen RemoteLoggerCheckPoint um
+   *
+   * @param pCheckPoint CheckPoint, der umgewandelt werden soll
+   * @param pTime       Zeit, wann der übergebene CheckPoint aufgetreten ist
+   */
+  public TranslateableRemoteLoggerCheckPoint(CheckPoint[] pCheckPoint, long pTime)
+  {
+    super(pCheckPoint, pTime);
+    translatedMessage = super.getMessage();
+  }
+  
+  /**
+   * Übersetzt den Meldungstext neu, in eine andere Sprache
+   *
+   * @param pNewLocale gewünschte Lokale, oder <tt>null</tt> für den Systemstandard
+   */
+  @Override
+  public void retranslate(Locale pNewLocale)
+  {
+    String rc = getResourceCode();
+    String[] details = getDetails();
+    translatedMessage = Translator.translateCheckpoint(rc, details, pNewLocale);
+  }
+
+  @Override
+  public String getMessage()
+  {
+    return translatedMessage;
+  }
+
+  @Override
+  protected IRemoteLoggerCheckPoint initCause(CheckPoint[] pMyCheckpoint, long pTime)
+  {
+    CheckPoint[] newTrace = Arrays.copyOfRange(pMyCheckpoint, 1, pMyCheckpoint.length);
+    if(pMyCheckpoint.length == 1)
+      return null;
+      
+    return new TranslateableRemoteLoggerCheckPoint(newTrace, pTime);
+  }
+}  \end{javacode}
+\end{spacing}

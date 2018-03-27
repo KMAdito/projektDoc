@@ -1,0 +1,80 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+    \PYG{n}{CPH}\PYG{o}{.}\PYG{n+na}{checkPoint}\PYG{o}{(}\PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{);}
+    \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{cp} \PYG{o}{=} \PYG{n}{\PYGZus{}getNextCheckPoint}\PYG{o}{(}\PYG{n}{lastCheckPointGER}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getModule}\PYG{o}{(),} \PYG{l+m+mi}{0}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getID}\PYG{o}{(),} \PYG{l+m+mi}{1}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getMessage}\PYG{o}{(),} \PYG{l+s}{\PYGZdq{}Interner Fehler. Bitte kontaktieren Sie}
+\PYG{l+s}{                         Ihren Administrator.\PYGZdq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getProgram}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}Z\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getKind}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}B\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getPriority}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}D\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertTrue}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getTime}\PYG{o}{()} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertTrue}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getTime}\PYG{o}{()} \PYG{o}{\PYGZlt{}=} \PYG{n}{System}\PYG{o}{.}\PYG{n+na}{currentTimeMillis}\PYG{o}{());}
+
+    \PYG{n}{cp} \PYG{o}{=} \PYG{n}{\PYGZus{}getNextCheckPoint}\PYG{o}{(}\PYG{n}{lastCheckPointENG}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getModule}\PYG{o}{(),} \PYG{l+m+mi}{0}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getID}\PYG{o}{(),} \PYG{l+m+mi}{1}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getMessage}\PYG{o}{(),} \PYG{l+s}{\PYGZdq{}Internal error. Please contact administrator.\PYGZdq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getProgram}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}Z\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getKind}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}B\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getPriority}\PYG{o}{(),} \PYG{l+s+sc}{\PYGZsq{}D\PYGZsq{}}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertTrue}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getTime}\PYG{o}{()} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertTrue}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{.}\PYG{n+na}{getTime}\PYG{o}{()} \PYG{o}{\PYGZlt{}=} \PYG{n}{System}\PYG{o}{.}\PYG{n+na}{currentTimeMillis}\PYG{o}{());}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Beendet den Test und fährt den Logger herunter.}
+\PYG{c+cm}{   * Dieser gibt dann seinen Socket wieder frei}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@After}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{shutdown}\PYG{o}{()} \PYG{k+kd}{throws} \PYG{n}{Exception}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{logger}\PYG{o}{.}\PYG{n+na}{destroy}\PYG{o}{();}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertTrue}\PYG{o}{(}\PYG{k+kc}{true}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Blockiert so lange, bis ein neuer CheckPoint eingetroffen ist}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pRefToWaitOn Referenz, in der ein neuer CheckPoint gespeichert wird}
+\PYG{c+cm}{   * @return Der empfangene CheckPoint}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@NotNull}
+  \PYG{k+kd}{private} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n+nf}{\PYGZus{}getNextCheckPoint}\PYG{o}{(}\PYG{k+kd}{final}
+    \PYG{n}{AtomicReference}\PYG{o}{\PYGZlt{}}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{\PYGZgt{}} \PYG{n}{pRefToWaitOn}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{pRefToWaitOn}\PYG{o}{.}\PYG{n+na}{get}\PYG{o}{()} \PYG{o}{==} \PYG{k+kc}{null}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{pRefToWaitOn}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{k}{try}
+        \PYG{o}{\PYGZob{}}
+          \PYG{n}{pRefToWaitOn}\PYG{o}{.}\PYG{n+na}{wait}\PYG{o}{();}
+        \PYG{o}{\PYGZcb{}}
+        \PYG{k}{catch} \PYG{o}{(}\PYG{n}{InterruptedException} \PYG{n}{ignored}\PYG{o}{)}
+        \PYG{o}{\PYGZob{}}
+        \PYG{o}{\PYGZcb{}}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n}{cp} \PYG{o}{=} \PYG{n}{pRefToWaitOn}\PYG{o}{.}\PYG{n+na}{getAndSet}\PYG{o}{(}\PYG{k+kc}{null}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertNotNull}\PYG{o}{(}\PYG{n}{cp}\PYG{o}{);}
+    \PYG{k}{return} \PYG{n}{cp}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Startet einen neuen ConnectionManager, verbindet sich}
+\PYG{c+cm}{   * mit dem Server mit einer angegebenen Lokale und gibt diesen}
+\PYG{c+cm}{   * Manager dann zurück}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @return Manager-Instanz der Verbindung}
+\PYG{c+cm}{   */}
+  \PYG{n+nd}{@Nullable}
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{n}{IRemoteLoggerClientConnectionManager} \PYG{n+nf}{\PYGZus{}startClient}\PYG{o}{(}\PYG{n}{Locale} \PYG{n}{pLocale}\PYG{o}{)}
+    \PYG{k+kd}{throws} \PYG{n}{AditoIOException}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{\PYGZus{}ConnectionManager} \PYG{n}{manager} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ConnectionManager}\PYG{o}{();}
+    \PYG{n}{manager}\PYG{o}{.}\PYG{n+na}{connect}\PYG{o}{(}\PYG{n}{pLocale}\PYG{o}{);}
+    \PYG{k}{return} \PYG{n}{manager}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\end{Verbatim}

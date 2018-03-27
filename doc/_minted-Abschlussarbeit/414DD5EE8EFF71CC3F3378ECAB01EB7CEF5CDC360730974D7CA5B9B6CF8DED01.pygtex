@@ -1,0 +1,39 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{* Hiermit lässt sich die Sprache einer}
+\PYG{c+cm}{* Verbindung verändern, damit die}
+\PYG{c+cm}{* CheckPoints in der vom Client}
+\PYG{c+cm}{* gewählten Sprache ankommen}
+\PYG{c+cm}{*}
+\PYG{c+cm}{* @author W.Glanzer, 20.11.2015}
+\PYG{c+cm}{*/}
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{LanguageCommand} \PYG{k+kd}{implements}
+	\PYG{n}{IRemoteLoggerCommand}\PYG{o}{,} \PYG{n}{Serializable}
+\PYG{o}{\PYGZob{}}
+
+  \PYG{k+kd}{private} \PYG{n}{Locale} \PYG{n}{newLocale}\PYG{o}{;}
+
+  \PYG{k+kd}{public} \PYG{n+nf}{LanguageCommand}\PYG{o}{(}\PYG{n}{Locale} \PYG{n}{pNewLocale}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{newLocale} \PYG{o}{=} \PYG{n}{pNewLocale}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Enthält die neue Sprache,}
+\PYG{c+cm}{  * die der Client möchte}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @return Die gewünschte Sprache}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n}{Locale} \PYG{n+nf}{getNewLocale}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{newLocale}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@NotNull}
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{Type} \PYG{n+nf}{getType}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{Type}\PYG{o}{.}\PYG{n+na}{LANGUAGE}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}		    
+\end{Verbatim}

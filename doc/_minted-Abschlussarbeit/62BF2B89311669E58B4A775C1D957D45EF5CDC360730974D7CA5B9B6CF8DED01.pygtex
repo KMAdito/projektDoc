@@ -1,0 +1,27 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{Icon} \PYG{n+nf}{getIcon}\PYG{o}{(}\PYG{n}{Object} \PYG{n}{pNode}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{c+c1}{// Kein Icon, auch kein standardicon!}
+    \PYG{k}{return} \PYG{k}{new} \PYG{n}{EmptyIcon}\PYG{o}{(}\PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{   * Wandelt ein Object in einen RemoteLoggerCheckPoint um, wenn dies funktioniert}
+\PYG{c+cm}{   *}
+\PYG{c+cm}{   * @param pNode  Object, das umgewandelt werden soll}
+\PYG{c+cm}{   * @return Einen RemoteLoggerCheckPoint, oder <tt>null</tt>, wenn es nicht möglich war}
+\PYG{c+cm}{   */}
+  \PYG{k+kd}{private} \PYG{n}{IRemoteLoggerCheckPoint} \PYG{n+nf}{\PYGZus{}toCP}\PYG{o}{(}\PYG{n}{Object} \PYG{n}{pNode}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{pNode} \PYG{k}{instanceof} \PYG{n}{DefaultMutableTreeNode}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{Object} \PYG{n}{obj} \PYG{o}{=} \PYG{o}{((}\PYG{n}{DefaultMutableTreeNode}\PYG{o}{)} \PYG{n}{pNode}\PYG{o}{).}\PYG{n+na}{getUserObject}\PYG{o}{();}
+      \PYG{k}{if} \PYG{o}{(}\PYG{n}{obj} \PYG{k}{instanceof} \PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{)}
+        \PYG{k}{return} \PYG{o}{(}\PYG{n}{IRemoteLoggerCheckPoint}\PYG{o}{)} \PYG{n}{obj}\PYG{o}{;}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{k}{return} \PYG{k+kc}{null}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}
