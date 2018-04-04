@@ -1,9 +1,7 @@
-\section{Projektanalyse}
+\section{Analysephase}
 
-Im Rahmen der Projektanalyse wird der IST-Zustand ermittelt und dem SOLL-Zustand gegenübergestellt.
-
-\begin{wrapfigure}[6]{r}[0cm]{180px}
-	\vspace{-40px}
+\begin{wrapfigure}[8]{r}[0cm]{180px}
+	\vspace{-12px}
 	\centering
 	\includegraphics[width=120px]{../img/Alter-Editor.PNG}
 	\caption{Bestehender Editor}
@@ -12,24 +10,23 @@ Im Rahmen der Projektanalyse wird der IST-Zustand ermittelt und dem SOLL-Zustand
 
 \subsection{Ist-Analyse}
 
-Seit früheren Versionen existierte bereits ein Editor zur Eingabe von Shortcuts (siehe \autoref{fig:existEditor}). Dieser ist allerdings sehr einfach aufgebaut und beschränkt sich auf die Eingabe eines Shortcuts per Tastatur. Außerdem ist es nicht möglich Warnungen anzuzeigen oder zwischen bestehenden Shortcuts zu navigieren.
+Seit früheren Versionen existierte bereits ein Editor zur Eingabe von Shortcuts (siehe \autoref{fig:existEditor}). Dieser ist allerdings sehr einfach aufgebaut und beschränkt sich auf die Eingabe eines Shortcuts per Tastatur. Außerdem ist es nicht möglich Warnungen anzuzeigen oder zwischen bestehenden Shortcuts zu navigieren. Da dieser Editor in keinerlei Hinsicht den gegebenen Anforderungen dieses Projekts entspricht, wurde eine Weiterentwicklung dessen vom Autor als nicht sinnvoll erachtet.
 
-\subsection{Soll-Analyse}
+\subsection{Sollkonzept}
 
-Der neue Editor muss ebenfalls die Eingabe aber auch die Bearbeitung eines Shortcuts per Tastatur und Maus unterstützen. Für die Navigation und für einen besseren Überblick, werden alle bestehenden Tastenkombinationen in tabellarischen Form präsentiert. Es soll zu jedem Zeitpunkt ersichtlich sein, für welche Funktion der Shortcut definiert wird. Eine weitere Anforderung besteht darin, alle Warnungen für die entsprechenden Browser und deren Betriebssysteme anzuzeigen.
+Der neue Editor muss ebenfalls die Eingabe aber auch die Bearbeitung (z.B. Entfernen einer einzelnen Taste) eines Shortcuts per Tastatur und Maus unterstützen. Für die Navigation und für einen besseren Überblick, werden alle bestehenden Tastenkombinationen in tabellarischen Form präsentiert. Es soll zu jedem Zeitpunkt ersichtlich sein, für welche Funktion der Shortcut definiert wird. Eine weitere Anforderung besteht darin, alle Warnungen für die entsprechenden Browser und deren Betriebssysteme anzuzeigen.
 
-Für das Design des User Interfaces wurden von unserem UX-Designer Entwürfe angefertigt (siehe \autoref{fig:uxDesigns}). Im Designentwurf wird ersichtlich, welche Komponenten verwendet werden müssen, um alle angeforderten Informationen darzustellen und die bedarfsgerechte Bedienung zu ermöglichen.
+\subsection{Anwendungsfälle}
 
+Um eine grobe Übersicht über alle Anwendungsfälle zu erhalten, die von dem umzusetzenden Editor
+abgedeckt werden sollen, wurde im Laufe der Analysephase ein Use-Case-Diagramm erstellt. Dieses
+Diagramm befindet sich im Anhang (XXX) auf S.(X).
 
+\subsection{\glqq Make or Buy\grqq -Entscheidung}
+Die Entscheidung, ob der Editor selber erstellt oder gekauft werden soll, lässt sich einfach treffen. Sucht man auf dem Markt nach Softwareteilen, welche den Anforderungen dieses Projekts genüge tun, so findet man nichts entsprechendes. Darum ist man gewissermaßen gezwungen den Editor selbst zu erstellen.
 
-\vfill
+\subsection{Lastenheft}
 
-\begin{figure}[H] 
-	\subfloat{\includegraphics[width=0.5\textwidth-5px]{../img/ux/2-ShortCutEditor-Eingabe.jpg}}
-	\hfill 
-	\subfloat{\includegraphics[width=0.5\textwidth-5px]{../img/ux/4-ShortCut-Info.jpg}}
-	\caption{UI-Entwürfe der UX Abteilung} 
-	\label{fig:uxDesigns}
-\end{figure}
+Basierend auf dem Sollkonzept und den Anwendugsfällen wurde am Ende der Analysephase ein Lastenheft erarbeitet. Dieses umfasst alle Anforderungen, welche an den Editor gerichtet werden. Ein Auszug aus dem Lastenheft befindet sich im Anhang (XXX) auf S. (X)
 
 \newpage

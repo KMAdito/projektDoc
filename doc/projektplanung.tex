@@ -1,35 +1,45 @@
-\section{Projektanalyse}
+\section{Projektplanung}
 
-Im Rahmen der Projektanalyse wird der IST-Zustand ermittelt und dem SOLL-Zustand gegenübergestellt.
+\subsection{Entwicklungsprozess}
 
-\begin{wrapfigure}[6]{r}[0cm]{180px}
-	\vspace{-40px}
+Um das Projekt realisieren zu können, musste sich für einen geeigneten Entwicklungsprozess entschieden werden. Dieser gibt die Vorgehensweise vor, welche der Umsetzung zu Grunde liegt. Für dieses Projekt wurde vom Autor das Wasserfallmodell gewählt. Dabei wird die Umsetzung auf 5 Phasen aufgeteilt (siehe \autoref{fig:wasserfallmodell}): Die Ermittlung der Anforderungen, die Erstellung eines Entwurfs, die Implementierung und am Ende die Überprüfung und Wartung der erstellten Software. Dieses Modell bietet sich für diese Arbeit an, da die Anforderungen an den Editor klar definiert sind und sich während der Umsetzungsphase nicht ändern.
+
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=120px]{../img/Alter-Editor.PNG}
-	\caption{Bestehender Editor}
-	\label{fig:existEditor}
-\end{wrapfigure}
+	\includegraphics[height=90px]{../img/diagram/Wasserfallmodell}
+	\caption{Wasserfallmodell}
+	\label{fig:wasserfallmodell}
+\end{figure}
 
-\subsection{Ist-Analyse}
+\subsection{Projektphasen}
 
-Seit früheren Versionen existierte bereits ein Editor zur Eingabe von Shortcuts (siehe \autoref{fig:existEditor}). Dieser ist allerdings sehr einfach aufgebaut und beschränkt sich auf die Eingabe eines Shortcuts per Tastatur. Außerdem ist es nicht möglich Warnungen anzuzeigen oder zwischen bestehenden Shortcuts zu navigieren.
-
-\subsection{Soll-Analyse}
-
-Der neue Editor muss ebenfalls die Eingabe aber auch die Bearbeitung eines Shortcuts per Tastatur und Maus unterstützen. Für die Navigation und für einen besseren Überblick, werden alle bestehenden Tastenkombinationen in tabellarischen Form präsentiert. Es soll zu jedem Zeitpunkt ersichtlich sein, für welche Funktion der Shortcut definiert wird. Eine weitere Anforderung besteht darin, alle Warnungen für die entsprechenden Browser und deren Betriebssysteme anzuzeigen.
-
-Für das Design des User Interfaces wurden von unserem UX-Designer Entwürfe angefertigt (siehe \autoref{fig:uxDesigns}). Im Designentwurf wird ersichtlich, welche Komponenten verwendet werden müssen, um alle angeforderten Informationen darzustellen und die bedarfsgerechte Bedienung zu ermöglichen.
-
-
-
-\vfill
+Zur Realisierung des Abschlussprojekts standen insgesamt 70 Stunden zur Verfügung. Diese Zeit wurde vor Projektbeginn auf verschiedene Phasen verteilt, die während der Durchführung durchlaufen werden. Die grobe Zeitplanung der Hauptphasen lässt sich aus \autoref{fig:grobeZeit} entnehmen. Eine detailierte zeitliche Planung, bei welcher jede Phase in ihre Unterphasen zerlegt wurde, befindet sich im Anhang (XXX)
 
 \begin{figure}[H] 
-	\subfloat{\includegraphics[width=0.5\textwidth-5px]{../img/ux/2-ShortCutEditor-Eingabe.jpg}}
-	\hfill 
-	\subfloat{\includegraphics[width=0.5\textwidth-5px]{../img/ux/4-ShortCut-Info.jpg}}
-	\caption{UI-Entwürfe der UX Abteilung} 
-	\label{fig:uxDesigns}
+	\begin{center}
+		\begin{tabularx}{0.90\textwidth}{X|P{50px}|P{50px}}
+			\hline \rowcolor{ADITO_RED} \textcolor{white}{\textbf{Vorgang}} & \textcolor{white}{\textbf{Geplante Zeit in h}} 	\\
+			\hline
+			1. Analysephase													& 3 	\\ 
+			
+			2. Entwurfsphase						 						& 10 	\\
+			
+			3. Implementierungsphase										& 45	\\
+			
+			4. Testphase													& 2 	\\
+			5. Dokumentationserstellung										& 10 	\\ 
+			\hline 
+			& 70 \\
+		\end{tabularx}
+	\end{center}
+	\caption{Grobe Zeitplanung} 
+	\label{fig:grobeZeit}
 \end{figure}
+
+\subsection{Ressourcenplanung}
+
+Im Zuge der Ressourcenplanung wurde eine Übersicht (siehe (XXX)) erstellt. Diese enthält sämtliche Ressourcen, welche innerhalb der Durchführung des Projekts eingesetzt wurden. Dabei handelt es sich sowohl um Hard- und Softwareressourcen als auch um Personal. Zur Minimierung der Projektkosten wurde bevorzugt kostenfreie Software verwendet. War dies nicht möglich, so wurde Software eingesetzt, für welche die ADITO Software GmbH bereits Lizenzen besaß.
+
+
 
 \newpage
