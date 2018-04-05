@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  4 APR 2018 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  5 APR 2018 11:05
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
@@ -1146,6 +1146,156 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip109
 \JustifyingParindent=\skip110
 )
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstricks\pstrick
+s.sty"
+Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\pst-xk
+ey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
+sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
+l.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
+ls.tex"
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count165
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
+cks.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
+p.tex" `pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count166
+\pstFP@xia=\count167
+\pstFP@xib=\count168
+\pstFP@xfa=\count169
+\pstFP@xfb=\count170
+\pstFP@rega=\count171
+\pstFP@regb=\count172
+\pstFP@regs=\count173
+\pstFP@times=\count174
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common.tex"
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen185
+\pgfutil@tempdimb=\dimen186
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common-lists.tex"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeys.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgffor.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex")
+\pgffor@iter=\dimen187
+\pgffor@skip=\dimen188
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+)
+\psLoopIndex=\count175
+
+`PSTricks' v2.82  <2018/01/06> (tvz,hv)
+\pst@dima=\dimen189
+\pst@dimb=\dimen190
+\pst@dimc=\dimen191
+\pst@dimd=\dimen192
+\pst@dimg=\dimen193
+\pst@dimh=\dimen194
+\pst@dimm=\dimen195
+\pst@dimn=\dimen196
+\pst@dimo=\dimen197
+\pst@dimp=\dimen198
+\pst@hbox=\box52
+\pst@ibox=\box53
+\pst@boxg=\box54
+\pst@cnta=\count176
+\pst@cntb=\count177
+\pst@cntc=\count178
+\pst@cntd=\count179
+\pst@cntg=\count180
+\pst@cnth=\count181
+\pst@cntm=\count182
+\pst@cntn=\count183
+\pst@cnto=\count184
+\pst@cntp=\count185
+\@zero=\count186
+\pst@toks=\toks45
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
+cks.con")
+\psunit=\dimen199
+\psxunit=\dimen256
+\psyunit=\dimen257
+\pst@C@@rType=\count187
+\pslinewidth=\dimen258
+\psk@startLW=\dimen259
+\psk@endLW=\dimen260
+\pst@customdefs=\toks46
+\pslinearc=\dimen261
+\pst@symbolStep=\dimen262
+\pst@symbolWidth=\dimen263
+\pst@symbolLinewidth=\dimen264
+\everypsbox=\toks47
+\psframesep=\dimen265
+\pslabelsep=\dimen266
+\sh@wgridXunit=\dimen267
+\sh@wgridYunit=\dimen268
+\pst@shift=\dimen269
+)
+File: pstricks.tex 2018/01/06 v2.82 `PSTricks' (tvz,hv)
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
+p.tex")
+File: pst-fp.tex 2018/01/06 v2.82 `PST-fp' (hv)
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\pifont.st
+y"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+ ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\overpic\overpic.
+sty"
+Package: overpic 2017/10/06 1.0 picture overlays
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eepic\epic.sty"
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count188
+\d@lta=\count189
+\@delta=\dimen270
+\@@delta=\dimen271
+\@gridcnt=\count190
+\@joinkind=\count191
+\@dotgap=\dimen272
+\@ddotgap=\dimen273
+\@x@diff=\count192
+\@y@diff=\count193
+\x@diff=\dimen274
+\y@diff=\dimen275
+\@dotbox=\box55
+\num@segments=\count194
+\num@segmentsi=\count195
+\@datafile=\read5
+))
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperre
 f.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -1188,9 +1338,9 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 .sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen185
-\Hy@linkcounter=\count165
-\Hy@pagecounter=\count166
+\@linkdim=\dimen276
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.
 def"
@@ -1198,7 +1348,7 @@ File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count167
+\Hy@SavedSpaceFactor=\count198
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperre
 f.cfg"
@@ -1211,17 +1361,17 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count168
+\c@Hy@tempcnt=\count199
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen186
-\Fld@menulength=\count169
-\Field@Width=\dimen187
-\Fld@charsize=\dimen188
+\XeTeXLinkMargin=\dimen277
+\Fld@menulength=\count266
+\Field@Width=\dimen278
+\Fld@charsize=\dimen279
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -1231,17 +1381,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count170
-\c@Item=\count171
-\c@Hfootnote=\count172
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex
 .def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count173
-\c@bookmark@seq@number=\count174
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfi
 lecheck.sty"
@@ -1251,7 +1401,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip111
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbmin
 ted.code.tex"
@@ -1265,7 +1415,7 @@ Library (tcolorbox): 'tcblistingscore.code.tex' version '4.12'
 cessing.code.tex"
 Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
 )
-\c@tcblisting=\count175
+\c@tcblisting=\count272
 ))
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
 ns.code.tex"
@@ -1285,54 +1435,57 @@ pgfkeys.code.tex"))
 th.code.tex"))
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
 pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
 th.code.tex")
-\pgffor@iter=\dimen189
-\pgffor@skip=\dimen190
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+\pgffor@iter=\dimen280
+\pgffor@skip=\dimen281
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 ))
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
 yer\tikz\tikz.code.tex"
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\
 pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count176
-\pgfplotmarksize=\dimen191
+\pgf@plot@mark@count=\count273
+\pgfplotmarksize=\dimen282
 )
-\tikz@lastx=\dimen192
-\tikz@lasty=\dimen193
-\tikz@lastxsaved=\dimen194
-\tikz@lastysaved=\dimen195
-\tikzleveldistance=\dimen196
-\tikzsiblingdistance=\dimen197
-\tikz@figbox=\box52
-\tikz@figbox@bg=\box53
-\tikz@tempbox=\box54
-\tikz@tempbox@bg=\box55
-\tikztreelevel=\count177
-\tikznumberofchildren=\count178
-\tikznumberofcurrentchild=\count179
-\tikz@fig@count=\count180
+\tikz@lastx=\dimen283
+\tikz@lasty=\dimen284
+\tikz@lastxsaved=\dimen285
+\tikz@lastysaved=\dimen286
+\tikzleveldistance=\dimen287
+\tikzsiblingdistance=\dimen288
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count274
+\tikznumberofchildren=\count275
+\tikznumberofcurrentchild=\count276
+\tikz@fig@count=\count277
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
 fmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count181
-\pgfmatrixcurrentcolumn=\count182
-\pgf@matrix@numberofcolumns=\count183
+\pgfmatrixcurrentrow=\count278
+\pgfmatrixcurrentcolumn=\count279
+\pgf@matrix@numberofcolumns=\count280
 )
-\tikz@expandcount=\count184
+\tikz@expandcount=\count281
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
 yer\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-\tcb@waterbox=\box56
+
+LaTeX Warning: You have requested, on input line 22, version
+               `2010/10/13' of package tikz,
+               but only version
+               `'
+               is available.
+
+\tcb@waterbox=\box60
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
 nsjigsaw.code.tex"
@@ -1346,35 +1499,35 @@ runsystem(del Abschlussarbeit.aex)...executed.
  (Abschlussarbeit.aux)
 \openout1 = `Abschlussarbeit.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
 mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count185
-\scratchdimen=\dimen198
-\scratchbox=\box57
-\nofMPsegments=\count186
-\nofMParguments=\count187
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count188
-\MPscratchDim=\dimen199
-\MPnumerator=\count189
-\makeMPintoPDFobject=\count190
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count282
+\scratchdimen=\dimen289
+\scratchbox=\box61
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count285
+\MPscratchDim=\dimen290
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks51
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1416,9 +1569,9 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 84.
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 84.
+LaTeX Info: Redefining \selectfont on input line 87.
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring ON on input line 87.
 
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
 .sty"
@@ -1428,11 +1581,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count191
+\c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 87.
+LaTeX Info: Redefining \pageref on input line 87.
+LaTeX Info: Redefining \nameref on input line 87.
  (Abschlussarbeit.out) (Abschlussarbeit.out)
 \@outlinefile=\write9
 \openout9 = `Abschlussarbeit.out'.
@@ -1466,10 +1619,23 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 41.
 [1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
 
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 {C:/Users/k.mifka/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../img/Lo
-goIHK.pdf> <../img/ADITO_Logo.pdf>]) (tableofcontents.tex
-(Abschlussarbeit.toc
+goIHK.pdf> <../img/ADITO_Logo.pdf>]) (tableofcontents.tex (Abschlussarbeit.toc
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 44.
 Package babel Info: Redefining german shorthand "|
@@ -1482,16 +1648,17 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 44.
- [1])
+
+[1])
 \tf@toc=\write10
 \openout10 = `Abschlussarbeit.toc'.
 
 )
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <10.95> not available
-(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 87.
+(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 90.
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 87.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 90.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
 
 
@@ -1500,29 +1667,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
 ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 87.
+(babel)             in language  on input line 90.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 \newpage
+l.90 \newpage
               [2] (einleitung.tex
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
@@ -1639,7 +1806,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 32.
-[4 <../img/Alter-Editor.PNG>]) (konzept.tex
+[4 <../img/Alter-Editor.PNG>]) (entwurfsphase.tex
 <../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf, id=207, 530.98375pt 
 x 265.99374pt>
 File: ../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf Graphic file (ty
@@ -1656,11 +1823,16 @@ type pdf)
 Package pdftex.def Info: ../img/diagram/ModelViewController/ModelViewController
 .pdf  used on input line 10.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
+
+Overfull \hbox (7.69818pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/10.95 v[]ollig se-pe-rat von-ein-an-der und un-abh[]angig vom Edi-
+tor im-ple-men-tiert. Da-durch kann gew[]ahrleistet
+ []
+
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 21.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1681,22 +1853,18 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 21.
 [5 <../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf> <../img/diagram/M
 odelViewController/ModelViewController.pdf>]
-<../img/ux/2-ShortCutEditor-Eingabe.jpg, id=220, 493.24275pt x 433.62pt>
-File: ../img/ux/2-ShortCutEditor-Eingabe.jpg Graphic file (type jpg)
-<use ../img/ux/2-ShortCutEditor-Eingabe.jpg>
-Package pdftex.def Info: ../img/ux/2-ShortCutEditor-Eingabe.jpg  used on input 
-line 30.
-(pdftex.def)             Requested size: 222.60329pt x 195.69621pt.
-<../img/ux/4-ShortCut-Info.jpg, id=221, 493.24275pt x 433.62pt>
-File: ../img/ux/4-ShortCut-Info.jpg Graphic file (type jpg)
-<use ../img/ux/4-ShortCut-Info.jpg>
-Package pdftex.def Info: ../img/ux/4-ShortCut-Info.jpg  used on input line 32.
-(pdftex.def)             Requested size: 222.60329pt x 195.69621pt.
+
+LaTeX Warning: Reference `fig:uxDesigns' on page 6 undefined on input line 25.
+
+<../img/ux/5-Kombination.png, id=219, 1654.18pt x 722.7pt>
+File: ../img/ux/5-Kombination.png Graphic file (type png)
+<use ../img/ux/5-Kombination.png>
+Package pdftex.def Info: ../img/ux/5-Kombination.png  used on input line 42.
+(pdftex.def)             Requested size: 455.24411pt x 198.89198pt.
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 39.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 68.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1704,19 +1872,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 68.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[6 <../img/ux/2-ShortCutEditor-Eingabe.jpg> <../img/ux/4-ShortCut-Info.jpg>])
-(implementierung.tex (implementierung_allgemein.tex
+(babel)             in language  on input line 68.
+[6 <../img/ux/5-Kombination.png>]) (implementierung.tex
+(implementierung_allgemein.tex
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerCheckPoint.eps' not found on input 
 line 6.
@@ -1730,7 +1898,7 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCheckPoint.eps>
 t-eps-converted-to.pdf ../img/CD-IRemoteLoggerCheckPoint.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=229, 283.0575pt x 214.80
+<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=226, 283.0575pt x 214.80
 25pt>
 File: ./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1749,7 +1917,7 @@ Package epstopdf Info: Source file: <../img/CheckPoint.eps>
 to.pdf ../img/CheckPoint.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<./CheckPoint-eps-converted-to.pdf, id=230, 437.635pt x 147.55125pt>
+<./CheckPoint-eps-converted-to.pdf, id=227, 437.635pt x 147.55125pt>
 File: ./CheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CheckPoint-eps-converted-to.pdf>
 Package pdftex.def Info: ./CheckPoint-eps-converted-to.pdf  used on input line 
@@ -1810,7 +1978,7 @@ gerCheckPoint-eps-converted-to.pdf ../img/CD-TranslateableRemoteLoggerCheckPoin
 t.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=241, 346.293
+<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=238, 346.293
 75pt x 517.935pt>
 File: ./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -1864,7 +2032,7 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCommand.eps>
 ps-converted-to.pdf ../img/CD-IRemoteLoggerCommand.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=257, 366.36874pt x 100.375p
+<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=254, 366.36874pt x 100.375p
 t>
 File: ./CD-IRemoteLoggerCommand-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerCommand-eps-converted-to.pdf>
@@ -1893,7 +2061,7 @@ ed-to.pdf>
 mer-eps-converted-to.pdf ../img/CD-ObjectInputStreamConsumer.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=259, 469.755pt x 268.0
+<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=256, 469.755pt x 268.0
 0125pt>
 File: ./CD-ObjectInputStreamConsumer-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1950,7 +2118,7 @@ Package epstopdf Info: Source file: <../img/CD-RemoteLogger.eps>
 rted-to.pdf ../img/CD-RemoteLogger.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-RemoteLogger-eps-converted-to.pdf, id=271, 416.55624pt x 334.24875pt>
+<./CD-RemoteLogger-eps-converted-to.pdf, id=268, 416.55624pt x 334.24875pt>
 File: ./CD-RemoteLogger-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-RemoteLogger-eps-converted-to.pdf>
 Package pdftex.def Info: ./CD-RemoteLogger-eps-converted-to.pdf  used on input 
@@ -1984,7 +2152,7 @@ d-to.pdf>
 de-eps-converted-to.pdf ../img/CD-IRemoteLoggerLoginFacade.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=274, 353.32pt x 100.375
+<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=271, 353.32pt x 100.375
 pt>
 File: ./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2055,7 +2223,7 @@ nverted-to.pdf>
 nHandler-eps-converted-to.pdf ../img/CD-IRemoteLoggerConnectionHandler.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf, id=289, 436.63126pt 
+<./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf, id=286, 436.63126pt 
 x 185.69376pt>
 File: ./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2093,7 +2261,7 @@ verted-to.pdf>
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerServerConnection.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=293, 451.6875pt x 
+<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=290, 451.6875pt x 
 171.64125pt>
 File: ./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2167,7 +2335,7 @@ ndlerRegistry-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandlerRegistr
 y.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=310, 726.715
+<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=307, 726.715
 pt x 133.49875pt>
 File: ./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2189,7 +2357,7 @@ rted-to.pdf>
 ndler-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandler.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=311, 443.6575pt x 13
+<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=308, 443.6575pt x 13
 5.50626pt>
 File: ./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2277,7 +2445,7 @@ verted-to.pdf>
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnection.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=331, 420.57124pt x
+<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=328, 420.57124pt x
  159.59625pt>
 File: ./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2313,7 +2481,7 @@ o.pdf>
 eps-converted-to.pdf ../img/CD-IRemoteLoggerListener.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=335, 465.74pt x 119.44624p
+<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=332, 465.74pt x 119.44624p
 t>
 File: ./CD-IRemoteLoggerListener-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerListener-eps-converted-to.pdf>
@@ -2340,7 +2508,7 @@ nectionManager-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnectionMana
 ger.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=336, 392.46
+<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=333, 392.46
 625pt x 163.61125pt>
 File: ./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2399,7 +2567,7 @@ Package epstopdf Info: Source file: <../img/GUI-Manager.eps>
 -to.pdf ../img/GUI-Manager.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<./GUI-Manager-eps-converted-to.pdf, id=354, 659.46375pt x 413.545pt>
+<./GUI-Manager-eps-converted-to.pdf, id=351, 659.46375pt x 413.545pt>
 File: ./GUI-Manager-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GUI-Manager-eps-converted-to.pdf>
 Package pdftex.def Info: ./GUI-Manager-eps-converted-to.pdf  used on input line
@@ -2586,30 +2754,6 @@ Package babel Info: Redefining german shorthand "~
 [17])
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 96.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 96.
-[18] (glossar.tex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 99.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
 
@@ -2631,8 +2775,32 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 99.
+[18] (glossar.tex)
+File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
+<use ../img/ADITO_Logo.pdf>
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 102.
+(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 102.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 102.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 102.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 102.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 102.
 [19] (listoffigures.tex (Abschlussarbeit.lof
-Overfull \hbox (2.33284pt too wide) in paragraph at lines 10--10
+Overfull \hbox (2.33284pt too wide) in paragraph at lines 9--9
  [][] [][][]\OT1/cmr/m/n/10.95 initCause(...)-Methodenimplementierung in-ner-ha
 lb des []Defaul-tRe-mo-te-Log-ger-Check- 
  []
@@ -2644,7 +2812,7 @@ lb des []Defaul-tRe-mo-te-Log-ger-Check-
 ) (literaturverzeichnis.tex)
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 103.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 106.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
 
 
@@ -2654,17 +2822,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 103.
+(babel)             in language  on input line 106.
 [20] (anhang.tex (CODE/CODE_TranslateableRemoteLoggerCheckPoint.tex
 \openout7 = `Abschlussarbeit.listing'.
 
@@ -3401,7 +3569,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 106.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 109.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
 
 
@@ -3411,21 +3579,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 109.
 [43]
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 107.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 110.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
 
 
@@ -3435,23 +3603,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 110.
 [44]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (Abschlussarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
 Package rerunfilecheck Info: File `Abschlussarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -3460,13 +3628,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25062 strings out of 493305
- 527376 string characters out of 3128932
- 680782 words of memory out of 3000000
- 27683 multiletter control sequences out of 15000+200000
- 10561 words of font info for 38 fonts, out of 3000000 for 9000
+ 26856 strings out of 493305
+ 554437 string characters out of 3128932
+ 731819 words of memory out of 3000000
+ 29415 multiletter control sequences out of 15000+200000
+ 11251 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,16n,83p,1139b,1091s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,16n,83p,1145b,1090s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\dpi540\
 cmttb10.pk> <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\c
 m\dpi657\cmbcsc10.pk><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/
@@ -3481,10 +3649,11 @@ ts/cm/cmr12.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/k.mifka/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
 ers/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt9.pfb>
-Output written on Abschlussarbeit.pdf (47 pages, 1564580 bytes).
+tt9.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zap
+fding/uzdr.pfb>
+Output written on Abschlussarbeit.pdf (47 pages, 1697231 bytes).
 PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 702 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
