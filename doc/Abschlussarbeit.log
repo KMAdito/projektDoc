@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  5 APR 2018 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  6 APR 2018 11:10
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
@@ -1637,17 +1637,17 @@ Non-PDF special ignored!
 {C:/Users/k.mifka/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../img/Lo
 goIHK.pdf> <../img/ADITO_Logo.pdf>]) (tableofcontents.tex (Abschlussarbeit.toc
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 44.
+(babel)             in language  on input line 45.
 
 [1])
 \tf@toc=\write10
@@ -1744,7 +1744,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 51.
 [2]) (projektplanung.tex
-<../img/diagram/Wasserfallmodell.pdf, id=187, 696.6025pt x 233.87375pt>
+<../img/diagram/Wasserfallmodell.pdf, id=193, 696.6025pt x 233.87375pt>
 File: ../img/diagram/Wasserfallmodell.pdf Graphic file (type pdf)
 <use ../img/diagram/Wasserfallmodell.pdf>
 Package pdftex.def Info: ../img/diagram/Wasserfallmodell.pdf  used on input lin
@@ -1774,7 +1774,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 45.
 [3 <../img/diagram/Wasserfallmodell.pdf>]) (projektanalyse.tex
-<../img/Alter-Editor.PNG, id=196, 183.084pt x 134.30174pt>
+<../img/Alter-Editor.PNG, id=202, 183.084pt x 134.30174pt>
 File: ../img/Alter-Editor.PNG Graphic file (type png)
 <use ../img/Alter-Editor.PNG>
 Package pdftex.def Info: ../img/Alter-Editor.PNG  used on input line 6.
@@ -1807,7 +1807,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 32.
 [4 <../img/Alter-Editor.PNG>]) (entwurfsphase.tex
-<../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf, id=207, 530.98375pt 
+<../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf, id=213, 530.98375pt 
 x 265.99374pt>
 File: ../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf Graphic file (ty
 pe pdf)
@@ -1815,7 +1815,7 @@ pe pdf)
 Package pdftex.def Info: ../img/diagram/ModelViewPresenter/ModelViewPresenter.p
 df  used on input line 8.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
-<../img/diagram/ModelViewController/ModelViewController.pdf, id=208, 530.98375p
+<../img/diagram/ModelViewController/ModelViewController.pdf, id=214, 530.98375p
 t x 265.99374pt>
 File: ../img/diagram/ModelViewController/ModelViewController.pdf Graphic file (
 type pdf)
@@ -1853,18 +1853,16 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 21.
 [5 <../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf> <../img/diagram/M
 odelViewController/ModelViewController.pdf>]
-
-LaTeX Warning: Reference `fig:uxDesigns' on page 6 undefined on input line 25.
-
-<../img/ux/5-Kombination.png, id=219, 1654.18pt x 722.7pt>
-File: ../img/ux/5-Kombination.png Graphic file (type png)
-<use ../img/ux/5-Kombination.png>
-Package pdftex.def Info: ../img/ux/5-Kombination.png  used on input line 42.
-(pdftex.def)             Requested size: 455.24411pt x 198.89198pt.
+<../img/ux/Kombination.pdf, id=226, 1660.03181pt x 722.36574pt>
+File: ../img/ux/Kombination.pdf Graphic file (type pdf)
+<use ../img/ux/Kombination.pdf>
+Package pdftex.def Info: ../img/ux/Kombination.pdf  used on input line 41.
+(pdftex.def)             Requested size: 455.24411pt x 198.09456pt.
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 68.
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 69.
 (pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1872,19 +1870,82 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 68.
+(babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 68.
-[6 <../img/ux/5-Kombination.png>]) (implementierung.tex
-(implementierung_allgemein.tex
+(babel)             in language  on input line 69.
+[6 <../img/ux/Kombination.pdf>]
+<../img/diagram/Baumstruktur/Baumstruktur.pdf, id=270, 310.15875pt x 287.0725pt
+>
+File: ../img/diagram/Baumstruktur/Baumstruktur.pdf Graphic file (type pdf)
+<use ../img/diagram/Baumstruktur/Baumstruktur.pdf>
+Package pdftex.def Info: ../img/diagram/Baumstruktur/Baumstruktur.pdf  used on 
+input line 76.
+(pdftex.def)             Requested size: 200.75073pt x 185.80644pt.
+<../img/class-diagrams/Baumstruktur/Baumstruktur.pdf, id=275, 547.04375pt x 101
+.37875pt>
+File: ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf Graphic file (type pd
+f)
+<use ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf>
+Package pdftex.def Info: ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf  u
+sed on input line 94.
+(pdftex.def)             Requested size: 455.24411pt x 84.36708pt.
+File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
+<use ../img/ADITO_Logo.pdf>
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 105.
+(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 105.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 105.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 105.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 105.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 105.
+[7 <../img/diagram/Baumstruktur/Baumstruktur.pdf> <../img/class-diagrams/Baumst
+ruktur/Baumstruktur.pdf>]
+File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
+<use ../img/ADITO_Logo.pdf>
+Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 109.
+(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 109.
+[8]) (implementierung.tex (implementierung_allgemein.tex
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerCheckPoint.eps' not found on input 
 line 6.
@@ -1898,7 +1959,7 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCheckPoint.eps>
 t-eps-converted-to.pdf ../img/CD-IRemoteLoggerCheckPoint.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=226, 283.0575pt x 214.80
+<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=290, 283.0575pt x 214.80
 25pt>
 File: ./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1917,7 +1978,7 @@ Package epstopdf Info: Source file: <../img/CheckPoint.eps>
 to.pdf ../img/CheckPoint.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<./CheckPoint-eps-converted-to.pdf, id=227, 437.635pt x 147.55125pt>
+<./CheckPoint-eps-converted-to.pdf, id=291, 437.635pt x 147.55125pt>
 File: ./CheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CheckPoint-eps-converted-to.pdf>
 Package pdftex.def Info: ./CheckPoint-eps-converted-to.pdf  used on input line 
@@ -1951,7 +2012,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 31.
-[7 <./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf> <./CheckPoint-eps-conver
+[9 <./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf> <./CheckPoint-eps-conver
 ted-to.pdf>] (CODE/CODE_DefaultRemoteLoggerCheckPoint_initCause.tex
 \openout7 = `Abschlussarbeit.listing'.
 
@@ -1978,7 +2039,7 @@ gerCheckPoint-eps-converted-to.pdf ../img/CD-TranslateableRemoteLoggerCheckPoin
 t.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=238, 346.293
+<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=302, 346.293
 75pt x 517.935pt>
 File: ./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2018,7 +2079,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 48.
-[8 <./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf>]
+[10 <./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf>]
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerCommand.eps' not found on input lin
 e 54.
@@ -2032,7 +2093,7 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCommand.eps>
 ps-converted-to.pdf ../img/CD-IRemoteLoggerCommand.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=254, 366.36874pt x 100.375p
+<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=319, 366.36874pt x 100.375p
 t>
 File: ./CD-IRemoteLoggerCommand-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerCommand-eps-converted-to.pdf>
@@ -2045,8 +2106,8 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 53--55
  []
 
 
-LaTeX Warning: Reference `fig:KommunikationServerManager' on page 9 undefined o
-n input line 61.
+LaTeX Warning: Reference `fig:KommunikationServerManager' on page 11 undefined 
+on input line 61.
 
 
 LaTeX Warning: File `../img/CD-ObjectInputStreamConsumer.eps' not found on inpu
@@ -2061,7 +2122,7 @@ ed-to.pdf>
 mer-eps-converted-to.pdf ../img/CD-ObjectInputStreamConsumer.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=256, 469.755pt x 268.0
+<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=321, 469.755pt x 268.0
 0125pt>
 File: ./CD-ObjectInputStreamConsumer-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2105,8 +2166,8 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 5.
-[9 <./CD-IRemoteLoggerCommand-eps-converted-to.pdf> <./CD-ObjectInputStreamCons
-umer-eps-converted-to.pdf>] (implementierung_server.tex
+[11 <./CD-IRemoteLoggerCommand-eps-converted-to.pdf> <./CD-ObjectInputStreamCon
+sumer-eps-converted-to.pdf>] (implementierung_server.tex
 
 LaTeX Warning: File `../img/CD-RemoteLogger.eps' not found on input line 6.
 
@@ -2118,7 +2179,7 @@ Package epstopdf Info: Source file: <../img/CD-RemoteLogger.eps>
 rted-to.pdf ../img/CD-RemoteLogger.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-RemoteLogger-eps-converted-to.pdf, id=268, 416.55624pt x 334.24875pt>
+<./CD-RemoteLogger-eps-converted-to.pdf, id=333, 416.55624pt x 334.24875pt>
 File: ./CD-RemoteLogger-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-RemoteLogger-eps-converted-to.pdf>
 Package pdftex.def Info: ./CD-RemoteLogger-eps-converted-to.pdf  used on input 
@@ -2152,7 +2213,7 @@ d-to.pdf>
 de-eps-converted-to.pdf ../img/CD-IRemoteLoggerLoginFacade.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=271, 353.32pt x 100.375
+<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=336, 353.32pt x 100.375
 pt>
 File: ./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2166,11 +2227,11 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 15--17
  []
 
 
-LaTeX Warning: Reference `fig:KommunikationServerManager' on page 10 undefined 
+LaTeX Warning: Reference `fig:KommunikationServerManager' on page 12 undefined 
 on input line 19.
 
 
-LaTeX Warning: Reference `fig:KommunikationServerManager' on page 10 undefined 
+LaTeX Warning: Reference `fig:KommunikationServerManager' on page 12 undefined 
 on input line 19.
 
 
@@ -2207,7 +2268,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 23.
-[10 <./CD-RemoteLogger-eps-converted-to.pdf> <./CD-IRemoteLoggerLoginFacade-eps
+[12 <./CD-RemoteLogger-eps-converted-to.pdf> <./CD-IRemoteLoggerLoginFacade-eps
 -converted-to.pdf>]
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerConnectionHandler.eps' not found on
@@ -2223,7 +2284,7 @@ nverted-to.pdf>
 nHandler-eps-converted-to.pdf ../img/CD-IRemoteLoggerConnectionHandler.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf, id=286, 436.63126pt 
+<./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf, id=350, 436.63126pt 
 x 185.69376pt>
 File: ./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2261,7 +2322,7 @@ verted-to.pdf>
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerServerConnection.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=290, 451.6875pt x 
+<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=354, 451.6875pt x 
 171.64125pt>
 File: ./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2306,7 +2367,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 44.
-[11 <./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf> <./CD-IRemoteLog
+[13 <./CD-IRemoteLoggerConnectionHandler-eps-converted-to.pdf> <./CD-IRemoteLog
 gerServerConnection-eps-converted-to.pdf>]
 (CODE/CODE_DefaultRemoteLoggerServerConnection_CommandInterface.tex
 \openout7 = `Abschlussarbeit.listing'.
@@ -2335,7 +2396,7 @@ ndlerRegistry-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandlerRegistr
 y.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=307, 726.715
+<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=371, 726.715
 pt x 133.49875pt>
 File: ./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2357,7 +2418,7 @@ rted-to.pdf>
 ndler-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandler.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=308, 443.6575pt x 13
+<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=372, 443.6575pt x 13
 5.50626pt>
 File: ./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2405,7 +2466,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 8.
-[12 <./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf> <./CD-IRemo
+[14 <./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf> <./CD-IRemo
 teLoggerCommandHandler-eps-converted-to.pdf>]
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
@@ -2430,7 +2491,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 8.
-[13] (implementierung_client.tex
+[15] (implementierung_client.tex
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerClientConnection.eps' not found on 
 input line 5.
@@ -2445,7 +2506,7 @@ verted-to.pdf>
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnection.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=328, 420.57124pt x
+<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=392, 420.57124pt x
  159.59625pt>
 File: ./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2481,7 +2542,7 @@ o.pdf>
 eps-converted-to.pdf ../img/CD-IRemoteLoggerListener.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=332, 465.74pt x 119.44624p
+<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=396, 465.74pt x 119.44624p
 t>
 File: ./CD-IRemoteLoggerListener-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerListener-eps-converted-to.pdf>
@@ -2508,7 +2569,7 @@ nectionManager-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnectionMana
 ger.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=333, 392.46
+<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=397, 392.46
 625pt x 163.61125pt>
 File: ./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2553,7 +2614,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 35.
-[14 <./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf> <./CD-IRemoteLogg
+[16 <./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf> <./CD-IRemoteLogg
 erListener-eps-converted-to.pdf> <./CD-IRemoteLoggerClientConnectionManager-eps
 -converted-to.pdf>]
 
@@ -2567,7 +2628,7 @@ Package epstopdf Info: Source file: <../img/GUI-Manager.eps>
 -to.pdf ../img/GUI-Manager.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<./GUI-Manager-eps-converted-to.pdf, id=351, 659.46375pt x 413.545pt>
+<./GUI-Manager-eps-converted-to.pdf, id=416, 659.46375pt x 413.545pt>
 File: ./GUI-Manager-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GUI-Manager-eps-converted-to.pdf>
 Package pdftex.def Info: ./GUI-Manager-eps-converted-to.pdf  used on input line
@@ -2597,7 +2658,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 11.
-[15 <./GUI-Manager-eps-converted-to.pdf>]) (test_junit.tex
+[17 <./GUI-Manager-eps-converted-to.pdf>]) (test_junit.tex
 (CODE/CODE_TestRemoteLogger_init.tex
 \openout7 = `Abschlussarbeit.listing'.
 
@@ -2682,7 +2743,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 27.
-[16]
+[18]
 Underfull \hbox (badness 1178) in paragraph at lines 27--28
 \OT1/cmr/m/n/10.95 re-gi-striert. Die-ser spei-chert emp-fan-ge-
  []
@@ -2751,7 +2812,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
-[17])
+[19])
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 99.
@@ -2775,7 +2836,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 99.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 99.
-[18] (glossar.tex)
+[20] (glossar.tex)
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 102.
@@ -2799,8 +2860,8 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 102.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 102.
-[19] (listoffigures.tex (Abschlussarbeit.lof
-Overfull \hbox (2.33284pt too wide) in paragraph at lines 9--9
+[21] (listoffigures.tex (Abschlussarbeit.lof
+Overfull \hbox (2.33284pt too wide) in paragraph at lines 12--12
  [][] [][][]\OT1/cmr/m/n/10.95 initCause(...)-Methodenimplementierung in-ner-ha
 lb des []Defaul-tRe-mo-te-Log-ger-Check- 
  []
@@ -2833,7 +2894,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 106.
-[20] (anhang.tex (CODE/CODE_TranslateableRemoteLoggerCheckPoint.tex
+[22] (anhang.tex (CODE/CODE_TranslateableRemoteLoggerCheckPoint.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2862,7 +2923,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 6.
-[21] (CODE/CODE_IRemoteLoggerCommand-Impl.tex
+[23] (CODE/CODE_IRemoteLoggerCommand-Impl.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2908,7 +2969,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 13.
-[22]
+[24]
 Overfull \vbox (3.76488pt too high) has occurred while \output is active []
 
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
@@ -2934,7 +2995,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 13.
-[23] (CODE/CODE_RemoteLogger.tex
+[25] (CODE/CODE_RemoteLogger.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2970,7 +3031,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 16.
-[24] (CODE/CODE_RemoteLoggerLoginFacadeImpl_Complete.tex
+[26] (CODE/CODE_RemoteLoggerLoginFacadeImpl_Complete.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2999,7 +3060,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 19.
-[25] (CODE/CODE_RemoteLoggerConnectionHandler.tex
+[27] (CODE/CODE_RemoteLoggerConnectionHandler.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3028,7 +3089,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 23.
-[26] (CODE/CODE_RemoteLoggerServerConnection.tex
+[28] (CODE/CODE_RemoteLoggerServerConnection.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3064,7 +3125,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 27.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 27.
-[27] (CODE/CODE_IRemoteLoggerCommandHandlerRegistry.tex
+[29] (CODE/CODE_IRemoteLoggerCommandHandlerRegistry.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3093,7 +3154,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 31.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 31.
-[28] (CODE/CODE_IRemoteLoggerCommandHandler.tex
+[30] (CODE/CODE_IRemoteLoggerCommandHandler.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3127,7 +3188,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 35.
-[29] (CODE/CODE_IRemoteLoggerClientConnection.tex
+[31] (CODE/CODE_IRemoteLoggerClientConnection.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3161,7 +3222,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 39.
-[30]
+[32]
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 39.
@@ -3185,7 +3246,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 39.
-[31] (CODE/CODE_IRemoteLoggerListener.tex
+[33] (CODE/CODE_IRemoteLoggerListener.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3234,7 +3295,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 43.
-[32] (CODE/CODE_IRemoteLoggerClientConnectionManager.tex
+[34] (CODE/CODE_IRemoteLoggerClientConnectionManager.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3268,7 +3329,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 46.
-[33]
+[35]
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 46.
@@ -3292,7 +3353,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 46.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 46.
-[34] (CODE/CODE_GUI.tex
+[36] (CODE/CODE_GUI.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3326,7 +3387,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 165.
-[35]
+[37]
 Overfull \vbox (3.76488pt too high) has occurred while \output is active []
 
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
@@ -3352,7 +3413,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 165.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 165.
-[36]
+[38]
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3391,7 +3452,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 334.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 334.
-[37]
+[39]
 Overfull \vbox (3.76488pt too high) has occurred while \output is active []
 
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
@@ -3417,7 +3478,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 334.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 334.
-[38]
+[40]
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3453,7 +3514,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 443.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 443.
-[39]
+[41]
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3489,7 +3550,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 526.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 526.
-[40]
+[42]
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3525,7 +3586,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 50.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 50.
-[41] (CODE/CODE_Unittest.tex
+[43] (CODE/CODE_Unittest.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3559,7 +3620,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 132.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 132.
-[42]
+[44]
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -3590,7 +3651,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 109.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 109.
-[43]
+[45]
 File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
 <use ../img/ADITO_Logo.pdf>
 Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 110.
@@ -3614,7 +3675,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 110.
-[44]
+[46]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (Abschlussarbeit.aux)
@@ -3628,10 +3689,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26856 strings out of 493305
- 554437 string characters out of 3128932
- 731819 words of memory out of 3000000
- 29415 multiletter control sequences out of 15000+200000
+ 26875 strings out of 493305
+ 555128 string characters out of 3128932
+ 732137 words of memory out of 3000000
+ 29425 multiletter control sequences out of 15000+200000
  11251 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,16n,83p,1145b,1090s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3651,9 +3712,9 @@ Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
 ers/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 tt9.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zap
 fding/uzdr.pfb>
-Output written on Abschlussarbeit.pdf (47 pages, 1697231 bytes).
+Output written on Abschlussarbeit.pdf (49 pages, 3398448 bytes).
 PDF statistics:
- 702 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
