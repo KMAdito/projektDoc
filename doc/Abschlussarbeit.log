@@ -1,13 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  6 APR 2018 11:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.6)  9 APR 2018 10:46
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,51 +21,41 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2018/02/14 3.18 The Babel package
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
-ef"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
-g"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ger
-man.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\german.ldf"
 Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
 phy)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ger
-manb.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\germanb.ldf"
 Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
 aphy)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
-f"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
-.def")
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
 \bbl@dirlevel=\count88
 )
 Package babel Info: Making " an active character on input line 139.
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blindt
-ext.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count89
@@ -88,39 +77,31 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count105
 \c@blind@pangrammax=\count106
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
-or.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
-tex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-x.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
-phics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -128,8 +109,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhd
-r.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -142,21 +122,17 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
-y.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvte
-x.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
-x.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count107
@@ -172,17 +148,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks15
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
-y.cfg"))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\parskip.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
@@ -198,14 +171,12 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@cols=\count110
 \TX@ftn=\toks17
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortb
-l.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks18
 \minrowclearance=\skip54
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen121
 \WF@size=\dimen122
 \c@WF@wrappedlines=\count111
@@ -213,44 +184,34 @@ sty"
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
-f-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
-rerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
-inekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
-ds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
-ns.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
-keys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
-mds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
-tex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -259,8 +220,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
-xcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -275,25 +235,21 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\minted\minted.st
-y"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\minted\minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fvextra\fvextra.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fvextra\fvextra.sty
 Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
 b
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
-x.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count112
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvr
-b.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -305,13 +261,11 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count115
 \FV@OutFile=\write3
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.st
-y"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\lineno\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count116
 \output=\toks20
@@ -351,7 +305,7 @@ LaTeX Info: Redefining \\ on input line 3056.
 \FV@LineBox=\box31
 \FV@LineIndentBox=\box32
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count134
 \calc@Bcount=\count135
@@ -364,31 +318,24 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count136
 \calc@Cskip=\skip58
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifplatform\ifpla
-tform.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
-
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\catch
-file.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.
-sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstrin
-g.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
 \@xs@message=\write4
 \integerpart=\count137
 \decimalpart=\count138
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.st
-y"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip59
 \fb@frw=\dimen135
@@ -396,7 +343,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen137
 \FrameSep=\dimen138
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count139
 \float@exts=\toks21
@@ -416,18 +363,19 @@ runsystem(if not exist _minted-Abschlussarbeit mkdir _minted-Abschlussarbeit)..
 .executed.
 
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
- ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
- ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -668,7 +616,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -708,8 +656,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
- ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
-"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -733,8 +681,7 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocloft\tocloft.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip60
@@ -775,55 +722,49 @@ Package tocloft Info: The document has section divisions on input line 51.
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
  out. on input line 1147.
 
-)
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspac
-e.sty"
+) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolor
-box.sty"
-Package: tcolorbox 2018/01/12 version 4.12 text color boxes
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcolorbox.sty
+Package: tcolorbox 2018/03/22 version 4.13 text color boxes
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\p
-gf.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
-frcs.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfutil-common.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
 \pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen139
 \pgfutil@tempdimb=\dimen140
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfutil-common-lists.tex"))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfutil-latex.def"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
+atex.def
 \pgfutil@abb=\box36
-
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+ (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfrcs.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
+de.tex
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\p
-gfcore.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\
-pgfsys.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgfsys.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
+y
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
+y
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
+code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfkeys.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex
 \pgfkeys@pathtoks=\toks27
 \pgfkeys@temptoks=\toks28
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfkeysfiltered.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
+ltered.code.tex
 \pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen141
@@ -844,36 +785,33 @@ pgfkeysfiltered.code.tex"
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgf.cfg"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgfsys-pdftex.def"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+pdftex.def
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgfsys-common-pdf.def"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgfsyssoftpath.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
+oftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count149
 \pgfsyssoftpath@bigbuffer@items=\count150
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
-r\pgfsysprotocol.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
+rotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
-y"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
-or.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -888,18 +826,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcore.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
+code.tex
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-th.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thcalc.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thutil.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thparser.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
+de.tex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
+de.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
+code.tex
 \pgfmath@dimen=\dimen149
 \pgfmath@count=\count151
 \pgfmath@box=\box37
@@ -907,30 +845,30 @@ thparser.code.tex"
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.basic.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.trigonometric.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.random.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.comparison.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.base.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.round.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.misc.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfunctions.integerarithmetics.code.tex")))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-thfloat.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.code.tex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
+ode.tex
 \c@pgfmathroundto@lastzeros=\count152
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorepoints.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+oints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen150
 \pgf@picmaxx=\dimen151
@@ -947,114 +885,109 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen162
 \pgf@zy=\dimen163
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorepathconstruct.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen164
 \pgf@path@lasty=\dimen165
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorepathusage.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athusage.code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen166
 \pgf@shorten@start@additional=\dimen167
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorescopes.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+copes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box38
 \pgf@hbox=\box39
 \pgf@layerbox@main=\box40
 \pgf@picture@serial@count=\count153
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoregraphicstate.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
+raphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen168
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoretransformations.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransformations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen169
 \pgf@pt@y=\dimen170
 \pgf@pt@temp=\dimen171
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorequick.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
+uick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoreobjects.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
+bjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorepathprocessing.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorearrows.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
+rrows.code.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen172
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoreshade.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+hade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
 \pgf@sys@shading@range@num=\count154
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoreimage.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
+mage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoreexternal.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
+xternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box41
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorelayers.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
+ayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcoretransparency.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
-\pgfcorepatterns.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+atterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
-fmoduleshapes.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
+apes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box42
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
-fmoduleplot.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
+ot.code.tex
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibilit
-y\pgfcomp-version-0-65.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen174
 \pgf@nodesepend=\dimen175
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibilit
-y\pgfcomp-version-1-18.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
-ty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks36
 \verbatim@line=\toks37
 \verbatim@in@stream=\read4
-)
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.
-sty"
+) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trims
-paces.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks38
@@ -1072,17 +1005,13 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box50
 \tcb@out=\write7
 \tcb@record@out=\write8
-)
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
-y"
+) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
-.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen176
@@ -1109,12 +1038,10 @@ Package caption Info: wrapfig package is loaded.
 \sf@top=\skip94
 \sf@bottom=\skip95
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\prettyref\pretty
-ref.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\prettyref\prettyref.sty
 Package: prettyref 1998/07/09 v3.0
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumite
-m.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip96
 \enit@outerparindent=\dimen184
@@ -1122,13 +1049,12 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box51
 \enitdp@description=\count164
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bold-extra\bold-
-extra.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\bold-extra\bold-extra.sty
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
-)
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
+) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip97
@@ -1146,36 +1072,30 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip109
 \JustifyingParindent=\skip110
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstricks\pstrick
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
 Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\iftex\iftex.sty
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\pst-xk
-ey.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
-l.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
-ls.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
 \XKV@depth=\count165
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
-cks.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
-p.tex" `pst-fp' v0.05, 2010/01/17 (hv)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex"
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex"
+`pst-fp' v0.05, 2010/01/17 (hv)
 \pstFP@xs=\count166
 \pstFP@xia=\count167
 \pstFP@xib=\count168
@@ -1186,20 +1106,20 @@ p.tex" `pst-fp' v0.05, 2010/01/17 (hv)
 \pstFP@regs=\count173
 \pstFP@times=\count174
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfutil-common.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
 \pgfutil@everybye=\toks42
 \pgfutil@tempdima=\dimen185
 \pgfutil@tempdimb=\dimen186
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfutil-common-lists.tex"))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfkeys.code.tex")
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgffor.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-th.code.tex")
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex)
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
+de.tex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex)
 \pgffor@iter=\dimen187
 \pgffor@skip=\dimen188
 \pgffor@stack=\toks43
@@ -1233,9 +1153,7 @@ th.code.tex")
 \pst@cntp=\count185
 \@zero=\count186
 \pst@toks=\toks45
-
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
-cks.con")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.con")
 \psunit=\dimen199
 \psxunit=\dimen256
 \psyunit=\dimen257
@@ -1257,27 +1175,25 @@ cks.con")
 )
 File: pstricks.tex 2018/01/06 v2.82 `PSTricks' (tvz,hv)
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
-p.tex")
+("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex")
 File: pst-fp.tex 2018/01/06 v2.82 `PST-fp' (hv)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\pifont.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
- ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\overpic\overpic.
-sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\overpic\overpic.sty
 Package: overpic 2017/10/06 1.0 picture overlays
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eepic\epic.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\eepic\epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count188
 \d@lta=\count189
@@ -1295,18 +1211,14 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \num@segments=\count194
 \num@segmentsi=\count195
 \@datafile=\read5
-))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperre
-f.sty"
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
-b-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
-b-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1334,24 +1246,21 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen276
 \Hy@linkcounter=\count196
 \Hy@pagecounter=\count197
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.
-def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count198
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperre
-f.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -1363,7 +1272,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count199
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1387,14 +1296,12 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex
-.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count270
 \c@bookmark@seq@number=\count271
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfi
-lecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -1403,49 +1310,47 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbmin
-ted.code.tex"
-Library (tcolorbox): 'tcbminted.code.tex' version '4.12'
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbminted.code.
+tex
+Library (tcolorbox): 'tcbminted.code.tex' version '4.13'
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcblis
-tingscore.code.tex"
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.12'
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistingscore
+.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.13'
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbpro
-cessing.code.tex"
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbprocessing.c
+ode.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.13'
 )
 \c@tcblisting=\count272
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
-ns.code.tex"
-Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskins.code.t
+ex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.13'
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlaye
-r\tikz.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
-ffor.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
-fkeys.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgfkeys.code.tex"))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath
-.sty"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-th.code.tex"))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
-pgffor.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
-th.code.tex")
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
+y
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex))
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex))
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
+de.tex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex)
 \pgffor@iter=\dimen280
 \pgffor@skip=\dimen281
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
-yer\tikz\tikz.code.tex"
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\
-pgflibraryplothandlers.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+tikz.code.tex
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count273
 \pgfplotmarksize=\dimen282
@@ -1465,8 +1370,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count276
 \tikz@fig@count=\count277
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
-fmodulematrix.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
+trix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count278
 \pgfmatrixcurrentcolumn=\count279
@@ -1474,8 +1379,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count281
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
-yer\tikz\libraries\tikzlibrarytopaths.code.tex"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 
@@ -1487,9 +1392,9 @@ LaTeX Warning: You have requested, on input line 22, version
 
 \tcb@waterbox=\box60
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
-nsjigsaw.code.tex"
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.12'
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskinsjigsaw.
+code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.13'
 ))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Ab
 schlussarbeit.aex <nul: /p x=^%~$PATH:i>> Abschlussarbeit.aex)...executed.
@@ -1514,8 +1419,7 @@ LaTeX Font Info:    ... okay on input line 87.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
 LaTeX Font Info:    ... okay on input line 87.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
-mkii"
+(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count282
 \scratchdimen=\dimen289
@@ -1573,12 +1477,10 @@ LaTeX Info: Redefining \selectfont on input line 87.
 \AtBeginShipoutBox=\box62
 Package hyperref Info: Link coloring ON on input line 87.
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\getti
-tlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count288
@@ -1586,25 +1488,28 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 87.
 LaTeX Info: Redefining \pageref on input line 87.
 LaTeX Info: Redefining \nameref on input line 87.
- (Abschlussarbeit.out) (Abschlussarbeit.out)
+
+(Abschlussarbeit.out) (Abschlussarbeit.out)
 \@outlinefile=\write9
 \openout9 = `Abschlussarbeit.out'.
 
  (titlepage.tex
-<../img/LogoIHK.pdf, id=6, 450.73643pt x 225.36507pt>
-File: ../img/LogoIHK.pdf Graphic file (type pdf)
-<use ../img/LogoIHK.pdf>
-Package pdftex.def Info: ../img/LogoIHK.pdf  used on input line 4.
+<../graphic/images/logo/LogoIHK.pdf, id=6, 450.73643pt x 225.36507pt>
+File: ../graphic/images/logo/LogoIHK.pdf Graphic file (type pdf)
+<use ../graphic/images/logo/LogoIHK.pdf>
+Package pdftex.def Info: ../graphic/images/logo/LogoIHK.pdf  used on input line
+ 4.
 (pdftex.def)             Requested size: 112.68382pt x 56.34113pt.
 
 Underfull \hbox (badness 10000) in alignment at lines 17--17
 [][] 
  []
 
-<../img/ADITO_Logo.pdf, id=7, 284.52296pt x 93.89078pt>
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 27.
+<../graphic/images/logo/ADITO_Logo.pdf, id=7, 284.52296pt x 93.89078pt>
+File: ../graphic/images/logo/ADITO_Logo.pdf Graphic file (type pdf)
+<use ../graphic/images/logo/ADITO_Logo.pdf>
+Package pdftex.def Info: ../graphic/images/logo/ADITO_Logo.pdf  used on input l
+ine 27.
 (pdftex.def)             Requested size: 199.1647pt x 65.72308pt.
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 41.
@@ -1634,8 +1539,9 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
-{C:/Users/k.mifka/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../img/Lo
-goIHK.pdf> <../img/ADITO_Logo.pdf>]) (tableofcontents.tex (Abschlussarbeit.toc
+{C:/Users/Arbeit/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../graphic
+/images/logo/LogoIHK.pdf> <../graphic/images/logo/ADITO_Logo.pdf>])
+(tableofcontents.tex (Abschlussarbeit.toc
 Package babel Info: Redefining german shorthand "f
 (babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "|
@@ -1648,18 +1554,19 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 45.
-
-[1])
+ [1])
 \tf@toc=\write10
 \openout10 = `Abschlussarbeit.toc'.
 
 )
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <10.95> not available
 (Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 90.
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 90.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+<../graphic/images/logo/Logo.png, id=177, 501.875pt x 443.6575pt>
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 90
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1668,7 +1575,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
-("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -1690,11 +1597,12 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.90 \newpage
-              [2] (einleitung.tex
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 32.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+              [2 <../graphic/images/logo/Logo.png>] (einleitung.tex
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 32
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1720,10 +1628,11 @@ been already used, duplicate ignored
                    \relax 
 l.32 
       [1]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 51.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 51
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1744,16 +1653,19 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 51.
 [2]) (projektplanung.tex
-<../img/diagram/Wasserfallmodell.pdf, id=193, 696.6025pt x 233.87375pt>
-File: ../img/diagram/Wasserfallmodell.pdf Graphic file (type pdf)
-<use ../img/diagram/Wasserfallmodell.pdf>
-Package pdftex.def Info: ../img/diagram/Wasserfallmodell.pdf  used on input lin
-e 9.
-(pdftex.def)             Requested size: 269.08034pt x 90.33783pt.
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 45.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+<../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf, id=196, 696.6025
+pt x 233.87375pt>
+File: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf Graphic file
+ (type pdf)
+<use ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>
+Package pdftex.def Info: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmode
+ll.pdf  used on input line 9.
+(pdftex.def)             Requested size: 233.19586pt x 78.29279pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 45
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1773,21 +1685,25 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 45.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 45.
-[3 <../img/diagram/Wasserfallmodell.pdf>]) (projektanalyse.tex
-<../img/Alter-Editor.PNG, id=202, 183.084pt x 134.30174pt>
-File: ../img/Alter-Editor.PNG Graphic file (type png)
-<use ../img/Alter-Editor.PNG>
-Package pdftex.def Info: ../img/Alter-Editor.PNG  used on input line 6.
+[3 <../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>])
+(projektanalyse.tex
+<../graphic/images/screenshots/Alter-Editor.png, id=207, 183.084pt x 134.30174p
+t>
+File: ../graphic/images/screenshots/Alter-Editor.png Graphic file (type png)
+<use ../graphic/images/screenshots/Alter-Editor.png>
+Package pdftex.def Info: ../graphic/images/screenshots/Alter-Editor.png  used o
+n input line 6.
 (pdftex.def)             Requested size: 120.45044pt x 88.35866pt.
 
 
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
 .
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 32.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 32
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1806,22 +1722,22 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 32.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 32.
-[4 <../img/Alter-Editor.PNG>]) (entwurfsphase.tex
-<../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf, id=213, 530.98375pt 
-x 265.99374pt>
-File: ../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf Graphic file (ty
-pe pdf)
-<use ../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf>
-Package pdftex.def Info: ../img/diagram/ModelViewPresenter/ModelViewPresenter.p
-df  used on input line 8.
+[4 <../graphic/images/screenshots/Alter-Editor.png>]) (entwurfsphase.tex
+<../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf, id=220, 530.983
+75pt x 265.99374pt>
+File: ../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf Graphic fil
+e (type pdf)
+<use ../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf>
+Package pdftex.def Info: ../graphic/diagrams/ModelViewPresenter/ModelViewPresen
+ter.pdf  used on input line 8.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
-<../img/diagram/ModelViewController/ModelViewController.pdf, id=214, 530.98375p
-t x 265.99374pt>
-File: ../img/diagram/ModelViewController/ModelViewController.pdf Graphic file (
-type pdf)
-<use ../img/diagram/ModelViewController/ModelViewController.pdf>
-Package pdftex.def Info: ../img/diagram/ModelViewController/ModelViewController
-.pdf  used on input line 10.
+<../graphic/diagrams/ModelViewController/ModelViewController.pdf, id=221, 530.9
+8375pt x 265.99374pt>
+File: ../graphic/diagrams/ModelViewController/ModelViewController.pdf Graphic f
+ile (type pdf)
+<use ../graphic/diagrams/ModelViewController/ModelViewController.pdf>
+Package pdftex.def Info: ../graphic/diagrams/ModelViewController/ModelViewContr
+oller.pdf  used on input line 10.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
 
 Overfull \hbox (7.69818pt too wide) in paragraph at lines 17--18
@@ -1829,10 +1745,11 @@ Overfull \hbox (7.69818pt too wide) in paragraph at lines 17--18
 tor im-ple-men-tiert. Da-durch kann gew[]ahrleistet
  []
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 21.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 21
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1851,17 +1768,19 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 21.
-[5 <../img/diagram/ModelViewPresenter/ModelViewPresenter.pdf> <../img/diagram/M
-odelViewController/ModelViewController.pdf>]
-<../img/ux/Kombination.pdf, id=226, 1660.03181pt x 722.36574pt>
-File: ../img/ux/Kombination.pdf Graphic file (type pdf)
-<use ../img/ux/Kombination.pdf>
-Package pdftex.def Info: ../img/ux/Kombination.pdf  used on input line 41.
+[5 <../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf> <../graphic/
+diagrams/ModelViewController/ModelViewController.pdf>]
+<../graphic/images/ux/Kombination.pdf, id=233, 1660.03181pt x 722.36574pt>
+File: ../graphic/images/ux/Kombination.pdf Graphic file (type pdf)
+<use ../graphic/images/ux/Kombination.pdf>
+Package pdftex.def Info: ../graphic/images/ux/Kombination.pdf  used on input li
+ne 41.
 (pdftex.def)             Requested size: 455.24411pt x 198.09456pt.
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 69.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 69
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1881,26 +1800,28 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 69.
-[6 <../img/ux/Kombination.pdf>]
-<../img/diagram/Baumstruktur/Baumstruktur.pdf, id=270, 310.15875pt x 287.0725pt
->
-File: ../img/diagram/Baumstruktur/Baumstruktur.pdf Graphic file (type pdf)
-<use ../img/diagram/Baumstruktur/Baumstruktur.pdf>
-Package pdftex.def Info: ../img/diagram/Baumstruktur/Baumstruktur.pdf  used on 
-input line 76.
+[6 <../graphic/images/ux/Kombination.pdf>]
+<../graphic/diagrams/Baumstruktur/Baumstruktur.pdf, id=276, 310.15875pt x 287.0
+725pt>
+File: ../graphic/diagrams/Baumstruktur/Baumstruktur.pdf Graphic file (type pdf)
+
+<use ../graphic/diagrams/Baumstruktur/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/Baumstruktur/Baumstruktur.pdf  use
+d on input line 76.
 (pdftex.def)             Requested size: 200.75073pt x 185.80644pt.
-<../img/class-diagrams/Baumstruktur/Baumstruktur.pdf, id=275, 547.04375pt x 101
-.37875pt>
-File: ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf Graphic file (type pd
-f)
-<use ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf>
-Package pdftex.def Info: ../img/class-diagrams/Baumstruktur/Baumstruktur.pdf  u
-sed on input line 94.
+<../graphic/diagrams/CD_Baumstruktur/Baumstruktur.pdf, id=281, 547.04375pt x 10
+1.37875pt>
+File: ../graphic/diagrams/CD_Baumstruktur/Baumstruktur.pdf Graphic file (type p
+df)
+<use ../graphic/diagrams/CD_Baumstruktur/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur/Baumstruktur.pdf  
+used on input line 94.
 (pdftex.def)             Requested size: 455.24411pt x 84.36708pt.
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 105.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+5.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1920,12 +1841,13 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 105.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 105.
-[7 <../img/diagram/Baumstruktur/Baumstruktur.pdf> <../img/class-diagrams/Baumst
-ruktur/Baumstruktur.pdf>]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 109.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+[7 <../graphic/diagrams/Baumstruktur/Baumstruktur.pdf> <../graphic/diagrams/CD_
+Baumstruktur/Baumstruktur.pdf>]
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+0.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1934,17 +1856,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 [8]) (implementierung.tex (implementierung_allgemein.tex
 
 LaTeX Warning: File `../img/CD-IRemoteLoggerCheckPoint.eps' not found on input 
@@ -1953,13 +1875,13 @@ line 6.
 Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCheckPoint.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerCheckPoint-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:53
+(epstopdf)                    date: 2015-12-10 08:18:54
 (epstopdf)                    size: 41772 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerCheckPoin
 t-eps-converted-to.pdf ../img/CD-IRemoteLoggerCheckPoint.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=290, 283.0575pt x 214.80
+<./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf, id=296, 283.0575pt x 214.80
 25pt>
 File: ./CD-IRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1972,13 +1894,13 @@ LaTeX Warning: File `../img/CheckPoint.eps' not found on input line 14.
 
 Package epstopdf Info: Source file: <../img/CheckPoint.eps>
 (epstopdf)             Output file: <./CheckPoint-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:39
+(epstopdf)                    date: 2015-12-10 08:18:40
 (epstopdf)                    size: 20278 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CheckPoint-eps-converted-
 to.pdf ../img/CheckPoint.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-<./CheckPoint-eps-converted-to.pdf, id=291, 437.635pt x 147.55125pt>
+<./CheckPoint-eps-converted-to.pdf, id=297, 437.635pt x 147.55125pt>
 File: ./CheckPoint-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CheckPoint-eps-converted-to.pdf>
 Package pdftex.def Info: ./CheckPoint-eps-converted-to.pdf  used on input line 
@@ -1990,10 +1912,11 @@ Underfull \hbox (badness 3623) in paragraph at lines 26--26
 st (DB-,
  []
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 31.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 31
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2032,14 +1955,14 @@ Package epstopdf Info: Source file: <../img/CD-TranslateableRemoteLoggerCheckPo
 int.eps>
 (epstopdf)             Output file: <./CD-TranslateableRemoteLoggerCheckPoint-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:40
+(epstopdf)                    date: 2015-12-10 08:18:42
 (epstopdf)                    size: 98396 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-TranslateableRemoteLog
 gerCheckPoint-eps-converted-to.pdf ../img/CD-TranslateableRemoteLoggerCheckPoin
 t.eps>
 (epstopdf)             \includegraphics on input line 42.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=302, 346.293
+<./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf, id=308, 346.293
 75pt x 517.935pt>
 File: ./CD-TranslateableRemoteLoggerCheckPoint-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2057,10 +1980,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
 []$[]$
  []
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 48.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+
+LaTeX Warning: Reference `sec:CODE_TranslateableRemoteLoggerCheckPoint' on page
+ 10 undefined on input line 46.
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 48
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2087,13 +2015,13 @@ e 54.
 Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCommand.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerCommand-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2015-12-10 08:18:40
+(epstopdf)                    date: 2015-12-10 08:18:42
 (epstopdf)                    size: 14360 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerCommand-e
 ps-converted-to.pdf ../img/CD-IRemoteLoggerCommand.eps>
 (epstopdf)             \includegraphics on input line 54.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=319, 366.36874pt x 100.375p
+<./CD-IRemoteLoggerCommand-eps-converted-to.pdf, id=323, 366.36874pt x 100.375p
 t>
 File: ./CD-IRemoteLoggerCommand-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerCommand-eps-converted-to.pdf>
@@ -2106,6 +2034,10 @@ Overfull \hbox (2.43333pt too wide) in paragraph at lines 53--55
  []
 
 
+LaTeX Warning: Reference `sec:CODE_IRemoteLoggerCommand' on page 11 undefined o
+n input line 57.
+
+
 LaTeX Warning: Reference `fig:KommunikationServerManager' on page 11 undefined 
 on input line 61.
 
@@ -2116,13 +2048,13 @@ t line 72.
 Package epstopdf Info: Source file: <../img/CD-ObjectInputStreamConsumer.eps>
 (epstopdf)             Output file: <./CD-ObjectInputStreamConsumer-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:41
+(epstopdf)                    date: 2015-12-10 08:18:42
 (epstopdf)                    size: 113092 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-ObjectInputStreamConsu
 mer-eps-converted-to.pdf ../img/CD-ObjectInputStreamConsumer.eps>
 (epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=321, 469.755pt x 268.0
+<./CD-ObjectInputStreamConsumer-eps-converted-to.pdf, id=324, 469.755pt x 268.0
 0125pt>
 File: ./CD-ObjectInputStreamConsumer-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -2144,10 +2076,11 @@ B6CF8DED01.pygtex)))
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 5.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 5.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2173,13 +2106,13 @@ LaTeX Warning: File `../img/CD-RemoteLogger.eps' not found on input line 6.
 
 Package epstopdf Info: Source file: <../img/CD-RemoteLogger.eps>
 (epstopdf)             Output file: <./CD-RemoteLogger-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:00
+(epstopdf)                    date: 2015-12-10 08:18:02
 (epstopdf)                    size: 83788 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-RemoteLogger-eps-conve
 rted-to.pdf ../img/CD-RemoteLogger.eps>
 (epstopdf)             \includegraphics on input line 6.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-RemoteLogger-eps-converted-to.pdf, id=333, 416.55624pt x 334.24875pt>
+<./CD-RemoteLogger-eps-converted-to.pdf, id=335, 416.55624pt x 334.24875pt>
 File: ./CD-RemoteLogger-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-RemoteLogger-eps-converted-to.pdf>
 Package pdftex.def Info: ./CD-RemoteLogger-eps-converted-to.pdf  used on input 
@@ -2207,13 +2140,13 @@ LaTeX Warning: File `../img/CD-IRemoteLoggerLoginFacade.eps' not found on input
 Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerLoginFacade.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerLoginFacade-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:01
+(epstopdf)                    date: 2015-12-10 08:18:02
 (epstopdf)                    size: 19766 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerLoginFaca
 de-eps-converted-to.pdf ../img/CD-IRemoteLoggerLoginFacade.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=336, 353.32pt x 100.375
+<./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf, id=338, 353.32pt x 100.375
 pt>
 File: ./CD-IRemoteLoggerLoginFacade-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2244,11 +2177,21 @@ Underfull \hbox (badness 1796) in paragraph at lines 19--21
 
 
 (_minted-Abschlussarbeit/10E224E1E082FB83580AD8631AE88524EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 23.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+B6CF8DED01.pygtex)
+
+LaTeX Warning: Reference `sec:CODE_RemoteLoggerLoginFacadeImpl' on page 12 unde
+fined on input line 16.
+
+
+LaTeX Warning: Reference `sec:CODE_RemoteLoggerLoginFacadeImpl' on page 12 unde
+fined on input line 16.
+
+)
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 23
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2278,7 +2221,7 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerConnectionHandler.e
 ps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerConnectionHandler-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:01
+(epstopdf)                    date: 2015-12-10 08:18:02
 (epstopdf)                    size: 61215 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerConnectio
 nHandler-eps-converted-to.pdf ../img/CD-IRemoteLoggerConnectionHandler.eps>
@@ -2303,6 +2246,10 @@ Underfull \hbox (badness 2189) in paragraph at lines 30--31
  []
 
 
+LaTeX Warning: Reference `sec:CODE_RemoteLoggerConnectionHandler' on page 13 un
+defined on input line 33.
+
+
 Overfull \hbox (8.81137pt too wide) in paragraph at lines 34--36
 \OT1/cmr/m/n/10.95 m[]ussen. Bei-spiels-wei-se k[]onnte sich ein Remote-Logger-
 Client ver-bin-den, w[]ahrend der []Connection-
@@ -2316,13 +2263,13 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerServerConnection.ep
 s>
 (epstopdf)             Output file: <./CD-IRemoteLoggerServerConnection-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:02
+(epstopdf)                    date: 2015-12-10 08:18:04
 (epstopdf)                    size: 53951 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerServerCon
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerServerConnection.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=354, 451.6875pt x 
+<./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf, id=353, 451.6875pt x 
 171.64125pt>
 File: ./CD-IRemoteLoggerServerConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2345,10 +2292,11 @@ Overfull \hbox (12.04115pt too wide) in paragraph at lines 43--44
 \OT1/cmr/m/n/10.95 wird hier re-pr[]asentiert. Die-se Klas-se erm[]oglicht
  []
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 44.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 44
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2389,14 +2337,14 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCommandHandlerRegis
 try.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerCommandHandlerRegistry-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:03
+(epstopdf)                    date: 2015-12-10 08:18:04
 (epstopdf)                    size: 56923 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerCommandHa
 ndlerRegistry-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandlerRegistr
 y.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=371, 726.715
+<./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf, id=368, 726.715
 pt x 133.49875pt>
 File: ./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2412,13 +2360,13 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerCommandHandler.eps>
 
 (epstopdf)             Output file: <./CD-IRemoteLoggerCommandHandler-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:03
+(epstopdf)                    date: 2015-12-10 08:18:04
 (epstopdf)                    size: 27371 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerCommandHa
 ndler-eps-converted-to.pdf ../img/CD-IRemoteLoggerCommandHandler.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=372, 443.6575pt x 13
+<./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf, id=369, 443.6575pt x 13
 5.50626pt>
 File: ./CD-IRemoteLoggerCommandHandler-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2437,16 +2385,21 @@ Overfull \hbox (12.16284pt too wide) in paragraph at lines 59--60
 ,
  []
 
+
+LaTeX Warning: Reference `sec:CODE_IRemoteLoggerCommand' on page 14 undefined o
+n input line 60.
+
 (CODE/CODE_AuthorizationCommandHandler.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
 (_minted-Abschlussarbeit/FF99B33F28FE5F2344B4FEC123C86B00EF5CDC360730974D7CA5B9
 B6CF8DED01.pygtex)))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 8.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 8.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2468,10 +2421,11 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 8.
 [14 <./CD-IRemoteLoggerCommandHandlerRegistry-eps-converted-to.pdf> <./CD-IRemo
 teLoggerCommandHandler-eps-converted-to.pdf>]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 8.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 8.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2500,13 +2454,13 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerClientConnection.ep
 s>
 (epstopdf)             Output file: <./CD-IRemoteLoggerClientConnection-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:04
+(epstopdf)                    date: 2015-12-10 08:18:06
 (epstopdf)                    size: 46982 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerClientCon
 nection-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnection.eps>
 (epstopdf)             \includegraphics on input line 5.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=392, 420.57124pt x
+<./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf, id=388, 420.57124pt x
  159.59625pt>
 File: ./CD-IRemoteLoggerClientConnection-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2536,13 +2490,13 @@ ne 19.
 Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerListener.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerListener-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:04
+(epstopdf)                    date: 2015-12-10 08:18:06
 (epstopdf)                    size: 33347 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerListener-
 eps-converted-to.pdf ../img/CD-IRemoteLoggerListener.eps>
 (epstopdf)             \includegraphics on input line 19.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=396, 465.74pt x 119.44624p
+<./CD-IRemoteLoggerListener-eps-converted-to.pdf, id=392, 465.74pt x 119.44624p
 t>
 File: ./CD-IRemoteLoggerListener-eps-converted-to.pdf Graphic file (type pdf)
 <use ./CD-IRemoteLoggerListener-eps-converted-to.pdf>
@@ -2562,14 +2516,14 @@ Package epstopdf Info: Source file: <../img/CD-IRemoteLoggerClientConnectionMan
 ager.eps>
 (epstopdf)             Output file: <./CD-IRemoteLoggerClientConnectionManager-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:05
+(epstopdf)                    date: 2015-12-10 08:18:06
 (epstopdf)                    size: 45435 bytes
 (epstopdf)             Command: <epstopdf --outfile=./CD-IRemoteLoggerClientCon
 nectionManager-eps-converted-to.pdf ../img/CD-IRemoteLoggerClientConnectionMana
 ger.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=397, 392.46
+<./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf, id=393, 392.46
 625pt x 163.61125pt>
 File: ./CD-IRemoteLoggerClientConnectionManager-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2592,10 +2546,11 @@ Underfull \hbox (badness 1478) in paragraph at lines 31--32
 \OT1/cmr/m/n/10.95 und sorgt daf[]ur, dass die Ver-bin-dung ge-kap-
  []
 
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 35.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 35
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2622,23 +2577,24 @@ LaTeX Warning: File `../img/GUI-Manager.eps' not found on input line 39.
 
 Package epstopdf Info: Source file: <../img/GUI-Manager.eps>
 (epstopdf)             Output file: <./GUI-Manager-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-10 08:18:05
+(epstopdf)                    date: 2015-12-10 08:18:06
 (epstopdf)                    size: 49538 bytes
 (epstopdf)             Command: <epstopdf --outfile=./GUI-Manager-eps-converted
 -to.pdf ../img/GUI-Manager.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<./GUI-Manager-eps-converted-to.pdf, id=416, 659.46375pt x 413.545pt>
+<./GUI-Manager-eps-converted-to.pdf, id=412, 659.46375pt x 413.545pt>
 File: ./GUI-Manager-eps-converted-to.pdf Graphic file (type pdf)
 <use ./GUI-Manager-eps-converted-to.pdf>
 Package pdftex.def Info: ./GUI-Manager-eps-converted-to.pdf  used on input line
  39.
 (pdftex.def)             Requested size: 409.71692pt x 256.93791pt.
 )
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 11.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2720,10 +2676,11 @@ Overfull \hbox (3.63928pt too wide) in paragraph at lines 23--25
 
 (_minted-Abschlussarbeit/046CE01661D7D986F2F9BC1E608503E4EF5CDC360730974D7CA5B9
 B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 27.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 27
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2789,10 +2746,11 @@ Underfull \hbox (badness 5622) in paragraph at lines 32--35
  []
 
 ) (fazit.tex
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 1.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 1.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2813,10 +2771,11 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 1.
 [19])
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 99.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 99
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2837,10 +2796,11 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 99.
 [20] (glossar.tex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 102.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+2.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2866,15 +2826,20 @@ Overfull \hbox (2.33284pt too wide) in paragraph at lines 12--12
 lb des []Defaul-tRe-mo-te-Log-ger-Check- 
  []
 
+
+LaTeX Warning: Reference `sec:CODE_RemoteLoggerLoginFacadeImpl' on page 22 unde
+fined on input line 19.
+
 )
 \tf@lof=\write11
 \openout11 = `Abschlussarbeit.lof'.
 
 ) (literaturverzeichnis.tex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 106.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+6.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2894,62 +2859,20 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 106.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 106.
-[22] (anhang.tex (CODE/CODE_TranslateableRemoteLoggerCheckPoint.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/7D0F4D8717C7257C43C07A057BE5549DEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 6.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 6.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 6.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 6.
-[23] (CODE/CODE_IRemoteLoggerCommand-Impl.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/414DD5EE8EFF71CC3F3378ECAB01EB7CEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/4DC3C7B516C89800D9DE99B61F41DAB9EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)) (CODE/CODE_ObjectInputStreamConsumer.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/57911F44F0F7032595EB6903EAD5336EEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/75E3FF3317324F6B3CA2A85DC6767EEAEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-Underfull \vbox (badness 5345) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 13.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
+[22] (anhang.tex
+<../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf, id=531, 602.25pt x 6
+41.39626pt>
+File: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf Graphic file (ty
+pe pdf)
+<use ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>
+Package pdftex.def Info: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.p
+df  used on input line 9.
+(pdftex.def)             Requested size: 455.24411pt x 484.85312pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2958,724 +2881,44 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 13.
+(babel)             in language  on input line 15.
+[23 <../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>] (ressourcen.tex
+))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+0.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 110.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 110.
 [24]
-Overfull \vbox (3.76488pt too high) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 13.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 13.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 13.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 13.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 13.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 13.
-[25] (CODE/CODE_RemoteLogger.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/A479C2BAFC0BF6165B85A14DA8C62F60EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/B05C2B1061349F6FB25C6428514A9E41EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-Underfull \vbox (badness 3343) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 16.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 16.
-[26] (CODE/CODE_RemoteLoggerLoginFacadeImpl_Complete.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/40FDCDE9B788D883CD86C626EE8E3144EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 19.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 19.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 19.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 19.
-[27] (CODE/CODE_RemoteLoggerConnectionHandler.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/FEF6B551CC7C291BAF9B43BBD60C0CB2EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 23.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 23.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 23.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 23.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 23.
-[28] (CODE/CODE_RemoteLoggerServerConnection.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/0E618D1A56F0ED6409FB8E8AA931FBACEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/01F9E65E0D77C33EBFB6623219C1A7ACEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 27.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 27.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 27.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 27.
-[29] (CODE/CODE_IRemoteLoggerCommandHandlerRegistry.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/31CA90344177C5E59FA478B486E92A01EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 31.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 31.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 31.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 31.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 31.
-[30] (CODE/CODE_IRemoteLoggerCommandHandler.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/6FA1F1002E0FDC4C4AB64233F1EB070EEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/50AEA9E52AFD600588FDEE10C48AC2EEEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 35.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 35.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 35.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 35.
-[31] (CODE/CODE_IRemoteLoggerClientConnection.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/83129D8580466B230BE78A69AF2EC575EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/F8027BF7AB8842B0406AA45D3DFF3083EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 39.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[32]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 39.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[33] (CODE/CODE_IRemoteLoggerListener.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/543959F59EC6C022644C5771CEFC1C19EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-Overfull \hbox (12.83855pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/10.95 Listener in-ner-halb des IRe-mo-te-Log-ger-Cli-ent-Connec-
-tion-Ma-na-gers, da-mit die-ser auf-ge-tre-te-ne Check-
- []
-
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/18520BBE61DC9500A5A441AD35058309EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/46FBE69C8D48039C85CF3C968525FE96EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/D4E3AAC3C48E71E4B845B07F99EDF452EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 43.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 43.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 43.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 43.
-[34] (CODE/CODE_IRemoteLoggerClientConnectionManager.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/8882FE5E7F5502CC4E761A12DB966EC3EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/5B54037D548E6A8E3F6F4065A3540B64EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 46.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 46.
-[35]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 46.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 46.
-[36] (CODE/CODE_GUI.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/7AFFC1058AF744672D118EB2C9C52F8BEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/9DF6B98F40E0ABFB741CD222444EE8DCEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 165.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 165.
-[37]
-Overfull \vbox (3.76488pt too high) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 165.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 165.
-[38]
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/CE40F3BB0FC3FB17F0E3EC569E08E24EEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/AC07B6D9389E72AD7DFC175360A6BB4AEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/ABD1F35BFF5CB852E9FC1B303D5231D3EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 334.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 334.
-[39]
-Overfull \vbox (3.76488pt too high) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 334.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 334.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 334.
-[40]
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/37EAA7498CE0B1BA9B99B5B3E183A339EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/A050533281C65756730726F2B1518C27EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 443.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 443.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 443.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 443.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 443.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 443.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 443.
-[41]
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/6713001E9B8B4BD9EC6BB9C3DDF06799EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/62BF2B89311669E58B4A775C1D957D45EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 526.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 526.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 526.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 526.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 526.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 526.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 526.
-[42]
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/83BDB30B58810D2BBE83A960295E5516EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/9D5EDE9658898B8FD98ED69500D01A6FEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 50.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 50.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 50.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 50.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 50.
-[43] (CODE/CODE_Unittest.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/39760127E3A70A5C4B95C37FA6CBE7EFEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/9FE94E1BE7198A9B671C1DB049E5C29AEF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 132.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 132.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 132.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 132.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 132.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 132.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 132.
-[44]
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/AF60F4F11D92DAA7EE717453BB55BA02EF5CDC360730974D7CA5B9
-B6CF8DED01.pygtex)))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 109.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 109.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 109.
-[45]
-File: ../img/ADITO_Logo.pdf Graphic file (type pdf)
-<use ../img/ADITO_Logo.pdf>
-Package pdftex.def Info: ../img/ADITO_Logo.pdf  used on input line 110.
-(pdftex.def)             Requested size: 92.72934pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 110.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 110.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 110.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 110.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 110.
-[46]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
  (Abschlussarbeit.aux)
@@ -3689,32 +2932,28 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26875 strings out of 493305
- 555128 string characters out of 3128932
- 732137 words of memory out of 3000000
- 29425 multiletter control sequences out of 15000+200000
+ 26651 strings out of 493305
+ 532972 string characters out of 3138872
+ 714182 words of memory out of 3000000
+ 29378 multiletter control sequences out of 15000+200000
  11251 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,16n,83p,1145b,1090s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\dpi540\
-cmttb10.pk> <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\c
-m\dpi657\cmbcsc10.pk><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/k.mifka/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/k.mifka/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/k.
-mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
-b><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/k.mifka/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/k.mifka/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
-ers/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt9.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zap
-fding/uzdr.pfb>
-Output written on Abschlussarbeit.pdf (49 pages, 3398448 bytes).
+ 54i,16n,83p,1145b,1044s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Arbeit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\dpi540\c
+mttb10.pk> <C:\Users\Arbeit\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\
+dpi657\cmbcsc10.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmtt9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Abschlussarbeit.pdf (27 pages, 3366899 bytes).
 PDF statistics:
- 775 PDF objects out of 1000 (max. 8388607)
- 147 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

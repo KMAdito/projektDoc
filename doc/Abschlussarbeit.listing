@@ -1,62 +1,9 @@
-  /**
-   * Implementierung einer LoginFacade, die die
-   * LoginInformationen "USER"-"PASS" erwartet.
-   * Dadurch lässt sich die Login-Funktionalität prüfen!
-   */
-  private static class _DummyFacade implements IRemoteLoggerLoginFacade
-  {
-    @Override
-    public boolean checkLogin(String[] pLoginInformation)
-    {
-      return pLoginInformation.length == 2 &&
-          pLoginInformation[0].equals("USER") &&
-          pLoginInformation[1].equals("PASS");
-    }
-  }
-
-  /**
-   * Implementiert einen ConnectionManager, der sich auf
-   * den Remote-Logger dieses Testes verbindet
-   */
-  private static class _ConnectionManager
-    extends AbstractRemoteLoggerClientConnectionManager
-  {
-    @Nullable
-    @Override
-    protected IRemoteLoggerClientConnection createConnection() throws AditoException
-    {
-      String[] login = new String[]{"USER", "PASS"};
-      return new RemoteLoggerClientConnection("localhost", 7733, login);
-    }
-  }
-
-  /**
-   * Hört darauf, wann CheckPoints empfangen werden.
-   * Diese werden in der übergebenen Referenz gespeichert.
-   * Alle Threads, die auf diese Referenz warten werden benachrichtigt
-   */
-  private static class _RemoteListener implements IRemoteLoggerListener
-  {
-    private final AtomicReference<IRemoteLoggerCheckPoint> refToSet;
-
-    public _RemoteListener(AtomicReference<IRemoteLoggerCheckPoint> pRefToSet)
-    {
-      refToSet = pRefToSet;
-    }
-
-    @Override
-    public void checkPointReceived(@NotNull IRemoteLoggerCheckPoint pCheckPoint)
-    {
-      synchronized (refToSet)
-      {
-        refToSet.set(pCheckPoint);
-        refToSet.notifyAll();
-      }
-    }
-
-    @Override
-    public void connectionStatusChanged(boolean pIsConnectedNow)
-    {
-    }
-  }
-}
+IRemoteLoggerCheckPoint cp = _getNextCheckPoint(lastCheckPointENG);
+Assert.assertEquals(cp.getModule(), 0);
+Assert.assertEquals(cp.getID(), 1);
+Assert.assertEquals(cp.getMessage(), "Internal error. Please contact administrator.");
+Assert.assertEquals(cp.getProgram(), 'Z');
+Assert.assertEquals(cp.getKind(), 'B');
+Assert.assertEquals(cp.getPriority(), 'D');
+Assert.assertTrue(cp.getTime() > 0);
+Assert.assertTrue(cp.getTime() <= System.currentTimeMillis());
