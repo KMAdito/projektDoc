@@ -63,7 +63,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="136.60657198346667" width="288.7855164553929" x="1140.4038944047636" y="334.1772288638329"/>
+          <y:Geometry height="121.88657198346675" width="288.7855164553929" x="1140.4038944047636" y="348.8972288638328"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="130.419921875" x="79.18279729019645" y="3.0">CheckItemContainer<y:LabelModel>
@@ -75,8 +75,7 @@
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="false">
             <y:AttributeLabel>...</y:AttributeLabel>
-            <y:MethodLabel>+ CheckItemContainer(pAlwaysSelected : boolean)
-+ setCheckItems(pCheckItems : ICheckItem[]) : void
+            <y:MethodLabel>+ setCheckItems(pCheckItems : ICheckItem[]) : void
 + getSelection() : ICheckItem
 + setSelection(pSelection : ICheckItem) : void
 ...</y:MethodLabel>

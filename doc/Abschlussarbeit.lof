@@ -5,12 +5,12 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Model View Presenter vs. Model View Controller\relax }}{5}{figure.caption.4}
 \contentsline {figure}{\numberline {5}{\ignorespaces Designentwurf des UX-Designers\relax }}{6}{figure.caption.5}
 \contentsline {figure}{\numberline {6}{\ignorespaces Baumstruktur f\IeC {\"u}r Entit\IeC {\"a}ten und Funktionen\relax }}{7}{figure.caption.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Klassendiagramm des Datenmodells f\IeC {\"u}r Entit\IeC {\"a}ten und Funktionen\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {7}{\ignorespaces Datenmodell f\IeC {\"u}r Entit\IeC {\"a}ten und Funktionen\relax }}{7}{figure.caption.7}
 \contentsline {figure}{\numberline {8}{\ignorespaces Baumstruktur f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Klassendiagramm des Datenmodells f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Klassendiagramm des Datenstores\relax }}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Klassendiagramm des CheckButtons\relax }}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces \relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Datenmodell f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Datenstore\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces CheckItemButton\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces CheckItemContainer\relax }}{10}{figure.caption.12}
 \contentsline {figure}{\numberline {13}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{11}{figure.caption.13}
 \contentsline {figure}{\numberline {14}{\ignorespaces Validieren des Logins\relax }}{11}{figure.caption.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{11}{figure.caption.15}

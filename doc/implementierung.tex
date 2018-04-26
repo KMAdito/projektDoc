@@ -25,28 +25,29 @@ Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt v
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{../graphic/diagrams/CD_CheckButton/CD_CheckButton}
-	\caption{Klassendiagramm des CheckButtons}
+	\caption{CheckItemButton}
 	\label{fig:cdcheckbutton}
 \end{figure}
 
+\vspace{-5px}
+
 Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt, welche CheckToggleButton erweitet und über den Konstruktor ein ICheckItem (siehe (XXX)) aufnehmen kann. Innerhalb dieses Konstruktors werden dem Button alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
+
+\vspace{-5px}
 
 \subsubsection{CheckItemContainer}
 
-\begin{wrapfigure}[13]{r}[0cm]{160px}
+\begin{wrapfigure}[15]{r}[0cm]{160px}
 	\vspace{-12px}
 	\centering
 	\includegraphics[width=.95\linewidth]{../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer}
-	\caption{}
+	\caption{CheckItemContainer}
 	\label{fig:cdcheckitemcontainer}
 \end{wrapfigure}
 
-ewrfqeochwre uow eufoiwqfqjwdeifj iewdj qoew oqwi hequwhe gqweiughqw iuuihqweughfqwueihf  eihwquifh qrhe gfuiqwueihf quih qwihegfuhqwui heuih wqwihe uiqhwueihfquiw hqwheui fhquiwhe fuhweewuhwquei hfhwr fuiqhw 
+Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Sortierung unterliegen: auf der linken Seite befinden sich alle unchecked und auf der rechten Seite alle checked Buttons. Zudem wird bei den Browser Check-Buttons ein Abstand zwischen den beiden Buttongruppen eingefügt. 
 
-ewrfqeochwre uow eufoiwqfqjwdeifj iewdj qoew oqwi hequwhe gqweiughqw iuuihqweughfqwueihf  eihwquifh qrhe gfuiqwueihf quih qwihegfuhqwui heuih wqwihe uiqhwueihfquiw hqwheui fhquiwhe fuhweewuhwquei hfhwr fuiqhw 
+Um diese Positionierung zu realisieren, wurde der CheckButtonContainer eingeführt. Ihm lassen sich CheckButtons hinzufügen. Außerdem kann der Abstand über setSplitting(...) (de)aktiviert werden. Ändert sich der Zustand eines CheckButtons, so kümmert er sich um die richtige Umsortierung.
 
-ewrfqeochwre uow eufoiwqfqjwdeifj iewdj qoew oqwi hequwhe gqweiughqw iuuihqweughfqwueihf  eihwquifh qrhe gfuiqwueihf quih qwihegfuhqwui heuih wqwihe uiqhwueihfquiw hqwheui fhquiwhe fuhweewuhwquei hfhwr fuiqhw 
-
-ewrfqeochwre uow eufoiwqfqjwdeifj iewdj qoew oqwi hequwhe gqweiughqw iuuihqweughfqwueihf  eihwquifh qrhe gfuiqwueihf quih qwihegfuhqwui heuih wqwihe uiqhwueihfquiw hqwheui fhquiwhe fuhweewuhwquei hfhwr fuiqhw 
-
+Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man einfache CheckItems übergeben (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder unnötige wieder entfernt. Zudem kann über die Methode getSelection() der aktuell selektierte CheckButton ausgelesen werden.
 \newpage

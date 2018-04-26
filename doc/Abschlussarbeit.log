@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  26 APR 2018 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  26 APR 2018 17:32
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
@@ -2007,36 +2007,21 @@ Package pdftex.def Info: ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf
  used on input line 27.
 (pdftex.def)             Requested size: 455.24411pt x 85.29488pt.
 <../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf, id=290, 2
-93.095pt x 313.17pt>
+93.095pt x 336.25626pt>
 File: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf Graph
 ic file (type pdf)
 <use ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItem
-Container.pdf  used on input line 39.
-(pdftex.def)             Requested size: 152.57005pt x 163.01657pt.
+Container.pdf  used on input line 43.
+(pdftex.def)             Requested size: 152.57005pt x 175.03383pt.
 
-Underfull \hbox (badness 4872) in paragraph at lines 44--45
-[]\OT1/cmr/m/n/10.95 ewrfqeochwre uow eu-foi-wqf-qjw-deifj ie-w-dj qoew oqwi
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 46--47
-[]\OT1/cmr/m/n/10.95 ewrfqeochwre uow eu-foi-wqf-qjw-deifj ie-w-dj qoew oqwi
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 48--49
-[]\OT1/cmr/m/n/10.95 ewrfqeochwre uow eu-foi-wqf-qjw-deifj ie-w-dj qoew oqwi
- []
-
-
-Underfull \hbox (badness 4872) in paragraph at lines 50--51
-[]\OT1/cmr/m/n/10.95 ewrfqeochwre uow eu-foi-wqf-qjw-deifj ie-w-dj qoew oqwi
+Underfull \hbox (badness 1418) in paragraph at lines 52--53
+\OT1/cmr/m/n/10.95 tems(...)), wo-nach die-ser in-tern die ben[]otigten Check-
  []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 52
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 53
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2046,17 +2031,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 53.
 [10 <../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf> <../graphic/diagram
 s/CD_CheckItemContainer/CD_CheckItemContainer.pdf>]) (test_junit.tex
 (CODE/CODE_TestRemoteLogger_init.tex
@@ -2378,7 +2363,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  26479 strings out of 493305
  529858 string characters out of 3128932
- 711801 words of memory out of 3000000
+ 711742 words of memory out of 3000000
  29296 multiletter control sequences out of 15000+200000
  11083 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2399,7 +2384,7 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
 /k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9
 .pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfdi
 ng/uzdr.pfb>
-Output written on Abschlussarbeit.pdf (19 pages, 2890901 bytes).
+Output written on Abschlussarbeit.pdf (19 pages, 2879545 bytes).
 PDF statistics:
  491 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
