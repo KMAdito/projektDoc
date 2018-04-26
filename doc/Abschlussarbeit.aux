@@ -66,82 +66,41 @@
 \newlabel{fig:ishortcuteditorstore}{{10}{8}{Klassendiagramm des Datenstores\relax }{figure.caption.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Pflichtenheft}{8}{subsection.4.6}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Implementierung}{9}{section.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Allgemein}{9}{subsection.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}IRemoteLoggerCheckPoint}{9}{subsubsection.5.1.1}}
-\newlabel{sec:IRemoteLoggerCheckPoint}{{5.1.1}{9}{IRemoteLoggerCheckPoint}{subsubsection.5.1.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Aufbau eines \glqq IRemoteLoggerCheckPoint\grqq \relax }}{9}{figure.caption.11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Aufbau eines CheckPoints in ADITO4\relax }}{9}{figure.caption.12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Beschreibung der verschiedenen Bestandteile eines ADITO-CheckPoints\relax }}{9}{figure.caption.12}}
-\newlabel{fig:CheckPointParts}{{13}{9}{Beschreibung der verschiedenen Bestandteile eines ADITO-CheckPoints\relax }{figure.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces initCause(...)-Methodenimplementierung innerhalb des \glqq DefaultRemoteLoggerCheckPoint\grqq \relax }}{10}{figure.caption.13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Klassenhierarchie des \glqq IRemoteLoggerCheckPoint\grqq \relax }}{10}{figure.caption.14}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}IRemoteLoggerCommand}{11}{subsubsection.5.1.2}}
-\newlabel{sec:IRemoteLoggerCommand}{{5.1.2}{11}{IRemoteLoggerCommand}{subsubsection.5.1.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Klassendiagramm des \glqq IRemoteLoggerCommand\grqq \relax }}{11}{figure.caption.15}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.3}ObjectInputStreamConsumer}{11}{subsubsection.5.1.3}}
-\newlabel{sec:ObjectInputStreamConsumer}{{5.1.3}{11}{ObjectInputStreamConsumer}{subsubsection.5.1.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Aufbau des \glqq ObjectInputStreamConsumer\grqq \relax }}{11}{figure.caption.16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Auslesen eines ObjectInputStreams im ObjectInputStreamConsumer\relax }}{12}{figure.caption.17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Serverseitig}{12}{subsection.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}RemoteLogger}{12}{subsubsection.5.2.1}}
-\newlabel{sec:RemoteLogger}{{5.2.1}{12}{RemoteLogger}{subsubsection.5.2.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Aufbau des \glqq RemoteLogger\grqq \relax }}{12}{figure.caption.18}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}IRemoteLoggerLoginFacade}{12}{subsubsection.5.2.2}}
-\newlabel{sec:IRemoteLoggerLoginFacade}{{5.2.2}{12}{IRemoteLoggerLoginFacade}{subsubsection.5.2.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Aufbau der \glqq LoginFacade\grqq \relax }}{12}{figure.caption.19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Implementierung der \glqq checkLogin(...)\grqq -Methode (siehe Anhang \ref  {sec:CODE_RemoteLoggerLoginFacadeImpl})\relax }}{13}{figure.caption.20}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}IRemoteLoggerConnectionHandler}{13}{subsubsection.5.2.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Aufbau des \glqq IRemoteLoggerConnectionHandler\grqq \relax }}{13}{figure.caption.21}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}IRemoteLoggerServerConnection}{13}{subsubsection.5.2.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerServerConnection\grqq \relax }}{13}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces ObjectInputStreamConsumer filtert den InputStream nach IRemoteLoggerCommands\relax }}{14}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Implementierung des Sendens von CheckPoints mittels einem ObjectOutputStream\relax }}{14}{figure.caption.24}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.5}IRemoteLoggerCommandHandlerRegistry}{14}{subsubsection.5.2.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.6}IRemoteLoggerCommandHandler}{14}{subsubsection.5.2.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerCommandHandler\grqq \relax }}{14}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces \glqq handle(...)\grqq -Methode des \glqq AuthorizationCommandHandlers\grqq \relax }}{15}{figure.caption.26}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Client- / Managerseitig}{16}{subsection.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.1}IRemoteLoggerClientConnection}{16}{subsubsection.5.3.1}}
-\newlabel{sec:IRemoteLoggerClientConnection}{{5.3.1}{16}{IRemoteLoggerClientConnection}{subsubsection.5.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerClientConnection\grqq \relax }}{16}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces Initiieren der Verbindung zum Remote-Logger-Server am Remote-Logger-Client\relax }}{16}{figure.caption.28}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2}IRemoteLoggerListener}{16}{subsubsection.5.3.2}}
-\newlabel{sec:IRemoteLoggerListener}{{5.3.2}{16}{IRemoteLoggerListener}{subsubsection.5.3.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerListener\grqq \relax }}{16}{figure.caption.29}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3}IRemoteLoggerClientConnectionManager}{16}{subsubsection.5.3.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerListener\grqq \relax }}{16}{figure.caption.30}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.4}Graphical User Interface}{17}{subsubsection.5.3.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces Remote-Logger-Client innerhalb des ADITO4-Managers\relax }}{17}{figure.caption.31}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Anwendungstests}{18}{section.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{18}{figure.caption.32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces Validieren des Logins\relax }}{18}{figure.caption.33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{18}{figure.caption.34}}
-\newlabel{fig:CODE_TestRemoteLogger-test_communication-ConnectionManager}{{35}{18}{Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }{figure.caption.34}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }}{19}{figure.caption.35}}
-\newlabel{fig:CODE_TestRemoteLogger-test_communication-RemoteListener}{{36}{19}{Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }{figure.caption.35}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces CheckPoint senden\relax }}{19}{figure.caption.36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Warten auf neue CheckPoints;   Auslesen von CheckPoints\relax }}{19}{figure.caption.37}}
-\newlabel{fig:CODE_TestRemoteLogger-getNextCheckPoint}{{38}{19}{Warten auf neue CheckPoints; \\ Auslesen von CheckPoints\relax }{figure.caption.37}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces \IeC {\"U}berpr\IeC {\"u}fen der CheckPoint-Inhalte\relax }}{20}{figure.caption.39}}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Fazit}{20}{section.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Glossar}{21}{section.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {9}Abbildungsverzeichnis}{22}{section.9}}
-\@writefile{toc}{\contentsline {section}{\numberline {10}Literaturverzeichnis}{22}{section.10}}
-\@writefile{toc}{\contentsline {section}{\numberline {11}Anhang}{23}{section.11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Back-End}{9}{subsection.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Datenmodelle}{9}{subsubsection.5.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Datenstore}{9}{subsubsection.5.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Front-End}{9}{subsection.5.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}ShortcutField}{9}{subsubsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Accordion}{9}{subsubsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}Check-Button}{10}{subsubsection.5.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Klassendiagramm des CheckButtons\relax }}{10}{figure.caption.11}}
+\newlabel{fig:cdcheckbutton}{{11}{10}{Klassendiagramm des CheckButtons\relax }{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}CheckItemContainer}{10}{subsubsection.5.2.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \relax }}{10}{figure.caption.12}}
+\newlabel{fig:cdcheckitemcontainer}{{12}{10}{\relax }{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Anwendungstests}{11}{section.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{11}{figure.caption.13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Validieren des Logins\relax }}{11}{figure.caption.14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{11}{figure.caption.15}}
+\newlabel{fig:CODE_TestRemoteLogger-test_communication-ConnectionManager}{{15}{11}{Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }}{12}{figure.caption.16}}
+\newlabel{fig:CODE_TestRemoteLogger-test_communication-RemoteListener}{{16}{12}{Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces CheckPoint senden\relax }}{12}{figure.caption.17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Warten auf neue CheckPoints;   Auslesen von CheckPoints\relax }}{12}{figure.caption.18}}
+\newlabel{fig:CODE_TestRemoteLogger-getNextCheckPoint}{{18}{12}{Warten auf neue CheckPoints; \\ Auslesen von CheckPoints\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces \IeC {\"U}berpr\IeC {\"u}fen der CheckPoint-Inhalte\relax }}{13}{figure.caption.20}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Fazit}{13}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Glossar}{14}{section.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Abbildungsverzeichnis}{15}{section.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {10}Literaturverzeichnis}{15}{section.10}}
+\@writefile{toc}{\contentsline {section}{\numberline {11}Anhang}{16}{section.11}}
 \@writefile{toc}{\setcounter {tocdepth}{-1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Anwendungsf\IeC {\"a}lle}{23}{subsection.11.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces Use-Case-Diagramm\relax }}{23}{figure.caption.40}}
-\newlabel{fig:anwendungsfall}{{40}{23}{Use-Case-Diagramm\relax }{figure.caption.40}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.1}Anwendungsf\IeC {\"a}lle}{16}{subsection.11.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Use-Case-Diagramm\relax }}{16}{figure.caption.21}}
+\newlabel{fig:anwendungsfall}{{20}{16}{Use-Case-Diagramm\relax }{figure.caption.21}{}}
 \gdef\minted@oldcachelist{,
   default-pyg-prefix.pygstyle,
   default.pygstyle,
-  24ED0549BFF3473F776EDB96B5821EDBEF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  7D0601ABF68654B56A063BD89B7A7BCDEF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  10E224E1E082FB83580AD8631AE88524EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  3C53BBF832B8EF1FEE7CF597825C0174EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  F38A1CAB068DE79854702948A666BB74EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  FF99B33F28FE5F2344B4FEC123C86B00EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
-  8A243CC9B2F81930F70F9C472E02F594EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
   18AB181B3C0D0017327B94D230DE209BEF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
   52F223803A942D1FF93D04CD92CE742CEF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
   5F717A610B63B4D7C8BFB5F510ABC399EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
@@ -150,5 +109,5 @@
   C00333A92F0DB22A251FBEC51814E46BEF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
   E17A44AF0803560C1BDF51CFE3EB9735EF5CDC360730974D7CA5B9B6CF8DED01.pygtex,
   9C4E5C55E0B662B7411B7914875CA85CEF5CDC360730974D7CA5B9B6CF8DED01.pygtex}
-\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{24}{subsection.11.2}}
-\newlabel{ressources}{{11.2}{24}{Verwendete Ressourcen}{subsection.11.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{17}{subsection.11.2}}
+\newlabel{ressources}{{11.2}{17}{Verwendete Ressourcen}{subsection.11.2}{}}

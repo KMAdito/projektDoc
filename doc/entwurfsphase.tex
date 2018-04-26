@@ -26,7 +26,7 @@ Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO 
 
 \ding{192} \textbf{Breadcrumb:} Diese Komponente ist in der Lage einen Pfad darzustellen und diesen zu bearbeiten. In diesem Fall besteht sie aus beliebig vielen ComboBoxen, um an jeder Stelle des Pfads einen anderen Knoten auswählen zu können. Diese Komponente dient zum einen als Orientierungshilfe, um jederzeit feststellen zu können, für welche Funktion der Shortcut gesetzt wird. Zum Anderen ist damit eine intuitive Navigation durch alle Funktionen möglich.
 
-\ding{193} \textbf{Shortcut-Field:} Hierbei handelt es sich um eine Komponente, welche die Darstellung und Bearbeitung von Shortcuts ermöglicht. Die Eingabe und Editierung des Tastaturkürzels kann nur bei selektiertem Zustand erfolgen. Demnach wechselt die Komponente bei Selektion in den Bearbeitungsmodus und verlässt diesen, sobald eine andere Komponente den Fokus erlangt.
+\ding{193} \textbf{Shortcut-Field:} Hierbei handelt es sich um eine Komponente, welche die Darstellung und Bearbeitung von Shortcuts ermöglicht. Die Eingabe und Editierung des Tastaturkürzels kann nur bei fokusiertem Zustand erfolgen. Demnach wechselt die Komponente bei Fokusierung in den Bearbeitungsmodus und verlässt diesen, sobald eine andere Komponente den Fokus erlangt.
 
 \ding{194} \textbf{Check-Button:} Dieses GUI-Element kann selektiert werden und stellt neben einem Icon ein Häckchen- oder X-Symbol dar. Somit kann die Komponente visualisieren, bei welchem Browser bzw. Betriebssystem der Shortcut Probleme bereiten kann (X) und wo dieser unbedenklich ist (Häckchen). Außerdem dient sie dem Benutzer zur Auswahl eines Elements, um davon mehr Informationen zu erhalten (Im Entwurf werden beispielhaft für Google Chrome und macOS detailierte Informationen angezeigt).
 
@@ -78,7 +78,7 @@ Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO 
 	\label{fig:baumstruktur_Func}
 \end{wrapfigure}
 
-Wie sich im Designentwurf (\autoref{fig:uxDesigns}) -- aufgrund der TreeTable -- schon erahnen lässt, sollen die Entitäten und deren Funktionen als Baumstruktur gespeichert werden. Jede Funktion stellt einen Endknoten (Blatt) dar und soll genau einen Shortcut besitzen können. Entitäten hingegen ist es nur erlaubt, Funktionen und weitere Entitäten aufzunehmen (siehe \autoref{fig:baumstruktur_Func}). Da es sich um eine Baumstruktur handelt, kann man ausschließen, dass sich eine Entität selbst als Kind hält.
+Wie sich im Designentwurf (\autoref{fig:uxDesigns}) -- aufgrund der TreeTable -- schon erahnen lässt, sollen die Entitäten und deren Funktionen als Baumstruktur aufgebaut werden. Jede Funktion stellt einen Endknoten (Blatt) dar und soll genau einen Shortcut besitzen können. Entitäten hingegen ist es nur erlaubt, Funktionen und weitere Entitäten aufzunehmen (siehe \autoref{fig:baumstruktur_Func}). Da es sich um eine Baumstruktur handelt, kann man ausschließen, dass sich eine Entität selbst als Kind hält.
 
 Um diese Struktur im Editor abbilden zu können, wurde ein Datenmodell entworfen, welches den Anforderungen entspricht. Zur Erläuterung des Models ist im Folgenden ein schematisches UML Klassendiagramm abgebildet, welches den Grundaufbau und die Beziehungen zwischen den Elementen verdeutlicht (\autoref{fig:baumstrukturUML_Func}).
 
@@ -112,7 +112,7 @@ Um auch eine Funktion im Modell abbilden zu können, existiert das Interface \te
 	\label{fig:baumstruktur_Result}
 \end{wrapfigure}
 
-Auch die Browserergebnisse werden als Baumstruktur gehalten. Allerdings ergiebt sich hierbei eine neue Anforderung. Betrachtet man den Designentwurf, so stellt man fest, dass eine Gruppe von Testergebnissen immer eine Typenbezeichnung hat (Im Entwurf haben die Gruppen den Typ \glqq Browser\grqq oder \glqq Betriebssystem\grqq). In \autoref{fig:baumstrukturUML_Results} ist ein UML-Klassendiagramm eines Datenmodells abgebildet, welches den Anforderungen zum Halten von Browsertestergebnissen gerecht wird.
+Auch die Browserergebnisse werden als Baumstruktur gehalten. Allerdings ergiebt sich hierbei eine neue Anforderung. Betrachtet man den Designentwurf, so stellt man fest, dass eine Gruppe von Testergebnissen immer eine Typenbezeichnung hat (Im Entwurf haben die Gruppen den Typ \glqq Browser\grqq\xspace oder \glqq Betriebssystem\grqq). In \autoref{fig:baumstrukturUML_Results} ist ein UML-Klassendiagramm eines Datenmodells abgebildet, welches den Anforderungen zum Halten von Browsertestergebnissen gerecht wird.
 
 \begin{figure}[H]
 	\flushright
@@ -128,7 +128,7 @@ In diesem Modell stellt ein \textbf{ICheckItem} ein einzelnes Testergbnis dar. E
 
 \subsection{Datenstore}
 
-Damit sowohl die Daten der Entitäten und Funktionen als auch die der Browsertestergebnissen in zuvor geschilderter Form erhalten werden können, soll ein Datenstore zum Einsatz kommen. Dieser liefert die beiden oben beschriebenen Datenmodelle. Dabei kümmert er sich die Daten von anderen Quellen (z.B. XML-Dateien) in die gewünschte Datenmodell-Form zu bringen. Zudem ist er dafür zuständig, die geänderten Daten wieder zu speichern.
+Damit sowohl die Daten der Entitäten und Funktionen als auch die der Browsertestergebnissen in zuvor geschilderter Form erhalten werden können, soll ein Datenstore zum Einsatz kommen. Dieser liefert die beiden oben beschriebenen Datenmodelle. Dabei kümmert er sich die Daten von anderen Quellen (z.B. XML-Dateien) in die gewünschte Datenmodell-Form zu bringen. Zudem ist er dafür zuständig, die geänderten Daten wieder zurück zu speichern.
 
 \vspace{-2px}
 

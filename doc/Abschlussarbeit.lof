@@ -9,33 +9,13 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Baumstruktur f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.8}
 \contentsline {figure}{\numberline {9}{\ignorespaces Klassendiagramm des Datenmodells f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces Klassendiagramm des Datenstores\relax }}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Aufbau eines \glqq IRemoteLoggerCheckPoint\grqq \relax }}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Aufbau eines CheckPoints in ADITO4\relax }}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Beschreibung der verschiedenen Bestandteile eines ADITO-CheckPoints\relax }}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {14}{\ignorespaces initCause(...)-Methodenimplementierung innerhalb des \glqq DefaultRemoteLoggerCheckPoint\grqq \relax }}{10}{figure.caption.13}
-\contentsline {figure}{\numberline {15}{\ignorespaces Klassenhierarchie des \glqq IRemoteLoggerCheckPoint\grqq \relax }}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {16}{\ignorespaces Klassendiagramm des \glqq IRemoteLoggerCommand\grqq \relax }}{11}{figure.caption.15}
-\contentsline {figure}{\numberline {17}{\ignorespaces Aufbau des \glqq ObjectInputStreamConsumer\grqq \relax }}{11}{figure.caption.16}
-\contentsline {figure}{\numberline {18}{\ignorespaces Auslesen eines ObjectInputStreams im ObjectInputStreamConsumer\relax }}{12}{figure.caption.17}
-\contentsline {figure}{\numberline {19}{\ignorespaces Aufbau des \glqq RemoteLogger\grqq \relax }}{12}{figure.caption.18}
-\contentsline {figure}{\numberline {20}{\ignorespaces Aufbau der \glqq LoginFacade\grqq \relax }}{12}{figure.caption.19}
-\contentsline {figure}{\numberline {21}{\ignorespaces Implementierung der \glqq checkLogin(...)\grqq -Methode (siehe Anhang \ref {sec:CODE_RemoteLoggerLoginFacadeImpl})\relax }}{13}{figure.caption.20}
-\contentsline {figure}{\numberline {22}{\ignorespaces Aufbau des \glqq IRemoteLoggerConnectionHandler\grqq \relax }}{13}{figure.caption.21}
-\contentsline {figure}{\numberline {23}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerServerConnection\grqq \relax }}{13}{figure.caption.22}
-\contentsline {figure}{\numberline {24}{\ignorespaces ObjectInputStreamConsumer filtert den InputStream nach IRemoteLoggerCommands\relax }}{14}{figure.caption.23}
-\contentsline {figure}{\numberline {25}{\ignorespaces Implementierung des Sendens von CheckPoints mittels einem ObjectOutputStream\relax }}{14}{figure.caption.24}
-\contentsline {figure}{\numberline {26}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerCommandHandler\grqq \relax }}{14}{figure.caption.25}
-\contentsline {figure}{\numberline {27}{\ignorespaces \glqq handle(...)\grqq -Methode des \glqq AuthorizationCommandHandlers\grqq \relax }}{15}{figure.caption.26}
-\contentsline {figure}{\numberline {28}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerClientConnection\grqq \relax }}{16}{figure.caption.27}
-\contentsline {figure}{\numberline {29}{\ignorespaces Initiieren der Verbindung zum Remote-Logger-Server am Remote-Logger-Client\relax }}{16}{figure.caption.28}
-\contentsline {figure}{\numberline {30}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerListener\grqq \relax }}{16}{figure.caption.29}
-\contentsline {figure}{\numberline {31}{\ignorespaces Aufbau des Interfaces \glqq IRemoteLoggerListener\grqq \relax }}{16}{figure.caption.30}
-\contentsline {figure}{\numberline {32}{\ignorespaces Remote-Logger-Client innerhalb des ADITO4-Managers\relax }}{17}{figure.caption.31}
-\contentsline {figure}{\numberline {33}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{18}{figure.caption.32}
-\contentsline {figure}{\numberline {34}{\ignorespaces Validieren des Logins\relax }}{18}{figure.caption.33}
-\contentsline {figure}{\numberline {35}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{18}{figure.caption.34}
-\contentsline {figure}{\numberline {36}{\ignorespaces Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }}{19}{figure.caption.35}
-\contentsline {figure}{\numberline {37}{\ignorespaces CheckPoint senden\relax }}{19}{figure.caption.36}
-\contentsline {figure}{\numberline {38}{\ignorespaces Warten auf neue CheckPoints; Auslesen von CheckPoints\relax }}{19}{figure.caption.37}
-\contentsline {figure}{\numberline {39}{\ignorespaces \IeC {\"U}berpr\IeC {\"u}fen der CheckPoint-Inhalte\relax }}{20}{figure.caption.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Use-Case-Diagramm\relax }}{23}{figure.caption.40}
+\contentsline {figure}{\numberline {11}{\ignorespaces Klassendiagramm des CheckButtons\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces \relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Validieren des Logins\relax }}{11}{figure.caption.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces CheckPoint senden\relax }}{12}{figure.caption.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Warten auf neue CheckPoints; Auslesen von CheckPoints\relax }}{12}{figure.caption.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces \IeC {\"U}berpr\IeC {\"u}fen der CheckPoint-Inhalte\relax }}{13}{figure.caption.20}
+\contentsline {figure}{\numberline {20}{\ignorespaces Use-Case-Diagramm\relax }}{16}{figure.caption.21}
