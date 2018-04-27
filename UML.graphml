@@ -1641,7 +1641,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n73">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-953.641594789529" y="71.37597908691089"/>
@@ -1659,7 +1658,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n74">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-979.3018161591627" y="143.7041013888399"/>
@@ -1677,7 +1675,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n75">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-1075.1740901049482" y="185.67930432373925"/>
@@ -1695,7 +1692,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n76">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-906.0645175120421" y="115.1051415720342"/>
@@ -1713,7 +1709,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n77">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-906.0645175120421" y="176.47306621003708"/>
@@ -1731,7 +1726,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n78">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-979.3018161591627" y="222.1294559063722"/>
@@ -1749,7 +1743,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n79">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-906.0645175120421" y="267.78584560270724"/>
@@ -1767,7 +1760,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n80">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="50.9339140020943" width="50.9339140020943" x="-855.1306035099478" y="222.1294559063722"/>
@@ -1785,13 +1777,12 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n81">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.656389696335111" width="58.31277939267022" x="-893.4345691308903" y="89.01474123979048"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835054" y="-1.5223910893324444">Shortcut<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835168" y="-1.5223910893324444">Shortcut<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1803,7 +1794,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n82">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.656389696335111" width="58.31277939267022" x="-844.9543857089006" y="132.7439037249138"/>
@@ -1821,7 +1811,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n83">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.656389696335111" width="58.31277939267022" x="-795.7979960125656" y="239.76821805925178"/>
@@ -1839,13 +1828,12 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n84">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.656389696335111" width="58.31277939267022" x="-844.9543857089006" y="285.42460775558686"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835054" y="-1.5223910893324444">Shortcut<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835054" y="-1.5223910893324728">Shortcut<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1857,13 +1845,12 @@ ist aufgetreten<y:LabelModel>
       </data>
     </node>
     <node id="n85">
-      <data key="d5"/>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.656389696335111" width="58.31277939267022" x="-844.9543857089008" y="194.11182836291667"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835054" y="-1.5223910893324444">Shortcut<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.689453125" x="4.811663133835168" y="-1.5223910893324444">Shortcut<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1878,10 +1865,10 @@ ist aufgetreten<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="131.21061202535134" width="338.4093463471901" x="-1622.2263077151865" y="417.28380084729946"/>
+          <y:Geometry height="131.21061202535134" width="361.40493369797525" x="-1645.2218950659717" y="417.28380084729946"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.60546875" x="119.90193879859504" y="26.701171875">IShortcutModel<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.841796875" x="121.28156841148763" y="26.701171875">ICheckComponent<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1890,10 +1877,10 @@ ist aufgetreten<y:LabelModel>
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="interface" use3DEffect="false">
             <y:AttributeLabel/>
-            <y:MethodLabel>+ getShortcut() : IShortcut 
-+ setShortcut(pShortcut : IShortcut) : void
-+ addShortcutChangeListener(pListener : IListener) : void
-+ removeShortcutChangeListener(pListener : IListener) : void</y:MethodLabel>
+            <y:MethodLabel>+ isChecked() : boolean 
++ setChecked(pChecked : boolean) : void
++ addCheckChangeListener(pListener : ChangeListener) : void
++ removeCheckChangeListener(pListener : ChangeListener) : void</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -1902,19 +1889,19 @@ ist aufgetreten<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="88.00336788989318" width="188.739790745096" x="-950.141887331484" y="438.8874229150286"/>
+          <y:Geometry height="27.739070005076428" width="67.4182436875044" x="-1168.8324692112922" y="539.0697480669055"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="100.04638671875" x="44.346702013173" y="26.701171875">IShortcutGroup<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="53.09912109375" x="7.1595612968772" y="3.0">JButton<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="interface" use3DEffect="false">
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="false">
             <y:AttributeLabel/>
-            <y:MethodLabel>+ getChildren() : IShortcutNode[]</y:MethodLabel>
+            <y:MethodLabel/>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -1923,21 +1910,42 @@ ist aufgetreten<y:LabelModel>
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="113.3692080462938" width="134.22438969797565" x="-1197.8743101327582" y="426.2045028368283"/>
+          <y:Geometry height="58.65556917718385" width="171.49310023200712" x="-1220.8698974835436" y="450.4141788897216"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="93.552734375" x="20.335827661487826" y="26.701171875">IShortcutNode<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="157.83544921875" x="6.8288255066285615" y="3.0">CheckToggleComponent<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="interface" use3DEffect="false">
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="false">
             <y:AttributeLabel/>
-            <y:MethodLabel>+ isEnabled() : boolean
-+ getName() : String
-+ getPath() : IPath</y:MethodLabel>
+            <y:MethodLabel>...</y:MethodLabel>
+          </y:UML>
+        </y:UMLClassNode>
+      </data>
+    </node>
+    <node id="n89">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLClassNode>
+          <y:Geometry height="91.16657198346667" width="284.0921831220595" x="-986.4297333670836" y="434.1586774865802"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="141.9599609375" x="71.06611109227975" y="3.0">CheckItemComponent<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="false">
+            <y:AttributeLabel/>
+            <y:MethodLabel>+ CheckItemComponent(pCheckItem : ICheckItem)
++ getCheckItem() : ICheckItem
+...</y:MethodLabel>
           </y:UML>
         </y:UMLClassNode>
       </data>
@@ -2511,7 +2519,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e47" source="n75" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2522,7 +2529,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e48" source="n74" target="n73">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2533,7 +2539,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e49" source="n74" target="n76">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2544,7 +2549,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e50" source="n75" target="n78">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2555,7 +2559,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e51" source="n78" target="n77">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2566,7 +2569,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e52" source="n78" target="n79">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2577,7 +2579,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e53" source="n78" target="n80">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2588,7 +2589,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e54" source="n73" target="n81">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.156389696335054" ty="0.0"/>
@@ -2599,7 +2599,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e55" source="n76" target="n82">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.156389696335054" ty="0.0"/>
@@ -2610,7 +2609,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e56" source="n80" target="n83">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.156389696335054" ty="0.0"/>
@@ -2621,7 +2619,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e57" source="n79" target="n84">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-29.156389696335054" ty="0.0"/>
@@ -2632,7 +2629,6 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e58" source="n77" target="n85">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2643,34 +2639,32 @@ ist aufgetreten<y:LabelModel>
       </data>
     </edge>
     <edge id="e59" source="n87" target="n88">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-94.3414697478546" sy="-24.993036353412265" tx="67.12873242353612" ty="-24.993036353412265"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="29.30380824325755"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta"/>
+          <y:Arrows source="white_delta" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
     <edge id="e60" source="n86" target="n88">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="169.18718937930385" sy="-6.521027666257908" tx="-67.13623404605687" ty="-6.5210276662579645"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="white_delta"/>
+          <y:Path sx="180.6837949961421" sy="-6.521027666257908" tx="-85.77726403052934" ty="-3.373884284596341"/>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="white_delta" target="none"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e61" source="n88" target="n87">
+    <edge id="e61" source="n89" target="n88">
       <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="67.10794103247736" sy="23.048634873729497" tx="-94.34958314353173" ty="23.048634873729497"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="diamond"/>
+          <y:Arrows source="none" target="white_delta"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>

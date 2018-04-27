@@ -30,8 +30,9 @@
 \contentsline {subsection}{\numberline {5.2}Front-End}{9}{subsection.5.2}
 \contentsline {subsubsection}{\numberline {5.2.1}ShortcutField}{9}{subsubsection.5.2.1}
 \contentsline {subsubsection}{\numberline {5.2.2}Accordion}{9}{subsubsection.5.2.2}
-\contentsline {subsubsection}{\numberline {5.2.3}Check-Button}{10}{subsubsection.5.2.3}
-\contentsline {subsubsection}{\numberline {5.2.4}CheckItemContainer}{10}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.3}ShortcutEditorUI}{9}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}Check-Button}{10}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}CheckItemContainer}{10}{subsubsection.5.2.5}
 \contentsline {section}{\numberline {6}Anwendungstests}{11}{section.6}
 \contentsline {section}{\numberline {7}Fazit}{13}{section.7}
 \contentsline {section}{\numberline {8}Glossar}{14}{section.8}
