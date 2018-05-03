@@ -4,7 +4,11 @@
 
 \subsubsection{Datenmodelle}
 
+Die beiden Datenmodelle wurden auf Basis des im Abschnitt (XXX) erläuterten Entwurfs implementiert. Hierzu wurden 
+
 \subsubsection{Datenstore}
+
+\newpage
 
 \subsection{Front-End}
 
@@ -12,17 +16,28 @@ Nachfolgend wir die Implementierung der GUI beschrieben. Da einige Komponenten s
 
 \subsubsection{ShortcutField}
 
-\subsubsection{Accordion}
+Ein ShortcutField ist -- wie in Abschnitt (XXX) bereits erwähnt -- für die Anzeige und Bearbeitung von Tastaturkürzeln zuständig. Sofern noch kein Shortcut eingegebent wurde, zeigt sie zudem eine Aufforderung zum Eingeben eines Shortcuts in Form eines Texts an (\glqq enter shortcut...\grqq). Um diesen Anforderungen gerecht zu werden, nutzt sie drei bereits bestehende Komponenten: Für das Löschen des gesamten Shortcuts dient ein CloseButton (umkreistes Kreuz), für die Anzeige und Bearbeitung des Shortcuts kommt die ShortcutView-Komponente zum Einsatz und die Textaufforderung wird durch ein JLabel realisiert.
 
-\subsubsection{ShortcutEditorUI}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../graphic/diagrams/CD_ShortcutField/ShortcutField}
+	\caption{ShortcutField}
+	\label{fig:shortcutfield}
+\end{figure}
+
+Die eigendliche Funktionalität wird durch die verwendeten Komponenten bereitgestellt. Selbst kümmert sich das ShortcutField um die Anzeige der jeweils richtigen Komponente (JLabel oder ShortcutView), sowie um das Horchen auf Tastatureingaben mittles eines KeyListeners. Die private Methode \_update() ist für das Ein- und Ausblenden der jeweiligen Komponente zuständig (siehe \autoref{fig:ShortcutField-update}). Sie wird initial und bei jeder Änderung des Shortcuts aufgerufen.
+
+\input{CODE/ShortcutField-update}
+
+Zunächst wird überprüft, ob das ShortcutField leer ist (kein Shortcut gesetzt). Das Ergebnis dieser Überprüfung wird in der lokalen Variable empty gespeichert. Anschließend werden die Sichtbarkeiten der Komponenten aktualisiert, wobei der ShortcutViewer nur bei gesetztem und die Textaufforderung nur bei nicht gesetztem Tastenkürzel angezeigt wird. Der CloseButton wird im Editiermodus immer angezeigt aber nur aktiviert, sobald ein Shortcut eingegeben wird.
 
 \newpage
 
 \subsubsection{Check-Button}
 
-Zur Implementierung des im Abschnitt (XXX) erwähnten Check-Buttons wurde zunächst das Interface ICheckComponent erstellt. Indessen wird die Grundfunktionalität einer CheckComponent definiert. Diese besteht darin, dass der Checked-Zustand gesetzt (setChecked(...)) und gelesen (isChecked()) werden kann. Außerdem informiert ein Listener über Änderungen des Zustands. Wird Checked auf true gesetzt, so soll innerhalb der Komponente ein grüner Hacken andernfalls ein rotes Kreuz angezeigt werden. 
+Um die Grundfunktinalitäten des im Abschnitt (XXX) erwähnten Check-Buttons zu definieren, wurde zunächst das Interface ICheckComponent erstellt. Indessen wird festgelegt, dass ein Check-Button einen Checked-Zustand besitzt, welcher angibt, ob innerhalb der Komponente ein grüner Hacken (true) oder ein rotes Kreuz (false) angezeigt werden soll (siehe \autoref{fig:cdcheckbutton}).
 
-Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt von der Swing Klasse JToggleButton. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von setChecked(...) wird die private Methode \_updateIcon() aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (Siehe Anhang (XXX)). Insgesamt stellt ein CheckToggleButton eine vollwertige CheckComponent dar, welche direkt verwendet werden kann.
+Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt von der Swing Klasse JToggleButton. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von setChecked(...) wird die private Methode \_updateIcon() aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (Siehe Anhang (XXX)). Insgesamt stellt ein CheckToggleButton eine vollwertige CheckComponent dar, welche direkt verwendet werden könnte.
 
 \begin{figure}[H]
 	\centering
@@ -33,7 +48,7 @@ Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt v
 
 \vspace{-5px}
 
-Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt, welche CheckToggleButton erweitet und über den Konstruktor ein ICheckItem (siehe (XXX)) aufnehmen kann. Innerhalb dieses Konstruktors werden dem Button alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
+Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors bzw. im Zusammenhang mit ICheckItems einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt. Diese erweitet CheckToggleButton und kann über den Konstruktor ein ICheckItem aufnehmen. Wie im Anhang (XXX) ersichtlich, werden innerhalb dieses Konstruktors alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
 
 \vspace{-5px}
 
@@ -47,9 +62,37 @@ Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors einfacher
 	\label{fig:cdcheckitemcontainer}
 \end{wrapfigure}
 
-Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Sortierung unterliegen: auf der linken Seite befinden sich alle unchecked und auf der rechten Seite alle checked Buttons. Zudem wird bei den Browser Check-Buttons ein Abstand zwischen den beiden Buttongruppen eingefügt. 
+Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Positionierung bzw. Sortierung unterliegen: auf der linken Seite befinden sich alle unchecked und auf der rechten Seite alle checked Buttons. Zudem wird bei den Browser Check-Buttons ein Abstand zwischen den beiden Buttongruppen eingefügt. 
 
-Um diese Positionierung zu realisieren, wurde der CheckButtonContainer eingeführt. Ihm lassen sich CheckButtons hinzufügen. Außerdem kann der Abstand über setSplitting(...) (de)aktiviert werden. Ändert sich der Zustand eines CheckButtons, so kümmert er sich um die richtige Umsortierung.
+Um diese Positionierung zu realisieren, wurde der CheckButtonContainer erstellt. Dieser stellt eine JComponent dar, welche mittels eines BoxLayouts die CheckButtons horizontal nebeneinander ausrichtet. Außerdem kann der für Browser Check-Buttons erforderliche Abstand über setSplitting(...) ein- und ausgeschaltet werden. Ändert sich der Checked-Zustand eines CheckButtons, so kümmert sich der Container auch um die richtige Umsortierung.
 
-Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man einfache CheckItems übergeben (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder unnötige wieder entfernt. Zudem kann über die Methode getSelection() der aktuell selektierte CheckButton ausgelesen werden.
+Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man CheckItems setzten (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder Unnötige wieder entfernt (siehe Anhang (XXX)). Zudem kann über die Methode getSelection() der aktuell selektierte Check-Button ausgelesen werden.
+\newpage
+
+\subsubsection{CheckItemAccordion}
+
+Die Accordion-Komponente ist in der Lage, einen konkreten Pfad des Datenmodells für Browsertestergebnisse mit allen verfügbaren Details darzustellen (siehe \autoref{fig:uxDesigns}).
+Jede Sektion des Accordions visualisiert also genau ein CheckItem. Sofern Untersektionen vorhanden sind, wird zusätzlich ein CheckItemContainer angezeigt. Dieser dient zur Navigation durch das Datenmodell, wobei immer genau das CheckItem dargestellt wird, welches in der vorherigen Sektion ausgewählt ist.
+
+\begin{wrapfigure}[10]{l}[0cm]{230px}
+	\vspace{-12px}
+	\centering
+	\includegraphics[width=0.95\linewidth]{../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion}
+	\caption{CheckItemAccordion}
+	\label{fig:checkitemaccordion}
+\end{wrapfigure}
+
+
+Das CheckItemAccordion erbt von der Swing Klasse JPanel (siehe \autoref{fig:checkitemaccordion}) und verwendet zur vertikalen Positionierung der einzelnen Sektionen das BoxLayout. Im Konstruktor wird der oberste CheckItemContainer erzeugt, welcher zur Auswahl des Browsers dient und sich nicht innerhalb des Accordions befindet (siehe \autoref{fig:uxDesigns}). Um auf diesen außerhalb zugreifen zu können, dient die Methode getRootCheckItemContainer().
+
+Eine Sektion wird durch die Klasse CheckItemViewer repräsentiert (siehe \autoref{fig:checkitemaccordion}). Diese erbt von ExpandComponent, wodurch die Funktion des Ein- und Ausklappens und die Anzeige einer Header-Leiste ermöglicht wird. Diese Komponente besitzt die Fähigkeit alle Details eines CheckItems in tabellarischer Form darzustellen. Damit das selektierte CheckItem des vorherigen CheckItemViewers angezeigt und auf Selektionsänderungen reagiert werden kann, wird im Konstruktor der vorherige CheckItemContainer übergeben. Diesem wird ein Listener hinzugefügt, welcher auf Änderungen der Selektion horcht und so die Aktualisierung des Viewers ermöglicht.
+
+\input{CODE/CheckItemAccordion-setCheckItemGroup}
+
+In \autoref{fig:CheckItemAccordion-setCheckItemGroup} ist der Sourcecode der Methode setCheckItemGroup() abgebildet. In dieser wird anhand der übergebenen ICheckItemGroup das Accordion aufgebaut. Zu Beginn wird überprüft, ob es sich bei der übergebenen ICheckItemGroup um die bereits gesetzte handelt. Ist dies der Fall, so wird die Methode ohne Änderungen verlassen. Andernfalls werden dem RootCheckItemContainer (CheckItemContainer für Browserauswahl) die CheckItems der RootGruppe (Browser) gesetzt. Anschließend wird über die Methode \_getMaxDept(...) die maximale Tiefe der Baumstruktur von pRootGroup ermittelt. Dieses Ergebnis dient als Grundlage für die Anzahl von Sektionen, die eingefügt werden. Nach dem Löschen aller vorhandenen Komponenten, wird in jedem Schleifendurchgang eine Sektion eingefügt. Dabei wird im Konstruktor des CheckItemViewers immer der CheckItemContainer der vorherigen Sektion oder am Anfang der rootCheckItemContainer übergeben. Dadurch wird der richtige Zusammenhang zwischen den Sektionen hergestellt.
+
+\subsubsection{ShortcutEditorUI}
+
+Nach der Implementierung der einzelenen Komponenten, mussten diese zu einen ShortcutEditorUI zusammengabut werden.
+
 \newpage

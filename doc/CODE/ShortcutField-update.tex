@@ -1,0 +1,19 @@
+\begin{wrapfigure}[11]{l}[0cm]{0.50\textwidth}
+    \centering
+	\vspace{-5px}
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=205]
+private void _update()
+{
+  boolean empty = getShortcut() == null;
+	
+  viewerContainer.setVisible(!empty);
+  textContainer.setVisible(empty);
+  
+  closeButton.setVisible(isEditable());
+  closeButton.setEnabled(!empty);
+}		\end{javacode}
+	\end{spacing}
+	\caption{Ein- und Ausblenden der Komponenten}
+	\label{fig:ShortcutField-update}
+\end{wrapfigure}

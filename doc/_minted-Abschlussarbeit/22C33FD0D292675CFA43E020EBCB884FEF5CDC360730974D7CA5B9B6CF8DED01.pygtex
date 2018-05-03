@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setCheckItemGroup}\PYG{o}{(}\PYG{n}{ICheckItemGroup} \PYG{n}{pRootGroup}\PYG{o}{)}
+\PYG{o}{\PYGZob{}}
+  \PYG{k}{if}\PYG{o}{(!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{pRootGroup}\PYG{o}{,} \PYG{n}{rootGroup}\PYG{o}{))}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{rootGroup} \PYG{o}{=} \PYG{n}{pRootGroup}\PYG{o}{;}
+
+    \PYG{n}{rootCheckItemContainer}\PYG{o}{.}\PYG{n+na}{setCheckItems}\PYG{o}{(}\PYG{n}{pRootGroup}\PYG{o}{.}\PYG{n+na}{getItems}\PYG{o}{());}
+
+    \PYG{k+kt}{int} \PYG{n}{dept} \PYG{o}{=} \PYG{n}{\PYGZus{}getMaxDept}\PYG{o}{(}\PYG{n}{pRootGroup}\PYG{o}{);}
+    \PYG{n}{CheckItemContainer} \PYG{n}{children} \PYG{o}{=} \PYG{n}{rootCheckItemContainer}\PYG{o}{;}
+
+    \PYG{n}{removeAll}\PYG{o}{();}
+    \PYG{k}{for} \PYG{o}{(}\PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{o}{;} \PYG{n}{i} \PYG{o}{\PYGZlt{}} \PYG{n}{dept}\PYG{o}{;} \PYG{n}{i}\PYG{o}{++)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{CheckItemViewer} \PYG{n}{viewer} \PYG{o}{=} \PYG{k}{new} \PYG{n}{CheckItemViewer}\PYG{o}{(}\PYG{n}{children}\PYG{o}{);}
+      \PYG{n}{children} \PYG{o}{=} \PYG{n}{viewer}\PYG{o}{.}\PYG{n+na}{getChildItemContainer}\PYG{o}{();}
+      \PYG{n}{add}\PYG{o}{(}\PYG{n}{viewer}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

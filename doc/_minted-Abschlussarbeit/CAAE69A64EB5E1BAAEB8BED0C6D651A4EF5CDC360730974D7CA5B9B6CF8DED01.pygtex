@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}update}\PYG{o}{()}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kt}{boolean} \PYG{n}{empty} \PYG{o}{=} \PYG{n}{getShortcut}\PYG{o}{()} \PYG{o}{==} \PYG{k+kc}{null}\PYG{o}{;}
+	
+  \PYG{n}{viewerContainer}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(!}\PYG{n}{empty}\PYG{o}{);}
+  \PYG{n}{textContainer}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(}\PYG{n}{empty}\PYG{o}{);}
+
+  \PYG{n}{closeButton}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(}\PYG{n}{isEditable}\PYG{o}{());}
+  \PYG{n}{closeButton}\PYG{o}{.}\PYG{n+na}{setEnabled}\PYG{o}{(!}\PYG{n}{empty}\PYG{o}{);}
+\PYG{o}{\PYGZcb{}}		
+\end{Verbatim}

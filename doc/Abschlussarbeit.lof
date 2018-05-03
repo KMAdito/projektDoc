@@ -9,13 +9,10 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces Baumstruktur f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.8}
 \contentsline {figure}{\numberline {9}{\ignorespaces Datenmodell f\IeC {\"u}r Browsertestergebnisse\relax }}{8}{figure.caption.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces Datenstore\relax }}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces CheckItemButton\relax }}{10}{figure.caption.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces CheckItemContainer\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Initialisierung des Remote-Logger-Servers\relax }}{11}{figure.caption.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Validieren des Logins\relax }}{11}{figure.caption.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Verbindungsaufbau des Remote-Logger-Clients zum Remote-Logger-Server\relax }}{11}{figure.caption.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Setzen eines empfangenen CheckPoints; Benachrichtigung der wartenden Threads\relax }}{12}{figure.caption.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces CheckPoint senden\relax }}{12}{figure.caption.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Warten auf neue CheckPoints; Auslesen von CheckPoints\relax }}{12}{figure.caption.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces \IeC {\"U}berpr\IeC {\"u}fen der CheckPoint-Inhalte\relax }}{13}{figure.caption.20}
-\contentsline {figure}{\numberline {20}{\ignorespaces Use-Case-Diagramm\relax }}{16}{figure.caption.21}
+\contentsline {figure}{\numberline {11}{\ignorespaces ShortcutField\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Ein- und Ausblenden der Komponenten\relax }}{10}{figure.caption.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces CheckItemButton\relax }}{11}{figure.caption.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces CheckItemContainer\relax }}{11}{figure.caption.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces CheckItemAccordion\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Setzten der CheckItemGroup im CheckItemAccordion\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Use-Case-Diagramm\relax }}{17}{figure.caption.17}
