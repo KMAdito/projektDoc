@@ -49,21 +49,21 @@
 \captionsetup{justification=centering}
 
 % --------------- CODE-Beispiele -----------------------
-\definecolor{bg}{rgb}{0.85,0.85,0.85}
 \tcbuselibrary{minted,skins}
 \newtcblisting{javacode}[1][]{
   listing engine=minted,
-  colback=bg,
-  colframe=black!70,
+  colframe=white,
   listing only,
-  minted style=friendly,
+  minted style=colorful,
   minted language=java,
-  minted options={linenos=true,fontsize=\footnotesize,numbersep=2mm,texcl=true,#1},
+  minted options={linenos=true,fontsize=\footnotesize,numbersep=2mm,texcl=false,#1},
   left=5mm,enhanced,
   top=0mm, bottom=0mm,
-  overlay={\begin{tcbclipinterior}\fill[black!25] (frame.south west)
+  overlay={\begin{tcbclipinterior}\fill[black!15] (frame.south west)
             rectangle ([xshift=5mm]frame.north west);\end{tcbclipinterior}}
 }
+
+\tcbset{arc=0mm}
 
 % --------------- ADITO-spezifische Farben -------------
 \definecolor{ADITO_RED}{rgb}{0.93,0.09,0.32}

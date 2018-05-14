@@ -1,0 +1,15 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nd}{@Before}
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{onSetUp}\PYG{o}{()}
+\PYG{o}{\PYGZob{}}
+  \PYG{n}{\PYGZus{}setLookAndFeel}\PYG{o}{();}
+
+  \PYG{n}{dummyStore} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutDummyStore}\PYG{o}{();}
+  \PYG{n}{ui} \PYG{o}{=} \PYG{n}{GuiActionRunner}\PYG{o}{.}\PYG{n+na}{execute}\PYG{o}{(}\PYG{n}{ShortcutEditorUI}\PYG{o}{::}\PYG{k}{new}\PYG{o}{);}
+  \PYG{n}{Dialog} \PYG{n}{shortcutDialog} \PYG{o}{=} \PYG{n}{GuiActionRunner}\PYG{o}{.}\PYG{n+na}{execute}\PYG{o}{(}
+      \PYG{o}{()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{ShortcutEditorDialog}\PYG{o}{.}\PYG{n+na}{createDialog}\PYG{o}{(}\PYG{n}{dummyStore}\PYG{o}{,} \PYG{n}{ui}\PYG{o}{));}
+
+  \PYG{n}{dialog} \PYG{o}{=} \PYG{k}{new} \PYG{n}{DialogFixture}\PYG{o}{(}\PYG{n}{shortcutDialog}\PYG{o}{);}
+  \PYG{n}{dialog}\PYG{o}{.}\PYG{n+na}{show}\PYG{o}{();}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

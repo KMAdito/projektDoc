@@ -91,7 +91,7 @@ Zentraler Bestandteil des Datenmodells ist das Interface \textbf{INode}. Dieses 
 \begin{figure}[H]
 	\vspace{20px}
 	\centering
-	\includegraphics[width=1\linewidth]{../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur}
+	\includegraphics[height=57px]{../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur}
 	\caption{Datenmodell für Entitäten und Funktionen}
 	\label{fig:baumstrukturUML_Func}
 \end{figure}
@@ -106,8 +106,8 @@ Um auch eine Funktion im Modell abbilden zu können, existiert das Interface \te
 
 \subsection{Datenmodell für Browsertestergebnisse}
 
-\begin{wrapfigure}[9]{l}[0cm]{150px}
-	\includegraphics[width=150px]{../graphic/diagrams/Baumstruktur_Results/Baumstruktur}
+\begin{wrapfigure}[9]{l}[0cm]{165px}
+	\includegraphics[width=165px]{../graphic/diagrams/Baumstruktur_Results/Baumstruktur}
 	\caption{Baumstruktur für Browsertestergebnisse}
 	\label{fig:baumstruktur_Result}
 \end{wrapfigure}
@@ -116,7 +116,7 @@ Auch die Browserergebnisse werden als Baumstruktur gehalten. Allerdings ergiebt 
 
 \begin{figure}[H]
 	\flushright
-	\includegraphics[width=285px]{../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur}
+	\includegraphics[width=280px]{../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur}
 	\captionsetup{width=235px, justification=raggedleft}
 	\caption{Datenmodell für Browsertestergebnisse}
 	\label{fig:baumstrukturUML_Results}
@@ -130,20 +130,16 @@ In diesem Modell stellt ein \textbf{ICheckItem} ein einzelnes Testergbnis dar. E
 
 Damit sowohl die Daten der Entitäten und Funktionen als auch die der Browsertestergebnissen in zuvor geschilderter Form erhalten werden können, soll ein Datenstore zum Einsatz kommen. Dieser liefert die beiden oben beschriebenen Datenmodelle. Dabei kümmert er sich die Daten von anderen Quellen (z.B. XML-Dateien) in die gewünschte Datenmodell-Form zu bringen. Zudem ist er dafür zuständig, die geänderten Daten wieder zurück zu speichern.
 
-\vspace{-2px}
+Um auch ohne die Integration des ShortcutEditors in den ADTIO Designer testweise Entitäten und deren Funktionen zur Verfügung zu haben, soll ein DummyStore implementiert werden, welcher fiktive Testdaten in die Datenmodelle einfügt.
+
+\vfill
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[height=60px]{../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore}
+	\includegraphics[height=70px]{../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore}
 	\caption{Datenstore}
 	\label{fig:ishortcuteditorstore}
 \end{figure}
-
-\vspace{-32px}
-
-\subsection{Pflichtenheft}
-
-Um festzusetzen, wie die Anforderungen an den Editor vom Autor umgesetzt werden sollen, wurde am Ende der Entwurfsphase ein Pflichtenheft erstellt, welches auf dem Lastenheft basiert. Dieses dient somit als Vorgabe für die Realisierung des Projekts. Ein Auszug aus dem Pflichtenheft befindet sich im Anhang (XXX) auf S.(X)
 
 
 

@@ -1,15 +1,24 @@
+\begin{wrapfigure}[11]{l}[0px]{322px}
+    \centering
+	\vspace{-12px}
+	\begin{spacing}{0.75}
+		\begin{javacode}[firstnumber=28]
 @Test
 public void test_EnterShortcut()
 {
   int i = 0;
-
+  
   for (IEditorShortcutModel model : dummyStore.getAllModels())
   {
     IShortcut shortcut = new Shortcut(EKeyModifier.SHIFT,
                                       EKey.values()[i++]);
-
+    
     _selectNode(model);
     _enterShortcut(shortcut);
     Assert.assertEquals(model.getShortcut(), shortcut);
   }
-}
+}\end{javacode}
+	\end{spacing}
+	\caption{Setup-Methode}
+	\label{fig:Test-ShortcutEditor-EnterShortcut}
+\end{wrapfigure}

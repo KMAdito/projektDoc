@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nd}{@Test}
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{test\PYGZus{}EnterShortcut}\PYG{o}{()}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{o}{;}
+
+  \PYG{k}{for} \PYG{o}{(}\PYG{n}{IEditorShortcutModel} \PYG{n}{model} \PYG{o}{:} \PYG{n}{dummyStore}\PYG{o}{.}\PYG{n+na}{getAllModels}\PYG{o}{())}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{IShortcut} \PYG{n}{shortcut} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Shortcut}\PYG{o}{(}\PYG{n}{EKeyModifier}\PYG{o}{.}\PYG{n+na}{SHIFT}\PYG{o}{,}
+                                      \PYG{n}{EKey}\PYG{o}{.}\PYG{n+na}{values}\PYG{o}{()[}\PYG{n}{i}\PYG{o}{++]);}
+
+    \PYG{n}{\PYGZus{}selectNode}\PYG{o}{(}\PYG{n}{model}\PYG{o}{);}
+    \PYG{n}{\PYGZus{}enterShortcut}\PYG{o}{(}\PYG{n}{shortcut}\PYG{o}{);}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{(),} \PYG{n}{shortcut}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}
