@@ -1,8 +1,8 @@
 \section{Testphase}
 
-Um sicherzustellen, das alle Implementierten Komponenten anforderungsgerecht funktionieren, wurde der Editor anhand manueller Akzeptanztests getestet. Dabei wurde darauf geachtet, auf jede mögliche Bedienweise einzugehen. So wurde der Editor sowohl per Maus als auch per Tastatur bedient. Gleichzeitig wurde stehts überprüft, ob sich der Editor wie gewünscht verhält. Konnte man dabei Unstimmigkeiten feststellen, so wurden die jeweiligen Fehler im Sourcecode behoben und erneut getestet.
+Um sicherzustellen, das alle implementierten Komponenten anforderungsgerecht funktionieren, wurde der Editor anhand manueller Akzeptanztests getestet. Dabei wurde darauf geachtet, auf jede mögliche Bedienweise einzugehen. So wurde der Editor sowohl per Maus als auch per Tastatur bedient. Gleichzeitig wurde stehts überprüft, ob sich der Editor wie gewünscht verhält. Konnte man dabei Unstimmigkeiten feststellen, so wurden die jeweiligen Fehler im Sourcecode behoben und erneut getestet.
 
-Damit die grundlegende Funktionalität auch dauerhaft sichergestellt werden können, wurde zusätzlich ein automatisierter Test entwickelt (siehe Anhang (XXX)). Dabei wurde das Test-Framework AssertJ Swing in Kombination mit JUnit verwendet.
+Damit die grundlegende Funktionalität auch dauerhaft gewährleistet werden kann, wurde zusätzlich ein automatisierter Test entwickelt (siehe Anhang \ref{Test_ShortcutEditor}). Dabei wurde das Test-Framework AssertJ Swing in Kombination mit JUnit verwendet.
 
 Das Framework AssertJ Swing ist eine Weiterentwicklung des älteren open-source Frameworks FEST. Es ermöglicht die einfache Simulation eines Benutzers für Swing Applikationen. Da es als fluent Api entwickelt wurde, ist der Code sehr gut lesbar und einfach zu verstehen.
 
@@ -10,7 +10,7 @@ Bei JUnit handelt es sich ebenfalls um ein quelloffenes Framework, welches durch
 
 \input{CODE/Test_ShortcutEditor-onSetUp}
 
-In Abbildung (XXX) ist der Sourcode der Initialisieungsmethode onSetUp() dargestellt. Um JUnit anzuweisen, die Methode vor jedem Teststart auszuführen, wurde sie mit der Annotaion @Before versehen. 
+In \autoref{fig:Test-ShortcutEditor-onSetUp} ist der Sourcode der Initialisieungsmethode onSetUp() dargestellt. Um JUnit anzuweisen, die Methode vor jedem Teststart auszuführen, wurde sie mit der Annotaion @Before versehen. 
 
 \vspace{10px}
 
@@ -18,5 +18,5 @@ Nach dem Setzen des ADITO spezifischen LookAndFeels, wird der DummyStore und die
 
 \input{CODE/Test_ShortcutEditor-EnterShortcut}
 
-Die mit @Test annotierte Testmethode (Abbildung (XXX)) überprüft, ob eingegebene Shortcuts auch in das selektierte Model übertragen werden. Hierfür wird jedes verfügbare Shortcut Model selektiert und die Eingabe eines Shortcuts simuliert. Der Test ist dann erfolgreich, wenn der Shortcut jedes Models mit dem zuvor Eingegebenen übereinstimmt.
+Die mit @Test annotierte Testmethode (\autoref{fig:Test-ShortcutEditor-onSetUp}) überprüft, ob eingegebene Shortcuts auch in das selektierte Model übertragen werden. Hierfür wird jedes verfügbare Shortcut Model selektiert und die Eingabe eines Shortcuts simuliert. Der Test ist dann erfolgreich, wenn der Shortcut jedes Models mit dem jeweils zuvor Eingegebenen übereinstimmt.
 \newpage

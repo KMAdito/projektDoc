@@ -1,0 +1,24 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Aktualisiert das Icon}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}updateIcon}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{width} \PYG{o}{=} \PYG{n}{icon}\PYG{o}{.}\PYG{n+na}{getWidth}\PYG{o}{(}\PYG{k+kc}{null}\PYG{o}{);}
+    \PYG{k+kt}{int} \PYG{n}{height} \PYG{o}{=} \PYG{n}{icon}\PYG{o}{.}\PYG{n+na}{getHeight}\PYG{o}{(}\PYG{k+kc}{null}\PYG{o}{);}
+
+    \PYG{n}{Image} \PYG{n}{stateIcon} \PYG{o}{=} \PYG{n}{checked} \PYG{o}{?} \PYG{n}{checkedIcon} \PYG{o}{:} \PYG{n}{uncheckedIcon}\PYG{o}{;}
+
+    \PYG{k+kt}{int} \PYG{n}{x2} \PYG{o}{=} \PYG{n}{width} \PYG{o}{\PYGZhy{}} \PYG{n}{stateIcon}\PYG{o}{.}\PYG{n+na}{getWidth}\PYG{o}{(}\PYG{k+kc}{null}\PYG{o}{);}
+    \PYG{k+kt}{int} \PYG{n}{y2} \PYG{o}{=} \PYG{n}{height} \PYG{o}{\PYGZhy{}} \PYG{n}{stateIcon}\PYG{o}{.}\PYG{n+na}{getHeight}\PYG{o}{(}\PYG{k+kc}{null}\PYG{o}{);}
+
+    \PYG{n}{BufferedImage} \PYG{n}{image} \PYG{o}{=} \PYG{k}{new} \PYG{n}{BufferedImage}\PYG{o}{(}\PYG{n}{width}\PYG{o}{,} \PYG{n}{height}\PYG{o}{,} \PYG{n}{BufferedImage}\PYG{o}{.}\PYG{n+na}{TYPE\PYGZus{}INT\PYGZus{}ARGB}\PYG{o}{);}
+
+    \PYG{n}{Graphics} \PYG{n}{g} \PYG{o}{=} \PYG{n}{image}\PYG{o}{.}\PYG{n+na}{getGraphics}\PYG{o}{();}
+
+    \PYG{n}{g}\PYG{o}{.}\PYG{n+na}{drawImage}\PYG{o}{(}\PYG{n}{icon}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{k+kc}{null}\PYG{o}{);}
+    \PYG{n}{g}\PYG{o}{.}\PYG{n+na}{drawImage}\PYG{o}{(}\PYG{n}{stateIcon}\PYG{o}{,} \PYG{n}{x2}\PYG{o}{,} \PYG{n}{y2}\PYG{o}{,} \PYG{k+kc}{null}\PYG{o}{);}
+
+    \PYG{n}{setIcon}\PYG{o}{(}\PYG{k}{new} \PYG{n}{ImageIcon}\PYG{o}{(}\PYG{n}{image}\PYG{o}{));}
+  \PYG{o}{\PYGZcb{}}
+\end{Verbatim}

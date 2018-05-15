@@ -1,0 +1,110 @@
+\vspace{-5px}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=21]
+public class ShortcutStructurePresenter
+{
+  private final INodeChangeListener groupChangeListener;
+  private final IAditoPathChangeListener<IEditorShortcutNode> pathChangeListener;
+  
+  private final ShortcutStructureModel model;
+  private final List<IShortcutStructureView> views;
+  
+  /**
+  * Konstruktor
+  *
+  * @param pModel Das Hauptmodel
+  * @param pViews belibige Anzahl von Views
+  */
+  public ShortcutStructurePresenter(ShortcutStructureModel pModel, IShortcutStructureView... pViews)
+  {
+    model = pModel;
+    views = new ArrayList<>();
+    
+    groupChangeListener = new _ShortcutNodeChangeListener();
+    pathChangeListener = new _ShortcutPathChangeListener();
+    
+    model.addPathChangeListener(this::_updatePath);
+    model.addNodeChangeListener(this::_updateGroup);
+    
+    if(pViews != null)
+      for (IShortcutStructureView view : pViews)
+        addView(view);
+  }
+  
+  /**
+  * Fügt dem Presenter eine View hinzu
+  *
+  * @param pView hinzuzufügende View
+  */
+  public void addView(IShortcutStructureView pView)
+  {
+    synchronized (views)
+    {
+      views.add(pView);
+    }
+    
+    pView.addPathChangeListener(pathChangeListener);
+    pView.addNodeChangeListener(groupChangeListener);
+    
+    pView.setRootShortcutNode(model.getRootShortcutNode());
+    pView.setNodePath(model.getNodePath());
+  }
+  
+  /**
+  * Aktualisiert die ShortcutModels in den einzelenen Views
+  *
+  * @param pGroup zu sentzende Gruppe mit ShortcutModels
+  */
+  private void _updateGroup(IEditorShortcutNode pGroup)
+  {
+    synchronized (views)
+    {
+      for (IShortcutStructureView view : views)
+      if (!Objects.equals(view.getRootShortcutNode(), pGroup))
+      view.setRootShortcutNode(pGroup);
+    }
+  }
+  
+  /**
+  * Aktualisiert den Pfad in den einzelen Views
+  *
+  * @param pPath zu setztender Pfad
+  */
+  private void _updatePath(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    synchronized (views)
+    {
+      for (IShortcutStructureView view : views)
+      if (!Objects.equals(view.getNodePath(), pPath))
+      view.setNodePath(pPath);
+    }
+  }
+  
+  /**
+  * Listener, welcher Änderungen der ShortcutGroup in das Hauptmodel überträgt
+  */
+  private class _ShortcutNodeChangeListener implements INodeChangeListener
+  {
+    @Override
+    public void groupChanged(IEditorShortcutNode pNode)
+    {
+      if (!Objects.equals(model.getRootShortcutNode(), pNode))
+      model.setRootShortcutNode(pNode);
+    }
+  }
+  
+  /**
+  * Listener, welcher Änderungen der ShortcutPath in das Hauptmodel überträgt
+  */
+  private class _ShortcutPathChangeListener implements IAditoPathChangeListener<IEditorShortcutNode>
+  {
+    @Override
+    public void pathChange(AditoTreePath<IEditorShortcutNode> pPath)
+    {
+      if (!Objects.equals(model.getNodePath(), pPath))
+      model.setNodePath(pPath);
+    }
+  }
+}
+\end{javacode}
+\end{spacing}

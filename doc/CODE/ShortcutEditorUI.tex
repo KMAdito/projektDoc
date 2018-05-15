@@ -1,0 +1,85 @@
+
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=25]
+public class ShortcutEditorUI extends JPanel implements IShortcutEditorUI
+{
+  private ShortcutField shortcutField;
+  private CheckItemContainer checkContainer;
+  private CheckItemAccordion checkAccordion;
+  
+  private ShortcutStructureModel model;
+  
+  private static final int GAP = 5;
+  
+  /**
+  * Konstruktor
+  */
+  public ShortcutEditorUI()
+  {
+    double[] x = {10, TableLayout.FILL, 10};
+    double[] y = {GAP,
+                  20,
+                  GAP,
+                  80,
+                  GAP,
+                  50,
+                  GAP,
+                  TableLayout.FILL,
+                  10};
+    
+    setLayout(new TableLayout(x, y));
+    
+    TableLayoutUtil tlu = new TableLayoutUtil(this);
+    
+    model = new ShortcutStructureModel();
+    
+    ShortcutPathComponent pathComp = new ShortcutPathComponent();
+    ShortcutStructureTable modelViewer = new ShortcutStructureTable();
+    
+    new ShortcutStructurePresenter(model, pathComp, modelViewer);
+    
+    shortcutField = new ShortcutField();
+    checkAccordion = new CheckItemAccordion();
+    checkContainer = checkAccordion.getRootCheckItemContainer();
+    
+    tlu.add(1, 1, pathComp);
+    tlu.add(1, 3, shortcutField);
+    tlu.add(1, 5, checkContainer);
+    tlu.add(1, 7, checkAccordion);
+    tlu.add(1, 7, modelViewer);
+  }
+  
+  public void setShortcut(IShortcut pShortcut)
+  {
+    shortcutField.setShortcut(pShortcut);
+  }
+  
+  public IShortcut getShortcut()
+  {
+    return shortcutField.getShortcut();
+  }
+
+  public void addShortcutChangeListener(IShortcutChangeListener pChangeListener)
+  {
+    shortcutField.addShortcutChangeListener(pChangeListener);
+  }
+
+  public void removeShortcutChangeListener(IShortcutChangeListener pChangeListener)
+  {
+    shortcutField.removeShortcutChangeListener(pChangeListener);
+  }
+
+  public void setCheckItemGroup(ICheckItemGroup pRootGroup)
+  {
+    checkAccordion.setCheckItemGroup(pRootGroup);
+  }
+
+  @Override
+  public ICheckItemGroup getCheckItemGroup()
+  {
+    return checkAccordion.getCheckItemGroup();
+  }
+
+...
+\end{javacode}
+\end{spacing}

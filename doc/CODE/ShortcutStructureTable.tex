@@ -1,0 +1,45 @@
+\begin{spacing}{0.75}
+\begin{javacode}[firstnumber=25]
+public class ShortcutStructureTable extends JPanel implements IShortcutStructureView
+{
+  private SplitsTreeTable table;
+  private ShortcutStructureTreeModel treeModel;
+  
+  private ShortcutStructureModel model;
+  
+  /**
+  * Konstruktor
+  */
+  public ShortcutStructureTable()
+  {
+    setLayout(new BorderLayout());
+    
+    model = new ShortcutStructureModel();
+    
+    table = new SplitsTreeTable();
+    table.setRootVisible(false);
+    table.setRenderDataProvider(new _ModelProvider());
+    table.setShowVerticalLines(false);
+    table.setShowHorizontalLines(false);
+    table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+    table.setRowHeight(IShortcutEditorConstants.TABLE_ROW_HEIGHT);
+    
+    add(new JScrollPane(table), BorderLayout.CENTER);
+  }
+  
+  @Override
+  public IEditorShortcutNode getRootShortcutNode()
+  {
+    return model.getRootShortcutNode();
+  }
+  
+  @Override
+  public void setNodePath(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    model.setNodePath(pPath);
+  }
+
+...
+
+\end{javacode}
+\end{spacing}

@@ -63,6 +63,19 @@
             rectangle ([xshift=5mm]frame.north west);\end{tcbclipinterior}}
 }
 
+\newtcblisting{xmlcode}[1][]{
+	listing engine=minted,
+	colframe=white,
+	listing only,
+	minted style=colorful,
+	minted language=xml,
+	minted options={linenos=true,fontsize=\footnotesize,numbersep=2mm,texcl=false,#1},
+	left=5mm,enhanced,
+	top=0mm, bottom=0mm,
+	overlay={\begin{tcbclipinterior}\fill[black!15] (frame.south west)
+			rectangle ([xshift=5mm]frame.north west);\end{tcbclipinterior}}
+}
+
 \tcbset{arc=0mm}
 
 % --------------- ADITO-spezifische Farben -------------

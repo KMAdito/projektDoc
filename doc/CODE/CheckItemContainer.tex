@@ -1,0 +1,33 @@
+\begin{spacing}{0.75}
+\begin{javacode}[firstnumber=43]
+/**
+* Setzt die zu visualisierenden ICheckItems
+*
+* @param pCheckItems zu visualisierenden ICheckItems
+*/
+public void setCheckItems(ICheckItem[] pCheckItems)
+{
+  ICheckItem selection = getSelection();
+  
+  for (CheckItemButton comp : getAllCheckButtons())
+  {
+    comp.removeItemListener(itemListener);
+    removeCheckButton(comp);
+  }
+  
+  if(pCheckItems != null)
+  {
+    for (ICheckItem item : pCheckItems)
+    {
+      CheckItemButton component = new CheckItemButton(item);
+      component.addItemListener(itemListener);
+      addCheckButton(component);
+    }
+  }
+  
+  revalidate();
+  repaint();
+}
+
+\end{javacode}
+\end{spacing}

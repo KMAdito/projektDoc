@@ -2,8 +2,18 @@
 \setcounter{page}{1}
 \section{Einleitung}
 
+\begin{wrapfigure}[12]{r}[0cm]{180px}
+	\vspace{-12px}
+	\centering
+	\includegraphics[width=1\linewidth]{../graphic/images/firma/Firmengebaude}
+	\caption{Firmengbäude}
+	\label{fig:firmengebaude}
+\end{wrapfigure}
+
 Die folgende Projektdokumentation beschreibt den Ablauf des IHK-Abschlussprojektes, welche der Autor im Rahmen der Ausbildung zum Fachinformatiker Fachrichtung Anwendungsentwicklung
 durchgeführt hat. Ausbildungsbetrieb ist die ADITO Software GmbH, ein Hersteller für hochflexible Business-, CRM- und xRM-Software mit Sitz in Geisenhausen. Das inhabergeführte Unternhemen bietet Entwicklung, Vertrieb, Projektierung und Service aus einer Hand. Kunden von ADITO kommen aus den unterschiedlichsten Branchen. Neben namhaften mittelständischen Unternehmen, zum Beispiel Ravensburger, Erlus oder Birco, gehören auch große Organisationen wie die WWK Versicherungsgruppe oder die Bundesagentur für Arbeit zu ihren Referenzen.
+
+Die Mitarbeiterzahl des Unternehmens ist gerade in den letzten Jahren stark gewachsen. Im Jahr 2018 hat ADITO die Grenze von 100 Mitarbeitern überschritten. Da das alte Firmengebäude für diese Mitarbeiteranzahl nicht ausreichend war, wurde im April 2018 das neugebaute Firmengebäude bezogen (\autoref{fig:firmengebaude}).
 
 \subsection{Beschreibung}
  
@@ -11,14 +21,14 @@ In der neuesten Version des xRM-Systems ADITO5 wurde eine neue Clientvariante en
 
 Mit einem Webclient gehen allerdings auch einige Herausforderungen einher. So auch bei der Vergabe von Tastaturkürzeln. Browser behalten es sich vor, einige Shortcuts für eigene Aktionen zu reservieren und so nicht für die eigendliche Webanwendung zur Verfügung zu stellen. Beispiele für solche Shortcuts sind Strg + P für Drucken oder Strg + F für Suchen. Der Überblick über die Verwendbarkeit von Tastaturkürzeln geht schnell verloren, da diese in jeder Browser-Betriebssystem permutation variieren kann.
 
-In diesem Projekt soll eine Möglichkeit geschaffen werden, bei der Vergabe von Shortcuts innerhalb der hauseigenen xRM-Entwicklungsumgebung (ADITO-Designer) Unterstützung zu bieten.
+In diesem Projekt soll eine Möglichkeit geschaffen werden, bei der Vergabe von Shortcuts innerhalb der hauseigenen xRM-Entwicklungsumgebung (ADITO Designer) Unterstützung zu bieten.
 
 \subsection{Ziel}
 
 Um den Projektierern unserer xRM-Software die Vergabe von Shortcuts zu erleichtern soll ein spezieller Shortcut-Editor entwickelt werden, der die Eingabe und Bearbeitung von Shortcuts ermöglicht und bei der Wahl des passenden Tastenkürzels zuarbeitet.
 
 Mittels Warnungen im Editor soll verdeutlicht werden, dass der eingebene Shortcut zu Problemen auf einem bestimmten Browser führen kann.
-Damit der Benutzer feststellen kann, warum ein Shortcut problematisch ist, sollen weitere Informationen angezeigt werden. Diese können beispielsweise angeben, in welchem Browser bzw. welcher Version das Tastaturkürzel bereits verwendet wird.
+Damit der Benutzer feststellen kann, warum ein Shortcut problematisch ist, sollen weitere Informationen angezeigt werden. Diese können beispielsweise angeben, bei welchem Browser bzw. welcher Version das Tastaturkürzel bereits verwendet wird.
 
 \subsection{Umfeld}
 
@@ -33,7 +43,7 @@ Da gewährleistet werden soll, dass vergebene Tastenkürzel auf allen relevanten
 \subsection{Schnittstellen}
 \label{schnittstellen} 
 
-Um herauszufinden, welche Shortcuts die verschiedenen Browser auf unterschiedlichen Betriebssystemen selber verwenden, wurde außerhalb dieser Abschlussarbeit eine Testanwendung implementiert. Diese läuft auf jeder Plattform und testet alle möglichen Shortcut-Kombinationen für die verbreitesten Browser. Das Ergebnis dieser Tests wird in Form von XML-Dateien gespeichert (Beispiel siehe Anlage (XXX)). Für jede Browser-Betriebssystem Kombination existiert eine eigene Datei, in welcher alle problembehafteten Shortcuts verzeichnet sind.
+Um herauszufinden, welche Shortcuts die verschiedenen Browser auf unterschiedlichen Betriebssystemen selber verwenden, wurde außerhalb dieser Abschlussarbeit eine Testanwendung implementiert. Diese läuft auf jeder Plattform und testet alle möglichen Shortcut-Kombinationen für die verbreitesten Browser. Das Ergebnis dieser Tests wird in Form von XML-Dateien gespeichert (Beispiel siehe Anhang \ref{xml}). Für jede Browser-Betriebssystem Kombination existiert eine eigene Datei, in welcher alle problembehafteten Shortcuts verzeichnet sind.
 
 Damit die in den Dateien enthaltenen Informationen dem Benutzer dargestellt werden können, muss der Editor das Einlesen und Verarbeiten von XML-Strukturen beherrschen. Hierfür kommt das hauseigene Propertly Framework zum Einsatz. Dieses kümmert sich um sämtliche XML-spezifische Arbeiten und ermöglicht so eine konfortable Nutzung.
 

@@ -1,0 +1,82 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{ShortcutStructurePresenter}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{INodeChangeListener} \PYG{n}{groupChangeListener}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{pathChangeListener}\PYG{o}{;}
+
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{ShortcutStructureModel} \PYG{n}{model}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{IShortcutStructureView}\PYG{o}{\PYGZgt{}} \PYG{n}{views}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Konstruktor}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pModel Das Hauptmodel}
+\PYG{c+cm}{  * @param pViews belibige Anzahl von Views}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n+nf}{ShortcutStructurePresenter}\PYG{o}{(}\PYG{n}{ShortcutStructureModel} \PYG{n}{pModel}\PYG{o}{,}
+                                    \PYG{n}{IShortcutStructureView}\PYG{o}{...} \PYG{n}{pViews}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{model} \PYG{o}{=} \PYG{n}{pModel}\PYG{o}{;}
+    \PYG{n}{views} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+
+    \PYG{n}{groupChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ShortcutNodeChangeListener}\PYG{o}{();}
+    \PYG{n}{pathChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ShortcutPathChangeListener}\PYG{o}{();}
+
+    \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{addPathChangeListener}\PYG{o}{(}\PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}updatePath}\PYG{o}{);}
+    \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{addNodeChangeListener}\PYG{o}{(}\PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}updateGroup}\PYG{o}{);}
+
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{pViews} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)}
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{IShortcutStructureView} \PYG{n}{view} \PYG{o}{:} \PYG{n}{pViews}\PYG{o}{)}
+    \PYG{n}{addView}\PYG{o}{(}\PYG{n}{view}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Fügt dem Presenter eine View hinzu}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pView hinzuzufügende View}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addView}\PYG{o}{(}\PYG{n}{IShortcutStructureView} \PYG{n}{pView}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{views}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{views}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{pView}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{addPathChangeListener}\PYG{o}{(}\PYG{n}{pathChangeListener}\PYG{o}{);}
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{addNodeChangeListener}\PYG{o}{(}\PYG{n}{groupChangeListener}\PYG{o}{);}
+
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{setRootShortcutNode}\PYG{o}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n+na}{getRootShortcutNode}\PYG{o}{());}
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{setNodePath}\PYG{o}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n+na}{getNodePath}\PYG{o}{());}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Entfernt eine View}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pView zu entfernende View}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{removeView}\PYG{o}{(}\PYG{n}{IShortcutStructureView} \PYG{n}{pView}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{views}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{views}\PYG{o}{.}\PYG{n+na}{remove}\PYG{o}{(}\PYG{n}{pView}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{removePathChangeListener}\PYG{o}{(}\PYG{n}{pathChangeListener}\PYG{o}{);}
+    \PYG{n}{pView}\PYG{o}{.}\PYG{n+na}{removeNodeChangeListener}\PYG{o}{(}\PYG{n}{groupChangeListener}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Aktualisiert die ShortcutModels in den einzelenen Views}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pGroup zu sentzende Gruppe mit ShortcutModels}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}updateGroup}\PYG{o}{(}\PYG{n}{IEditorShortcutNode} \PYG{n}{pGroup}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{views}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{IShortcutStructureView} \PYG{n}{view} \PYG{o}{:} \PYG{n}{views}\PYG{o}{)}
+      \PYG{k}{if} \PYG{o}{(!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{view}\PYG{o}{.}\PYG{n+na}{getRootShortcutNode}\PYG{o}{(),} \PYG{n}{pGroup}\PYG{o}{))}
+      \PYG{n}{view}\PYG{o}{.}\PYG{n+na}{setRootShortcutNode}\PYG{o}{(}\PYG{n}{pGroup}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\end{Verbatim}

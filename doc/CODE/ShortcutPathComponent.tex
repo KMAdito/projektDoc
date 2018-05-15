@@ -1,0 +1,77 @@
+\begin{figure}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=19]
+public class ShortcutPathComponent extends JPanel implements IShortcutStructureView
+{
+  private static final int GAP = 5;
+  
+  private BreadCrumb<IEditorShortcutNode> breadCrumb;
+  
+  /**
+  * Konstruktor
+  */
+  public ShortcutPathComponent()
+  {
+    double[] x = {TableLayout.PREFERRED, GAP, TableLayout.MINIMUM};
+    double[] y = {TableLayout.PREFERRED};
+    
+    setLayout(new TableLayout(x, y));
+    
+    TableLayoutUtil tlu = new TableLayoutUtil(this);
+    
+    JLabel textLabel = new JLabel(IShortcutEditorConstants.TEXT_SHORTCUT_FOR);
+    tlu.add(0, 0, textLabel);
+    
+    breadCrumb = new BreadCrumb<>();
+    tlu.add(2, 0, breadCrumb);
+  }
+  
+  @Override
+  public void setRootShortcutNode(IEditorShortcutNode pNode)
+  {
+    breadCrumb.setRootNode(pNode);
+    
+    synchronized (nodeChangeListeners)
+    {
+      for (INodeChangeListener listener : nodeChangeListeners)
+      listener.groupChanged(pNode);
+    }
+  }
+  
+  @Override
+  public IEditorShortcutNode getRootShortcutNode()
+  {
+    return breadCrumb.getRootNode();
+  }
+  
+  @Override
+  public void setNodePath(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    breadCrumb.setPath(pPath);
+  }
+  
+  @Override
+  public AditoTreePath<IEditorShortcutNode> getNodePath()
+  {
+    return breadCrumb.getPath();
+  }
+  
+  @Override
+  public void addPathChangeListener(IAditoPathChangeListener<IEditorShortcutNode> 
+                                    pChangeListener)
+  {
+    breadCrumb.addPathChangeListener(pChangeListener);
+  }
+  
+  @Override
+  public void removePathChangeListener(IAditoPathChangeListener<IEditorShortcutNode> 
+                                       pChangeListener)
+  {
+    breadCrumb.removePathChangeListener(pChangeListener);
+  }
+
+...
+
+\end{javacode}
+\end{spacing}
+\end{figure}

@@ -1,0 +1,83 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{ShortcutEditorPresenter}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{IShortcutEditorUI} \PYG{n}{ui}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{IShortcutEditorStore} \PYG{n}{editorStore}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{IShortcutChangeListener} \PYG{n}{shortcutChangeListener}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{IEditorShortcutModel} \PYG{n}{currModel}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * @param pUi zu steuernde UI}
+\PYG{c+cm}{  * @param pStore Store zum beziehen der Daten}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n+nf}{ShortcutEditorPresenter}\PYG{o}{(}\PYG{n}{IShortcutEditorUI} \PYG{n}{pUi}\PYG{o}{,} \PYG{n}{IShortcutEditorStore} \PYG{n}{pStore}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{ui} \PYG{o}{=} \PYG{n}{pUi}\PYG{o}{;}
+    \PYG{n}{editorStore} \PYG{o}{=} \PYG{n}{pStore}\PYG{o}{;}
+
+    \PYG{n}{shortcutChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ShortcutListener}\PYG{o}{();}
+
+    \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{addShortcutChangeListener}\PYG{o}{(}\PYG{n}{shortcutChangeListener}\PYG{o}{);}
+    \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{addPathChangeListener}\PYG{o}{(}\PYG{k}{new} \PYG{n}{\PYGZus{}PathListener}\PYG{o}{());}
+    \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{setRootShortcutNode}\PYG{o}{(}\PYG{n}{pStore}\PYG{o}{.}\PYG{n+na}{getShortcutModelRootNode}\PYG{o}{());}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Extrahiert aus dem Pfad das ShortcutModel, auf welchen sich der Pfad bezieht}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pPath Pfad zum Model}
+\PYG{c+cm}{  * @return ShortcutModel}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{n}{IEditorShortcutModel} \PYG{n+nf}{\PYGZus{}getShortcutModel}\PYG{o}{(}\PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{pPath}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{node} \PYG{o}{=} \PYG{n}{pPath}\PYG{o}{;}
+
+    \PYG{k}{while} \PYG{o}{(}\PYG{n}{node} \PYG{o}{!=} \PYG{k+kc}{null} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{o}{!(}\PYG{n}{node}\PYG{o}{.}\PYG{n+na}{getNode}\PYG{o}{()} \PYG{k}{instanceof} \PYG{n}{IEditorShortcutModel}\PYG{o}{))}
+      \PYG{n}{node} \PYG{o}{=} \PYG{n}{node}\PYG{o}{.}\PYG{n+na}{getNext}\PYG{o}{();}
+
+    \PYG{k}{if}\PYG{o}{(}\PYG{n}{node} \PYG{o}{==} \PYG{k+kc}{null}\PYG{o}{)}
+      \PYG{k}{return} \PYG{k+kc}{null}\PYG{o}{;}
+
+    \PYG{k}{return} \PYG{o}{(}\PYG{n}{IEditorShortcutModel}\PYG{o}{)} \PYG{n}{node}\PYG{o}{.}\PYG{n+na}{getNode}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Listener zum handeln von Pfadänderungen}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}PathListener} \PYG{k+kd}{implements} \PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{pathChange}\PYG{o}{(}\PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{pPath}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{if}\PYG{o}{(}\PYG{n}{currModel} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)}
+        \PYG{n}{currModel}\PYG{o}{.}\PYG{n+na}{removeShortcutChangeListener}\PYG{o}{(}\PYG{n}{shortcutChangeListener}\PYG{o}{);}
+
+      \PYG{n}{currModel} \PYG{o}{=} \PYG{n}{\PYGZus{}getShortcutModel}\PYG{o}{(}\PYG{n}{pPath}\PYG{o}{);}
+
+      \PYG{k}{if} \PYG{o}{(}\PYG{n}{currModel} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)}
+      \PYG{o}{\PYGZob{}}
+        \PYG{n}{currModel}\PYG{o}{.}\PYG{n+na}{addShortcutChangeListener}\PYG{o}{(}\PYG{n}{shortcutChangeListener}\PYG{o}{);}
+        \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{setShortcut}\PYG{o}{(}\PYG{n}{currModel}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{());}
+      \PYG{o}{\PYGZcb{}}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Listener zum handeln von Shortcutänderungen}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ShortcutListener} \PYG{k+kd}{implements} \PYG{n}{IShortcutChangeListener}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n+nd}{@Override}
+    \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{shortcutChanged}\PYG{o}{(}\PYG{n}{IShortcut} \PYG{n}{pShortcut}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{if} \PYG{o}{(!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{,} \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{()))}
+        \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{setShortcut}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{);}
+
+      \PYG{k}{if} \PYG{o}{(}\PYG{n}{currModel} \PYG{o}{!=} \PYG{k+kc}{null} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{o}{!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{,} \PYG{n}{currModel}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{()))}
+        \PYG{n}{currModel}\PYG{o}{.}\PYG{n+na}{setShortcut}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{);}
+
+      \PYG{n}{ICheckItemGroup} \PYG{n}{rootCheckItem} \PYG{o}{=} \PYG{n}{editorStore}\PYG{o}{.}\PYG{n+na}{getRootCheckItem}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{);}
+      \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{setCheckItemGroup}\PYG{o}{(}\PYG{n}{rootCheckItem}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

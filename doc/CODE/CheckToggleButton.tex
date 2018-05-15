@@ -1,0 +1,29 @@
+\begin{figure}[H]
+\begin{spacing}{0.75}
+\begin{javacode}[firstnumber=20]
+  
+  /**
+  * Aktualisiert das Icon
+  */
+  private void _updateIcon()
+  {
+    int width = icon.getWidth(null);
+    int height = icon.getHeight(null);
+    
+    Image stateIcon = checked ? checkedIcon : uncheckedIcon;
+    
+    int x2 = width - stateIcon.getWidth(null);
+    int y2 = height - stateIcon.getHeight(null);
+    
+    BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
+    
+    Graphics g = image.getGraphics();
+    
+    g.drawImage(icon, 0, 0, null);
+    g.drawImage(stateIcon, x2, y2, null);
+    
+    setIcon(new ImageIcon(image));
+  }
+\end{javacode}
+\end{spacing}
+\end{figure}

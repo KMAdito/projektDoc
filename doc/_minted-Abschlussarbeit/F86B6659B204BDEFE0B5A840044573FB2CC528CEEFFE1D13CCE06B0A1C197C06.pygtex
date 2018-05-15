@@ -1,0 +1,83 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{ShortcutStructureModel} \PYG{k+kd}{implements} \PYG{n}{IShortcutStructureView}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}\PYGZgt{}}
+       \PYG{n}{pathChangeListeners} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{INodeChangeListener}\PYG{o}{\PYGZgt{}} \PYG{n}{nodeChangeListeners} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+
+  \PYG{k+kd}{private} \PYG{n}{IEditorShortcutNode} \PYG{n}{root}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{path}\PYG{o}{;}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setRootShortcutNode}\PYG{o}{(}\PYG{n}{IEditorShortcutNode} \PYG{n}{pNode}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{IEditorShortcutNode} \PYG{n}{oldGroup} \PYG{o}{=} \PYG{n}{root}\PYG{o}{;}
+
+    \PYG{n}{root} \PYG{o}{=} \PYG{n}{pNode}\PYG{o}{;}
+
+    \PYG{k}{if}\PYG{o}{(!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{oldGroup}\PYG{o}{,} \PYG{n}{pNode}\PYG{o}{))}
+     \PYG{n}{\PYGZus{}fireEditorShortcutGroupChangeEvent}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{IEditorShortcutNode} \PYG{n+nf}{getRootShortcutNode}\PYG{o}{()} \PYG{o}{\PYGZob{}} \PYG{k}{return} \PYG{n}{root}\PYG{o}{;} \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setNodePath}\PYG{o}{(}\PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{pPath}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{if}\PYG{o}{(!}\PYG{n}{Objects}\PYG{o}{.}\PYG{n+na}{equals}\PYG{o}{(}\PYG{n}{path}\PYG{o}{,} \PYG{n}{pPath}\PYG{o}{))}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{path} \PYG{o}{=} \PYG{n}{pPath}\PYG{o}{;}
+
+      \PYG{n}{\PYGZus{}fireEditorShortcutPathChangeEvent}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n+nf}{getNodePath}\PYG{o}{()} \PYG{o}{\PYGZob{}} \PYG{k}{return} \PYG{n}{path}\PYG{o}{;} \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addPathChangeListener}\PYG{o}{(}\PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}}
+                                         \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{pathChangeListeners}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{pathChangeListeners}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addNodeChangeListener}\PYG{o}{(}\PYG{n}{INodeChangeListener} \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{nodeChangeListeners}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{nodeChangeListeners}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Feuert ein GroupChangeEvent}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}fireEditorShortcutGroupChangeEvent}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{nodeChangeListeners}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{INodeChangeListener} \PYG{n}{listener} \PYG{o}{:} \PYG{n}{nodeChangeListeners}\PYG{o}{)}
+       \PYG{n}{listener}\PYG{o}{.}\PYG{n+na}{groupChanged}\PYG{o}{(}\PYG{n}{root}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Feuert ein PathChangeEvent}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}fireEditorShortcutPathChangeEvent}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{pathChangeListeners}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{listener} \PYG{o}{:} \PYG{n}{pathChangeListeners}\PYG{o}{)}
+       \PYG{n}{listener}\PYG{o}{.}\PYG{n+na}{pathChange}\PYG{o}{(}\PYG{n}{path}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+\PYG{o}{...}
+\end{Verbatim}

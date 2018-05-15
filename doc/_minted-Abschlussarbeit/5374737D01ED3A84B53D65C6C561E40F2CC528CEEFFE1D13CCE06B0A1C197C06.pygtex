@@ -1,0 +1,84 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{Test\PYGZus{}ShortcutEditor}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{n}{DialogFixture} \PYG{n}{dialog}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{ShortcutDummyStore} \PYG{n}{dummyStore}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{ShortcutEditorUI} \PYG{n}{ui}\PYG{o}{;}
+
+  \PYG{n+nd}{@Before}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{onSetUp}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{\PYGZus{}setLookAndFeel}\PYG{o}{();}
+
+    \PYG{n}{dummyStore} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutDummyStore}\PYG{o}{();}
+    \PYG{n}{ui} \PYG{o}{=} \PYG{n}{GuiActionRunner}\PYG{o}{.}\PYG{n+na}{execute}\PYG{o}{(}\PYG{n}{ShortcutEditorUI}\PYG{o}{::}\PYG{k}{new}\PYG{o}{);}
+    \PYG{n}{Dialog} \PYG{n}{shortcutDialog} \PYG{o}{=} \PYG{n}{GuiActionRunner}\PYG{o}{.}\PYG{n+na}{execute}\PYG{o}{(}
+    \PYG{o}{()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{ShortcutEditorDialog}\PYG{o}{.}\PYG{n+na}{createDialog}\PYG{o}{(}\PYG{n}{dummyStore}\PYG{o}{,} \PYG{n}{ui}\PYG{o}{));}
+
+    \PYG{n}{dialog} \PYG{o}{=} \PYG{k}{new} \PYG{n}{DialogFixture}\PYG{o}{(}\PYG{n}{shortcutDialog}\PYG{o}{);}
+    \PYG{n}{dialog}\PYG{o}{.}\PYG{n+na}{show}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Test}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{test\PYGZus{}EnterShortcut}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kt}{int} \PYG{n}{i} \PYG{o}{=} \PYG{l+m+mi}{26}\PYG{o}{;}
+
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{IEditorShortcutModel} \PYG{n}{model} \PYG{o}{:} \PYG{n}{dummyStore}\PYG{o}{.}\PYG{n+na}{getAllModels}\PYG{o}{())}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{IShortcut} \PYG{n}{shortcut} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ExtendedShortcut}\PYG{o}{(}\PYG{n}{EKeyModifier}\PYG{o}{.}\PYG{n+na}{SHIFT}\PYG{o}{,} \PYG{n}{EKey}\PYG{o}{.}\PYG{n+na}{values}\PYG{o}{()[}\PYG{n}{i}\PYG{o}{++]);}
+
+      \PYG{n}{\PYGZus{}selectNode}\PYG{o}{(}\PYG{n}{model}\PYG{o}{);}
+
+      \PYG{n}{\PYGZus{}enterShortcut}\PYG{o}{(}\PYG{n}{shortcut}\PYG{o}{);}
+
+      \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{(),} \PYG{n}{shortcut}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Selektiert den übergebenen Node}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pNode zu selektierender Node}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}selectNode}\PYG{o}{(}\PYG{n}{IEditorShortcutNode} \PYG{n}{pNode}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{GuiActionRunner}\PYG{o}{.}\PYG{n+na}{execute}\PYG{o}{(()} \PYG{o}{\PYGZhy{}\PYGZgt{}} \PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{setNodePath}\PYG{o}{(}\PYG{n}{pNode}\PYG{o}{.}\PYG{n+na}{getPath}\PYG{o}{()));}
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{dialog}\PYG{o}{.}\PYG{n+na}{table}\PYG{o}{().}\PYG{n+na}{selectionValue}\PYG{o}{(),} \PYG{n}{pNode}\PYG{o}{.}\PYG{n+na}{toString}\PYG{o}{());}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Simuliert die Eingabe eines Shortcuts}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pShortcut zu simulierender Shortcut}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}enterShortcut}\PYG{o}{(}\PYG{n}{IShortcut} \PYG{n}{pShortcut}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{JPanelFixture} \PYG{n}{shortcutField} \PYG{o}{=} \PYG{n}{dialog}\PYG{o}{.}\PYG{n+na}{panel}\PYG{o}{(}\PYG{n}{SHORTCUT\PYGZus{}FIELD\PYGZus{}NAME}\PYG{o}{).}\PYG{n+na}{focus}\PYG{o}{();}
+
+    \PYG{n}{SwingShortcut} \PYG{n}{swingShortcut} \PYG{o}{=} \PYG{k}{new} \PYG{n}{SwingShortcut}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{);}
+
+    \PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{n}{Integer}\PYG{o}{\PYGZgt{}} \PYG{n}{keys} \PYG{o}{=} \PYG{n}{swingShortcut}\PYG{o}{.}\PYG{n+na}{getAllDefaultSpecKeys}\PYG{o}{();}
+
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{Integer} \PYG{n}{i} \PYG{o}{:} \PYG{n}{keys}\PYG{o}{)}
+    \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{pressKey}\PYG{o}{(}\PYG{n}{i}\PYG{o}{);}
+
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{Integer} \PYG{n}{i} \PYG{o}{:} \PYG{n}{keys}\PYG{o}{)}
+    \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{releaseKey}\PYG{o}{(}\PYG{n}{i}\PYG{o}{);}
+
+    \PYG{n}{Assert}\PYG{o}{.}\PYG{n+na}{assertEquals}\PYG{o}{(}\PYG{n}{ui}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{(),} \PYG{n}{pShortcut}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{private} \PYG{k+kt}{void} \PYG{n+nf}{\PYGZus{}setLookAndFeel}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{try}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{LookAndFeelSetter}\PYG{o}{.}\PYG{n+na}{set}\PYG{o}{();}
+    \PYG{o}{\PYGZcb{}}
+    \PYG{k}{catch} \PYG{o}{(}\PYG{n}{Exception} \PYG{n}{e}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{throw} \PYG{k}{new} \PYG{n}{RuntimeException}\PYG{o}{(}\PYG{n}{e}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

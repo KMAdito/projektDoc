@@ -1,0 +1,86 @@
+\vspace{-5px}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=21]
+public class ShortcutStructureModel implements IShortcutStructureView
+{
+  private final List<IAditoPathChangeListener<IEditorShortcutNode>> 
+       pathChangeListeners = new ArrayList<>();
+  private final List<INodeChangeListener> nodeChangeListeners = new ArrayList<>();
+  
+  private IEditorShortcutNode root;
+  private AditoTreePath<IEditorShortcutNode> path;
+  
+  @Override
+  public void setRootShortcutNode(IEditorShortcutNode pNode)
+  {
+    IEditorShortcutNode oldGroup = root;
+    
+    root = pNode;
+    
+    if(!Objects.equals(oldGroup, pNode))
+     _fireEditorShortcutGroupChangeEvent();
+  }
+  
+  @Override
+  public IEditorShortcutNode getRootShortcutNode() { return root; }
+  
+  @Override
+  public void setNodePath(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    if(!Objects.equals(path, pPath))
+    {
+      path = pPath;
+      
+      _fireEditorShortcutPathChangeEvent();
+    }
+  }
+  
+  @Override
+  public AditoTreePath<IEditorShortcutNode> getNodePath() { return path; }
+  
+  @Override
+  public void addPathChangeListener(IAditoPathChangeListener<IEditorShortcutNode> 
+                                         pChangeListener)
+  {
+    synchronized (pathChangeListeners)
+    {
+      pathChangeListeners.add(pChangeListener);
+    }
+  }
+  
+  @Override
+  public void addNodeChangeListener(INodeChangeListener pChangeListener)
+  {
+    synchronized (nodeChangeListeners)
+    {
+      nodeChangeListeners.add(pChangeListener);
+    }
+  }
+  
+  /**
+  * Feuert ein GroupChangeEvent
+  */
+  private void _fireEditorShortcutGroupChangeEvent()
+  {
+    synchronized (nodeChangeListeners)
+    {
+      for (INodeChangeListener listener : nodeChangeListeners)
+       listener.groupChanged(root);
+    }
+  }
+  
+  /**
+  * Feuert ein PathChangeEvent
+  */
+  private void _fireEditorShortcutPathChangeEvent()
+  {
+    synchronized (pathChangeListeners)
+    {
+      for (IAditoPathChangeListener<IEditorShortcutNode> listener : pathChangeListeners)
+       listener.pathChange(path);
+    }
+  }
+
+...
+\end{javacode}
+\end{spacing}

@@ -1,0 +1,88 @@
+\vspace{-12px}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=21]
+public class Test_ShortcutEditor
+{
+  private DialogFixture dialog;
+  private ShortcutDummyStore dummyStore;
+  private ShortcutEditorUI ui;
+  
+  @Before
+  public void onSetUp()
+  {
+    _setLookAndFeel();
+    
+    dummyStore = new ShortcutDummyStore();
+    ui = GuiActionRunner.execute(ShortcutEditorUI::new);
+    Dialog shortcutDialog = GuiActionRunner.execute(
+    () -> ShortcutEditorDialog.createDialog(dummyStore, ui));
+    
+    dialog = new DialogFixture(shortcutDialog);
+    dialog.show();
+  }
+  
+  @Test
+  public void test_EnterShortcut()
+  {
+    int i = 26;
+    
+    for (IEditorShortcutModel model : dummyStore.getAllModels())
+    {
+      IShortcut shortcut = new ExtendedShortcut(EKeyModifier.SHIFT, EKey.values()[i++]);
+      
+      _selectNode(model);
+      
+      _enterShortcut(shortcut);
+      
+      Assert.assertEquals(model.getShortcut(), shortcut);
+    }
+  }
+  
+  /**
+  * Selektiert den übergebenen Node
+  * 
+  * @param pNode zu selektierender Node
+  */
+  private void _selectNode(IEditorShortcutNode pNode)
+  {
+    GuiActionRunner.execute(() -> ui.setNodePath(pNode.getPath()));
+    Assert.assertEquals(dialog.table().selectionValue(), pNode.toString());
+  }
+  
+  /**
+  * Simuliert die Eingabe eines Shortcuts
+  * 
+  * @param pShortcut zu simulierender Shortcut
+  */
+  private void _enterShortcut(IShortcut pShortcut)
+  {
+    JPanelFixture shortcutField = dialog.panel(SHORTCUT_FIELD_NAME).focus();
+    
+    SwingShortcut swingShortcut = new SwingShortcut(pShortcut);
+    
+    List<Integer> keys = swingShortcut.getAllDefaultSpecKeys();
+    
+    for (Integer i : keys)
+    shortcutField.pressKey(i);
+    
+    for (Integer i : keys)
+    shortcutField.releaseKey(i);
+    
+    Assert.assertEquals(ui.getShortcut(), pShortcut);
+  }
+  
+  private void _setLookAndFeel()
+  {
+    try
+    {
+      LookAndFeelSetter.set();
+    }
+    catch (Exception e)
+    {
+      throw new RuntimeException(e);
+    }
+  }
+}
+
+\end{javacode}
+\end{spacing}

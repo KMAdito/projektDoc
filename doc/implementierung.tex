@@ -6,7 +6,7 @@ Da die Hauptaufgabe dieser Projektarbeit darin bestand, die benötigten GUI Komp
 
 \subsubsection{ShortcutField}
 
-Ein ShortcutField ist -- wie in Abschnitt (XXX) bereits erwähnt -- für die Anzeige und Bearbeitung von Tastaturkürzeln zuständig. Sofern noch kein Shortcut eingegebent wurde, zeigt sie zudem eine Aufforderung zum Eingeben eines Shortcuts in Form eines Texts an (\glqq enter shortcut...\grqq). Um diesen Anforderungen gerecht zu werden, nutzt sie drei bereits bestehende Komponenten: Für das Löschen des gesamten Shortcuts dient ein CloseButton (umkreistes Kreuz), für die Anzeige und Bearbeitung des Shortcuts kommt die ShortcutView-Komponente zum Einsatz und die Textaufforderung wird durch ein JLabel realisiert.
+Ein ShortcutField ist -- wie in Abschnitt \ref{ui} bereits erwähnt -- für die Anzeige und Bearbeitung von Tastaturkürzeln zuständig. Sofern noch kein Shortcut eingegebent wurde, zeigt sie zudem eine Aufforderung zum Eingeben eines Shortcuts in Form eines Texts an (\glqq enter shortcut...\grqq). Um diesen Anforderungen gerecht zu werden, nutzt sie drei bereits bestehende Komponenten: Für das Löschen des gesamten Shortcuts dient ein CrossButton (umkreistes Kreuz), für die Anzeige und Bearbeitung des Shortcuts kommt die ShortcutView-Komponente zum Einsatz und die Textaufforderung wird durch ein JLabel realisiert.
 
 \begin{figure}[H]
 	\centering
@@ -17,17 +17,19 @@ Ein ShortcutField ist -- wie in Abschnitt (XXX) bereits erwähnt -- für die Anz
 
 Die eigendliche Funktionalität wird durch die verwendeten Komponenten bereitgestellt. Selbst kümmert sich das ShortcutField um die Anzeige der jeweils richtigen Komponente (JLabel oder ShortcutView), sowie um das Horchen auf Tastatureingaben mittles eines KeyListeners. Die private Methode \_update() ist für das Ein- und Ausblenden der jeweiligen Komponente zuständig (siehe \autoref{fig:ShortcutField-update}). Sie wird initial und bei jeder Änderung des Shortcuts aufgerufen.
 
+\vspace{20px}
+
 \input{CODE/ShortcutField-update}
 
-Zunächst wird überprüft, ob das ShortcutField leer ist (kein Shortcut gesetzt). Das Ergebnis dieser Überprüfung wird in der lokalen Variable empty gespeichert. Anschließend werden die Sichtbarkeiten der Komponenten aktualisiert, wobei der ShortcutViewer nur bei gesetztem und die Textaufforderung nur bei nicht gesetztem Tastenkürzel angezeigt wird. Der CloseButton wird im Editiermodus immer angezeigt aber nur aktiviert, sobald ein Shortcut eingegeben wird.
+Zunächst wird überprüft, ob das ShortcutField leer ist (kein Shortcut gesetzt). Das Ergebnis dieser Überprüfung wird in der lokalen Variable empty gespeichert. Anschließend werden die Sichtbarkeiten der Komponenten aktualisiert, wobei der ShortcutViewer nur bei gesetztem und die Textaufforderung nur bei nicht gesetztem Tastenkürzel angezeigt wird. Der CrossButton wird im Editiermodus immer angezeigt aber nur aktiviert, sobald ein Shortcut eingegeben wird.
 
 \newpage
 
 \subsubsection{Check-Button}
 
-Um die Grundfunktinalitäten des im Abschnitt (XXX) erwähnten Check-Buttons zu definieren, wurde zunächst das Interface ICheckComponent erstellt. Indessen wird festgelegt, dass ein Check-Button einen Checked-Zustand besitzt, welcher angibt, ob innerhalb der Komponente ein grüner Hacken (true) oder ein rotes Kreuz (false) angezeigt werden soll (siehe \autoref{fig:cdcheckbutton}).
+Um die Grundfunktinalitäten des im Abschnitt \ref{ui} erwähnten Check-Buttons zu definieren, wurde zunächst das Interface ICheckComponent erstellt. Indessen wird festgelegt, dass ein Check-Button einen Checked-Zustand besitzt, welcher angibt, ob innerhalb der Komponente ein grüner Hacken (true) oder ein rotes Kreuz (false) angezeigt werden soll (siehe \autoref{fig:cdcheckbutton}).
 
-Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt von der Swing Klasse JToggleButton. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von setChecked(...) wird die private Methode \_updateIcon() aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (Siehe Anhang (XXX)). Insgesamt stellt ein CheckToggleButton eine vollwertige CheckComponent dar, welche direkt verwendet werden könnte.
+Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt von der Swing Klasse JToggleButton. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von setChecked(...) wird die private Methode \_updateIcon() aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (siehe Anhang \ref{CheckToggleButton}). Insgesamt stellt ein CheckToggleButton eine vollwertige CheckComponent dar, welche direkt verwendet werden könnte.
 
 \begin{figure}[H]
 	\centering
@@ -38,7 +40,7 @@ Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt v
 
 \vspace{-5px}
 
-Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors bzw. im Zusammenhang mit ICheckItems einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt. Diese erweitet CheckToggleButton und kann über den Konstruktor ein ICheckItem aufnehmen. Wie im Anhang (XXX) ersichtlich, werden innerhalb dieses Konstruktors alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
+Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors bzw. im Zusammenhang mit ICheckItems einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt. Diese erweitet CheckToggleButton und kann über den Konstruktor ein ICheckItem aufnehmen. Wie im Anhang \ref{CheckItemButton} ersichtlich, werden innerhalb dieses Konstruktors alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
 
 \vspace{-5px}
 
@@ -56,12 +58,12 @@ Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Posit
 
 Um diese Positionierung zu realisieren, wurde der CheckButtonContainer erstellt. Dieser stellt eine JComponent dar, welcher mittels eines BoxLayouts seine CheckButtons horizontal nebeneinander ausrichtet. Außerdem kann der für Browser Check-Buttons erforderliche Abstand über setSplitting(...) ein- und ausgeschaltet werden. Ändert sich der Checked-Zustand eines CheckButtons, so kümmert sich der Container auch um die richtige Umsortierung.
 
-Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man CheckItems setzten (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder Unnötige wieder entfernt (siehe Anhang (XXX)). Zudem kann über die Methode getSelection() der aktuell selektierte Check-Button ausgelesen werden.
+Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man CheckItems setzten (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder Unnötige wieder entfernt (siehe Anhang \ref{CheckItemContainer}). Zudem kann über die Methode getSelection() der aktuell selektierte Check-Button ausgelesen werden.
 
 \subsubsection{CheckItemAccordion}
 
 Die Accordion-Komponente ist in der Lage, einen konkreten Pfad des Datenmodells für Browsertestergebnisse mit allen verfügbaren Details darzustellen (siehe \autoref{fig:uxDesigns}).
-Jede Sektion des Accordions visualisiert also genau ein CheckItem. Sofern Untersektionen vorhanden sind, wird zusätzlich ein CheckItemContainer angezeigt. Dieser dient zur Navigation durch das Datenmodell, wobei immer genau das CheckItem dargestellt wird, welches in der vorherigen Sektion ausgewählt ist.
+Jede Sektion des Accordions visualisiert genau ein CheckItem. Sofern Untersektionen vorhanden sind, wird zusätzlich ein CheckItemContainer angezeigt. Dieser dient zur Navigation durch das Datenmodell, wobei immer genau das CheckItem dargestellt wird, welches in der vorherigen Sektion ausgewählt ist.
 
 \begin{wrapfigure}[10]{l}[0cm]{230px}
 	\vspace{-12px}
@@ -92,11 +94,11 @@ Die Komponenten BreadCrumb und TreeTable mussten im Zuge dieser Projektarbeit ni
 	\label{fig:ishortcutstructureview}
 \end{wrapfigure}
 
-Um sie jedoch im Zusammenhang mit dem MVP-Architekturmuster verwenden zu können, mussten sie in eigene Klassen gekapselt werden, welche IShortcutStructureView (siehe \autoref{fig:ishortcutstructureview}) implementieren. Dazu wurden die Klassen ShortcutPathComponent (BreadCrumb) und ShortcutStructureTable (TreeTable) erstellt (siehe Anhang (XXX) S. (X)). Über die im Interface enthaltenen Methoden erhält die jeweilige Komponente ihre Informationen, welche zur Darstellung benötigt werden. Außerdem erhält sie die Möglichkeit Wertänderungen über Listener zu kommunizieren. Wählt der Benutzer beispielsweiße einen anderen Knoten in der BreadCrumb aus, so werden alle PathChangeListener informiert.
+Um sie jedoch im Zusammenhang mit dem MVP-Architekturmuster verwenden zu können, mussten sie in eigene Klassen gekapselt werden, welche IShortcutStructureView (siehe \autoref{fig:ishortcutstructureview}) implementieren. Dazu wurden die Klassen ShortcutPathComponent (BreadCrumb) und ShortcutStructureTable (TreeTable) erstellt (siehe Anhang \ref{ShortcutStructureTable} und \ref{ShortcutPathComponent}). Über die im Interface enthaltenen Methoden erhält die jeweilige Komponente ihre Informationen, welche zur Darstellung benötigt werden. Außerdem erhält sie die Möglichkeit Wertänderungen über Listener zu kommunizieren. Wählt der Benutzer beispielsweiße einen anderen Knoten in der BreadCrumb aus, so werden alle hinzugefügten PathChangeListener informiert.
 
 \subsubsection{ShortcutEditorUI}
 
-Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesamten User Interface zusammengesetzt werden. Hierzu wurde die Klasse ShortcutEditorUI (siehe Anhang (XXX)) erstellt. Sie implementiert das Interface IShortcutEditorUI, welches wiederum von IShortcutStructureView erbt. Zudem erbt die UI von der Swing Klasse JPanel (XXX).
+Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesamten User Interface zusammengesetzt werden. Hierzu wurde die Klasse ShortcutEditorUI (siehe Anhang \ref{ShortcutEditorUI}) erstellt. Sie implementiert das Interface IShortcutEditorUI, welches wiederum von IShortcutStructureView erbt. Zudem erbt die UI von der Swing Klasse JPanel (\autoref{fig:shortcuteditorui}).
 
 \begin{figure}[H]
 	\centering
@@ -109,34 +111,35 @@ Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesa
 
 Zur Anordnung der einzelnen Komponenten kommt das TableLayout zum Einsatz. Im Konstruktor der Klasse werden die Spalten- und Zeilenausdehnungen des Layouts definiert und die Komponenten in die entsprechenden Zellen eingefügt. Außerdem wird das ShortcutStructureModel und der ShortcutStructurePresenter initialisiert. 
 
-Da die Funktionalität in den für die UI verwendeten Komponenten enthalten ist, werden alle Getter- und Setter-Anfragen sowie die Listener direkt an das entsprechende Element (Komponente oder Model) weitergeleitet. In der setShortcut(...) Methode der ShortcutEditorUI wird beispielsweise direkt die setShortcut(...) Methode des ShortcutFields aufgerufen und so der zu setzende Shortcut direkt weitergegeben.
+Da die Funktionalität in den für die UI verwendeten Komponenten enthalten ist, werden alle Getter- und Setter-Anfragen sowie die Listener direkt an das entsprechende Element (Komponente oder Model) weitergeleitet. In der setShortcut(...) Methode der ShortcutEditorUI wird beispielsweise sofort die setShortcut(...) Methode des ShortcutFields aufgerufen und so der zu setzende Shortcut direkt weitergegeben.
 
 \newpage
 
 \subsection{Presenter}
 
-Folgend wird die Implementierung des im Abschnitt (XXX) beschiebenen Presenters erläutert.
+Folgend wird die Implementierung der im Abschnitt \ref{Architekturdesign} beschiebenen Presenter erläutert.
 
 \subsubsection{ShortcutEditorPresenter}
 
-\begin{wrapfigure}[12]{r}[0cm]{230px}
+\begin{wrapfigure}[11]{r}[0cm]{230px}
+	\vspace{-12px}
 	\centering
 	\includegraphics[width=230px]{../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter}
 	\caption{ShortcutEditorPresenter}
 	\label{fig:shortcuteditorpresenter}
 \end{wrapfigure}
 
-Um die Daten der ShortcutEditorUI mit den in Abschnitt (XXX) beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der ShortcutEditorPresenter (siehe Anhang (XXX) S. (X)). Diesem wird über den Konstruktor sowohl der Datenstore als auch die IShortcutEditorUI übergeben. Anschließend werden der UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
+Um die Daten der ShortcutEditorUI mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der ShortcutEditorPresenter (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der Datenstore als auch die IShortcutEditorUI übergeben. Anschließend werden der UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
 
-Ändert der Benutzer über die UI den Shortcut, so wird dieser in das entsprechende Datenmodell übertragen. Wird durch den Benutzer der Pfad geändert, also eine andere Funktion selektiert, so lädt der Presenter das Datenmodell der neuen Funktion. Zukünftige Shortcutänderungen werden dann in dieses Datenmodell übertragen.
+Ändert der Benutzer über die UI den Shortcut, so wird dieser in das entsprechende Datenmodell übertragen. Wird durch den Benutzer der Pfad geändert, also eine andere Aktion selektiert, so lädt der Presenter das Datenmodell der neuen Aktion. Zukünftige Shortcutänderungen werden dann in dieses Datenmodell übertragen.
 
 \subsubsection{ShortcutStructurePresenter}
 
-Da bei den beiden Komponenten TreeTable und BreadCrumb die selben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang (XXX) S. (X)) erhält über den Konstruktor ein ShortcutStructureModel und eine beliebige Anzahl von IShortcutStructureViews. 
+Da bei den beiden Komponenten TreeTable und BreadCrumb die selben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang \ref{ShortcutStructurePresenter}) erhält über den Konstruktor ein ShortcutStructureModel und eine beliebige Anzahl von IShortcutStructureViews. 
 
-In \autoref{fig:ishortcutstructureview} wird ersichtlich, dass eine View einen IEditorShortcutNode und einen AditoTreePath besitzt. Der IEditorShortcutNode hält die in Abschnitt (XXX) beschriebene Baumstruktur der Funktionen und der Pfad gibt an, welcher Knoten des Baums gerade selektiert ist. Über Änderung dieser Attribute informieren Listener, welche der View über die entsprechenden Methoden hinzugefügt werden können (z.B. addPathChangeListener(...)). Da das ShortcutStructureModel die gleiche Funktionalität benötigt, wie die View, implementiert es auch das Interface IShortcutStructureView (siehe Anhang (XXX) S. (X)).
+In \autoref{fig:ishortcutstructureview} wird ersichtlich, dass eine View einen IEditorShortcutNode und einen AditoTreePath besitzt. Der IEditorShortcutNode hält die in Abschnitt \ref{DatenmodellFunc} beschriebene Baumstruktur der Aktionen und der Pfad gibt an, welcher Knoten des Baums gerade selektiert ist. Über Änderung dieser Attribute informieren Listener, welche der View über die entsprechenden Methoden hinzugefügt werden können (z.B. addPathChangeListener(...)). Da das ShortcutStructureModel die gleiche Funktionalität benötigt, wie die View, implementiert es auch das Interface IShortcutStructureView (siehe Anhang \ref{ShortcutStructureModel}).
 
-Im Konstruktor des ShortcutStructurePresenters (siehe Anhang (XXX) S. (X)) werden sowohl dem Model als auch den einzelnen Views Pfad- und Node-Listener hinzugefügt. Löst ein Listener des Models aus, so werden die Änderungen in alle Views übertragen. Löst ein Listener einer View aus, so werden die Änderungen in das Model übertragen. Da dadurch wiederum der Listener des Models anschlägt, werden auch die anderen Views aktualisiert. So wird gewährleistet, dass alle Views und das Model zu jedem Zeitpunkt die gleichen Informationen besitzen.
+Im Konstruktor des ShortcutStructurePresenters (siehe Anhang \ref{ShortcutStructurePresenter}) werden sowohl dem Model als auch den einzelnen Views Pfad- und Node-Listener hinzugefügt. Löst ein Listener des Models aus, so werden die Änderungen in alle Views übertragen. Löst ein Listener einer View aus, so werden die Änderungen in das Model übertragen. Da dadurch wiederum der Listener des Models anschlägt, werden auch die anderen Views aktualisiert. So wird gewährleistet, dass alle Views und das Model zu jedem Zeitpunkt die gleichen Informationen besitzen.
 
 \begin{figure}[H]
 	\centering

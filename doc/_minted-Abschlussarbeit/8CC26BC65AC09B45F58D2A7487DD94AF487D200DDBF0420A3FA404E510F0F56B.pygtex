@@ -1,0 +1,77 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cp}{\PYGZlt{}?xml version=\PYGZdq{}1.0\PYGZdq{} encoding=\PYGZdq{}UTF\PYGZhy{}8\PYGZdq{}?\PYGZgt{}}\PYG{n+nt}{\PYGZlt{}ShortcutTestResultModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}chrome\PYGZhy{}WINDOWS\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}browserName\PYGZgt{}}chrome\PYG{n+nt}{\PYGZlt{}/browserName\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}browserVersion\PYGZgt{}}66.0.3359.170\PYG{n+nt}{\PYGZlt{}/browserVersion\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}osName\PYGZgt{}}Windows 10\PYG{n+nt}{\PYGZlt{}/osName\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}osVersion\PYGZgt{}}10.0\PYG{n+nt}{\PYGZlt{}/osVersion\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}failedShortcuts\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}ShortcutTestEntryModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}e5e6edfc\PYGZhy{}6f2c\PYGZhy{}4762\PYGZhy{}8242\PYGZhy{}3887f61699c4\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}shortcut\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}keyModifiers\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}SHIFT\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}SHIFT\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}ALT\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}ALT\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}CTRL\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}CTRL\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/keyModifiers\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}key\PYGZgt{}}A\PYG{n+nt}{\PYGZlt{}/key\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/shortcut\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}success\PYGZgt{}}true\PYG{n+nt}{\PYGZlt{}/success\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/ShortcutTestEntryModel\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}ShortcutTestEntryModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}95d83f77\PYGZhy{}be27\PYGZhy{}4b1c\PYGZhy{}b0a8\PYGZhy{}bd0cfb07c0a4\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}shortcut\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}keyModifiers\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}SHIFT\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}SHIFT\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}META\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}META\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/keyModifiers\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}key\PYGZgt{}}INSERT\PYG{n+nt}{\PYGZlt{}/key\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/shortcut\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}success\PYGZgt{}}true\PYG{n+nt}{\PYGZlt{}/success\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/ShortcutTestEntryModel\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}ShortcutTestEntryModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}cccd89e4\PYGZhy{}02bd\PYGZhy{}4638\PYGZhy{}9220\PYGZhy{}6d7e2bc9815a\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}shortcut\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}keyModifiers\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}ALT\PYGZus{}GRAPH\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}ALT\PYGZus{}GRAPH\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}ALT\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}ALT\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}CTRL\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}CTRL\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/keyModifiers\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}key\PYGZgt{}}NUM0\PYG{n+nt}{\PYGZlt{}/key\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/shortcut\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}success\PYGZgt{}}true\PYG{n+nt}{\PYGZlt{}/success\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/ShortcutTestEntryModel\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}ShortcutTestEntryModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}3afd18fa\PYGZhy{}8f23\PYGZhy{}46aa\PYGZhy{}bd80\PYGZhy{}ca3a331fa677\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}shortcut\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}keyModifiers\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}ALT\PYGZus{}GRAPH\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}ALT\PYGZus{}GRAPH\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}SHIFT\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}SHIFT\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}CTRL\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}CTRL\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}KeyModifierDataModel} \PYG{n+na}{name=}\PYG{l+s}{\PYGZdq{}META\PYGZdq{}}\PYG{n+nt}{\PYGZgt{}}
+            \PYG{n+nt}{\PYGZlt{}keyModifier\PYGZgt{}}META\PYG{n+nt}{\PYGZlt{}/keyModifier\PYGZgt{}}
+          \PYG{n+nt}{\PYGZlt{}/KeyModifierDataModel\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}/keyModifiers\PYGZgt{}}
+        \PYG{n+nt}{\PYGZlt{}key\PYGZgt{}}F10\PYG{n+nt}{\PYGZlt{}/key\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}/shortcut\PYGZgt{}}
+      \PYG{n+nt}{\PYGZlt{}success\PYGZgt{}}true\PYG{n+nt}{\PYGZlt{}/success\PYGZgt{}}
+    \PYG{n+nt}{\PYGZlt{}/ShortcutTestEntryModel\PYGZgt{}}
+    ...
+\end{Verbatim}

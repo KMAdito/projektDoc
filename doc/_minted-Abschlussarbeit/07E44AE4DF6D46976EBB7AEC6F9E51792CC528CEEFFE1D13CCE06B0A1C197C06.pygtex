@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{CheckItemButton} \PYG{k+kd}{extends} \PYG{n}{CheckToggleButton}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{final} \PYG{n}{ICheckItem} \PYG{n}{checkItem}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Konstruktor}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @param pCheckItem CheckItem}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n+nf}{CheckItemButton}\PYG{o}{(}\PYG{n}{ICheckItem} \PYG{n}{pCheckItem}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kd}{super}\PYG{o}{(}\PYG{n}{pCheckItem}\PYG{o}{.}\PYG{n+na}{getIcon}\PYG{o}{().}\PYG{n+na}{getImage}\PYG{o}{());}
+
+    \PYG{n}{checkItem} \PYG{o}{=} \PYG{n}{pCheckItem}\PYG{o}{;}
+
+    \PYG{n}{setChecked}\PYG{o}{(}\PYG{n}{checkItem}\PYG{o}{.}\PYG{n+na}{isSuccessful}\PYG{o}{());}
+    \PYG{n}{setToolTipText}\PYG{o}{(}\PYG{n}{checkItem}\PYG{o}{.}\PYG{n+na}{getType}\PYG{o}{());}
+    \PYG{n}{setPreferredSize}\PYG{o}{(}\PYG{n}{IShortcutEditorConstants}\PYG{o}{.}\PYG{n+na}{CHECK\PYGZus{}ITEM\PYGZus{}SIZE}\PYG{o}{);}
+    \PYG{n}{setMinimumSize}\PYG{o}{(}\PYG{n}{IShortcutEditorConstants}\PYG{o}{.}\PYG{n+na}{CHECK\PYGZus{}ITEM\PYGZus{}SIZE}\PYG{o}{);}
+    \PYG{n}{setMaximumSize}\PYG{o}{(}\PYG{n}{IShortcutEditorConstants}\PYG{o}{.}\PYG{n+na}{CHECK\PYGZus{}ITEM\PYGZus{}SIZE}\PYG{o}{);}
+    \PYG{n}{setOpaque}\PYG{o}{(}\PYG{k+kc}{true}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Gibt das zugehörige ICheckItem zurück}
+\PYG{c+cm}{  *}
+\PYG{c+cm}{  * @return zugehörige ICheckItem}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n}{ICheckItem} \PYG{n+nf}{getCheckItem}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{checkItem}\PYG{o}{;}
+  \PYG{o}{\PYGZcb{}}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

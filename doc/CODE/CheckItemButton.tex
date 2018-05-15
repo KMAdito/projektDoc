@@ -1,0 +1,38 @@
+\begin{spacing}{0.75}
+\begin{javacode}[firstnumber=12]
+public class CheckItemButton extends CheckToggleButton
+{
+  private final ICheckItem checkItem;
+  
+  /**
+  * Konstruktor
+  *
+  * @param pCheckItem CheckItem
+  */
+  public CheckItemButton(ICheckItem pCheckItem)
+  {
+    super(pCheckItem.getIcon().getImage());
+    
+    checkItem = pCheckItem;
+    
+    setChecked(checkItem.isSuccessful());
+    setToolTipText(checkItem.getType());
+    setPreferredSize(IShortcutEditorConstants.CHECK_ITEM_SIZE);
+    setMinimumSize(IShortcutEditorConstants.CHECK_ITEM_SIZE);
+    setMaximumSize(IShortcutEditorConstants.CHECK_ITEM_SIZE);
+    setOpaque(true);
+  }
+  
+  /**
+  * Gibt das zugehörige ICheckItem zurück
+  *
+  * @return zugehörige ICheckItem
+  */
+  public ICheckItem getCheckItem()
+  {
+    return checkItem;
+  }
+}
+
+\end{javacode}
+\end{spacing}

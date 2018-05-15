@@ -1,0 +1,82 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{ShortcutEditorUI} \PYG{k+kd}{extends} \PYG{n}{JPanel} \PYG{k+kd}{implements} \PYG{n}{IShortcutEditorUI}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{n}{ShortcutField} \PYG{n}{shortcutField}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{CheckItemContainer} \PYG{n}{checkContainer}\PYG{o}{;}
+  \PYG{k+kd}{private} \PYG{n}{CheckItemAccordion} \PYG{n}{checkAccordion}\PYG{o}{;}
+
+  \PYG{k+kd}{private} \PYG{n}{ShortcutStructureModel} \PYG{n}{model}\PYG{o}{;}
+
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{k+kt}{int} \PYG{n}{GAP} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Konstruktor}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n+nf}{ShortcutEditorUI}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kt}{double}\PYG{o}{[]} \PYG{n}{x} \PYG{o}{=} \PYG{o}{\PYGZob{}}\PYG{l+m+mi}{10}\PYG{o}{,} \PYG{n}{TableLayout}\PYG{o}{.}\PYG{n+na}{FILL}\PYG{o}{,} \PYG{l+m+mi}{10}\PYG{o}{\PYGZcb{};}
+    \PYG{k+kt}{double}\PYG{o}{[]} \PYG{n}{y} \PYG{o}{=} \PYG{o}{\PYGZob{}}\PYG{n}{GAP}\PYG{o}{,}
+                  \PYG{l+m+mi}{20}\PYG{o}{,}
+                  \PYG{n}{GAP}\PYG{o}{,}
+                  \PYG{l+m+mi}{80}\PYG{o}{,}
+                  \PYG{n}{GAP}\PYG{o}{,}
+                  \PYG{l+m+mi}{50}\PYG{o}{,}
+                  \PYG{n}{GAP}\PYG{o}{,}
+                  \PYG{n}{TableLayout}\PYG{o}{.}\PYG{n+na}{FILL}\PYG{o}{,}
+                  \PYG{l+m+mi}{10}\PYG{o}{\PYGZcb{};}
+
+    \PYG{n}{setLayout}\PYG{o}{(}\PYG{k}{new} \PYG{n}{TableLayout}\PYG{o}{(}\PYG{n}{x}\PYG{o}{,} \PYG{n}{y}\PYG{o}{));}
+
+    \PYG{n}{TableLayoutUtil} \PYG{n}{tlu} \PYG{o}{=} \PYG{k}{new} \PYG{n}{TableLayoutUtil}\PYG{o}{(}\PYG{k}{this}\PYG{o}{);}
+
+    \PYG{n}{model} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutStructureModel}\PYG{o}{();}
+
+    \PYG{n}{ShortcutPathComponent} \PYG{n}{pathComp} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutPathComponent}\PYG{o}{();}
+    \PYG{n}{ShortcutStructureTable} \PYG{n}{modelViewer} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutStructureTable}\PYG{o}{();}
+
+    \PYG{k}{new} \PYG{n}{ShortcutStructurePresenter}\PYG{o}{(}\PYG{n}{model}\PYG{o}{,} \PYG{n}{pathComp}\PYG{o}{,} \PYG{n}{modelViewer}\PYG{o}{);}
+
+    \PYG{n}{shortcutField} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ShortcutField}\PYG{o}{();}
+    \PYG{n}{checkAccordion} \PYG{o}{=} \PYG{k}{new} \PYG{n}{CheckItemAccordion}\PYG{o}{();}
+    \PYG{n}{checkContainer} \PYG{o}{=} \PYG{n}{checkAccordion}\PYG{o}{.}\PYG{n+na}{getRootCheckItemContainer}\PYG{o}{();}
+
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,} \PYG{l+m+mi}{1}\PYG{o}{,} \PYG{n}{pathComp}\PYG{o}{);}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,} \PYG{l+m+mi}{3}\PYG{o}{,} \PYG{n}{shortcutField}\PYG{o}{);}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,} \PYG{l+m+mi}{5}\PYG{o}{,} \PYG{n}{checkContainer}\PYG{o}{);}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,} \PYG{l+m+mi}{7}\PYG{o}{,} \PYG{n}{checkAccordion}\PYG{o}{);}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{1}\PYG{o}{,} \PYG{l+m+mi}{7}\PYG{o}{,} \PYG{n}{modelViewer}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setShortcut}\PYG{o}{(}\PYG{n}{IShortcut} \PYG{n}{pShortcut}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{setShortcut}\PYG{o}{(}\PYG{n}{pShortcut}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{public} \PYG{n}{IShortcut} \PYG{n+nf}{getShortcut}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{getShortcut}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addShortcutChangeListener}\PYG{o}{(}\PYG{n}{IShortcutChangeListener} \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{addShortcutChangeListener}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{removeShortcutChangeListener}\PYG{o}{(}\PYG{n}{IShortcutChangeListener} \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{shortcutField}\PYG{o}{.}\PYG{n+na}{removeShortcutChangeListener}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setCheckItemGroup}\PYG{o}{(}\PYG{n}{ICheckItemGroup} \PYG{n}{pRootGroup}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{checkAccordion}\PYG{o}{.}\PYG{n+na}{setCheckItemGroup}\PYG{o}{(}\PYG{n}{pRootGroup}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{ICheckItemGroup} \PYG{n+nf}{getCheckItemGroup}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{checkAccordion}\PYG{o}{.}\PYG{n+na}{getCheckItemGroup}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+\PYG{o}{...}
+\end{Verbatim}

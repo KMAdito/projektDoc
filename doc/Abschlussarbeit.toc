@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Beschreibung}{1}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Ziel}{1}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Umfeld}{1}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Umfeld}{2}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}Begr\IeC {\"u}ndung}{2}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Schnittstellen}{2}{subsection.1.5}
 \contentsline {subsection}{\numberline {1.6}Abgrenzung}{2}{subsection.1.6}
@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {4}Entwurfsphase}{5}{section.4}
 \contentsline {subsection}{\numberline {4.1}Architekturdesign}{5}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Benutzeroberfl\IeC {\"a}che}{6}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Datenmodell f\IeC {\"u}r Entit\IeC {\"a}ten und Funktionen}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.3}Datenmodell f\IeC {\"u}r Entit\IeC {\"a}ten und Aktion}{7}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Datenmodell f\IeC {\"u}r Browsertestergebnisse}{8}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Datenstore}{8}{subsection.4.5}
 \contentsline {section}{\numberline {5}Implementierung}{9}{section.5}
@@ -37,7 +37,18 @@
 \contentsline {section}{\numberline {8}Glossar}{16}{section.8}
 \contentsline {section}{\numberline {9}Abbildungsverzeichnis}{17}{section.9}
 \contentsline {section}{\numberline {10}Literaturverzeichnis}{17}{section.10}
-\contentsline {section}{\numberline {11}Anhang}{18}{section.11}
+\contentsline {section}{\numberline {11}Anhang}{19}{section.11}
 \setcounter {tocdepth}{-1}
-\contentsline {subsection}{\numberline {11.1}Anwendungsf\IeC {\"a}lle}{18}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{19}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.1}XML}{19}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{20}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Anwendungsf\IeC {\"a}lle}{21}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Zeichnen des Icons im CheckToggleButton}{22}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}CheckItemButton}{22}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}Setzen der CheckItems im CheckItemContainer}{23}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}ShortcutStructureTable}{23}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}ShortcutPathComponent}{24}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}ShortcutEditorUI}{27}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}ShortcutEditorPresenter}{29}{subsection.11.10}
+\contentsline {subsection}{\numberline {11.11}ShortcutStructurePresenter}{31}{subsection.11.11}
+\contentsline {subsection}{\numberline {11.12}ShortcutStructureModel}{34}{subsection.11.12}
+\contentsline {subsection}{\numberline {11.13}ShortcutEditor Test}{36}{subsection.11.13}

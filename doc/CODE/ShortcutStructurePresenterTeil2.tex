@@ -1,0 +1,48 @@
+\vspace{-5px}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=100]
+  
+  /**
+  * Aktualisiert den Pfad in den einzelen Views
+  *
+  * @param pPath zu setztender Pfad
+  */
+  private void _updatePath(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    synchronized (views)
+    {
+      for (IShortcutStructureView view : views)
+      if (!Objects.equals(view.getNodePath(), pPath))
+      view.setNodePath(pPath);
+    }
+  }
+  
+  /**
+  * Listener, welcher Änderungen der ShortcutGroup in das Hauptmodel überträgt
+  */
+  private class _ShortcutNodeChangeListener implements INodeChangeListener
+  {
+    @Override
+    public void groupChanged(IEditorShortcutNode pNode)
+    {
+      if (!Objects.equals(model.getRootShortcutNode(), pNode))
+      model.setRootShortcutNode(pNode);
+    }
+  }
+  
+  /**
+  * Listener, welcher Änderungen der ShortcutPath in das Hauptmodel überträgt
+  */
+  private class _ShortcutPathChangeListener 
+                implements IAditoPathChangeListener<IEditorShortcutNode>
+  {
+    @Override
+    public void pathChange(AditoTreePath<IEditorShortcutNode> pPath)
+    {
+      if (!Objects.equals(model.getNodePath(), pPath))
+      model.setNodePath(pPath);
+    }
+  }
+}
+\end{javacode}
+\end{spacing}

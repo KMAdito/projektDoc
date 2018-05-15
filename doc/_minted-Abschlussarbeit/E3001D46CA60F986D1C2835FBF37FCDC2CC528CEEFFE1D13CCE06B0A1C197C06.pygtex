@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+cm}{/**}
+\PYG{c+cm}{* Setzt die zu visualisierenden ICheckItems}
+\PYG{c+cm}{*}
+\PYG{c+cm}{* @param pCheckItems zu visualisierenden ICheckItems}
+\PYG{c+cm}{*/}
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setCheckItems}\PYG{o}{(}\PYG{n}{ICheckItem}\PYG{o}{[]} \PYG{n}{pCheckItems}\PYG{o}{)}
+\PYG{o}{\PYGZob{}}
+  \PYG{n}{ICheckItem} \PYG{n}{selection} \PYG{o}{=} \PYG{n}{getSelection}\PYG{o}{();}
+
+  \PYG{k}{for} \PYG{o}{(}\PYG{n}{CheckItemButton} \PYG{n}{comp} \PYG{o}{:} \PYG{n}{getAllCheckButtons}\PYG{o}{())}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{comp}\PYG{o}{.}\PYG{n+na}{removeItemListener}\PYG{o}{(}\PYG{n}{itemListener}\PYG{o}{);}
+    \PYG{n}{removeCheckButton}\PYG{o}{(}\PYG{n}{comp}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{k}{if}\PYG{o}{(}\PYG{n}{pCheckItems} \PYG{o}{!=} \PYG{k+kc}{null}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{for} \PYG{o}{(}\PYG{n}{ICheckItem} \PYG{n}{item} \PYG{o}{:} \PYG{n}{pCheckItems}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{n}{CheckItemButton} \PYG{n}{component} \PYG{o}{=} \PYG{k}{new} \PYG{n}{CheckItemButton}\PYG{o}{(}\PYG{n}{item}\PYG{o}{);}
+      \PYG{n}{component}\PYG{o}{.}\PYG{n+na}{addItemListener}\PYG{o}{(}\PYG{n}{itemListener}\PYG{o}{);}
+      \PYG{n}{addCheckButton}\PYG{o}{(}\PYG{n}{component}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n}{revalidate}\PYG{o}{();}
+  \PYG{n}{repaint}\PYG{o}{();}
+\PYG{o}{\PYGZcb{}}
+\end{Verbatim}

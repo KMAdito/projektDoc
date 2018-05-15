@@ -1,0 +1,72 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{public} \PYG{k+kd}{class} \PYG{n+nc}{ShortcutPathComponent} \PYG{k+kd}{extends} \PYG{n}{JPanel} \PYG{k+kd}{implements} \PYG{n}{IShortcutStructureView}
+\PYG{o}{\PYGZob{}}
+  \PYG{k+kd}{private} \PYG{k+kd}{static} \PYG{k+kd}{final} \PYG{k+kt}{int} \PYG{n}{GAP} \PYG{o}{=} \PYG{l+m+mi}{5}\PYG{o}{;}
+
+  \PYG{k+kd}{private} \PYG{n}{BreadCrumb}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{breadCrumb}\PYG{o}{;}
+
+  \PYG{c+cm}{/**}
+\PYG{c+cm}{  * Konstruktor}
+\PYG{c+cm}{  */}
+  \PYG{k+kd}{public} \PYG{n+nf}{ShortcutPathComponent}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k+kt}{double}\PYG{o}{[]} \PYG{n}{x} \PYG{o}{=} \PYG{o}{\PYGZob{}}\PYG{n}{TableLayout}\PYG{o}{.}\PYG{n+na}{PREFERRED}\PYG{o}{,} \PYG{n}{GAP}\PYG{o}{,} \PYG{n}{TableLayout}\PYG{o}{.}\PYG{n+na}{MINIMUM}\PYG{o}{\PYGZcb{};}
+    \PYG{k+kt}{double}\PYG{o}{[]} \PYG{n}{y} \PYG{o}{=} \PYG{o}{\PYGZob{}}\PYG{n}{TableLayout}\PYG{o}{.}\PYG{n+na}{PREFERRED}\PYG{o}{\PYGZcb{};}
+
+    \PYG{n}{setLayout}\PYG{o}{(}\PYG{k}{new} \PYG{n}{TableLayout}\PYG{o}{(}\PYG{n}{x}\PYG{o}{,} \PYG{n}{y}\PYG{o}{));}
+
+    \PYG{n}{TableLayoutUtil} \PYG{n}{tlu} \PYG{o}{=} \PYG{k}{new} \PYG{n}{TableLayoutUtil}\PYG{o}{(}\PYG{k}{this}\PYG{o}{);}
+
+    \PYG{n}{JLabel} \PYG{n}{textLabel} \PYG{o}{=} \PYG{k}{new} \PYG{n}{JLabel}\PYG{o}{(}\PYG{n}{IShortcutEditorConstants}\PYG{o}{.}\PYG{n+na}{TEXT\PYGZus{}SHORTCUT\PYGZus{}FOR}\PYG{o}{);}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{n}{textLabel}\PYG{o}{);}
+
+    \PYG{n}{breadCrumb} \PYG{o}{=} \PYG{k}{new} \PYG{n}{BreadCrumb}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
+    \PYG{n}{tlu}\PYG{o}{.}\PYG{n+na}{add}\PYG{o}{(}\PYG{l+m+mi}{2}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{n}{breadCrumb}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setRootShortcutNode}\PYG{o}{(}\PYG{n}{IEditorShortcutNode} \PYG{n}{pNode}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{setRootNode}\PYG{o}{(}\PYG{n}{pNode}\PYG{o}{);}
+
+    \PYG{k+kd}{synchronized} \PYG{o}{(}\PYG{n}{nodeChangeListeners}\PYG{o}{)}
+    \PYG{o}{\PYGZob{}}
+      \PYG{k}{for} \PYG{o}{(}\PYG{n}{INodeChangeListener} \PYG{n}{listener} \PYG{o}{:} \PYG{n}{nodeChangeListeners}\PYG{o}{)}
+      \PYG{n}{listener}\PYG{o}{.}\PYG{n+na}{groupChanged}\PYG{o}{(}\PYG{n}{pNode}\PYG{o}{);}
+    \PYG{o}{\PYGZcb{}}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{IEditorShortcutNode} \PYG{n+nf}{getRootShortcutNode}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{getRootNode}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setNodePath}\PYG{o}{(}\PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n}{pPath}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{setPath}\PYG{o}{(}\PYG{n}{pPath}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{n}{AditoTreePath}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}} \PYG{n+nf}{getNodePath}\PYG{o}{()}
+  \PYG{o}{\PYGZob{}}
+    \PYG{k}{return} \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{getPath}\PYG{o}{();}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{addPathChangeListener}\PYG{o}{(}\PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}}
+                                    \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{addPathChangeListener}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+  \PYG{n+nd}{@Override}
+  \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{removePathChangeListener}\PYG{o}{(}\PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}}
+                                       \PYG{n}{pChangeListener}\PYG{o}{)}
+  \PYG{o}{\PYGZob{}}
+    \PYG{n}{breadCrumb}\PYG{o}{.}\PYG{n+na}{removePathChangeListener}\PYG{o}{(}\PYG{n}{pChangeListener}\PYG{o}{);}
+  \PYG{o}{\PYGZcb{}}
+
+\PYG{o}{...}
+\end{Verbatim}

@@ -1,0 +1,86 @@
+\vspace{-5px}
+  \begin{spacing}{0.75}
+    \begin{javacode}[firstnumber=19]
+public class ShortcutEditorPresenter
+{
+  private final IShortcutEditorUI ui;
+  private final IShortcutEditorStore editorStore;
+  private final IShortcutChangeListener shortcutChangeListener;
+  private IEditorShortcutModel currModel;
+  
+  /**
+  * @param pUi zu steuernde UI
+  * @param pStore Store zum beziehen der Daten
+  */
+  public ShortcutEditorPresenter(IShortcutEditorUI pUi, IShortcutEditorStore pStore)
+  {
+    ui = pUi;
+    editorStore = pStore;
+    
+    shortcutChangeListener = new _ShortcutListener();
+    
+    ui.addShortcutChangeListener(shortcutChangeListener);
+    ui.addPathChangeListener(new _PathListener());
+    ui.setRootShortcutNode(pStore.getShortcutModelRootNode());
+  }
+  
+  /**
+  * Extrahiert aus dem Pfad das ShortcutModel, auf welchen sich der Pfad bezieht
+  *
+  * @param pPath Pfad zum Model
+  * @return ShortcutModel
+  */
+  private IEditorShortcutModel _getShortcutModel(AditoTreePath<IEditorShortcutNode> pPath)
+  {
+    AditoTreePath<IEditorShortcutNode> node = pPath;
+    
+    while (node != null && !(node.getNode() instanceof IEditorShortcutModel))
+      node = node.getNext();
+    
+    if(node == null)
+      return null;
+    
+    return (IEditorShortcutModel) node.getNode();
+  }
+  
+  /**
+  * Listener zum handeln von Pfadänderungen
+  */
+  private class _PathListener implements IAditoPathChangeListener<IEditorShortcutNode>
+  {
+    @Override
+    public void pathChange(AditoTreePath<IEditorShortcutNode> pPath)
+    {
+      if(currModel != null)
+        currModel.removeShortcutChangeListener(shortcutChangeListener);
+      
+      currModel = _getShortcutModel(pPath);
+      
+      if (currModel != null)
+      {
+        currModel.addShortcutChangeListener(shortcutChangeListener);
+        ui.setShortcut(currModel.getShortcut());
+      }
+    }
+  }
+  /**
+  * Listener zum handeln von Shortcutänderungen
+  */
+  private class _ShortcutListener implements IShortcutChangeListener
+  {
+    @Override
+    public void shortcutChanged(IShortcut pShortcut)
+    {
+      if (!Objects.equals(pShortcut, ui.getShortcut()))
+        ui.setShortcut(pShortcut);
+      
+      if (currModel != null && !Objects.equals(pShortcut, currModel.getShortcut()))
+        currModel.setShortcut(pShortcut);
+      
+      ICheckItemGroup rootCheckItem = editorStore.getRootCheckItem(pShortcut);
+      ui.setCheckItemGroup(rootCheckItem);
+    }
+  }
+}
+\end{javacode}
+\end{spacing}
