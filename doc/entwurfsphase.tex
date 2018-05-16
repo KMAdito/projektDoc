@@ -3,7 +3,7 @@
 \subsection{Architekturdesign}
 \label{Architekturdesign}
 
-Als passendes Entwurfsmuster für den Shortcut Editor hat sich das Model View Presenter (MVP)-Architekturmuster herausgestellt. Dieses ist nicht ganz so verbreitet wie das bekanntere Model View Controller (MVC)-Muster, ist diesem aber sehr ähnlich. Der eigendliche Unterschied zwischen MVP und MVC liegt darin, dass bei MVC die View neben dem Controller auch mit dem Model kommuniziert und dieses somit kennen muss. Bei MVP ist die View völlig unabhängig vom Model und nur der Presenter kommuniziert mit ihr (siehe \autoref{fig:modelview}). Der Autor hat sich für das MVP-Entwurfsmuster entschieden, da damit die View auch ohne Model verwendet werden kann und es denkbar ist, das diese Möglichkeit in Zukunft benötigt wird.
+Als passendes Entwurfsmuster für den Shortcut Editor hat sich das Model View Presenter (MVP)-Architekturmuster herausgestellt. Dieses ist nicht ganz so verbreitet wie das bekanntere Model View Controller (MVC)-Muster, ist diesem aber sehr ähnlich. Der eigendliche Unterschied zwischen MVP und MVC liegt darin, dass bei MVC die View neben dem Controller auch mit dem Model kommuniziert und dieses somit kennen muss. Bei MVP ist die View völlig unabhängig vom Model und nur der Presenter kommuniziert mit ihr (siehe \autoref{fig:modelview}). Der Autor hat sich für das MVP-Entwurfsmuster entschieden, da damit die View auch ohne Model verwendet werden kann und dies für die Zukunft eine höhere Flexibilität ermöglicht.
 
 \begin{figure}[H] 
 	\subfloat{\includegraphics[width=0.5\textwidth-5px]{../graphic/diagrams/ModelViewPresenter/ModelViewPresenter}}
@@ -13,7 +13,7 @@ Als passendes Entwurfsmuster für den Shortcut Editor hat sich das Model View Pr
 	\label{fig:modelview}
 \end{figure}
 
-Bei MVP lässt sich jede Komponente der Software einem der drei Bestandteile - Model, View oder Presenter - zuordnen. Jeder dieser Teile hat einen eigenen Aufgabenbereich, der von denen der anderen weitestgehend unabhängig ist. Im Model werden alle Daten gehalten und zur Verfügung gestellt. Die View kümmert sich um die grafische Darstellung und der Presenter stellt das Bindeglied zwischen der View und dem Model dar. Verändern sich beispielsweiße die Werte in der View, so kümmert sich der Presenter darum, dass diese Wertänderung im Model ebenso stattfindet und andersherum. Der Presenter hält somit die View -- oder auch mehrere Views untereinander -- und das Model auf dem gleichen stand. Die lose Kopplung der einzelnen Komponenten erhöht die Wiederverwendbarkeit und Austauschbarkeit. Man könnte beispielsweise die Benutzeroberfläche austauschen, ohne das Model anpassen zu müssen. Außerdem können die einzelnen Komponenten durch die strikte Trennung einfacher getestet, gewartet und flexibel erweitert werden. Diese Vorteile sprechen ebenso für eine Verwendung von MVP.
+Bei MVP lässt sich jede Komponente der Software einem der drei Bestandteile - Model, View oder Presenter - zuordnen. Jedes dieser Teile hat einen eigenen Aufgabenbereich, der von denen der anderen weitestgehend unabhängig ist. Im Model werden alle Daten gehalten und zur Verfügung gestellt. Die View kümmert sich um die grafische Darstellung und der Presenter stellt das Bindeglied zwischen der View und dem Model dar. Verändern sich beispielsweise die Werte in der View, so kümmert sich der Presenter darum, dass diese Wertänderung im Model ebenso stattfindet und andersherum. Der Presenter hält somit die View -- oder auch mehrere Views untereinander -- und das Model auf dem gleichen Stand. Die lose Kopplung der einzelnen Komponenten erhöht die Wiederverwendbarkeit und Austauschbarkeit. Man könnte beispielsweise die Benutzeroberfläche austauschen, ohne das Model anpassen zu müssen. Für die Verwendung des MVP-Architekturmusters spricht ebenso, dass die einzelnen Komponenten durch die strikte Trennung einfacher getestet, gewartet und flexibel erweitert werden können.
 
 \vfill
 
@@ -21,26 +21,28 @@ Im Sinne der Wiederverwendbarkeit, werden auch alle GUI-Komponenten des Shortcut
 
 \vfill
 
-Wie im Abschnitt \ref{schnittstellen} bereits erwähnt, wird für das Lesen der Testergebnis XML-Dateien das hauseigene Propertly Framework verwendet. Dieses Tool stellt Funktionalitäten zum Lesen und Schreiben von XML zur Verfügung. Außerdem kümmert es sich eigendständig um die Konvertierung von Datentypen. Dadurch kommt der Autor bei der Implementierung nicht mit XML spezifischen Arbeiten in Berührung und kann sich auf den eigentlichen Editor konzentrieren.
+Wie im Abschnitt \ref{schnittstellen} bereits erwähnt, kommt zum Lesen der Testergebnis-XML-Dateien das hauseigene \emph{Propertly} Framework zum Einsatz. Dieses Tool stellt Funktionalitäten zum Lesen und Schreiben von XML zur Verfügung. Außerdem kümmert es sich eigenständig um die Konvertierung von Datentypen. Dadurch kommt der Autor bei der Implementierung nicht mit XML spezifischen Arbeiten in Berührung und kann sich auf den eigentlichen Editor konzentrieren.
 
 \newpage
 
 \subsection{Benutzeroberfläche}
 \label{ui}
 
-Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO Software GmbH Entwürfe angefertigt (siehe \autoref{fig:uxDesigns}). Im Designentwurf wird ersichtlich, welche Komponenten verwendet werden müssen, um alle angeforderten Informationen darzustellen und wie diese aussehen und angeordet zu sein haben, um die bedarfsgerechte Bedienung zu ermöglichen. Nachfolgend werden die Bestandteile des Editors näher erläutert:
+Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO Software GmbH Entwürfe angefertigt (siehe \autoref{fig:uxDesigns}). Im Designentwurf wird unter anderem ersichtlich, welche Komponenten verwendet werden müssen, um alle angeforderten Informationen darzustellen. Nachfolgend werden die Bestandteile des Editors näher erläutert:
 
 \ding{192} \textbf{Breadcrumb:} Diese Komponente ist in der Lage einen Pfad darzustellen und diesen zu bearbeiten. In diesem Fall besteht sie aus beliebig vielen ComboBoxen, um an jeder Stelle des Pfads einen anderen Knoten auswählen zu können. Diese Komponente dient zum Einen als Orientierungshilfe, um jederzeit feststellen zu können, für welche Aktion der Shortcut gesetzt wird. Zum Anderen ist damit eine intuitive Navigation durch alle Aktionen möglich.
 
 \ding{193} \textbf{Shortcut-Field:} Hierbei handelt es sich um eine Komponente, welche die Darstellung und Bearbeitung von Shortcuts ermöglicht. Die Eingabe und Editierung des Tastaturkürzels kann nur bei fokusiertem Zustand erfolgen. Demnach wechselt die Komponente bei Fokusierung in den Bearbeitungsmodus und verlässt diesen, sobald eine andere Komponente den Fokus erlangt.
 
-\ding{194} \textbf{Check-Button:} Dieses GUI-Element kann selektiert werden und stellt neben einem Icon ein Häckchen- oder Kreuzsymbol dar. Somit kann die Komponente visualisieren, bei welchem Browser bzw. Betriebssystem der Shortcut Probleme bereiten kann (Kreuz) und wo dieser unbedenklich ist (Häckchen). Außerdem dient sie dem Benutzer zur Auswahl eines Elements, um davon mehr Informationen zu erhalten (Im Entwurf werden beispielhaft für Google Chrome und macOS detailierte Informationen angezeigt).
+\ding{194} \textbf{Check-Button:} Dieses GUI-Element kann selektiert werden und stellt neben einem Icon ein Häckchen- oder Kreuzsymbol dar. Somit kann die Komponente visualisieren, bei welchem Browser bzw. Betriebssystem der Shortcut Probleme bereiten kann (Kreuz) und wo dieser unbedenklich ist (Häckchen). Außerdem dient sie dem Benutzer des Editors zur Auswahl eines Elements, um davon mehr Informationen zu erhalten (In der rechten Abbildung des Entwurfs wurden beispielsweise Google Chrome und macOS selektiert).
 
-\ding{195} \textbf{Shortcut-Tag:} Ein Shortcut-Tag dient zur Darstellung einer Tastenkombination und bietet die Möglichkeit sich mittles eines Kreuz-Buttons selber zu entfernen.
+\ding{195} \textbf{Shortcut-Tag:} Ein Shortcut-Tag dient zur Darstellung einer Tastenkombination und bietet die Möglichkeit sich mittels eines Kreuz-Buttons selber zu entfernen.
 
-\ding{196} \textbf{TreeTable:} Zur Darstellung der zugrundeliegenden Baumstruktur wird zur Visualisierung aller Aktionen eine Kombination aus Tree und Tabelle verwendet. Sie dient -- wie die \textbf{Breadcrumb} -- der Navigation und bietet zudem einen Überblick über alle vorhandenen Shortcuts.
+\ding{196} \textbf{TreeTable:} Zur Darstellung der zugrundeliegenden Baumstruktur wird zur Visualisierung aller Aktionen eine Kombination aus Baum und Tabelle verwendet. Sie dient -- wie die \textbf{Breadcrumb} -- der Navigation und bietet zudem einen Überblick über alle vorhandenen Shortcuts.
 
 \ding{197} \textbf{Accordion:} Ist ein \textbf{Check-Button} selektiert, so wird eine Accordion-Komponente angezeigt, welche detailierte Informationen zu den Testergebnissen bietet. Um nur relevante Daten anzuzeigen, besteht die Möglichkeit einige Sektionen durch Klicken auf den Header einzuklappen.
+
+\vfill
 
 \begin{figure}[H] 
 	\begin{overpic}[width=1\linewidth,unit=1px]%
@@ -77,7 +79,7 @@ Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO 
 \subsection{Datenmodell für Entitäten und Aktion}
 \label{DatenmodellFunc}
 
-\begin{wrapfigure}[17]{r}[0cm]{200px}
+\begin{wrapfigure}[15]{r}[0cm]{200px}
 	\vspace{-12px}
 	\centering
 	\includegraphics[width=200px]{../graphic/diagrams/Baumstruktur_Functions/Baumstruktur}
@@ -85,7 +87,7 @@ Für das Design des User Interfaces (UI) wurden von einem UX-Designer der ADITO 
 	\label{fig:baumstruktur_Func}
 \end{wrapfigure}
 
-Wie sich im Designentwurf (\autoref{fig:uxDesigns}) -- aufgrund der TreeTable -- schon erahnen lässt, sollen die Entitäten und deren Aktionen als Baumstruktur aufgebaut werden. Jede Aktion stellt einen Endknoten (Blatt) dar und soll genau einen Shortcut besitzen können. Entitäten hingegen ist es nur erlaubt, Aktionen und weitere Entitäten aufzunehmen (siehe \autoref{fig:baumstruktur_Func}). Da es sich um eine Baumstruktur handelt, kann man ausschließen, dass sich eine Entität selbst als Kind hält.
+Wie sich im Designentwurf (\autoref{fig:uxDesigns}) -- aufgrund der TreeTable -- schon erahnen lässt, sollen die Entitäten und deren Aktionen als Baumstruktur aufgebaut werden. Jede Aktion stellt einen Endknoten (Blatt) dar und soll genau einen Shortcut besitzen können. Entitäten hingegen ist es nur erlaubt, Aktionen und weitere Entitäten aufzunehmen (siehe \autoref{fig:baumstruktur_Func}).
 
 Um diese Struktur im Editor abbilden zu können, wurde ein Datenmodell entworfen, welches den Anforderungen entspricht. Zur Erläuterung des Models ist im Folgenden ein schematisches UML Klassendiagramm abgebildet, welches den Grundaufbau und die Beziehungen zwischen den Elementen verdeutlicht (\autoref{fig:baumstrukturUML_Func}).
 
@@ -130,7 +132,7 @@ Auch die Browserergebnisse werden als Baumstruktur gehalten. Allerdings ergiebt 
 	\label{fig:baumstrukturUML_Results}
 \end{figure}
 
-In diesem Modell stellt ein \textbf{ICheckItem} ein einzelnes Testergbnis dar. Eine \textbf{ICheckItemGroup} hält neben einer beliebigen Anzahl von \textbf{ICheckItem}s einen Typ in Form eines \textbf{String}s. Somit kann zu jeder Gruppe die gewünschte Typenbezeichnung hinzugefügt werden. Ein \textbf{ICheckItem} besitzt eine Parent- und ein Childgruppe. Diese können mittels der Methoden \textbf{getParentGroup} und \textbf{getChildGroup} erlangt werden. Über diese Methoden lässt sich durch die Baumstruktur iterieren.
+In diesem Modell stellt ein \textbf{ICheckItem} ein einzelnes Testergbnis dar. Eine \textbf{ICheckItemGroup} hält neben einer beliebigen Anzahl von \textbf{ICheckItems} einen Typ in Form eines \textbf{Strings}. Somit kann zu jeder Gruppe die gewünschte Typenbezeichnung hinzugefügt werden. Ein \textbf{ICheckItem} besitzt eine Parent- und ein Childgruppe. Diese können mittels der Methoden \textbf{getParentGroup} und \textbf{getChildGroup} erlangt werden. Über diese Methoden lässt sich durch die Baumstruktur iterieren.
 
 \vspace{-5px}
 
