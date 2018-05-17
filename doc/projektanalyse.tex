@@ -12,11 +12,11 @@
 
 Seit früheren Versionen existierte bereits ein Editor zur Eingabe von Shortcuts (siehe \autoref{fig:existEditor}). Dieser ist allerdings sehr einfach aufgebaut und beschränkt sich auf die Eingabe eines Shortcuts per Tastatur. Außerdem ist es nicht möglich Warnungen anzuzeigen oder zwischen bestehenden Shortcuts zu navigieren. Da dieser Editor in keinerlei Hinsicht den gegebenen Anforderungen dieses Projekts entspricht, wurde eine Weiterentwicklung dessen vom Autor als nicht sinnvoll erachtet.
 
-Die Aktionen, welchen Shortcuts zugeordnet werden sollen, sind im ADITO Designer schon vorhanden. Zudem existieren sogenannte Entitys, welche Dateneinheiten darstellen und eben genannte Aktionen besitzen können. Beispielsweiße könnte ein Entity \glqq Person\grqq\xspace existieren, welche wiederum die Aktion \glqq Person hinzufügen\grqq\xspace besitzt. Dieser Aktion könnte nun ein Shortcut zugewiesen werden z.B. Strg + Einfg.
+Es wurde bereits ein Datentyp für Shortcuts implementiert. Die allgemeine Definition dafür stellt das Interface \emph{IShortcut} dar. Der Editor sollte sein Ergbnis in Form dieses Datentyps liefern, da \emph{IShortcut} im restlichen System ebenfalls für Tastaturkürzel verwendet wird und somit Konvertierungen vermieden werden können.
 
 \subsection{Sollkonzept}
 
-Der neue Editor muss ebenfalls die Eingabe aber auch die Bearbeitung (z.B. Entfernen einer einzelnen Taste) eines Shortcuts per Tastatur und Maus unterstützen. Für die Navigation und für einen besseren Überblick, werden alle bestehenden Tastenkombinationen in tabellarischen Form präsentiert. Es soll zu jedem Zeitpunkt ersichtlich sein, für welche Aktion der Shortcut definiert wird. Eine weitere Anforderung besteht darin, alle Warnungen für die entsprechenden Browser und deren Betriebssysteme anzuzeigen.
+Der neue Editor muss ebenfalls die Eingabe aber auch die Bearbeitung (z.B. Entfernen einer einzelnen Taste) eines Shortcuts per Tastatur und Maus unterstützen. Für die Navigation und für einen besseren Überblick, werden alle bestehenden Tastenkombinationen in tabellarischer Form präsentiert. Es soll zu jedem Zeitpunkt ersichtlich sein, für welche Aktion der Shortcut definiert wird. Eine weitere Anforderung besteht darin, alle Warnungen für die entsprechenden Browser und deren Betriebssysteme anzuzeigen.
 
 \subsection{Anwendungsfälle}
 
@@ -25,6 +25,6 @@ abgedeckt werden sollen, wurde im Laufe der Analysephase ein Use-Case-Diagramm e
 Diagramm befindet sich im Anhang \ref{usecase}.
 
 \subsection{\glqq Make or Buy\grqq -Entscheidung}
-Die Entscheidung, ob der Editor selber erstellt oder gekauft werden soll, lässt sich einfach treffen. Sucht man auf dem Markt nach Softwareteilen, welche den Anforderungen dieses Projekts genüge tun, so findet man nichts entsprechendes. Darum ist man gewissermaßen gezwungen den Editor selbst zu erstellen.
+Am Ende der Analysephase wurde sich die Frage gestellt, ob der Editor selber entwickelt oder gekauft werden soll. Dazu wurde der Markt nach Software durchsucht, welche den Anforderungen dieses Projekts entspricht. Da diese Suche zu keinem Ergebnis gekommen war, wurde sich für die eigene Entwicklung des Editors entschieden.
 
 \newpage

@@ -6,7 +6,7 @@ Da die Hauptaufgabe dieser Projektarbeit darin bestand, die benötigten GUI Komp
 
 \subsubsection{ShortcutField}
 
-Ein ShortcutField ist -- wie in Abschnitt \ref{ui} bereits erwähnt -- für die Anzeige und Bearbeitung von Tastaturkürzeln zuständig. Sofern noch kein Shortcut eingegebent wurde, zeigt sie zudem eine Aufforderung zum Eingeben eines Shortcuts in Form eines Texts an (\glqq enter shortcut...\grqq). Um diesen Anforderungen gerecht zu werden, nutzt sie drei bereits bestehende Komponenten: Für das Löschen des gesamten Shortcuts dient ein CrossButton (umkreistes Kreuz), für die Anzeige und Bearbeitung des Shortcuts kommt die ShortcutView-Komponente zum Einsatz und die Textaufforderung wird durch ein JLabel realisiert.
+Ein \emph{ShortcutField} ist -- wie in Abschnitt \ref{ui} bereits erwähnt -- für die Anzeige und Bearbeitung von Tastaturkürzeln zuständig. Sofern noch kein Shortcut eingegeben wurde, zeigt sie zudem eine Aufforderung zum Eingeben eines Shortcuts in Form eines Texts an (\glqq enter shortcut...\grqq). Um diesen Anforderungen gerecht zu werden, setzt sie sich aus drei bereits bestehenden Komponenten zusammen: Für das Löschen des gesamten Shortcuts dient ein \emph{CrossButton} (umkreistes Kreuz), für die Anzeige und Bearbeitung des Shortcuts kommt die \emph{ShortcutView}-Komponente zum Einsatz und die Textaufforderung wird durch ein \emph{JLabel} realisiert.
 
 \begin{figure}[H]
 	\centering
@@ -15,21 +15,23 @@ Ein ShortcutField ist -- wie in Abschnitt \ref{ui} bereits erwähnt -- für die 
 	\label{fig:shortcutfield}
 \end{figure}
 
-Die eigendliche Funktionalität wird durch die verwendeten Komponenten bereitgestellt. Selbst kümmert sich das ShortcutField um die Anzeige der jeweils richtigen Komponente (JLabel oder ShortcutView), sowie um das Horchen auf Tastatureingaben mittles eines KeyListeners. Die private Methode \_update() ist für das Ein- und Ausblenden der jeweiligen Komponente zuständig (siehe \autoref{fig:ShortcutField-update}). Sie wird initial und bei jeder Änderung des Shortcuts aufgerufen.
+Die eigentliche Funktionalität wird durch die verwendeten Komponenten bereitgestellt. Selbst kümmert sich das \emph{ShortcutField} um die Anzeige der jeweils richtigen Komponente (\emph{JLabel} oder \emph{ShortcutView}), sowie um das Horchen auf Tastatureingaben mittels eines \emph{KeyListeners}. Die private Methode \emph{\_update()} ist für das Ein- und Ausblenden der jeweiligen Komponente zuständig (siehe \autoref{fig:ShortcutField-update}). Sie wird initial und bei jeder Änderung des Shortcuts aufgerufen.
 
 \vspace{20px}
 
 \input{CODE/ShortcutField-update}
 
-Zunächst wird überprüft, ob das ShortcutField leer ist (kein Shortcut gesetzt). Das Ergebnis dieser Überprüfung wird in der lokalen Variable empty gespeichert. Anschließend werden die Sichtbarkeiten der Komponenten aktualisiert, wobei der ShortcutViewer nur bei gesetztem und die Textaufforderung nur bei nicht gesetztem Tastenkürzel angezeigt wird. Der CrossButton wird im Editiermodus immer angezeigt aber nur aktiviert, sobald ein Shortcut eingegeben wird.
+Zunächst wird überprüft, ob das \emph{ShortcutField} leer ist (kein Shortcut gesetzt). Das Ergebnis dieser Überprüfung wird in der lokalen Variable \emph{empty} gespeichert. Anschließend werden die Sichtbarkeiten der Komponenten aktualisiert, wobei der \emph{ShortcutViewer} nur bei gesetztem und die Textaufforderung nur bei nicht gesetztem Tastenkürzel angezeigt wird. Der \emph{CrossButton} wird im Editiermodus immer angezeigt aber nur aktiviert, sobald ein Shortcut eingegeben wird.
 
 \newpage
 
 \subsubsection{Check-Button}
 
-Um die Grundfunktinalitäten des im Abschnitt \ref{ui} erwähnten Check-Buttons zu definieren, wurde zunächst das Interface ICheckComponent erstellt. Indessen wird festgelegt, dass ein Check-Button einen Checked-Zustand besitzt, welcher angibt, ob innerhalb der Komponente ein grüner Hacken (true) oder ein rotes Kreuz (false) angezeigt werden soll (siehe \autoref{fig:cdcheckbutton}).
+\vspace{-3px}
 
-Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt von der Swing Klasse JToggleButton. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von setChecked(...) wird die private Methode \_updateIcon() aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (siehe Anhang \ref{CheckToggleButton}). Insgesamt stellt ein CheckToggleButton eine vollwertige CheckComponent dar, welche direkt verwendet werden könnte.
+Um die Grundfunktionalität des im Abschnitt \ref{ui} erwähnten Check-Buttons zu definieren, wurde zunächst das Interface \emph{ICheckComponent} erstellt. Indessen wird festgelegt, dass ein Check-Button einen Checked-Zustand besitzt, welcher angibt, ob innerhalb der Komponente ein grüner Haken (\emph{true}) oder ein rotes Kreuz (\emph{false}) angezeigt werden soll (siehe \autoref{fig:cdcheckbutton}).
+
+Die Klasse \emph{CheckToggleButton} implementiert das beschriebene Interface und erbt von der Swing Klasse \emph{JToggleButton}. Sie kümmert sich um das Einfügen und Aktualisieren des richtigen Symbols. Innerhalb von \emph{setChecked(...)} wird die private Methode \emph{\_updateIcon()} aufgerufen, welche ihrerseits das jeweilige Symbol über das gesetzte Icon zeichnet (siehe Anhang \ref{CheckToggleButton}). Insgesamt stellt ein \emph{CheckToggleButton} eine vollwertige CheckComponent dar, welche direkt verwendet werden könnte.
 
 \begin{figure}[H]
 	\centering
@@ -38,13 +40,15 @@ Die Klasse CheckToggleButton implementiert das beschriebene Interface und erbt v
 	\label{fig:cdcheckbutton}
 \end{figure}
 
-\vspace{-5px}
+\vspace{-9px}
 
-Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors bzw. im Zusammenhang mit ICheckItems einfacher zu gestalten, wurde die Klasse CheckItemButton eingeführt. Diese erweitet CheckToggleButton und kann über den Konstruktor ein ICheckItem aufnehmen. Wie im Anhang \ref{CheckItemButton} ersichtlich, werden innerhalb dieses Konstruktors alle Eigenschaften entsprechend dem ICheckItem gesetzt (z.B. Checked-Zustand oder Icon).
+Um die Benutzung von \emph{CheckToggleButtons} innerhalb des Shortcut Editors bzw. im Zusammenhang mit \emph{ICheckItems} einfacher zu gestalten, wurde die Klasse \emph{CheckItemButton} eingeführt. Diese erweitet \emph{CheckToggleButton} und kann über den Konstruktor ein \emph{ICheckItem} aufnehmen. Wie im Anhang \ref{CheckItemButton} ersichtlich, werden innerhalb dieses Konstruktors alle Eigenschaften entsprechend dem \emph{ICheckItem} gesetzt (z.B. Checked-Zustand oder Icon).
 
-\vspace{-5px}
+\vspace{-9px}
 
 \subsubsection{CheckItemContainer}
+
+\vspace{-3px}
 
 \begin{wrapfigure}[15]{r}[0cm]{165px}
 	\vspace{-12px}
@@ -54,13 +58,15 @@ Um die Benutzung von CheckToggleButtons innerhalb des Shortcut Editors bzw. im Z
 	\label{fig:cdcheckitemcontainer}
 \end{wrapfigure}
 
-Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Positionierung bzw. Sortierung unterliegen: auf der linken Seite befinden sich alle unchecked und auf der rechten Seite alle checked Buttons. Zudem wird bei Browser-Check-Buttons ein Abstand zwischen den beiden Buttongruppen eingefügt. 
+Der Designentwurf lässt erkennen, dass die Check-Buttons einer bestimmten Positionierung bzw. Sortierung unterliegen: auf der linken Seite befinden sich alle unchecked und auf der rechten Seite alle checked Buttons. Zudem wird bei den Check-Buttons zur Auswahl des Browsers ein Abstand zwischen den beiden Buttongruppen eingefügt. 
 
-Um diese Positionierung zu realisieren, wurde der CheckButtonContainer erstellt. Dieser stellt eine JComponent dar, welcher mittels eines BoxLayouts seine CheckButtons horizontal nebeneinander ausrichtet. Außerdem kann der für Browser Check-Buttons erforderliche Abstand über setSplitting(...) ein- und ausgeschaltet werden. Ändert sich der Checked-Zustand eines CheckButtons, so kümmert sich der Container auch um die richtige Umsortierung.
+Um diese Positionierung zu realisieren, wurde der \emph{CheckItemContainer} erstellt. Dieser stellt eine \emph{JComponent} dar, welcher mittels eines \emph{BoxLayouts} seine CheckButtons horizontal nebeneinander ausrichtet. Um den zuvor erwähnten Abstand ein- und auszuschalten, existiert die Methode \emph{setSplitting(...)}, welche einen \emph{boolean} erwartet. Ändert sich der Checked-Zustand eines CheckButtons, so kümmert sich der Container auch um die richtige Umsortierung.
 
-Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der CheckItemContainer. Diesem kann man CheckItems setzten (setCheckItems(...)), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder Unnötige wieder entfernt (siehe Anhang \ref{CheckItemContainer}). Zudem kann über die Methode getSelection() der aktuell selektierte Check-Button ausgelesen werden.
+Um wiederum die Nutzung innerhalb des Shortcut Editors zu erleichtern, existiert der \emph{CheckItemContainer}. Diesem kann man CheckItems setzten (\emph{setCheckItems(...)}), wonach dieser intern die benötigten Check-Buttons erzeugt und sich selbst hinzufügt oder Unnötige wieder entfernt (siehe Anhang \ref{CheckItemContainer}). Zudem kann über die Methode \emph{getSelection()} der aktuell selektierte Check-Button ausgelesen werden.
 
 \subsubsection{CheckItemAccordion}
+
+\vspace{-8px}
 
 Die Accordion-Komponente ist in der Lage, einen konkreten Pfad des Datenmodells für Browsertestergebnisse mit allen verfügbaren Details darzustellen (siehe \autoref{fig:uxDesigns}).
 Jede Sektion des Accordions visualisiert genau ein CheckItem. Sofern Untersektionen vorhanden sind, wird zusätzlich ein CheckItemContainer angezeigt. Dieser dient zur Navigation durch das Datenmodell, wobei immer genau das CheckItem dargestellt wird, welches in der vorherigen Sektion ausgewählt ist.
@@ -74,13 +80,13 @@ Jede Sektion des Accordions visualisiert genau ein CheckItem. Sofern Untersektio
 \end{wrapfigure}
 
 
-Das CheckItemAccordion erbt von der Swing Klasse JPanel (siehe \autoref{fig:checkitemaccordion}) und verwendet zur vertikalen Positionierung der einzelnen Sektionen das BoxLayout. Im Konstruktor wird der oberste CheckItemContainer erzeugt, welcher zur Auswahl des Browsers dient und sich nicht innerhalb des Accordions befindet (siehe \autoref{fig:uxDesigns}). Um auf diesen außerhalb zugreifen zu können, dient die Methode getRootCheckItemContainer().
+Das \emph{CheckItemAccordion} erbt von der Swing Klasse \emph{JPanel} (siehe \autoref{fig:checkitemaccordion}) und verwendet zur vertikalen Positionierung der einzelnen Sektionen das \emph{BoxLayout}. Im Konstruktor wird der oberste \emph{CheckItemContainer} erzeugt, welcher zur Auswahl des Browsers dient und sich nicht innerhalb des Accordions befindet (siehe \autoref{fig:uxDesigns}). Um auf diesen außerhalb zugreifen zu können, dient die Methode \emph{getRootCheckItemContainer()}.
 
-Eine Sektion wird durch die Klasse CheckItemViewer repräsentiert (siehe \autoref{fig:checkitemaccordion}). Diese Komponente besitzt die Fähigkeit alle Details eines CheckItems in tabellarischer Form darzustellen. Sie erbt von ExpandComponent, wodurch die Funktion des Ein- und Ausklappens und die Anzeige einer Header-Leiste ermöglicht wird. Damit das selektierte CheckItem des vorherigen CheckItemViewers angezeigt und auf Selektionsänderungen reagiert werden kann, wird im Konstruktor der vorherige CheckItemContainer übergeben. Diesem wird ein Listener hinzugefügt, welcher auf Änderungen der Selektion horcht und so die Aktualisierung des Viewers ermöglicht.
+Eine Sektion wird durch die Klasse \emph{CheckItemViewer} repräsentiert (siehe \autoref{fig:checkitemaccordion}). Diese Komponente besitzt die Fähigkeit alle Details eines CheckItems in tabellarischer Form darzustellen. Sie erbt von \emph{ExpandComponent}, wodurch die Funktion des Ein- und Ausklappens und die Anzeige einer Header-Leiste ermöglicht wird. Damit das selektierte \emph{CheckItem} des vorherigen \emph{CheckItemViewers} angezeigt und auf Selektionsänderungen reagiert werden kann, wird im Konstruktor der vorherige \emph{CheckItemContainer} übergeben. Diesem wird ein Listener hinzugefügt, welcher auf Änderungen der Selektion horcht und so die Aktualisierung des Viewers ermöglicht.
 
 \input{CODE/CheckItemAccordion-setCheckItemGroup}
 
-In \autoref{fig:CheckItemAccordion-setCheckItemGroup} ist der Sourcecode der Methode setCheckItemGroup(...) abgebildet. In dieser wird anhand der übergebenen ICheckItemGroup das Accordion aufgebaut. Zu Beginn wird überprüft, ob es sich bei der übergebenen ICheckItemGroup um die bereits gesetzte handelt. Ist dies der Fall, so wird die Methode ohne Änderungen verlassen. Andernfalls werden dem RootCheckItemContainer die CheckItems der RootGruppe (Browser Check-Items) gesetzt. Anschließend wird über die Methode \_getMaxDept(...) die maximale Tiefe der Baumstruktur von pRootGroup ermittelt. Dieses Ergebnis dient als Grundlage für die Anzahl von Sektionen, die eingefügt werden. Nach dem Löschen aller vorhandenen Komponenten, wird in jedem Schleifendurchgang eine Sektion eingefügt. Dabei wird im Konstruktor des CheckItemViewers immer der CheckItemContainer der vorherigen Sektion oder am Anfang der rootCheckItemContainer übergeben. Dadurch wird der richtige Zusammenhang zwischen den Sektionen hergestellt.
+In \autoref{fig:CheckItemAccordion-setCheckItemGroup} ist der Sourcecode der Methode \emph{setCheckItemGroup(...)} abgebildet. In dieser wird anhand der übergebenen \emph{ICheckItemGroup} das Accordion aufgebaut. Zu Beginn wird überprüft, ob es sich bei der übergebenen Gruppe um die bereits gesetzte handelt. Ist dies der Fall, so wird die Methode ohne Änderungen verlassen. Andernfalls werden dem RootCheckItemContainer die CheckItems der RootGruppe (Browser Check-Items) gesetzt. Anschließend wird über die Methode \emph{\_getMaxDept(...)} die maximale Tiefe der Baumstruktur von \emph{pRootGroup} ermittelt. Dieses Ergebnis dient als Grundlage für die Anzahl von Sektionen, die eingefügt werden. Nach dem Löschen aller vorhandenen Komponenten, wird in jedem Schleifendurchgang eine Sektion eingefügt. Dabei wird im Konstruktor des \emph{CheckItemViewers} immer der \emph{CheckItemContainer} der vorherigen Sektion oder am Anfang der \emph{rootCheckItemContainer} übergeben. Dadurch wird der richtige Zusammenhang zwischen den Sektionen hergestellt.
 
 \subsubsection{BreadCrumb und TreeTable}
 
@@ -94,11 +100,12 @@ Die Komponenten BreadCrumb und TreeTable mussten im Zuge dieser Projektarbeit ni
 	\label{fig:ishortcutstructureview}
 \end{wrapfigure}
 
-Um sie jedoch im Zusammenhang mit dem MVP-Architekturmuster verwenden zu können, mussten sie in eigene Klassen gekapselt werden, welche IShortcutStructureView (siehe \autoref{fig:ishortcutstructureview}) implementieren. Dazu wurden die Klassen ShortcutPathComponent (BreadCrumb) und ShortcutStructureTable (TreeTable) erstellt (siehe Anhang \ref{ShortcutStructureTable} und \ref{ShortcutPathComponent}). Über die im Interface enthaltenen Methoden erhält die jeweilige Komponente ihre Informationen, welche zur Darstellung benötigt werden. Außerdem erhält sie die Möglichkeit Wertänderungen über Listener zu kommunizieren. Wählt der Benutzer beispielsweiße einen anderen Knoten in der BreadCrumb aus, so werden alle hinzugefügten PathChangeListener informiert.
+Um sie jedoch im Zusammenhang mit dem MVP-Architekturmuster verwenden zu können, mussten sie in eigene Klassen gekapselt werden, welche \emph{IShortcutStructureView} (siehe \autoref{fig:ishortcutstructureview}) implementieren. Dazu wurden die Klassen \emph{ShortcutPathComponent} (BreadCrumb) und \emph{ShortcutStructureTable} (TreeTable) erstellt (siehe Anhang \ref{ShortcutStructureTable} und \ref{ShortcutPathComponent}). Über die im Interface enthaltenen Methoden erhält die jeweilige Komponente ihre Informationen, welche zur Darstellung benötigt werden. Außerdem erhält sie die Möglichkeit Wertänderungen über Listener zu kommunizieren. Wählt der Benutzer beispielsweise einen anderen Knoten in der BreadCrumb aus, so werden alle hinzugefügten \emph{PathChangeListener} informiert.
+
 
 \subsubsection{ShortcutEditorUI}
 
-Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesamten User Interface zusammengesetzt werden. Hierzu wurde die Klasse ShortcutEditorUI (siehe Anhang \ref{ShortcutEditorUI}) erstellt. Sie implementiert das Interface IShortcutEditorUI, welches wiederum von IShortcutStructureView erbt. Zudem erbt die UI von der Swing Klasse JPanel (\autoref{fig:shortcuteditorui}).
+Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesamten User Interface zusammengesetzt werden. Hierzu wurde die Klasse \emph{ShortcutEditorUI} (siehe Anhang \ref{ShortcutEditorUI}) erstellt. Sie implementiert das Interface \emph{IShortcutEditorUI}, welches wiederum von \emph{IShortcutStructureView} erbt. Zudem erbt die UI von der Swing Klasse \emph{JPanel} (\autoref{fig:shortcuteditorui}).
 
 \begin{figure}[H]
 	\centering
@@ -109,9 +116,9 @@ Nach der Implementierung der einzelenen Komponenten, mussten diese zu einem gesa
 
 \vspace{-12px}
 
-Zur Anordnung der einzelnen Komponenten kommt das TableLayout zum Einsatz. Im Konstruktor der Klasse werden die Spalten- und Zeilenausdehnungen des Layouts definiert und die Komponenten in die entsprechenden Zellen eingefügt. Außerdem wird das ShortcutStructureModel und der ShortcutStructurePresenter initialisiert. 
+Zur Anordnung der einzelnen Komponenten kommt das \emph{TableLayout} zum Einsatz. Im Konstruktor der Klasse werden die Spalten- und Zeilenausdehnungen des Layouts definiert und die Komponenten in die entsprechenden Zellen eingefügt. Außerdem wird das \emph{ShortcutStructureModel} und der \emph{ShortcutStructurePresenter} initialisiert. 
 
-Da die Funktionalität in den für die UI verwendeten Komponenten enthalten ist, werden alle Getter- und Setter-Anfragen sowie die Listener direkt an das entsprechende Element (Komponente oder Model) weitergeleitet. In der setShortcut(...) Methode der ShortcutEditorUI wird beispielsweise sofort die setShortcut(...) Methode des ShortcutFields aufgerufen und so der zu setzende Shortcut direkt weitergegeben.
+Da die Funktionalität in den für die UI verwendeten Komponenten enthalten ist, werden alle Getter- und Setter-Anfragen sowie die Listener direkt an das entsprechende Element (Komponente oder Model) weitergeleitet. In der \emph{setShortcut(...)} Methode der ShortcutEditorUI wird beispielsweise sofort die \emph{setShortcut(...)} Methode des ShortcutFields aufgerufen und so der zu setzende Shortcut direkt weitergegeben.
 
 \newpage
 
@@ -129,17 +136,17 @@ Folgend wird die Implementierung der im Abschnitt \ref{Architekturdesign} beschi
 	\label{fig:shortcuteditorpresenter}
 \end{wrapfigure}
 
-Um die Daten der ShortcutEditorUI mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der ShortcutEditorPresenter (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der Datenstore als auch die IShortcutEditorUI übergeben. Anschließend werden der UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
+Um die Daten der \emph{ShortcutEditorUI} mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der \emph{ShortcutEditorPresenter} (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der Datenstore als auch eine \emph{IShortcutEditorUI} übergeben. Anschließend werden der UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
 
 Ändert der Benutzer über die UI den Shortcut, so wird dieser in das entsprechende Datenmodell übertragen. Wird durch den Benutzer der Pfad geändert, also eine andere Aktion selektiert, so lädt der Presenter das Datenmodell der neuen Aktion. Zukünftige Shortcutänderungen werden dann in dieses Datenmodell übertragen.
 
 \subsubsection{ShortcutStructurePresenter}
 
-Da bei den beiden Komponenten TreeTable und BreadCrumb die selben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang \ref{ShortcutStructurePresenter}) erhält über den Konstruktor ein ShortcutStructureModel und eine beliebige Anzahl von IShortcutStructureViews. 
+Da bei den beiden Komponenten TreeTable und BreadCrumb die selben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang \ref{ShortcutStructurePresenter}) erhält über den Konstruktor ein \emph{ShortcutStructureModel} und eine beliebige Anzahl von \emph{IShortcutStructureViews}. 
 
-In \autoref{fig:ishortcutstructureview} wird ersichtlich, dass eine View einen IEditorShortcutNode und einen AditoTreePath besitzt. Der IEditorShortcutNode hält die in Abschnitt \ref{DatenmodellFunc} beschriebene Baumstruktur der Aktionen und der Pfad gibt an, welcher Knoten des Baums gerade selektiert ist. Über Änderung dieser Attribute informieren Listener, welche der View über die entsprechenden Methoden hinzugefügt werden können (z.B. addPathChangeListener(...)). Da das ShortcutStructureModel die gleiche Funktionalität benötigt, wie die View, implementiert es auch das Interface IShortcutStructureView (siehe Anhang \ref{ShortcutStructureModel}).
+In \autoref{fig:ishortcutstructureview} wird ersichtlich, dass eine View einen \emph{IEditorShortcutNode} und einen \emph{AditoTreePath} besitzt. Der \emph{IEditorShortcutNode} hält die in Abschnitt \ref{DatenmodellFunc} beschriebene Baumstruktur der Aktionen und der Pfad gibt an, welcher Knoten des Baums selektiert ist. Über Änderung dieser Attribute informieren Listener, welche der View über die entsprechenden Methoden hinzugefügt werden können (z.B. \emph{addPathChangeListener(...)}). Da das \emph{ShortcutStructureModel} die gleiche Funktionalität benötigt, wie die View, implementiert es auch das Interface \emph{IShortcutStructureView} (siehe Anhang \ref{ShortcutStructureModel}).
 
-Im Konstruktor des ShortcutStructurePresenters (siehe Anhang \ref{ShortcutStructurePresenter}) werden sowohl dem Model als auch den einzelnen Views Pfad- und Node-Listener hinzugefügt. Löst ein Listener des Models aus, so werden die Änderungen in alle Views übertragen. Löst ein Listener einer View aus, so werden die Änderungen in das Model übertragen. Da dadurch wiederum der Listener des Models anschlägt, werden auch die anderen Views aktualisiert. So wird gewährleistet, dass alle Views und das Model zu jedem Zeitpunkt die gleichen Informationen besitzen.
+Im Konstruktor des \emph{ShortcutStructurePresenters} (siehe Anhang \ref{ShortcutStructurePresenter}) werden sowohl dem Model als auch den einzelnen Views Pfad- und Node-Listener hinzugefügt. Löst ein Listener des Models aus, so werden die Änderungen in alle Views übertragen. Löst ein Listener einer View aus, so werden die Änderungen in das Model übertragen. Da dadurch wiederum der Listener des Models anschlägt, werden auch die anderen Views aktualisiert. So wird gewährleistet, dass alle Views und das Model zu jedem Zeitpunkt die gleichen Informationen besitzen.
 
 \begin{figure}[H]
 	\centering

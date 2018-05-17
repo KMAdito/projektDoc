@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  15 MAY 2018 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  17 MAY 2018 10:00
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
@@ -1645,7 +1645,7 @@ c/images/logo/LogoIHK.pdf> <../graphic/images/logo/ADITO_Logo.pdf>])
 )
 LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <10.95> not available
 (Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 103.
-<../graphic/images/logo/Logo.png, id=119, 501.875pt x 443.6575pt>
+<../graphic/images/logo/Logo.png, id=117, 501.875pt x 443.6575pt>
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
@@ -1678,7 +1678,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 103.
 [1 <../graphic/images/logo/Logo.png>] (einleitung.tex
-<../graphic/images/firma/Firmengebaude.jpg, id=167, 343.611pt x 257.544pt>
+<../graphic/images/firma/Firmengebaude.jpg, id=164, 343.611pt x 257.544pt>
 File: ../graphic/images/firma/Firmengebaude.jpg Graphic file (type jpg)
 <use ../graphic/images/firma/Firmengebaude.jpg>
 Package pdftex.def Info: ../graphic/images/firma/Firmengebaude.jpg  used on inp
@@ -1692,7 +1692,7 @@ Underfull \hbox (badness 2310) in paragraph at lines 13--15
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 36
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 35
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -1702,29 +1702,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 35.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 
+l.35 
       [1 <../graphic/images/firma/Firmengebaude.jpg>]
+Overfull \hbox (31.6057pt too wide) in paragraph at lines 45--46
+\OT1/cmr/m/n/10.95 tiert. Die-se l[]auft auf ver-schie-de-nen Be-triebs-sy-ste-
+men und te-stet al-le m[]oglichen Shortcut-Kombinationen
+ []
+
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 61
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1744,14 +1748,14 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 61.
 [2]) (projektplanung.tex
-<../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf, id=180, 696.6025
-pt x 233.87375pt>
+<../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf, id=178, 668.4975
+pt x 205.76875pt>
 File: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf Graphic file
  (type pdf)
 <use ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>
 Package pdftex.def Info: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmode
 ll.pdf  used on input line 9.
-(pdftex.def)             Requested size: 233.19586pt x 78.29279pt.
+(pdftex.def)             Requested size: 358.70857pt x 110.4129pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 46
@@ -1778,7 +1782,7 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 46.
 [3 <../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>])
 (projektanalyse.tex
-<../graphic/images/screenshots/Alter-Editor.png, id=191, 183.084pt x 134.30174p
+<../graphic/images/screenshots/Alter-Editor.png, id=189, 183.084pt x 134.30174p
 t>
 File: ../graphic/images/screenshots/Alter-Editor.png Graphic file (type png)
 <use ../graphic/images/screenshots/Alter-Editor.png>
@@ -1814,7 +1818,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 30.
 [4 <../graphic/images/screenshots/Alter-Editor.png>]) (entwurfsphase.tex
-<../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf, id=202, 530.983
+<../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf, id=200, 530.983
 75pt x 265.99374pt>
 File: ../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf Graphic fil
 e (type pdf)
@@ -1822,7 +1826,7 @@ e (type pdf)
 Package pdftex.def Info: ../graphic/diagrams/ModelViewPresenter/ModelViewPresen
 ter.pdf  used on input line 9.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
-<../graphic/diagrams/ModelViewController/ModelViewController.pdf, id=203, 530.9
+<../graphic/diagrams/ModelViewController/ModelViewController.pdf, id=201, 530.9
 8375pt x 265.99374pt>
 File: ../graphic/diagrams/ModelViewController/ModelViewController.pdf Graphic f
 ile (type pdf)
@@ -1830,17 +1834,12 @@ ile (type pdf)
 Package pdftex.def Info: ../graphic/diagrams/ModelViewController/ModelViewContr
 oller.pdf  used on input line 11.
 (pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
-
-Overfull \hbox (7.69818pt too wide) in paragraph at lines 20--21
-\OT1/cmr/m/n/10.95 v[]ollig se-pe-rat von-ein-an-der und un-abh[]angig vom Edi-
-tor im-ple-men-tiert. Da-durch kann gew[]ahrleistet
- []
-
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 26
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -1861,15 +1860,15 @@ Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 26.
 [5 <../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf> <../graphic/
 diagrams/ModelViewController/ModelViewController.pdf>]
-<../graphic/images/ux/Kombination.pdf, id=216, 1660.03181pt x 722.36574pt>
+<../graphic/images/ux/Kombination.pdf, id=214, 1660.03181pt x 722.36574pt>
 File: ../graphic/images/ux/Kombination.pdf Graphic file (type pdf)
 <use ../graphic/images/ux/Kombination.pdf>
 Package pdftex.def Info: ../graphic/images/ux/Kombination.pdf  used on input li
-ne 47.
+ne 49.
 (pdftex.def)             Requested size: 455.24411pt x 198.09456pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 75
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 77
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -1880,87 +1879,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 [6 <../graphic/images/ux/Kombination.pdf>]
-<../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf, id=259, 282.05376
+<../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf, id=257, 282.05376
 pt x 258.9675pt>
 File: ../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf Graphic file 
 (type pdf)
 <use ../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf>
 Package pdftex.def Info: ../graphic/diagrams/Baumstruktur_Functions/Baumstruktu
-r.pdf  used on input line 83.
+r.pdf  used on input line 85.
 (pdftex.def)             Requested size: 200.75073pt x 184.32262pt.
-<../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf, id=264, 549.05
+<../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf, id=262, 549.05
 125pt x 103.38625pt>
 File: ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf Graphic fi
 le (type pdf)
 <use ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstru
-ktur.pdf  used on input line 101.
+ktur.pdf  used on input line 103.
 (pdftex.def)             Requested size: 303.84738pt x 57.21396pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
-2.
-(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 112.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 112.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 112.
-[7 <../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf> <../graphic/di
-agrams/CD_Baumstruktur_Functions/Baumstruktur.pdf>]
-<../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf, id=273, 269.005pt x
- 360.34625pt>
-File: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf Graphic file (t
-ype pdf)
-<use ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf>
-Package pdftex.def Info: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.
-pdf  used on input line 118.
-(pdftex.def)             Requested size: 165.61935pt x 221.85631pt.
-<../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf, id=275, 492.8412
-5pt x 175.65625pt>
-File: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf Graphic file
- (type pdf)
-<use ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf>
-Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstrukt
-ur.pdf  used on input line 127.
-(pdftex.def)             Requested size: 281.05103pt x 100.17601pt.
-<../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf, id=276, 
-353.32pt x 121.45375pt>
-File: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf Grap
-hic file (type pdf)
-<use ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf>
-Package pdftex.def Info: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutE
-ditorStore.pdf  used on input line 147.
-(pdftex.def)             Requested size: 204.3974pt x 70.26276pt.
-File: ../graphic/images/logo/Logo.png Graphic file (type png)
-<use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
 4.
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -1971,21 +1920,71 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 114.
+[7 <../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf> <../graphic/di
+agrams/CD_Baumstruktur_Functions/Baumstruktur.pdf>]
+<../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf, id=271, 269.005pt x
+ 360.34625pt>
+File: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf Graphic file (t
+ype pdf)
+<use ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.
+pdf  used on input line 120.
+(pdftex.def)             Requested size: 165.61935pt x 221.85631pt.
+<../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf, id=273, 492.8412
+5pt x 175.65625pt>
+File: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf Graphic file
+ (type pdf)
+<use ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstrukt
+ur.pdf  used on input line 129.
+(pdftex.def)             Requested size: 281.05103pt x 100.17601pt.
+<../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf, id=274, 
+353.32pt x 121.45375pt>
+File: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf Grap
+hic file (type pdf)
+<use ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutE
+ditorStore.pdf  used on input line 149.
+(pdftex.def)             Requested size: 204.3974pt x 70.26276pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
+6.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 156.
 [8 <../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf> <../graphic/diag
 rams/CD_Baumstruktur_Results/Baumstruktur.pdf> <../graphic/diagrams/CD_IShortcu
 tEditorStore/IShortcutEditorStore.pdf>]) (implementierung.tex
-<../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf, id=288, 646.415pt x 13
+<../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf, id=286, 646.415pt x 13
 5.50626pt>
 File: ../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf Graphic file (type
  pdf)
@@ -2030,25 +2029,25 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 26.
 [9 <../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf>]
-<../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf, id=303, 921.4425pt x 17
+<../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf, id=301, 921.4425pt x 17
 2.645pt>
 File: ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf Graphic file (type 
 pdf)
 <use ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf 
- used on input line 36.
+ used on input line 38.
 (pdftex.def)             Requested size: 455.24411pt x 85.29488pt.
-<../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf, id=305, 2
+<../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf, id=303, 2
 93.095pt x 336.25626pt>
 File: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf Graph
 ic file (type pdf)
 <use ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItem
-Container.pdf  used on input line 52.
+Container.pdf  used on input line 56.
 (pdftex.def)             Requested size: 157.33788pt x 180.50333pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 67
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 73
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2059,26 +2058,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 67.
+(babel)             in language  on input line 73.
 [10 <../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf> <../graphic/diagram
 s/CD_CheckItemContainer/CD_CheckItemContainer.pdf>]
-<../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf, id=319, 496.
+<../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf, id=317, 496.
 85625pt x 236.885pt>
 File: ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf Graphic 
 file (type pdf)
 <use ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAcc
-ordion.pdf  used on input line 71.
+ordion.pdf  used on input line 77.
 (pdftex.def)             Requested size: 219.31946pt x 104.56587pt.
 
 (CODE/CheckItemAccordion-setCheckItemGroup.tex
@@ -2087,43 +2086,37 @@ ordion.pdf  used on input line 71.
 
 (_minted-Abschlussarbeit/22C33FD0D292675CFA43E020EBCB884F2CC528CEEFFE1D13CCE06B
 0A1C197C06.pygtex))
-Overfull \hbox (8.61954pt too wide) in paragraph at lines 83--84
-\OT1/cmr/m/n/10.95 set-CheckI-tem-Group(...) ab-
+Overfull \hbox (7.62393pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/it/10.95 set-CheckI-tem-Group(...) \OT1/cmr/m/n/10.95 ab-
  []
 
 
-Overfull \hbox (1.31949pt too wide) in paragraph at lines 83--84
-\OT1/cmr/m/n/10.95 ICheckI-tem-Group das Ac-
+Underfull \hbox (badness 1515) in paragraph at lines 89--90
+\OT1/cmr/m/n/10.95 Grup-pe um die be-reits
  []
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 83--84
-\OT1/cmr/m/n/10.95 Ist dies der Fall, so
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 83--84
-\OT1/cmr/m/n/10.95 wird die Me-tho-de oh-
- []
-
-
-Underfull \hbox (badness 6316) in paragraph at lines 83--84
-\OT1/cmr/m/n/10.95 ne []Anderungen ver-las-
+Overfull \hbox (3.85927pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/n/10.95 ver-las-sen. An-dern-falls wer-
  []
 
 <../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf, id=3
-24, 461.725pt x 260.975pt>
+22, 461.725pt x 260.975pt>
 File: ../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf 
 Graphic file (type pdf)
 <use ../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_IShortcutStructureView/IShortcu
-tStructureView.pdf  used on input line 92.
+tStructureView.pdf  used on input line 98.
 (pdftex.def)             Requested size: 230.86334pt x 130.48718pt.
+
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 97
-.
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+3.
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 25.16252pt.
@@ -2131,34 +2124,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 103.
 [11 <../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf>]
-Underfull \hbox (badness 4454) in paragraph at lines 97--98
+Underfull \hbox (badness 4454) in paragraph at lines 103--104
 [][]\OT1/cmr/m/n/10.95 Um sie je-doch im Zu-sam-men-hang mit
  []
 
-<../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf, id=338, 988.6937
+<../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf, id=336, 988.6937
 6pt x 299.1175pt>
 File: ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf Graphic file
  (type pdf)
 <use ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditor
-UI.pdf  used on input line 105.
+UI.pdf  used on input line 112.
 (pdftex.def)             Requested size: 455.24411pt x 137.72807pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
-6.
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 12
+3.
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2167,41 +2160,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 116.
+(babel)             in language  on input line 123.
 [12 <../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf> 
 <../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf>]
 <../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf, id
-=351, 498.86375pt x 275.0275pt>
+=349, 498.86375pt x 275.0275pt>
 File: ../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pd
 f Graphic file (type pdf)
 <use ../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf
 >
 Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutEditorPresenter/Shortcu
-tEditorPresenter.pdf  used on input line 127.
+tEditorPresenter.pdf  used on input line 134.
 (pdftex.def)             Requested size: 230.86334pt x 127.27376pt.
 <../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter.p
-df, id=360, 583.17876pt x 91.34125pt>
+df, id=358, 583.17876pt x 91.34125pt>
 File: ../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresen
 ter.pdf Graphic file (type pdf)
 <use ../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresent
 er.pdf>
 Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutStructurePresenter/Shor
-tcutStructurePresenter.pdf  used on input line 146.
+tcutStructurePresenter.pdf  used on input line 153.
 (pdftex.def)             Requested size: 273.14923pt x 42.78264pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
-1.
+8.
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
 
@@ -2211,17 +2204,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 151.
+(babel)             in language  on input line 158.
 [13 <../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf
 > <../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter
 .pdf>]) (test_junit.tex
@@ -2234,15 +2227,15 @@ haft gew[]ahrleistet wer-den kann, wur-de zus[]atzlich
 \openout7 = `Abschlussarbeit.listing'.
 
 
-(_minted-Abschlussarbeit/980F256E00466440AB0EA455BA2DF5822CC528CEEFFE1D13CCE06B
+(_minted-Abschlussarbeit/A9DA046ADF707A9D27C6CF0336C6992A2CC528CEEFFE1D13CCE06B
 0A1C197C06.pygtex))
 Underfull \hbox (badness 1112) in paragraph at lines 13--14
 \OT1/cmr/m/n/10.95 Sour-co-de der In-itia-li-sie-
  []
 
 
-Underfull \hbox (badness 3179) in paragraph at lines 13--14
-\OT1/cmr/m/n/10.95 ungs-me-tho-de on-Se-tUp()
+Underfull \hbox (badness 3701) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 ungs-me-tho-de \OT1/cmr/m/it/10.95 on-Se-tUp()
  []
 
 
@@ -2251,8 +2244,8 @@ Underfull \hbox (badness 6001) in paragraph at lines 13--14
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 13--14
-\OT1/cmr/m/n/10.95 der An-no-tai-on @Be-fo-re
+Underfull \hbox (badness 2126) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 der An-no-tai-on \OT1/cmr/m/it/10.95 @Be-fo-re
  []
 
 (CODE/Test_ShortcutEditor-EnterShortcut.tex
@@ -2261,8 +2254,9 @@ Underfull \hbox (badness 2173) in paragraph at lines 13--14
 
 (_minted-Abschlussarbeit/A2CE1F9024CBD05873C48E52E8B9AED12CC528CEEFFE1D13CCE06B
 0A1C197C06.pygtex))
-Underfull \hbox (badness 7081) in paragraph at lines 21--22
-[][]\OT1/cmr/m/n/10.95 Die mit @Test an-no-
+Underfull \hbox (badness 6510) in paragraph at lines 21--22
+[][]\OT1/cmr/m/n/10.95 Die mit \OT1/cmr/m/it/10.95 @Test \OT1/cmr/m/n/10.95 an-
+no-
  []
 
 
@@ -2309,7 +2303,7 @@ Package babel Info: Redefining german shorthand "|
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 22.
 [14]) (fazit.tex
-<../graphic/images/screenshots/Neuer-Editor.png, id=387, 1616.0375pt x 602.25pt
+<../graphic/images/screenshots/Neuer-Editor.png, id=385, 1616.0375pt x 602.25pt
 >
 File: ../graphic/images/screenshots/Neuer-Editor.png Graphic file (type png)
 <use ../graphic/images/screenshots/Neuer-Editor.png>
@@ -2341,7 +2335,12 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 112.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 112.
-[15 <../graphic/images/screenshots/Neuer-Editor.png>] (glossar.tex)
+[15 <../graphic/images/screenshots/Neuer-Editor.png>] (glossar.tex
+Underfull \hbox (badness 1033) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 (Customer-Relationship-Management) zur Ver-wal-tung und
+ []
+
+)
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
@@ -2400,12 +2399,12 @@ Package babel Info: Redefining german shorthand "~
 
 
 (_minted-Abschlussarbeit/8CC26BC65AC09B45F58D2A7487DD94AF487D200DDBF0420A3FA404
-E510F0F56B.pygtex)) (ressourcen.tex
+E510F0F56B.pygtex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 1.
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 7.
 
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2416,23 +2415,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 1.
-[18]
+(babel)             in language  on input line 7.
+pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 
+     [17
+
+]
 Overfull \vbox (16.46175pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 1.
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 7.
 
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2443,29 +2449,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 1.
-[19])
-<../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf, id=462, 626.34pt x 6
-65.48625pt>
+(babel)             in language  on input line 7.
+[18] (ressourcen.tex)
+<../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf, id=460, 626.34pt x 7
+81.92125pt>
 File: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf Graphic file (ty
 pe pdf)
 <use ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>
 Package pdftex.def Info: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.p
-df  used on input line 13.
-(pdftex.def)             Requested size: 455.24411pt x 483.70909pt.
+df  used on input line 14.
+(pdftex.def)             Requested size: 455.24411pt x 568.33995pt.
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 16
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2476,25 +2482,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 15.
-[20] (CODE/CheckToggleButton.tex
+(babel)             in language  on input line 16.
+[19] (CODE/CheckToggleButton.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
 (_minted-Abschlussarbeit/BCC812DEE8A11BA242B5E343E9895B1C2CC528CEEFFE1D13CCE06B
 0A1C197C06.pygtex))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
 Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 19
@@ -2519,23 +2523,18 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 19.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 19.
-[21 <../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>]
+[20 <../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>]
 (CODE/CheckItemButton.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
 (_minted-Abschlussarbeit/07E44AE4DF6D46976EBB7AEC6F9E51792CC528CEEFFE1D13CCE06B
-0A1C197C06.pygtex)) (CODE/CheckItemContainer.tex
-\openout7 = `Abschlussarbeit.listing'.
-
-
-(_minted-Abschlussarbeit/E3001D46CA60F986D1C2835FBF37FCDC2CC528CEEFFE1D13CCE06B
 0A1C197C06.pygtex))
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 27
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 23
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2546,18 +2545,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 27.
-[22] (CODE/ShortcutStructureTable.tex
+(babel)             in language  on input line 23.
+[21] (CODE/CheckItemContainer.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/E3001D46CA60F986D1C2835FBF37FCDC2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex)) (CODE/ShortcutStructureTable.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2567,10 +2571,10 @@ Package babel Info: Redefining german shorthand "~
 
 
 (_minted-Abschlussarbeit/493807D629BC02BCC19BEFE7803486C32CC528CEEFFE1D13CCE06B
-0A1C197C06.pygtex)
+0A1C197C06.pygtex))
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 77
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 33
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2581,18 +2585,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 77.
-[23]) (CODE/ShortcutEditorUI.tex
+(babel)             in language  on input line 33.
+[22]
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 34
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+[23] (CODE/ShortcutEditorUI.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2602,7 +2631,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 39
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 38
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2613,75 +2642,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[24]
-File: ../graphic/images/logo/Logo.png Graphic file (type png)
-<use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 39
-.
-(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+(babel)             in language  on input line 38.
+pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 
+      [23
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-File: ../graphic/images/logo/Logo.png Graphic file (type png)
-<use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 39
-.
-(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[26]
+]
 Overfull \vbox (11.63675pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 39
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 38
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2692,18 +2676,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 39.
-[27] (CODE/ShortcutEditorPresenter.tex
+(babel)             in language  on input line 38.
+[24] (CODE/ShortcutEditorPresenter.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2735,7 +2719,14 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 43.
-[28]
+pdfTeX warning (ext4): destination with the same identifier (name{page.24}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 
+      [24
+
+]
 Overfull \vbox (15.61797pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
@@ -2762,7 +2753,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 43.
-[29] (CODE/ShortcutStructurePresenterTeil1.tex
+[25] (CODE/ShortcutStructurePresenterTeil1.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2794,7 +2785,14 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 2.
-[30]
+pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2   \begin{spacing}{0.75}
+                            [25
+
+]
 Overfull \vbox (7.36797pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
@@ -2821,12 +2819,37 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 2.
-[31]
+[26]
 \openout7 = `Abschlussarbeit.listing'.
 
 
 (_minted-Abschlussarbeit/B3C08D0372261C2DC87995A52BDDADC62CC528CEEFFE1D13CCE06B
-0A1C197C06.pygtex)) (CODE/ShortcutStructureModel.tex
+0A1C197C06.pygtex))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 50
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 50.
+[27] (CODE/ShortcutStructureModel.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2836,7 +2859,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 52
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 54
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2847,50 +2870,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
-[32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(babel)             in language  on input line 54.
+pdfTeX warning (ext4): destination with the same identifier (name{page.27}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 
+      [27
 
-File: ../graphic/images/logo/Logo.png Graphic file (type png)
-<use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 52
-.
-(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 25.16252pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
-Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
-Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
-Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
-[33]
+]
 Overfull \vbox (14.86798pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
 <use ../graphic/images/logo/Logo.png>
-Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 52
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 54
 .
 (pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
@@ -2901,18 +2904,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "f
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining german shorthand "~
-(babel)             in language  on input line 52.
-[34] (CODE/Test_ShortcutEditor.tex
+(babel)             in language  on input line 54.
+[28] (CODE/Test_ShortcutEditor.tex
 \openout7 = `Abschlussarbeit.listing'.
 
 
@@ -2944,7 +2947,14 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 122.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 122.
-[35]
+pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 
+       [28
+
+]
 Overfull \vbox (16.84169pt too high) has occurred while \output is active []
 
 File: ../graphic/images/logo/Logo.png Graphic file (type png)
@@ -2971,7 +2981,7 @@ Package babel Info: Redefining german shorthand "|
 (babel)             in language  on input line 122.
 Package babel Info: Redefining german shorthand "~
 (babel)             in language  on input line 122.
-[36]
+[29]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
  (Abschlussarbeit.aux)
@@ -2981,13 +2991,13 @@ Package rerunfilecheck Info: File `Abschlussarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26661 strings out of 493305
- 537630 string characters out of 3128932
- 715488 words of memory out of 3000000
- 29377 multiletter control sequences out of 15000+200000
- 10737 words of font info for 38 fonts, out of 3000000 for 9000
+ 26653 strings out of 493305
+ 537554 string characters out of 3128932
+ 713901 words of memory out of 3000000
+ 29378 multiletter control sequences out of 15000+200000
+ 11083 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,16n,83p,1148b,1027s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 54i,16n,83p,1155b,1004s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\dpi540\
 cmttb10.pk> <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\c
 m\dpi657\cmbcsc10.pk><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/
@@ -3000,11 +3010,13 @@ fka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 ublic/amsfonts/cm/cmr6.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/k.mifka/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/k.mifka/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Users/
-k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Abschlussarbeit.pdf (38 pages, 3992137 bytes).
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfdi
+ng/uzdr.pfb>
+Output written on Abschlussarbeit.pdf (37 pages, 4007380 bytes).
 PDF statistics:
- 671 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 500000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

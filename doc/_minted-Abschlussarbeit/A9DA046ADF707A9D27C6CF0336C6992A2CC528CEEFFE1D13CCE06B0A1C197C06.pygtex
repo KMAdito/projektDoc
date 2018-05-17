@@ -1,6 +1,6 @@
 \begin{Verbatim}[commandchars=\\\{\}]
 \PYG{n+nd}{@Before}
-\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{onSetUp}\PYG{o}{()}
+\PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{setUp}\PYG{o}{()}
 \PYG{o}{\PYGZob{}}
   \PYG{n}{\PYGZus{}setLookAndFeel}\PYG{o}{();}
 

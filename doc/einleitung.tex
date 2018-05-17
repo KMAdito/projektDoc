@@ -13,45 +13,45 @@
 Die folgende Projektdokumentation beschreibt den Ablauf des IHK-Abschlussprojektes, welche der Autor im Rahmen der Ausbildung zum Fachinformatiker Fachrichtung Anwendungsentwicklung
 durchgeführt hat. Ausbildungsbetrieb ist die ADITO Software GmbH, ein Hersteller für hochflexible Business-, CRM- und xRM-Software mit Sitz in Geisenhausen. Das inhabergeführte Unternhemen bietet Entwicklung, Vertrieb, Projektierung und Service aus einer Hand. Kunden von ADITO kommen aus den unterschiedlichsten Branchen. Neben namhaften mittelständischen Unternehmen, zum Beispiel Ravensburger, Erlus oder Birco, gehören auch große Organisationen wie die WWK Versicherungsgruppe oder die Bundesagentur für Arbeit zu ihren Referenzen.
 
-Die Mitarbeiterzahl des Unternehmens ist gerade in den letzten Jahren stark gewachsen. Im Jahr 2018 hat ADITO die Grenze von 100 Mitarbeitern überschritten. Da das alte Firmengebäude für diese Mitarbeiteranzahl nicht ausreichend war, wurde im April 2018 das neugebaute Firmengebäude bezogen (\autoref{fig:firmengebaude}).
+Die Mitarbeiterzahl des Unternehmens ist insbesondere in den letzten Jahren stark gewachsen. Im Jahr 2018 hat ADITO die Grenze von 100 Mitarbeitern überschritten. Um dafür genügend Raum zu bieten, wurde im gleichen Jahr ein neues Firmengebäude (\autoref{fig:firmengebaude}) errichtet.
 
 \subsection{Beschreibung}
  
 In der neuesten Version des xRM-Systems ADITO5 wurde eine neue Clientvariante entwickelt. Nun ist es möglich neben dem konventionellen Java Swing Client, einen Webclient bzw. Browserclient einzusetzen. Dieser bietet einige Vorteile. Beispielsweise ist keine Installation notwendig und die Nutzung ist auf allen Geräten mit Webbrowsern (PC, Tablet und Smartphone) möglich. 
 
-Mit einem Webclient gehen allerdings auch einige Herausforderungen einher. So auch bei der Vergabe von Tastaturkürzeln. Browser behalten es sich vor, einige Shortcuts für eigene Aktionen zu reservieren und so nicht für die eigendliche Webanwendung zur Verfügung zu stellen. Beispiele für solche Shortcuts sind Strg + P für Drucken oder Strg + F für Suchen. Der Überblick über die Verwendbarkeit von Tastaturkürzeln geht schnell verloren, da diese in jeder Browser-Betriebssystem permutation variieren kann.
+Mit einem Webclient gehen allerdings auch einige Herausforderungen einher. So auch bei der Vergabe von Tastaturkürzeln. Browser behalten es sich vor, einige Shortcuts für eigene Aktionen zu reservieren und so nicht für die eigentliche Webanwendung zur Verfügung zu stellen. Beispiele für solche Shortcuts sind \emph{Strg + P} für Drucken oder \emph{Strg + F} für Suchen. Der Überblick über die Verwendbarkeit von Tastaturkürzeln geht schnell verloren, da diese in jeder Browser-Betriebssystem-Permutation variieren kann.
 
-In diesem Projekt soll eine Möglichkeit geschaffen werden, bei der Vergabe von Shortcuts innerhalb der hauseigenen xRM-Entwicklungsumgebung (ADITO Designer) Unterstützung zu bieten.
+Im Rahmen dieser Arbeit, soll eine Möglichkeit geschaffen werden, bei der Vergabe von Shortcuts innerhalb der hauseigenen xRM-Entwicklungsumgebung (ADITO5 Designer) Unterstützung zu bieten.
 
 \subsection{Ziel}
 
-Um den Projektierern unserer xRM-Software die Vergabe von Shortcuts zu erleichtern soll ein spezieller Shortcut-Editor entwickelt werden, der die Eingabe und Bearbeitung von Shortcuts ermöglicht und bei der Wahl des passenden Tastenkürzels zuarbeitet.
+Um den Entwicklern unserer xRM-Software die Vergabe von Shortcuts zu erleichtern soll ein spezieller Shortcut-Editor erstellt werden, der die Eingabe und Bearbeitung von Shortcuts ermöglicht und bei der Wahl des passenden Tastenkürzels zuarbeitet.
 
-Mittels Warnungen im Editor soll verdeutlicht werden, dass der eingebene Shortcut zu Problemen auf einem bestimmten Browser führen kann.
-Damit der Benutzer feststellen kann, warum ein Shortcut problematisch ist, sollen weitere Informationen angezeigt werden. Diese können beispielsweise angeben, bei welchem Browser bzw. welcher Version das Tastaturkürzel bereits verwendet wird.
+Mittels Warnungen im Editor soll verdeutlicht werden, dass der eingegebene Shortcut zu Problemen auf einem bestimmten Browser führen kann. Damit der Entwickler feststellen kann, warum ein Shortcut problematisch ist, sollen weitere Informationen angezeigt werden. Diese können beispielsweise angeben, bei welchem Browser bzw. welcher Version das Tastaturkürzel bereits verwendet wird.
 
 \subsection{Umfeld}
 
-Durchgeführt wird das Projekts in der Abteilung Entwickung, welche auch für die Umsetzung von ADITO5 zuständig war. Im Zuge der Weiterentwicklung wurde innerhab der Entwicklungsabteilung die Notwendigkeit des Editors festgestellt. Dadurch kann man die Abteilung Entwicklung selbst als Auftraggeber ihres eigenen Projekts ansehen.
+Durchgeführt wird das Projekt in der Entwicklungsabteilung, welche auch für die Umsetzung von ADITO5 zuständig war. Die Notwendigkeit des Editors wurde im Zuge der Weiterentwicklung festgestellt. Dadurch kann man die Abteilung Entwicklung selbst als Auftraggeber ihres eigenen Projekts ansehen.
 
-Die Implementierung des Editors wird in der objektorientierten Programmiersprache Java und mithilfe der Entwicklungsumgebung IntelliJ IDEA durchgeführt. Als Framework für die GUI dient das Java-Swing-Framework.
+Die Implementierung des Editors wird in der objektorientierten Programmiersprache Java und mithilfe der Entwicklungsumgebung IntelliJ IDEA durchgeführt. Als Framework für die graphische Benutzeroberfläche dient das Java-Swing-Framework.
 
 \subsection{Begründung}
 
-Da gewährleistet werden soll, dass vergebene Tastenkürzel auf allen relevanten Browsern funktionieren, muss dem Projektierer bei der Wahl eines passenden Shortcuts immer klar sein, ob dieser von den entsprechenden Browsern unterstützt wird. Da jeder Browser andere Shortcuts vorbelegt und diese sich je nach Betriebssystem wieder unterscheiden können, ist eine manuelle Überprüfung durch den Projektierer so gut wie unmöglich. So müsste dieser auf jedem Betriebssystem alle relevanten Browser testen. Ein solch enormer Aufwand und die mögliche Fehlvergabe von Tastenkombinationen kann durch die technische Assistenz mittels des genannten Editors vermieden werden.
+Da gewährleistet werden soll, dass vergebene Tastenkürzel auf allen relevanten Browsern funktionieren, muss dem Entwickler bei der Wahl eines passenden Shortcuts immer klar sein, ob dieser von den entsprechenden Browsern unterstützt wird. Da jeder Browser andere Shortcuts vorbelegt und diese sich je nach Betriebssystem wieder unterscheiden können, ist eine manuelle Überprüfung durch den Projektierer so gut wie unmöglich. So müsste dieser auf jedem Betriebssystem alle relevanten Browser testen. Ein solch enormer Aufwand und die mögliche Fehlvergabe von Tastenkombinationen kann durch die technische Assistenz mittels des genannten Editors vermieden werden.
 
 \subsection{Schnittstellen}
 \label{schnittstellen} 
 
-Um herauszufinden, welche Shortcuts die verschiedenen Browser auf unterschiedlichen Betriebssystemen selber verwenden, wurde außerhalb dieser Abschlussarbeit eine Testanwendung implementiert. Diese läuft auf jeder Plattform und testet alle möglichen Shortcut-Kombinationen für die verbreitesten Browser. Das Ergebnis dieser Tests wird in Form von XML-Dateien gespeichert (Beispiel siehe Anhang \ref{xml}). Für jede Browser-Betriebssystem Kombination existiert eine eigene Datei, in welcher alle problembehafteten Shortcuts verzeichnet sind.
+Um herauszufinden welche Shortcuts die verschiedenen Browser auf unterschiedlichen Betriebssystemen verwenden, wurde außerhalb dieser Abschlussarbeit eine Testanwendung implementiert. Diese läuft auf verschiedenen Betriebssystemen und testet alle möglichen Shortcut-Kombinationen für die verbreitesten Browser (z.B. Chrome, Firefox oder Safari). Das Ergebnis dieser Tests wird in Form von XML-Dateien gespeichert (Beispiel siehe Anhang \ref{xml}). Für jede Browser-Betriebssystem Kombination existiert eine eigene Datei, in welcher alle problembehafteten Shortcuts verzeichnet sind.
 
-Damit die in den Dateien enthaltenen Informationen dem Benutzer dargestellt werden können, muss der Editor das Einlesen und Verarbeiten von XML-Strukturen beherrschen. Hierfür kommt das hauseigene Propertly Framework zum Einsatz. Dieses kümmert sich um sämtliche XML-spezifische Arbeiten und ermöglicht so eine konfortable Nutzung.
+Damit die in den Dateien enthaltenen Informationen dem Benutzer dargestellt werden können, muss der Editor das Einlesen und Verarbeiten von XML-Strukturen beherrschen. Hierfür kommt das hauseigene \emph{Propertly} Framework zum Einsatz. Dieses kümmert sich um sämtliche XML-spezifische Arbeiten und ermöglicht so eine konfortable Nutzung.
 
-Um das Ergebnis des Editors im bestehenden ADITO Designer einfach verwenden zu können, muss dieses als IShortcut-Typ zurückgegeben werden. Dieser ADITO eigene Datentyp wird im restlichen System bereits für Shortcuts verwendet und bietet sich somit an.
+Die über den Editor ausgewählten Shortcuts werden Aktionen zugeordnet, welche bereits im ADITO5 Designer implementiert wurden. Zudem existieren sogenannte Entitys, welche Dateneinheiten darstellen und eben genannte Aktionen besitzen können. Beispielsweise könnte ein Entity \glqq Firma\grqq\xspace existieren, welches wiederum die Aktion \glqq Mitarbeiter hinzufügen\grqq\xspace besitzt. Dieser Aktion könnte nun ein Shortcut zugewiesen werden z.B. \emph{Strg + Einfg}.
+
 
 \subsection{Abgrenzung}
 
-Aufgrund des beschränkten Projektumfangs ist das Einbinden des Editors in den bestehenden ADITO Designer nicht Bestandteil der Projektarbeit.
+Aufgrund des beschränkten Projektumfangs ist das Einbinden des Editors in den bestehenden ADITO5 Designer nicht Bestandteil der Projektarbeit.
 
 
 

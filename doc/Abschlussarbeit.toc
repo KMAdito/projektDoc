@@ -37,18 +37,18 @@
 \contentsline {section}{\numberline {8}Glossar}{16}{section.8}
 \contentsline {section}{\numberline {9}Abbildungsverzeichnis}{17}{section.9}
 \contentsline {section}{\numberline {10}Literaturverzeichnis}{17}{section.10}
-\contentsline {section}{\numberline {11}Anhang}{19}{section.11}
 \setcounter {tocdepth}{-1}
-\contentsline {subsection}{\numberline {11.1}XML}{19}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{20}{subsection.11.2}
-\contentsline {subsection}{\numberline {11.3}Anwendungsf\IeC {\"a}lle}{21}{subsection.11.3}
-\contentsline {subsection}{\numberline {11.4}Zeichnen des Icons im CheckToggleButton}{22}{subsection.11.4}
-\contentsline {subsection}{\numberline {11.5}CheckItemButton}{22}{subsection.11.5}
-\contentsline {subsection}{\numberline {11.6}Setzen der CheckItems im CheckItemContainer}{23}{subsection.11.6}
-\contentsline {subsection}{\numberline {11.7}ShortcutStructureTable}{23}{subsection.11.7}
-\contentsline {subsection}{\numberline {11.8}ShortcutPathComponent}{24}{subsection.11.8}
-\contentsline {subsection}{\numberline {11.9}ShortcutEditorUI}{27}{subsection.11.9}
-\contentsline {subsection}{\numberline {11.10}ShortcutEditorPresenter}{29}{subsection.11.10}
-\contentsline {subsection}{\numberline {11.11}ShortcutStructurePresenter}{31}{subsection.11.11}
-\contentsline {subsection}{\numberline {11.12}ShortcutStructureModel}{34}{subsection.11.12}
-\contentsline {subsection}{\numberline {11.13}ShortcutEditor Test}{36}{subsection.11.13}
+\contentsline {section}{\numberline {11}Anhang}{18}{section.11}
+\contentsline {subsection}{\numberline {11.1}XML}{18}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Verwendete Ressourcen}{19}{subsection.11.2}
+\contentsline {subsection}{\numberline {11.3}Anwendungsf\IeC {\"a}lle}{20}{subsection.11.3}
+\contentsline {subsection}{\numberline {11.4}Zeichnen des Icons im CheckToggleButton}{21}{subsection.11.4}
+\contentsline {subsection}{\numberline {11.5}CheckItemButton}{21}{subsection.11.5}
+\contentsline {subsection}{\numberline {11.6}Setzen der CheckItems im CheckItemContainer}{22}{subsection.11.6}
+\contentsline {subsection}{\numberline {11.7}ShortcutStructureTable}{22}{subsection.11.7}
+\contentsline {subsection}{\numberline {11.8}ShortcutPathComponent}{23}{subsection.11.8}
+\contentsline {subsection}{\numberline {11.9}ShortcutEditorUI}{24}{subsection.11.9}
+\contentsline {subsection}{\numberline {11.10}ShortcutEditorPresenter}{25}{subsection.11.10}
+\contentsline {subsection}{\numberline {11.11}ShortcutStructurePresenter}{26}{subsection.11.11}
+\contentsline {subsection}{\numberline {11.12}ShortcutStructureModel}{28}{subsection.11.12}
+\contentsline {subsection}{\numberline {11.13}ShortcutEditor Test}{29}{subsection.11.13}
