@@ -34,6 +34,8 @@
 \contentsline {subsubsection}{\numberline {5.2.2}ShortcutStructurePresenter}{13}{subsubsection.5.2.2}
 \contentsline {section}{\numberline {6}Testphase}{14}{section.6}
 \contentsline {section}{\numberline {7}Fazit}{15}{section.7}
+\contentsline {subsection}{\numberline {7.1}Soll-/Ist-Vergleich}{15}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Ausblick}{15}{subsection.7.2}
 \contentsline {section}{\numberline {8}Glossar}{16}{section.8}
 \contentsline {section}{\numberline {9}Abbildungsverzeichnis}{17}{section.9}
 \contentsline {section}{\numberline {10}Literaturverzeichnis}{17}{section.10}

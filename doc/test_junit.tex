@@ -1,10 +1,10 @@
 \section{Testphase}
 
-Um sicherzustellen, das alle implementierten Komponenten anforderungsgerecht funktionieren, wurde der Editor anhand manueller Akzeptanztests getestet. Dabei wurde darauf geachtet, auf jede mögliche Bedienweise einzugehen. So wurde der Editor sowohl per Maus als auch per Tastatur bedient. Gleichzeitig wurde stets überprüft, ob sich der Editor wie gewünscht verhält. Konnte man dabei Unstimmigkeiten feststellen, so wurden die jeweiligen Fehler im Sourcecode behoben und erneut getestet.
+Um sicherzustellen, dass alle implementierten Komponenten anforderungsgerecht funktionieren, wurde der Editor anhand manueller Akzeptanztests getestet. Dabei wurde darauf geachtet, auf jede mögliche Bedienweise einzugehen. So wurde der Editor sowohl per Maus als auch per Tastatur bedient. Gleichzeitig wurde stets überprüft, ob sich der Editor wie gewünscht verhält. Konnte man dabei Unstimmigkeiten feststellen, so wurden die jeweiligen Fehler im Sourcecode behoben und erneut getestet.
 
-Damit die grundlegende Funktionalität auch dauerhaft gewährleistet werden kann, wurde zusätzlich ein automatisierter Test entwickelt (siehe Anhang \ref{Test_ShortcutEditor}). Dabei wurde das Test-Framework \emph{AssertJ Swing} in Kombination mit \emph{JUnit} verwendet.
+Damit die grundlegende Funktionalität auch dauerhaft gewährleistet werden kann, wurde zudem ein automatisierter Test entwickelt (siehe Anhang \ref{Test_ShortcutEditor}). Dabei wurde das Test-Framework \emph{AssertJ Swing} in Kombination mit \emph{JUnit} verwendet.
 
-Das Framework \emph{AssertJ Swing} ist eine Weiterentwicklung des älteren open-source Frameworks \emph{FEST}. Es ermöglicht die einfache Simulation eines Benutzers für Swing Applikationen. Da es als fluent Api entwickelt wurde, ist der Code sehr gut lesbar und einfach zu verstehen.
+Das Framework \emph{AssertJ Swing} ist eine Weiterentwicklung des älteren open-source Frameworks \emph{FEST}. Es ermöglicht die einfache Simulation eines Benutzers für Swing Applikationen. Da es als fluent-Api entwickelt wurde, ist der Code sehr gut lesbar und einfach zu verstehen.
 
 Bei \emph{JUnit} handelt es sich ebenfalls um ein quelloffenes Framework, welches durch ein Maven-Plugin in den Build-Vorgang von ADITO eigebunden ist. Dadurch werden alle vorhandenen Tests bei jedem Kompiliervorgang mit Maven automatisch ausgeführt. So können etwaige Fehler schon während der Entwicklung erkannt und vermieden werden.
 
@@ -14,7 +14,7 @@ In \autoref{fig:Test-ShortcutEditor-onSetUp} ist der Sourcode der Initialisieung
 
 \vspace{10px}
 
-Nach dem Setzen des ADITO spezifischen LookAndFeels, wird der DummyStore und die UI initialisiert. Zum Erstellen des Dialogs werden diese Bestandteile der Methode \emph{ShortcutEditorDialog.createDialog(...)} übergeben. Damit die Ausführung innerhalb des Event Dispatch Threads von Swing erfolgt, kommt ein \emph{GuiActionRunner} zum Einsatz. Dieser führt eine beliebige Anweisung im EDT aus, und liefert das Ergebnis zurück. Nachdem der Dialog erzeugt wurde, wird ein \emph{DialogFixture} erstellt. Hierüber lässt sich der Editor automatisiert bedienen und kann so getestet werden.
+Nach dem Setzen des ADITO spezifischen Look and Feels, wird der DummyStore und die UI initialisiert. Zum Erstellen des Dialogs werden diese Bestandteile der Methode \emph{ShortcutEditorDialog.createDialog(...)} übergeben. Damit die Ausführung innerhalb des Event Dispatch Threads von Swing erfolgt, kommt ein \emph{GuiActionRunner} zum Einsatz. Dieser führt eine beliebige Anweisung im EDT aus, und liefert das Ergebnis zurück. Nachdem der Dialog erzeugt wurde, wird ein \emph{DialogFixture} erstellt. Hierüber lässt sich der Editor automatisiert bedienen und kann so getestet werden.
 
 \input{CODE/Test_ShortcutEditor-EnterShortcut}
 

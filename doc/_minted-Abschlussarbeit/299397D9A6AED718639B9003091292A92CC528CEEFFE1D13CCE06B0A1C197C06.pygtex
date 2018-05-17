@@ -6,7 +6,7 @@
   \PYG{n}{viewerContainer}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(!}\PYG{n}{empty}\PYG{o}{);}
   \PYG{n}{textContainer}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(}\PYG{n}{empty}\PYG{o}{);}
 
-  \PYG{n}{closeButton}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(}\PYG{n}{isEditable}\PYG{o}{());}
-  \PYG{n}{closeButton}\PYG{o}{.}\PYG{n+na}{setEnabled}\PYG{o}{(!}\PYG{n}{empty}\PYG{o}{);}
+  \PYG{n}{crossButton}\PYG{o}{.}\PYG{n+na}{setVisible}\PYG{o}{(}\PYG{n}{isEditable}\PYG{o}{());}
+  \PYG{n}{crossButton}\PYG{o}{.}\PYG{n+na}{setEnabled}\PYG{o}{(!}\PYG{n}{empty}\PYG{o}{);}
 \PYG{o}{\PYGZcb{}}		
 \end{Verbatim}
