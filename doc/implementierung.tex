@@ -136,7 +136,7 @@ Folgend wird die Implementierung der im Abschnitt \ref{Architekturdesign} beschr
 	\label{fig:shortcuteditorpresenter}
 \end{wrapfigure}
 
-Um die Daten der \emph{ShortcutEditorUI} mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der \emph{ShortcutEditorPresenter} (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der Datenstore als auch eine \emph{IShortcutEditorUI} übergeben. Anschließend werden die UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
+Um die Daten der \emph{ShortcutEditorUI} mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der \emph{ShortcutEditorPresenter} (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der DataStore als auch eine \emph{IShortcutEditorUI} übergeben. Anschließend werden die UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
 
 Ändert der Benutzer über die UI den Shortcut, so wird dieser in das entsprechende Datenmodell übertragen. Wird durch den Benutzer der Pfad geändert, also eine andere Aktion selektiert, so lädt der Presenter das Datenmodell der neuen Aktion. Zukünftige Shortcutänderungen werden dann in dieses Datenmodell übertragen.
 
