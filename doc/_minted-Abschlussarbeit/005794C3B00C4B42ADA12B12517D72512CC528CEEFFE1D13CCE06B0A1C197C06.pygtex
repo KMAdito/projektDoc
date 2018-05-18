@@ -17,7 +17,7 @@
   \PYG{c+cm}{/**}
 \PYG{c+cm}{  * Listener, welcher Änderungen der ShortcutGroup in das Hauptmodel überträgt}
 \PYG{c+cm}{  */}
-  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ShortcutNodeChangeListener} \PYG{k+kd}{implements} \PYG{n}{INodeChangeListener}
+  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}NodeChangeListener} \PYG{k+kd}{implements} \PYG{n}{INodeChangeListener}
   \PYG{o}{\PYGZob{}}
     \PYG{n+nd}{@Override}
     \PYG{k+kd}{public} \PYG{k+kt}{void} \PYG{n+nf}{groupChanged}\PYG{o}{(}\PYG{n}{IEditorShortcutNode} \PYG{n}{pNode}\PYG{o}{)}
@@ -30,7 +30,7 @@
   \PYG{c+cm}{/**}
 \PYG{c+cm}{  * Listener, welcher Änderungen der ShortcutPath in das Hauptmodel überträgt}
 \PYG{c+cm}{  */}
-  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}ShortcutPathChangeListener}
+  \PYG{k+kd}{private} \PYG{k+kd}{class} \PYG{n+nc}{\PYGZus{}PathChangeListener}
                 \PYG{k+kd}{implements} \PYG{n}{IAditoPathChangeListener}\PYG{o}{\PYGZlt{}}\PYG{n}{IEditorShortcutNode}\PYG{o}{\PYGZgt{}}
   \PYG{o}{\PYGZob{}}
     \PYG{n+nd}{@Override}

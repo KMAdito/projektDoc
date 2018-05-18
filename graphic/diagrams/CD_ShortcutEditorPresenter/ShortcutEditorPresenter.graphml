@@ -18,10 +18,10 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="64.66433684210517" width="492.3798212974233" x="966.5319388004827" y="549.7151736536111"/>
+          <y:Geometry height="64.66433684210517" width="458.30675887391124" x="966.5319388004827" y="549.7151736536111"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="154.97265625" x="168.70358252371165" y="3.0">ShortcutEditorPresenter<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="154.97265625" x="151.66705131195562" y="3.0">ShortcutEditorPresenter<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -39,7 +39,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="67.09846159730728" width="250.2836156670686" x="966.5319388004827" y="650.6981112760102"/>
+          <y:Geometry height="67.09846159730728" width="250.2836156670686" x="966.5319388004827" y="635.9795104957163"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="137.6435546875" x="56.3200304897843" y="3.0">_PathChangeListener<y:LabelModel>
@@ -60,7 +60,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="50.29846159730732" width="178.02314320684252" x="1282.4886168910634" y="659.0981112760102"/>
+          <y:Geometry height="50.29846159730732" width="178.02314320684252" x="1246.8155544675515" y="644.3795104957163"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="167.236328125" x="5.39340754092126" y="26.701171875">IAditoPathChangeListener<y:LabelModel>
@@ -81,7 +81,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="67.09846159730728" width="250.2836156670686" x="966.5319388004827" y="446.29811127601016"/>
+          <y:Geometry height="67.09846159730728" width="250.2836156670686" x="966.5319388004827" y="461.0167120563039"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="162.91357421875" x="43.6850207241593" y="3.0">_ShortcutChangeListener<y:LabelModel>
@@ -102,7 +102,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="50.29846159730732" width="178.02314320684252" x="1280.8886168910635" y="454.69811127601014"/>
+          <y:Geometry height="50.29846159730732" width="178.02314320684252" x="1246.8155544675515" y="469.4167120563039"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="159.29541015625" x="9.36386652529626" y="26.701171875">IShortcutChangeListener<y:LabelModel>
@@ -122,7 +122,7 @@
     <edge id="e0" source="n1" target="n0">
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-121.04810281517734" ty="32.33390792533646"/>
+          <y:Path sx="0.0" sy="0.0" tx="-104.01157160342132" ty="32.366720425336325"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="diamond"/>
           <y:BendStyle smoothed="false"/>
@@ -130,7 +130,6 @@
       </data>
     </edge>
     <edge id="e1" source="n1" target="n2">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -141,7 +140,6 @@
       </data>
     </edge>
     <edge id="e2" source="n3" target="n4">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -152,10 +150,9 @@
       </data>
     </edge>
     <edge id="e3" source="n3" target="n0">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="-121.04810281517734" ty="-32.31609207466363"/>
+          <y:Path sx="0.0" sy="0.0" tx="-104.01157160342132" ty="-32.305154574663675"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="diamond"/>
           <y:BendStyle smoothed="false"/>

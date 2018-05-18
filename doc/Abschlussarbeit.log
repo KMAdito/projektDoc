@@ -1,12 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.4.6)  17 MAY 2018 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.13)  18 MAY 2018 15:32
 entering extended mode
 **./Abschlussarbeit.tex
 (Abschlussarbeit.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,41 +22,51 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
+y"
 Package: babel 2018/02/14 3.18 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
+ef"
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
+g"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\german.ldf"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ger
+man.ldf"
 Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
 phy)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\germanb.ldf"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ger
+manb.ldf"
 Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
 aphy)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
+f"
 File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel
+.def")
 \bbl@dirlevel=\count88
 )
 Package babel Info: Making " an active character on input line 139.
 )))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\blindtext\blindtext.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\blindtext\blindt
+ext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
+"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count89
@@ -77,31 +88,39 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count105
 \c@blind@pangrammax=\count106
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
+ty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
+or.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -109,7 +128,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhd
+r.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -122,17 +142,21 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvte
+x.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
+x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count107
@@ -148,14 +172,17 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.cfg"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\parskip.
+sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
+ty"
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
@@ -171,12 +198,14 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \TX@cols=\count110
 \TX@ftn=\toks17
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortb
+l.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks18
 \minrowclearance=\skip54
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.
+sty"
 \wrapoverhang=\dimen121
 \WF@size=\dimen122
 \c@WF@wrappedlines=\count111
@@ -184,34 +213,44 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f.sty"
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
+rerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdef
+inekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
+ds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvset
+keys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexc
+mds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflua
+tex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -220,7 +259,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfte
+xcmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -235,21 +275,25 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\minted\minted.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\minted\minted.st
+y"
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fvextra\fvextra.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fvextra\fvextra.
+sty"
 Package: fvextra 2017/07/08 v1.3.1 fvextra - extensions and patches for fancyvr
 b
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
+x.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count112
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyvrb\fancyvrb.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvr
+b.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -261,11 +305,13 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count115
 \FV@OutFile=\write3
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\upquote\upquote.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.
+sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\lineno\lineno.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lineno\lineno.st
+y"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count116
 \output=\toks20
@@ -305,7 +351,7 @@ LaTeX Info: Redefining \\ on input line 3056.
 \FV@LineBox=\box31
 \FV@LineIndentBox=\box32
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count134
 \calc@Bcount=\count135
@@ -318,24 +364,31 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count136
 \calc@Cskip=\skip58
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\shellesc.s
+ty"
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 67.
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ifplatform\ifplatform.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifplatform\ifpla
+tform.sty"
 Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\catchfile.sty"
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\catch
+file.sty"
 Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\xstring\xstring.sty
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\xstring\xstring.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.
+sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstrin
+g.tex"
 \@xs@message=\write4
 \integerpart=\count137
 \decimalpart=\count138
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.st
+y"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip59
 \fb@frw=\dimen135
@@ -343,7 +396,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen137
 \FrameSep=\dimen138
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count139
 \float@exts=\toks21
@@ -363,19 +416,18 @@ runsystem(if not exist _minted-Abschlussarbeit mkdir _minted-Abschlussarbeit)..
 .executed.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+ ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+ ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -616,7 +668,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -656,8 +708,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+ ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -681,7 +733,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tocloft\tocloft.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocloft\tocloft.
+sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip60
@@ -722,49 +775,55 @@ Package tocloft Info: The document has section divisions on input line 51.
 Package tocloft Warning: \@starttoc has already been redefined; tocloft bailing
  out. on input line 1147.
 
-) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace.sty
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspac
+e.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcolorbox.sty
-Package: tcolorbox 2018/03/22 version 4.13 text color boxes
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcolor
+box.sty"
+Package: tcolorbox 2018/01/12 version 4.12 text color boxes
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\p
+gf.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
+frcs.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common.tex"
 \pgfutil@everybye=\toks26
 \pgfutil@tempdima=\dimen139
 \pgfutil@tempdimb=\dimen140
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon-lists.tex))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
-atex.def
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common-lists.tex"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-latex.def"
 \pgfutil@abb=\box36
- (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
-de.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
 Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
-y
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
-y
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
-code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\p
+gfcore.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\
+pgfsys.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
-ode.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks27
 \pgfkeys@temptoks=\toks28
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
-ltered.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks29
 ))
 \pgf@x=\dimen141
@@ -785,33 +844,36 @@ ltered.code.tex
 \t@pgf@tokb=\toks31
 \t@pgf@tokc=\toks32
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-pdftex.def
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
-common-pdf.def
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
-oftpath.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count149
 \pgfsyssoftpath@bigbuffer@items=\count150
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
-rotocol.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
+y"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
+or.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -826,18 +888,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
-code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
-de.tex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
-de.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
-code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thcalc.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thutil.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thparser.code.tex"
 \pgfmath@dimen=\dimen149
 \pgfmath@count=\count151
 \pgfmath@box=\box37
@@ -845,30 +907,30 @@ code.tex
 \pgfmath@stack@operand=\toks34
 \pgfmath@stack@operation=\toks35
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.code.tex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.basic.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.trigonometric.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.random.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.comparison.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.base.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.round.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.misc.code.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
-ns.integerarithmetics.code.tex)))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
-ode.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.basic.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.trigonometric.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.random.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.comparison.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.base.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.round.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.misc.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.integerarithmetics.code.tex")))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count152
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-oints.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen150
 \pgf@picmaxx=\dimen151
@@ -885,109 +947,114 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen162
 \pgf@zy=\dimen163
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athconstruct.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen164
 \pgf@path@lasty=\dimen165
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athusage.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen166
 \pgf@shorten@start@additional=\dimen167
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
-copes.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box38
 \pgf@hbox=\box39
 \pgf@layerbox@main=\box40
 \pgf@picture@serial@count=\count153
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
-raphicstate.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen168
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
-ransformations.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen169
 \pgf@pt@y=\dimen170
 \pgf@pt@temp=\dimen171
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
-uick.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
-bjects.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-athprocessing.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
-rrows.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen172
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
-hade.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen173
 \pgf@sys@shading@range@num=\count154
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
-mage.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
-xternal.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box41
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
-ayers.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
-ransparency.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
-atterns.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
-apes.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
+fmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box42
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
-ot.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
+fmoduleplot.code.tex"
 File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
--version-0-65.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibilit
+y\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen174
 \pgf@nodesepend=\dimen175
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
--version-1-18.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibilit
+y\pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
+ty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks36
 \verbatim@line=\toks37
 \verbatim@in@stream=\read4
-) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\environ\environ.sty
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\environ\environ.
+sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\trimspaces\trimspaces.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\trimspaces\trims
+paces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks38
@@ -1005,13 +1072,17 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box50
 \tcb@out=\write7
 \tcb@record@out=\write8
-) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\subfig\subfig.sty
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subfig.st
+y"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
+sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
+.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen176
@@ -1038,10 +1109,12 @@ Package caption Info: wrapfig package is loaded.
 \sf@top=\skip94
 \sf@bottom=\skip95
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\prettyref\prettyref.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\prettyref\pretty
+ref.sty"
 Package: prettyref 1998/07/09 v3.0
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumite
+m.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip96
 \enit@outerparindent=\dimen184
@@ -1049,12 +1122,13 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box51
 \enitdp@description=\count164
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\bold-extra\bold-extra.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bold-extra\bold-
+extra.sty"
 Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
-) (C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
+)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
-
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip97
@@ -1072,30 +1146,36 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip109
 \JustifyingParindent=\skip110
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\pstricks\pstricks.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pstricks\pstrick
+s.sty"
 Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\iftex\iftex.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\pst-xkey.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\pst-xk
+ey.tex"
 File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
+sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
+l.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
+ls.tex"
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
 \XKV@depth=\count165
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex"
-`pst-fp' v0.05, 2010/01/17 (hv)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
+cks.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
+p.tex" `pst-fp' v0.05, 2010/01/17 (hv)
 \pstFP@xs=\count166
 \pstFP@xia=\count167
 \pstFP@xib=\count168
@@ -1106,20 +1186,20 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@regs=\count173
 \pstFP@times=\count174
 )
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common.tex"
 \pgfutil@everybye=\toks42
 \pgfutil@tempdima=\dimen185
 \pgfutil@tempdimb=\dimen186
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
-ommon-lists.tex))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
-ode.tex)
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
-de.tex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common-lists.tex"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeys.code.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgffor.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex")
 \pgffor@iter=\dimen187
 \pgffor@skip=\dimen188
 \pgffor@stack=\toks43
@@ -1153,7 +1233,9 @@ ex)
 \pst@cntp=\count185
 \@zero=\count186
 \pst@toks=\toks45
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pstricks.con")
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pstri
+cks.con")
 \psunit=\dimen199
 \psxunit=\dimen256
 \psyunit=\dimen257
@@ -1175,25 +1257,27 @@ ex)
 )
 File: pstricks.tex 2018/01/06 v2.82 `PSTricks' (tvz,hv)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pstricks\pst-fp.tex")
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pstricks\pst-f
+p.tex")
 File: pst-fp.tex 2018/01/06 v2.82 `PST-fp' (hv)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\pifont.st
+y"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+ ("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\overpic\overpic.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\overpic\overpic.
+sty"
 Package: overpic 2017/10/06 1.0 picture overlays
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\eepic\epic.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eepic\epic.sty"
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@@multicnt=\count188
 \d@lta=\count189
@@ -1211,14 +1295,18 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \num@segments=\count194
 \num@segmentsi=\count195
 \@datafile=\read5
-)) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperre
+f.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -1246,21 +1334,24 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook
+.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen276
 \Hy@linkcounter=\count196
 \Hy@pagecounter=\count197
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.
+def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count198
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperre
+f.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4509.
@@ -1272,7 +1363,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count199
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -1296,12 +1387,14 @@ LaTeX Info: Redefining \pageref on input line 6443.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex
+.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count270
 \c@bookmark@seq@number=\count271
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfi
+lecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -1310,47 +1403,49 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbminted.code.
-tex
-Library (tcolorbox): 'tcbminted.code.tex' version '4.13'
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbmin
+ted.code.tex"
+Library (tcolorbox): 'tcbminted.code.tex' version '4.12'
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcblistingscore
-.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.13'
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcblis
+tingscore.code.tex"
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.12'
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbprocessing.c
-ode.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.13'
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbpro
+cessing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.12'
 )
 \c@tcblisting=\count272
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskins.code.t
-ex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.13'
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
+ns.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '4.12'
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
-y
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
-
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
-ode.tex))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
-de.tex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
-ex)
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlaye
+r\tikz.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
+ffor.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
+fkeys.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeys.code.tex"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmath
+.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex"))
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgffor.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex")
 \pgffor@iter=\dimen280
 \pgffor@skip=\dimen281
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-tikz.code.tex
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
-yplothandlers.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
+yer\tikz\tikz.code.tex"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries\
+pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count273
 \pgfplotmarksize=\dimen282
@@ -1370,8 +1465,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count276
 \tikz@fig@count=\count277
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
-trix.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\pg
+fmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count278
 \pgfmatrixcurrentcolumn=\count279
@@ -1379,8 +1474,8 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count281
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
-libraries\tikzlibrarytopaths.code.tex
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendla
+yer\tikz\libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
 
@@ -1392,9 +1487,9 @@ LaTeX Warning: You have requested, on input line 22, version
 
 \tcb@waterbox=\box60
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\latex\tcolorbox\tcbskinsjigsaw.
-code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.13'
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tcolorbox\tcbski
+nsjigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.12'
 ))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Ab
 schlussarbeit.aex <nul: /p x=^%~$PATH:i>> Abschlussarbeit.aex)...executed.
@@ -1419,7 +1514,8 @@ LaTeX Font Info:    ... okay on input line 100.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
 LaTeX Font Info:    ... okay on input line 100.
 
-(C:\Users\Arbeit\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count282
 \scratchdimen=\dimen289
@@ -1477,10 +1573,12 @@ LaTeX Info: Redefining \selectfont on input line 100.
 \AtBeginShipoutBox=\box62
 Package hyperref Info: Link coloring ON on input line 100.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
+.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\getti
+tlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count288
@@ -1488,28 +1586,1426 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 100.
 LaTeX Info: Redefining \pageref on input line 100.
 LaTeX Info: Redefining \nameref on input line 100.
-
-(Abschlussarbeit.out) (Abschlussarbeit.out)
+ (Abschlussarbeit.out) (Abschlussarbeit.out)
 \@outlinefile=\write9
 \openout9 = `Abschlussarbeit.out'.
 
+ (titlepage.tex
+<../graphic/images/logo/LogoIHK.pdf, id=6, 450.73643pt x 225.36507pt>
+File: ../graphic/images/logo/LogoIHK.pdf Graphic file (type pdf)
+<use ../graphic/images/logo/LogoIHK.pdf>
+Package pdftex.def Info: ../graphic/images/logo/LogoIHK.pdf  used on input line
+ 4.
+(pdftex.def)             Requested size: 112.68382pt x 56.34113pt.
 
-! I can't write on file `Abschlussarbeit.pdf'.
-Please type another file name for output
-! Emergency stop.
+Underfull \hbox (badness 10000) in alignment at lines 17--17
+[][] 
+ []
+
+<../graphic/images/logo/ADITO_Logo.pdf, id=7, 284.52296pt x 93.89078pt>
+File: ../graphic/images/logo/ADITO_Logo.pdf Graphic file (type pdf)
+<use ../graphic/images/logo/ADITO_Logo.pdf>
+Package pdftex.def Info: ../graphic/images/logo/ADITO_Logo.pdf  used on input l
+ine 27.
+(pdftex.def)             Requested size: 199.1647pt x 65.72308pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 41.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 41.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 41.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 41.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 41.
+[1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+{C:/Users/k.mifka/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <../graphi
+c/images/logo/LogoIHK.pdf> <../graphic/images/logo/ADITO_Logo.pdf>])
+(tableofcontents.tex (Abschlussarbeit.toc)
+\tf@toc=\write10
+\openout10 = `Abschlussarbeit.toc'.
+
+)
+LaTeX Font Info:    Font shape `OT1/cmr/bx/sc' in size <10.95> not available
+(Font)              Font shape `OT1/cmr/b/sc' tried instead on input line 103.
+<../graphic/images/logo/Logo.png, id=121, 501.875pt x 443.6575pt>
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+3.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+
+("C:\Users\k.mifka\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 103.
+[1 <../graphic/images/logo/Logo.png>] (einleitung.tex
+<../graphic/images/firma/Firmengebaude.jpg, id=170, 343.611pt x 257.544pt>
+File: ../graphic/images/firma/Firmengebaude.jpg Graphic file (type jpg)
+<use ../graphic/images/firma/Firmengebaude.jpg>
+Package pdftex.def Info: ../graphic/images/firma/Firmengebaude.jpg  used on inp
+ut line 8.
+(pdftex.def)             Requested size: 180.67566pt x 135.41696pt.
+
+Underfull \hbox (badness 2310) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10.95 Die fol-gen-de Pro-jekt-do-ku-men-ta-ti-on be-schreibt den
+
+ []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 34
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
-                   \edef 
-l.100 \begin{document}
-                      
-*** (job aborted, file error in nonstop mode)
+                   \relax 
+l.34 
+      [1 <../graphic/images/firma/Firmengebaude.jpg>]
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 60
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
 
- 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 60.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 60.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 60.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 60.
+[2]) (projektplanung.tex
+<../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf, id=184, 668.4975
+pt x 205.76875pt>
+File: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf Graphic file
+ (type pdf)
+<use ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>
+Package pdftex.def Info: ../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmode
+ll.pdf  used on input line 9.
+(pdftex.def)             Requested size: 358.70857pt x 110.4129pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 46
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 46.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 46.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 46.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 46.
+[3 <../graphic/diagrams/SD_Wasserfallmodell/Wasserfallmodell.pdf>])
+(projektanalyse.tex
+<../graphic/images/screenshots/Alter-Editor.png, id=195, 183.084pt x 134.30174p
+t>
+File: ../graphic/images/screenshots/Alter-Editor.png Graphic file (type png)
+<use ../graphic/images/screenshots/Alter-Editor.png>
+Package pdftex.def Info: ../graphic/images/screenshots/Alter-Editor.png  used o
+n input line 6.
+(pdftex.def)             Requested size: 170.63812pt x 125.17392pt.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 11
+.
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 30
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 30.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 30.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 30.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 30.
+[4 <../graphic/images/screenshots/Alter-Editor.png>]) (entwurfsphase.tex
+<../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf, id=206, 530.983
+75pt x 265.99374pt>
+File: ../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf Graphic fil
+e (type pdf)
+<use ../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf>
+Package pdftex.def Info: ../graphic/diagrams/ModelViewPresenter/ModelViewPresen
+ter.pdf  used on input line 9.
+(pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
+<../graphic/diagrams/ModelViewController/ModelViewController.pdf, id=207, 530.9
+8375pt x 265.99374pt>
+File: ../graphic/diagrams/ModelViewController/ModelViewController.pdf Graphic f
+ile (type pdf)
+<use ../graphic/diagrams/ModelViewController/ModelViewController.pdf>
+Package pdftex.def Info: ../graphic/diagrams/ModelViewController/ModelViewContr
+oller.pdf  used on input line 11.
+(pdftex.def)             Requested size: 222.60329pt x 111.51367pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 26
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 26.
+[5 <../graphic/diagrams/ModelViewPresenter/ModelViewPresenter.pdf> <../graphic/
+diagrams/ModelViewController/ModelViewController.pdf>]
+<../graphic/images/ux/Kombination.pdf, id=220, 1660.03181pt x 722.36574pt>
+File: ../graphic/images/ux/Kombination.pdf Graphic file (type pdf)
+<use ../graphic/images/ux/Kombination.pdf>
+Package pdftex.def Info: ../graphic/images/ux/Kombination.pdf  used on input li
+ne 49.
+(pdftex.def)             Requested size: 455.24411pt x 198.09456pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 77
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 77.
+[6 <../graphic/images/ux/Kombination.pdf>]
+<../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf, id=263, 232.87pt 
+x 258.9675pt>
+File: ../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf Graphic file 
+(type pdf)
+<use ../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/Baumstruktur_Functions/Baumstruktu
+r.pdf  used on input line 85.
+(pdftex.def)             Requested size: 165.61935pt x 184.18431pt.
+
+Underfull \hbox (badness 1005) in paragraph at lines 92--93
+\OT1/cmr/m/n/10.95 dels ist im Fol-gen-den ein sche-ma-ti-sches UML-
+ []
+
+<../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf, id=268, 549.05
+125pt x 103.38625pt>
+File: ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf Graphic fi
+le (type pdf)
+<use ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur_Functions/Baumstru
+ktur.pdf  used on input line 103.
+(pdftex.def)             Requested size: 303.84738pt x 57.21396pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+4.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 114.
+[7 <../graphic/diagrams/Baumstruktur_Functions/Baumstruktur.pdf> <../graphic/di
+agrams/CD_Baumstruktur_Functions/Baumstruktur.pdf>]
+<../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf, id=278, 269.005pt x
+ 360.34625pt>
+File: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf Graphic file (t
+ype pdf)
+<use ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/Baumstruktur_Results/Baumstruktur.
+pdf  used on input line 120.
+(pdftex.def)             Requested size: 165.61935pt x 221.85631pt.
+<../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf, id=280, 492.8412
+5pt x 175.65625pt>
+File: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf Graphic file
+ (type pdf)
+<use ../graphic/diagrams/CD_Baumstruktur_Results/Baumstruktur.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_Baumstruktur_Results/Baumstrukt
+ur.pdf  used on input line 129.
+(pdftex.def)             Requested size: 281.05103pt x 100.17601pt.
+<../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf, id=281, 
+353.32pt x 121.45375pt>
+File: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf Grap
+hic file (type pdf)
+<use ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutEditorStore.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_IShortcutEditorStore/IShortcutE
+ditorStore.pdf  used on input line 149.
+(pdftex.def)             Requested size: 204.3974pt x 70.26276pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
+6.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 156.
+[8 <../graphic/diagrams/Baumstruktur_Results/Baumstruktur.pdf> <../graphic/diag
+rams/CD_Baumstruktur_Results/Baumstruktur.pdf> <../graphic/diagrams/CD_IShortcu
+tEditorStore/IShortcutEditorStore.pdf>]) (implementierung.tex
+<../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf, id=293, 646.415pt x 13
+5.50626pt>
+File: ../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf Graphic file (type
+ pdf)
+<use ../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf
+  used on input line 13.
+(pdftex.def)             Requested size: 364.19667pt x 76.34613pt.
+
+(CODE/ShortcutField-update.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/default-pyg-prefix.pygstyle)
+(_minted-Abschlussarbeit/colorful.pygstyle)
+(_minted-Abschlussarbeit/299397D9A6AED718639B9003091292A92CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmtt/b/n' tried instead on input line 2.
+))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 26
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 26.
+[9 <../graphic/diagrams/CD_ShortcutField/ShortcutField.pdf>]
+<../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf, id=308, 921.4425pt x 17
+2.645pt>
+File: ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf Graphic file (type 
+pdf)
+<use ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf 
+ used on input line 38.
+(pdftex.def)             Requested size: 455.24411pt x 85.29488pt.
+<../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf, id=310, 2
+93.095pt x 336.25626pt>
+File: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf Graph
+ic file (type pdf)
+<use ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItemContainer.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_CheckItemContainer/CD_CheckItem
+Container.pdf  used on input line 56.
+(pdftex.def)             Requested size: 157.33788pt x 180.50333pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 73
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 73.
+[10 <../graphic/diagrams/CD_CheckButton/CD_CheckButton.pdf> <../graphic/diagram
+s/CD_CheckItemContainer/CD_CheckItemContainer.pdf>]
+<../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf, id=324, 496.
+85625pt x 236.885pt>
+File: ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf Graphic 
+file (type pdf)
+<use ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_CheckItemAccordion/CheckItemAcc
+ordion.pdf  used on input line 77.
+(pdftex.def)             Requested size: 219.31946pt x 104.56587pt.
+
+(CODE/CheckItemAccordion-setCheckItemGroup.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/22C33FD0D292675CFA43E020EBCB884F2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Overfull \hbox (7.62393pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/it/10.95 set-CheckI-tem-Group(...) \OT1/cmr/m/n/10.95 ab-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 89--90
+\OT1/cmr/m/n/10.95 Grup-pe um die be-reits
+ []
+
+
+Overfull \hbox (3.85927pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/n/10.95 ver-las-sen. An-dern-falls wer-
+ []
+
+<../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf, id=3
+29, 461.725pt x 260.975pt>
+File: ../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf 
+Graphic file (type pdf)
+<use ../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_IShortcutStructureView/IShortcu
+tStructureView.pdf  used on input line 98.
+(pdftex.def)             Requested size: 230.86334pt x 130.48718pt.
+
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 10
+3.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 103.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 103.
+[11 <../graphic/diagrams/CD_CheckItemAccordion/CheckItemAccordion.pdf>]
+Underfull \hbox (badness 4454) in paragraph at lines 103--104
+[][]\OT1/cmr/m/n/10.95 Um sie je-doch im Zu-sam-men-hang mit
+ []
+
+<../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf, id=343, 973.6375
+pt x 256.96pt>
+File: ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf Graphic file
+ (type pdf)
+<use ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditor
+UI.pdf  used on input line 112.
+(pdftex.def)             Requested size: 455.24411pt x 120.14778pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 12
+1.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 121.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 121.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 121.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 121.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 121.
+[12 <../graphic/diagrams/CD_IShortcutStructureView/IShortcutStructureView.pdf> 
+<../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI.pdf>]
+<../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf, id
+=356, 462.72874pt x 245.91875pt>
+File: ../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pd
+f Graphic file (type pdf)
+<use ../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf
+>
+Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutEditorPresenter/Shortcu
+tEditorPresenter.pdf  used on input line 132.
+(pdftex.def)             Requested size: 230.86334pt x 122.69264pt.
+<../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter.p
+df, id=361, 495.8525pt x 287.0725pt>
+File: ../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresen
+ter.pdf Graphic file (type pdf)
+<use ../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresent
+er.pdf>
+Package pdftex.def Info: ../graphic/diagrams/CD_ShortcutStructurePresenter/Shor
+tcutStructurePresenter.pdf  used on input line 148.
+(pdftex.def)             Requested size: 240.90088pt x 139.4709pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 15
+7.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 157.
+[13 <../graphic/diagrams/CD_ShortcutEditorPresenter/ShortcutEditorPresenter.pdf
+> <../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter
+.pdf>]) (test_junit.tex (CODE/Test_ShortcutEditor-onSetUp.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/A9DA046ADF707A9D27C6CF0336C6992A2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \hbox (badness 3701) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 ungs-me-tho-de \OT1/cmr/m/it/10.95 on-Se-tUp()
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 zu-wei-sen, die Me-tho-de
+ []
+
+
+Underfull \hbox (badness 2126) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 der An-no-tai-on \OT1/cmr/m/it/10.95 @Be-fo-re
+ []
+
+(CODE/Test_ShortcutEditor-EnterShortcut.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/A2CE1F9024CBD05873C48E52E8B9AED12CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \hbox (badness 6510) in paragraph at lines 21--22
+[][]\OT1/cmr/m/n/10.95 Die mit \OT1/cmr/m/it/10.95 @Test \OT1/cmr/m/n/10.95 an-
+no-
+ []
+
+
+Underfull \hbox (badness 6808) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 bil-dung 22[][][]) []uberpr[]uft,
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 auch in das se-lek-tier-te
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 Mo-del []ubertragen wer-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 den. Hierf[]ur wird je-des
+ []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 22
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 22.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 22.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 22.
+[14]) (fazit.tex
+<../graphic/images/screenshots/Neuer-Editor.png, id=392, 1616.0375pt x 602.25pt
+>
+File: ../graphic/images/screenshots/Neuer-Editor.png Graphic file (type png)
+<use ../graphic/images/screenshots/Neuer-Editor.png>
+Package pdftex.def Info: ../graphic/images/screenshots/Neuer-Editor.png  used o
+n input line 34.
+(pdftex.def)             Requested size: 455.24411pt x 169.64888pt.
+)
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+2.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 112.
+[15 <../graphic/images/screenshots/Neuer-Editor.png>] (glossar.tex
+Underfull \hbox (badness 1033) in paragraph at lines 23--23
+\OT1/cmr/m/n/10.95 (Customer-Relationship-Management) zur Ver-wal-tung und
+ []
+
+)
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+5.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 115.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 115.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 115.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 115.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 115.
+[16] (listoffigures.tex (Abschlussarbeit.lof)
+\tf@lof=\write11
+\openout11 = `Abschlussarbeit.lof'.
+
+) (literaturverzeichnis.tex)
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 11
+9.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 119.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 119.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 119.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 119.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 119.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 119.
+[17] (anhang.tex (CODE/TestXML.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/8CC26BC65AC09B45F58D2A7487DD94AF487D200DDBF0420A3FA404
+E510F0F56B.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 7.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 7.
+pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 
+     [17
+
+]
+Overfull \vbox (16.46175pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 7.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 7.
+[18] (ressourcen.tex)
+<../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf, id=467, 626.34pt x 7
+81.92125pt>
+File: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf Graphic file (ty
+pe pdf)
+<use ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>
+Package pdftex.def Info: ../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.p
+df  used on input line 14.
+(pdftex.def)             Requested size: 455.24411pt x 568.33995pt.
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 16
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 16.
+[19] (CODE/CheckToggleButton.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/BCC812DEE8A11BA242B5E343E9895B1C2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 19
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 19.
+[20 <../graphic/diagrams/UC_Anwendungsfall/Anwendungsfall.pdf>]
+(CODE/CheckItemButton.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/07E44AE4DF6D46976EBB7AEC6F9E51792CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 23
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 23.
+[21] (CODE/CheckItemContainer.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/E3001D46CA60F986D1C2835FBF37FCDC2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex)) (CODE/ShortcutStructureTable.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/C73B4404AFD5623FB411C21B46BCDA1A2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex)) (CODE/ShortcutPathComponent.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/493807D629BC02BCC19BEFE7803486C32CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 33
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 33.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 33.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 33.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 33.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 33.
+[22]
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 34
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+[23] (CODE/ShortcutEditorUI.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/93E4F5D1F6C7C11A080EF3FBAD0DF13C2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 38
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.38 
+      [23
+
+]
+Overfull \vbox (11.63675pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 38
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+[24] (CODE/ShortcutEditorPresenter.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/C9C7F0F50FE953EDDAB1CDDE3E0B49A92CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 43
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 43.
+pdfTeX warning (ext4): destination with the same identifier (name{page.24}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 
+      [24
+
+]
+Overfull \vbox (15.61797pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 43
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 43.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 43.
+[25] (CODE/ShortcutStructurePresenterTeil1.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/B59EC18598F09F5C1302BF0DB3263BE12CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex)) (CODE/ShortcutStructurePresenterTeil2.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 2.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 2.
+pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2   \begin{spacing}{0.75}
+                            [25
+
+]
+Overfull \vbox (7.36797pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 2.
+
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 2.
+[26]
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/005794C3B00C4B42ADA12B12517D72512CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 50
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 50.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 50.
+[27] (CODE/ShortcutStructureModel.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/F86B6659B204BDEFE0B5A840044573FB2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 54
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 54.
+pdfTeX warning (ext4): destination with the same identifier (name{page.27}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 
+      [27
+
+]
+Overfull \vbox (14.86798pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 54
+.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 54.
+[28] (CODE/Test_ShortcutEditor.tex
+\openout7 = `Abschlussarbeit.listing'.
+
+
+(_minted-Abschlussarbeit/5374737D01ED3A84B53D65C6C561E40F2CC528CEEFFE1D13CCE06B
+0A1C197C06.pygtex)))
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 12
+2.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 122.
+pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 
+       [28
+
+]
+Overfull \vbox (16.84169pt too high) has occurred while \output is active []
+
+File: ../graphic/images/logo/Logo.png Graphic file (type png)
+<use ../graphic/images/logo/Logo.png>
+Package pdftex.def Info: ../graphic/images/logo/Logo.png  used on input line 12
+2.
+(pdftex.def)             Requested size: 34.61409pt x 30.59969pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 25.16252pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 122.
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+ (Abschlussarbeit.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package rerunfilecheck Info: File `Abschlussarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 25834 strings out of 493305
- 506189 string characters out of 3138872
- 692091 words of memory out of 3000000
- 28889 multiletter control sequences out of 15000+200000
- 4630 words of font info for 17 fonts, out of 3000000 for 9000
+ 26655 strings out of 493305
+ 537582 string characters out of 3128932
+ 713905 words of memory out of 3000000
+ 29378 multiletter control sequences out of 15000+200000
+ 11083 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,0n,83p,859b,93s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 54i,16n,83p,1154b,1004s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\cm\dpi540\
+cmttb10.pk> <C:\Users\k.mifka\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\public\c
+m\dpi657\cmbcsc10.pk><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/k.mifka/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/k.mifka/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/k.mi
+fka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr17.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/k.mifka/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/k.mifka/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9
+.pfb><C:/Users/k.mifka/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/zapfdi
+ng/uzdr.pfb>
+Output written on Abschlussarbeit.pdf (37 pages, 4057847 bytes).
+PDF statistics:
+ 666 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -19,8 +19,8 @@
     \PYG{n}{model} \PYG{o}{=} \PYG{n}{pModel}\PYG{o}{;}
     \PYG{n}{views} \PYG{o}{=} \PYG{k}{new} \PYG{n}{ArrayList}\PYG{o}{\PYGZlt{}\PYGZgt{}();}
 
-    \PYG{n}{groupChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ShortcutNodeChangeListener}\PYG{o}{();}
-    \PYG{n}{pathChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}ShortcutPathChangeListener}\PYG{o}{();}
+    \PYG{n}{groupChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}NodeChangeListener}\PYG{o}{();}
+    \PYG{n}{pathChangeListener} \PYG{o}{=} \PYG{k}{new} \PYG{n}{\PYGZus{}PathChangeListener}\PYG{o}{();}
 
     \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{addPathChangeListener}\PYG{o}{(}\PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}updatePath}\PYG{o}{);}
     \PYG{n}{model}\PYG{o}{.}\PYG{n+na}{addNodeChangeListener}\PYG{o}{(}\PYG{k}{this}\PYG{o}{::}\PYG{n}{\PYGZus{}updateGroup}\PYG{o}{);}

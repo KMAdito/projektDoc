@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {4.2}Benutzeroberfl\IeC {\"a}che}{6}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Datenmodell f\IeC {\"u}r Entit\IeC {\"a}ten und Aktionen}{7}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Datenmodell f\IeC {\"u}r Browsertestergebnisse}{8}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Datastore}{8}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.5}Data store}{8}{subsection.4.5}
 \contentsline {section}{\numberline {5}Implementierung}{9}{section.5}
 \contentsline {subsection}{\numberline {5.1}GUI Komponenten}{9}{subsection.5.1}
 \contentsline {subsubsection}{\numberline {5.1.1}ShortcutField}{9}{subsubsection.5.1.1}

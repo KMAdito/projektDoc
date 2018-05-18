@@ -112,9 +112,7 @@ Nach Implementierung der einzelnen Komponenten mussten diese zu einem gesamten U
 	\includegraphics[width=1\linewidth]{../graphic/diagrams/CD_ShortcutEditorUI/ShortcutEditorUI}
 	\caption{ShortcutEditorUI}
 	\label{fig:shortcuteditorui}
-\end{figure} 
-
-\vspace{-12px}
+\end{figure}
 
 Zur Anordnung der einzelnen Komponenten kommt das \emph{TableLayout} zum Einsatz. Im Konstruktor der Klasse werden die Spalten- und Zeilenausdehnungen des Layouts definiert und die Komponenten in die entsprechenden Zellen eingefügt. Außerdem werden das \emph{ShortcutStructureModel} und der \emph{ShortcutStructurePresenter} initialisiert. 
 
@@ -136,23 +134,24 @@ Folgend wird die Implementierung der im Abschnitt \ref{Architekturdesign} beschr
 	\label{fig:shortcuteditorpresenter}
 \end{wrapfigure}
 
-Um die Daten der \emph{ShortcutEditorUI} mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der \emph{ShortcutEditorPresenter} (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der DataStore als auch eine \emph{IShortcutEditorUI} übergeben. Anschließend werden die UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
+Um die Daten der \emph{ShortcutEditorUI} mit den in Abschnitten \ref{DatenmodellFunc} und \ref{DatenmodellBrow} beschriebenen Datenmodellen abzugleichen, existiert gemäß des MVP-Architekturmusters der \emph{ShortcutEditorPresenter} (siehe Anhang \ref{ShortcutEditorPresenter}). Diesem wird über den Konstruktor sowohl der Data store als auch eine \emph{IShortcutEditorUI} übergeben. Anschließend werden die UI Listener hinzugefügt, welche auf Shortcut- und Pfadänderungen horchen.
 
 Ändert der Benutzer über die UI den Shortcut, so wird dieser in das entsprechende Datenmodell übertragen. Wird durch den Benutzer der Pfad geändert, also eine andere Aktion selektiert, so lädt der Presenter das Datenmodell der neuen Aktion. Zukünftige Shortcutänderungen werden dann in dieses Datenmodell übertragen.
 
 \subsubsection{ShortcutStructurePresenter}
 
-Da bei den beiden Komponenten TreeTable und BreadCrumb dieselben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang \ref{ShortcutStructurePresenter}) erhält über den Konstruktor ein \emph{ShortcutStructureModel} und eine beliebige Anzahl von \emph{IShortcutStructureViews}. 
+Da bei den beiden Komponenten TreeTable und BreadCrumb dieselben Daten präsentiert werden, kommt zur Abgleichung ebenfalls das MVP-Architekturmuster zum Einsatz, wobei die beiden genannten Komponenten die Views darstellen. Der Presenter (siehe Anhang \ref{ShortcutStructurePresenter}) erhält über den Konstruktor ein \emph{ShortcutStructureModel} und eine beliebige Anzahl von \emph{IShortcutStructureViews}.
+
+\begin{wrapfigure}[12]{r}[0cm]{240px}
+	\vspace{-12px}
+	\centering
+	\includegraphics[width=240px]{../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter}
+	\caption{ShortcutStructurePresenter}
+	\label{fig:shortcutstructurepresenter}
+\end{wrapfigure}
 
 In \autoref{fig:ishortcutstructureview} wird ersichtlich, dass eine View einen \emph{IEditorShortcutNode} und einen \emph{AditoTreePath} besitzt. Der \emph{IEditorShortcutNode} hält die in Abschnitt \ref{DatenmodellFunc} beschriebene Baumstruktur der Aktionen und der Pfad gibt an, welcher Knoten des Baums selektiert ist. Über Änderung dieser Attribute informieren Listener, welche der View über die entsprechenden Methoden hinzugefügt werden können (z. B. \emph{addPathChangeListener(...)}). Da das \emph{ShortcutStructureModel} die gleiche Funktionalität benötigt, wie die View, implementiert es auch das Interface \emph{IShortcutStructureView} (siehe Anhang \ref{ShortcutStructureModel}).
 
 Im Konstruktor des \emph{ShortcutStructurePresenters} (siehe Anhang \ref{ShortcutStructurePresenter}) werden sowohl dem Model als auch den einzelnen Views Pfad- und Node-Listener hinzugefügt. Löst ein Listener des Models aus, so werden die Änderungen in alle Views übertragen. Löst ein Listener einer View aus, so werden die Änderungen in das Model übertragen. Da dadurch wiederum der Listener des Models anschlägt, werden auch die anderen Views aktualisiert. So wird gewährleistet, dass alle Views und das Model zu jedem Zeitpunkt die gleichen Informationen besitzen.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\linewidth]{../graphic/diagrams/CD_ShortcutStructurePresenter/ShortcutStructurePresenter}
-	\caption{ShortcutStructurePresenter}
-	\label{fig:shortcutstructurepresenter}
-\end{figure}
 
 \newpage

@@ -21,8 +21,8 @@ public class ShortcutStructurePresenter
     model = pModel;
     views = new ArrayList<>();
     
-    groupChangeListener = new _ShortcutNodeChangeListener();
-    pathChangeListener = new _ShortcutPathChangeListener();
+    groupChangeListener = new _NodeChangeListener();
+    pathChangeListener = new _PathChangeListener();
     
     model.addPathChangeListener(this::_updatePath);
     model.addNodeChangeListener(this::_updateGroup);

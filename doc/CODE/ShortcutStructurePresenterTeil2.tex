@@ -20,7 +20,7 @@
   /**
   * Listener, welcher Änderungen der ShortcutGroup in das Hauptmodel überträgt
   */
-  private class _ShortcutNodeChangeListener implements INodeChangeListener
+  private class _NodeChangeListener implements INodeChangeListener
   {
     @Override
     public void groupChanged(IEditorShortcutNode pNode)
@@ -33,7 +33,7 @@
   /**
   * Listener, welcher Änderungen der ShortcutPath in das Hauptmodel überträgt
   */
-  private class _ShortcutPathChangeListener 
+  private class _PathChangeListener 
                 implements IAditoPathChangeListener<IEditorShortcutNode>
   {
     @Override

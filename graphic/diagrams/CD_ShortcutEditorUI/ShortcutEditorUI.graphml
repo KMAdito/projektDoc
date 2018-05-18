@@ -52,7 +52,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="27.739070005076428" width="175.87196850425846" x="934.2831689985974" y="523.8550479456535"/>
+          <y:Geometry height="27.739070005076428" width="175.87196850425846" x="919.4051375028557" y="523.8550479456535"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.91357421875" x="64.97919714275423" y="3.0">JPanel<y:LabelModel>
@@ -73,7 +73,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="158.73907000507643" width="464.87196850425846" x="934.2831689985974" y="298.7094944489386"/>
+          <y:Geometry height="158.73907000507643" width="464.87196850425846" x="919.4051375028557" y="298.7094944489386"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.60546875" x="176.63324987712923" y="26.701171875">IShortcutEditorUI<y:LabelModel>
@@ -99,7 +99,7 @@
       <data key="d4"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="85.73907000507643" width="175.87196850425846" x="1223.2831689985974" y="507.7094944489386"/>
+          <y:Geometry height="50.88462350179134" width="175.87196850425846" x="1208.4051375028557" y="500.7094944489386"/>
           <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.92626953125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="148.46630859375" x="13.70282995525423" y="26.701171875">IShortcutStructureView<y:LabelModel>
@@ -111,7 +111,7 @@
           </y:NodeLabel>
           <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="interface" use3DEffect="false">
             <y:AttributeLabel/>
-            <y:MethodLabel>...</y:MethodLabel>
+            <y:MethodLabel/>
           </y:UML>
         </y:UMLClassNode>
       </data>

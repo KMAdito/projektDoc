@@ -82,7 +82,7 @@ Für das Design des User Interfaces (UI) wurden von einem UX-Spezialisten der AD
 \begin{wrapfigure}[15]{r}[0cm]{200px}
 	\vspace{-12px}
 	\centering
-	\includegraphics[width=200px]{../graphic/diagrams/Baumstruktur_Functions/Baumstruktur}
+	\includegraphics[width=165px]{../graphic/diagrams/Baumstruktur_Functions/Baumstruktur}
 	\caption{Baumstruktur für Entitäten und Funktionen}
 	\label{fig:baumstruktur_Func}
 \end{wrapfigure}
@@ -136,9 +136,9 @@ In diesem Modell stellt ein \emph{ICheckItem} ein einzelnes Testergbnis dar. Ein
 
 \vspace{-5px}
 
-\subsection{DataStore}
+\subsection{Data store}
 
-Damit sowohl die Daten der Entitäten und Aktionen als auch die der Browsertestergebnisse in zuvor geschilderter Form erhalten werden können, soll ein DataStore zum Einsatz kommen. Dieser liefert die beiden oben beschriebenen Datenmodelle. Dabei kümmert er sich die Daten von anderen Quellen (z. B. XML-Dateien) in die gewünschte Datenmodell-Form zu bringen. Zudem ist er dafür zuständig, die geänderten Daten wieder zurück zu speichern.
+Damit sowohl die Daten der Entitäten und Aktionen als auch die der Browsertestergebnisse in zuvor geschilderter Form erhalten werden können, soll ein Data store zum Einsatz kommen. Dieser liefert die beiden oben beschriebenen Datenmodelle. Dabei kümmert er sich die Daten von anderen Quellen (z. B. XML-Dateien) in die gewünschte Datenmodell-Form zu bringen. Zudem ist er dafür zuständig, die geänderten Daten wieder zurück zu speichern.
 
 Um auch ohne die Integration des ShortcutEditors in den ADTIO Designer testweise Entitäten und deren Aktionen zur Verfügung zu haben, soll ein DummyStore implementiert werden, welcher fiktive Testdaten in die Datenmodelle einfügt.
 
